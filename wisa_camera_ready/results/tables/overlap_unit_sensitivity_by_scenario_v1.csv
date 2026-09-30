@@ -1,0 +1,801 @@
+row_type,arm,contrast,pipeline_seed,granularity,group_key,group_label,metric,attack_windows,value,mean,std,n_pipeline_seeds,seed_7,seed_42,seed_123,seed_2026,seed_3407
+seed,real_only,,7,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.5184453227931489,,,1,,,,,
+seed,real_only,,7,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.4176548089591568,,,1,,,,,
+seed,real_only,,7,severity,low,low coupled severity,binary_attack_recall,1492,0.04758713136729222,,,1,,,,,
+seed,real_only,,7,severity,low,low coupled severity,exact_attack_recall,1492,0.045576407506702415,,,1,,,,,
+seed,real_only,,7,severity,medium,medium coupled severity,binary_attack_recall,1522,0.492772667542707,,,1,,,,,
+seed,real_only,,7,severity,medium,medium coupled severity,exact_attack_recall,1522,0.45466491458607095,,,1,,,,,
+seed,real_only,,7,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,real_only,,7,severity,high,high coupled severity,exact_attack_recall,1540,0.7415584415584415,,,1,,,,,
+seed,real_only,,7,family,DoS,DoS,binary_attack_recall,1141,0.7283085013146363,,,1,,,,,
+seed,real_only,,7,family,DoS,DoS,exact_attack_recall,1141,0.7283085013146363,,,1,,,,,
+seed,real_only,,7,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.36277056277056274,,,1,,,,,
+seed,real_only,,7,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.3619047619047619,,,1,,,,,
+seed,real_only,,7,family,Gear,Gear,binary_attack_recall,1124,0.6334519572953736,,,1,,,,,
+seed,real_only,,7,family,Gear,Gear,exact_attack_recall,1124,0.5809608540925267,,,1,,,,,
+seed,real_only,,7,family,RPM,RPM,binary_attack_recall,1134,0.35185185185185186,,,1,,,,,
+seed,real_only,,7,family,RPM,RPM,exact_attack_recall,1134,0.0,,,1,,,,,
+seed,real_only,,7,scenario,DoS_low,DoS low,binary_attack_recall,375,0.17333333333333334,,,1,,,,,
+seed,real_only,,7,scenario,DoS_low,DoS low,exact_attack_recall,375,0.17333333333333334,,,1,,,,,
+seed,real_only,,7,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,real_only,,7,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,real_only,,7,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,real_only,,7,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,real_only,,7,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.0,,,1,,,,,
+seed,real_only,,7,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.0,,,1,,,,,
+seed,real_only,,7,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,0.11306532663316583,,,1,,,,,
+seed,real_only,,7,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.11055276381909548,,,1,,,,,
+seed,real_only,,7,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,real_only,,7,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,real_only,,7,scenario,Gear_low,Gear low,binary_attack_recall,375,0.016,,,1,,,,,
+seed,real_only,,7,scenario,Gear_low,Gear low,exact_attack_recall,375,0.008,,,1,,,,,
+seed,real_only,,7,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.8844086021505376,,,1,,,,,
+seed,real_only,,7,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.7338709677419355,,,1,,,,,
+seed,real_only,,7,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,real_only,,7,scenario,Gear_high,Gear high,exact_attack_recall,377,1.0,,,1,,,,,
+seed,real_only,,7,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,real_only,,7,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,real_only,,7,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.002652519893899204,,,1,,,,,
+seed,real_only,,7,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.0,,,1,,,,,
+seed,real_only,,7,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,real_only,,7,scenario,RPM_high,RPM high,exact_attack_recall,398,0.0,,,1,,,,,
+seed,rule_0p30,,7,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.7301273605621432,,,1,,,,,
+seed,rule_0p30,,7,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.6710584101888449,,,1,,,,,
+seed,rule_0p30,,7,severity,low,low coupled severity,binary_attack_recall,1492,0.22654155495978553,,,1,,,,,
+seed,rule_0p30,,7,severity,low,low coupled severity,exact_attack_recall,1492,0.19973190348525469,,,1,,,,,
+seed,rule_0p30,,7,severity,medium,medium coupled severity,binary_attack_recall,1522,0.9507227332457293,,,1,,,,,
+seed,rule_0p30,,7,severity,medium,medium coupled severity,exact_attack_recall,1522,0.8869908015768725,,,1,,,,,
+seed,rule_0p30,,7,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,rule_0p30,,7,severity,high,high coupled severity,exact_attack_recall,1540,0.9142857142857143,,,1,,,,,
+seed,rule_0p30,,7,family,DoS,DoS,binary_attack_recall,1141,0.8624014022787029,,,1,,,,,
+seed,rule_0p30,,7,family,DoS,DoS,exact_attack_recall,1141,0.8624014022787029,,,1,,,,,
+seed,rule_0p30,,7,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.70995670995671,,,1,,,,,
+seed,rule_0p30,,7,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.7047619047619048,,,1,,,,,
+seed,rule_0p30,,7,family,Gear,Gear,binary_attack_recall,1124,0.7295373665480427,,,1,,,,,
+seed,rule_0p30,,7,family,Gear,Gear,exact_attack_recall,1124,0.4991103202846975,,,1,,,,,
+seed,rule_0p30,,7,family,RPM,RPM,binary_attack_recall,1134,0.6181657848324515,,,1,,,,,
+seed,rule_0p30,,7,family,RPM,RPM,exact_attack_recall,1134,0.6146384479717814,,,1,,,,,
+seed,rule_0p30,,7,scenario,DoS_low,DoS low,binary_attack_recall,375,0.5813333333333334,,,1,,,,,
+seed,rule_0p30,,7,scenario,DoS_low,DoS low,exact_attack_recall,375,0.5813333333333334,,,1,,,,,
+seed,rule_0p30,,7,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.12532637075718014,,,1,,,,,
+seed,rule_0p30,,7,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.10966057441253264,,,1,,,,,
+seed,rule_0p30,,7,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,Gear_low,Gear low,binary_attack_recall,375,0.192,,,1,,,,,
+seed,rule_0p30,,7,scenario,Gear_low,Gear low,exact_attack_recall,375,0.10133333333333333,,,1,,,,,
+seed,rule_0p30,,7,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.9973118279569892,,,1,,,,,
+seed,rule_0p30,,7,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.7473118279569892,,,1,,,,,
+seed,rule_0p30,,7,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,Gear_high,Gear high,exact_attack_recall,377,0.649867374005305,,,1,,,,,
+seed,rule_0p30,,7,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.8037135278514589,,,1,,,,,
+seed,rule_0p30,,7,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.7931034482758621,,,1,,,,,
+seed,rule_0p30,,7,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,7,scenario,RPM_high,RPM high,exact_attack_recall,398,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.5456741326306543,,,1,,,,,
+seed,real_oversampling_0p30,,7,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.4046991655687308,,,1,,,,,
+seed,real_oversampling_0p30,,7,severity,low,low coupled severity,binary_attack_recall,1492,0.07037533512064344,,,1,,,,,
+seed,real_oversampling_0p30,,7,severity,low,low coupled severity,exact_attack_recall,1492,0.06367292225201072,,,1,,,,,
+seed,real_oversampling_0p30,,7,severity,medium,medium coupled severity,binary_attack_recall,1522,0.5519053876478318,,,1,,,,,
+seed,real_oversampling_0p30,,7,severity,medium,medium coupled severity,exact_attack_recall,1522,0.42509855453350853,,,1,,,,,
+seed,real_oversampling_0p30,,7,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,severity,high,high coupled severity,exact_attack_recall,1540,0.714935064935065,,,1,,,,,
+seed,real_oversampling_0p30,,7,family,DoS,DoS,binary_attack_recall,1141,0.7458369851007888,,,1,,,,,
+seed,real_oversampling_0p30,,7,family,DoS,DoS,exact_attack_recall,1141,0.7432077125328659,,,1,,,,,
+seed,real_oversampling_0p30,,7,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.4121212121212121,,,1,,,,,
+seed,real_oversampling_0p30,,7,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.4103896103896104,,,1,,,,,
+seed,real_oversampling_0p30,,7,family,Gear,Gear,binary_attack_recall,1124,0.6752669039145908,,,1,,,,,
+seed,real_oversampling_0p30,,7,family,Gear,Gear,exact_attack_recall,1124,0.46352313167259784,,,1,,,,,
+seed,real_oversampling_0p30,,7,family,RPM,RPM,binary_attack_recall,1134,0.35185185185185186,,,1,,,,,
+seed,real_oversampling_0p30,,7,family,RPM,RPM,exact_attack_recall,1134,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,DoS_low,DoS low,binary_attack_recall,375,0.22666666666666666,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,DoS_low,DoS low,exact_attack_recall,375,0.21866666666666668,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,0.2562814070351759,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.25125628140703515,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Gear_low,Gear low,binary_attack_recall,375,0.05333333333333334,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Gear_low,Gear low,exact_attack_recall,375,0.034666666666666665,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.9731182795698925,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.46236559139784944,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,Gear_high,Gear high,exact_attack_recall,377,0.8912466843501327,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.002652519893899204,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,7,scenario,RPM_high,RPM high,exact_attack_recall,398,0.0,,,1,,,,,
+seed,real_only,,42,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.5676328502415459,,,1,,,,,
+seed,real_only,,42,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.46618357487922707,,,1,,,,,
+seed,real_only,,42,severity,low,low coupled severity,binary_attack_recall,1492,0.15616621983914208,,,1,,,,,
+seed,real_only,,42,severity,low,low coupled severity,exact_attack_recall,1492,0.14745308310991956,,,1,,,,,
+seed,real_only,,42,severity,medium,medium coupled severity,binary_attack_recall,1522,0.533508541392904,,,1,,,,,
+seed,real_only,,42,severity,medium,medium coupled severity,exact_attack_recall,1522,0.5,,,1,,,,,
+seed,real_only,,42,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,real_only,,42,severity,high,high coupled severity,exact_attack_recall,1540,0.7415584415584415,,,1,,,,,
+seed,real_only,,42,family,DoS,DoS,binary_attack_recall,1141,0.8483786152497809,,,1,,,,,
+seed,real_only,,42,family,DoS,DoS,exact_attack_recall,1141,0.8448729184925504,,,1,,,,,
+seed,real_only,,42,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.3800865800865801,,,1,,,,,
+seed,real_only,,42,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.3774891774891775,,,1,,,,,
+seed,real_only,,42,family,Gear,Gear,binary_attack_recall,1124,0.6930604982206405,,,1,,,,,
+seed,real_only,,42,family,Gear,Gear,exact_attack_recall,1124,0.6432384341637011,,,1,,,,,
+seed,real_only,,42,family,RPM,RPM,binary_attack_recall,1134,0.35185185185185186,,,1,,,,,
+seed,real_only,,42,family,RPM,RPM,exact_attack_recall,1134,0.0,,,1,,,,,
+seed,real_only,,42,scenario,DoS_low,DoS low,binary_attack_recall,375,0.5386666666666666,,,1,,,,,
+seed,real_only,,42,scenario,DoS_low,DoS low,exact_attack_recall,375,0.528,,,1,,,,,
+seed,real_only,,42,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,real_only,,42,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,real_only,,42,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,real_only,,42,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,real_only,,42,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.0,,,1,,,,,
+seed,real_only,,42,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.0,,,1,,,,,
+seed,real_only,,42,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,0.16331658291457288,,,1,,,,,
+seed,real_only,,42,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.15577889447236182,,,1,,,,,
+seed,real_only,,42,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,real_only,,42,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,real_only,,42,scenario,Gear_low,Gear low,binary_attack_recall,375,0.08266666666666667,,,1,,,,,
+seed,real_only,,42,scenario,Gear_low,Gear low,exact_attack_recall,375,0.058666666666666666,,,1,,,,,
+seed,real_only,,42,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.9973118279569892,,,1,,,,,
+seed,real_only,,42,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.8709677419354839,,,1,,,,,
+seed,real_only,,42,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,real_only,,42,scenario,Gear_high,Gear high,exact_attack_recall,377,1.0,,,1,,,,,
+seed,real_only,,42,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,real_only,,42,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,real_only,,42,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.002652519893899204,,,1,,,,,
+seed,real_only,,42,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.0,,,1,,,,,
+seed,real_only,,42,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,real_only,,42,scenario,RPM_high,RPM high,exact_attack_recall,398,0.0,,,1,,,,,
+seed,rule_0p30,,42,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.7217830478700044,,,1,,,,,
+seed,rule_0p30,,42,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.6253842775581906,,,1,,,,,
+seed,rule_0p30,,42,severity,low,low coupled severity,binary_attack_recall,1492,0.19101876675603216,,,1,,,,,
+seed,rule_0p30,,42,severity,low,low coupled severity,exact_attack_recall,1492,0.16554959785522788,,,1,,,,,
+seed,rule_0p30,,42,severity,medium,medium coupled severity,binary_attack_recall,1522,0.9605781865965834,,,1,,,,,
+seed,rule_0p30,,42,severity,medium,medium coupled severity,exact_attack_recall,1522,0.9520367936925098,,,1,,,,,
+seed,rule_0p30,,42,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,rule_0p30,,42,severity,high,high coupled severity,exact_attack_recall,1540,0.7480519480519481,,,1,,,,,
+seed,rule_0p30,,42,family,DoS,DoS,binary_attack_recall,1141,0.7808939526730938,,,1,,,,,
+seed,rule_0p30,,42,family,DoS,DoS,exact_attack_recall,1141,0.7808939526730938,,,1,,,,,
+seed,rule_0p30,,42,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.754978354978355,,,1,,,,,
+seed,rule_0p30,,42,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.741991341991342,,,1,,,,,
+seed,rule_0p30,,42,family,Gear,Gear,binary_attack_recall,1124,0.7197508896797153,,,1,,,,,
+seed,rule_0p30,,42,family,Gear,Gear,exact_attack_recall,1124,0.4830960854092527,,,1,,,,,
+seed,rule_0p30,,42,family,RPM,RPM,binary_attack_recall,1134,0.6305114638447972,,,1,,,,,
+seed,rule_0p30,,42,family,RPM,RPM,exact_attack_recall,1134,0.4911816578483245,,,1,,,,,
+seed,rule_0p30,,42,scenario,DoS_low,DoS low,binary_attack_recall,375,0.3333333333333333,,,1,,,,,
+seed,rule_0p30,,42,scenario,DoS_low,DoS low,exact_attack_recall,375,0.3333333333333333,,,1,,,,,
+seed,rule_0p30,,42,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.26109660574412535,,,1,,,,,
+seed,rule_0p30,,42,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.22193211488250653,,,1,,,,,
+seed,rule_0p30,,42,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,Gear_low,Gear low,binary_attack_recall,375,0.16,,,1,,,,,
+seed,rule_0p30,,42,scenario,Gear_low,Gear low,exact_attack_recall,375,0.09866666666666667,,,1,,,,,
+seed,rule_0p30,,42,scenario,Gear_medium,Gear medium,binary_attack_recall,372,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.9650537634408602,,,1,,,,,
+seed,rule_0p30,,42,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,Gear_high,Gear high,exact_attack_recall,377,0.38992042440318303,,,1,,,,,
+seed,rule_0p30,,42,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.8408488063660478,,,1,,,,,
+seed,rule_0p30,,42,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.8408488063660478,,,1,,,,,
+seed,rule_0p30,,42,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,42,scenario,RPM_high,RPM high,exact_attack_recall,398,0.6030150753768844,,,1,,,,,
+seed,real_oversampling_0p30,,42,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.5610452349582784,,,1,,,,,
+seed,real_oversampling_0p30,,42,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.466403162055336,,,1,,,,,
+seed,real_oversampling_0p30,,42,severity,low,low coupled severity,binary_attack_recall,1492,0.0777479892761394,,,1,,,,,
+seed,real_oversampling_0p30,,42,severity,low,low coupled severity,exact_attack_recall,1492,0.07305630026809651,,,1,,,,,
+seed,real_oversampling_0p30,,42,severity,medium,medium coupled severity,binary_attack_recall,1522,0.5906701708278581,,,1,,,,,
+seed,real_oversampling_0p30,,42,severity,medium,medium coupled severity,exact_attack_recall,1522,0.573587385019711,,,1,,,,,
+seed,real_oversampling_0p30,,42,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,severity,high,high coupled severity,exact_attack_recall,1540,0.7415584415584415,,,1,,,,,
+seed,real_oversampling_0p30,,42,family,DoS,DoS,binary_attack_recall,1141,0.7651183172655566,,,1,,,,,
+seed,real_oversampling_0p30,,42,family,DoS,DoS,exact_attack_recall,1141,0.761612620508326,,,1,,,,,
+seed,real_oversampling_0p30,,42,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.4640692640692641,,,1,,,,,
+seed,real_oversampling_0p30,,42,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.4623376623376623,,,1,,,,,
+seed,real_oversampling_0p30,,42,family,Gear,Gear,binary_attack_recall,1124,0.6637010676156584,,,1,,,,,
+seed,real_oversampling_0p30,,42,family,Gear,Gear,exact_attack_recall,1124,0.641459074733096,,,1,,,,,
+seed,real_oversampling_0p30,,42,family,RPM,RPM,binary_attack_recall,1134,0.3527336860670194,,,1,,,,,
+seed,real_oversampling_0p30,,42,family,RPM,RPM,exact_attack_recall,1134,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,DoS_low,DoS low,binary_attack_recall,375,0.2853333333333333,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,DoS_low,DoS low,exact_attack_recall,375,0.27466666666666667,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,0.40703517587939697,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.4020100502512563,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Gear_low,Gear low,binary_attack_recall,375,0.024,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Gear_low,Gear low,exact_attack_recall,375,0.016,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.967741935483871,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.9086021505376344,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,Gear_high,Gear high,exact_attack_recall,377,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.005305039787798408,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,42,scenario,RPM_high,RPM high,exact_attack_recall,398,0.0,,,1,,,,,
+seed,real_only,,123,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.5856389986824769,,,1,,,,,
+seed,real_only,,123,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.4868247694334651,,,1,,,,,
+seed,real_only,,123,severity,low,low coupled severity,binary_attack_recall,1492,0.14611260053619302,,,1,,,,,
+seed,real_only,,123,severity,low,low coupled severity,exact_attack_recall,1492,0.13471849865951743,,,1,,,,,
+seed,real_only,,123,severity,medium,medium coupled severity,binary_attack_recall,1522,0.5972404730617609,,,1,,,,,
+seed,real_only,,123,severity,medium,medium coupled severity,exact_attack_recall,1522,0.5696452036793692,,,1,,,,,
+seed,real_only,,123,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,real_only,,123,severity,high,high coupled severity,exact_attack_recall,1540,0.7461038961038962,,,1,,,,,
+seed,real_only,,123,family,DoS,DoS,binary_attack_recall,1141,0.8326029798422436,,,1,,,,,
+seed,real_only,,123,family,DoS,DoS,exact_attack_recall,1141,0.8290972830850132,,,1,,,,,
+seed,real_only,,123,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.46320346320346323,,,1,,,,,
+seed,real_only,,123,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.46320346320346323,,,1,,,,,
+seed,real_only,,123,family,Gear,Gear,binary_attack_recall,1124,0.6948398576512456,,,1,,,,,
+seed,real_only,,123,family,Gear,Gear,exact_attack_recall,1124,0.6485765124555161,,,1,,,,,
+seed,real_only,,123,family,RPM,RPM,binary_attack_recall,1134,0.35361552028218696,,,1,,,,,
+seed,real_only,,123,family,RPM,RPM,exact_attack_recall,1134,0.006172839506172839,,,1,,,,,
+seed,real_only,,123,scenario,DoS_low,DoS low,binary_attack_recall,375,0.49066666666666664,,,1,,,,,
+seed,real_only,,123,scenario,DoS_low,DoS low,exact_attack_recall,375,0.48,,,1,,,,,
+seed,real_only,,123,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,real_only,,123,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,real_only,,123,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,real_only,,123,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,real_only,,123,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.0,,,1,,,,,
+seed,real_only,,123,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.0,,,1,,,,,
+seed,real_only,,123,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,0.4045226130653266,,,1,,,,,
+seed,real_only,,123,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.4045226130653266,,,1,,,,,
+seed,real_only,,123,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,real_only,,123,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,real_only,,123,scenario,Gear_low,Gear low,binary_attack_recall,375,0.09066666666666667,,,1,,,,,
+seed,real_only,,123,scenario,Gear_low,Gear low,exact_attack_recall,375,0.056,,,1,,,,,
+seed,real_only,,123,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.9946236559139785,,,1,,,,,
+seed,real_only,,123,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.8897849462365591,,,1,,,,,
+seed,real_only,,123,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,real_only,,123,scenario,Gear_high,Gear high,exact_attack_recall,377,1.0,,,1,,,,,
+seed,real_only,,123,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,real_only,,123,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,real_only,,123,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.007957559681697613,,,1,,,,,
+seed,real_only,,123,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.0,,,1,,,,,
+seed,real_only,,123,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,real_only,,123,scenario,RPM_high,RPM high,exact_attack_recall,398,0.017587939698492462,,,1,,,,,
+seed,rule_0p30,,123,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.7268335529205094,,,1,,,,,
+seed,rule_0p30,,123,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.709925340360123,,,1,,,,,
+seed,rule_0p30,,123,severity,low,low coupled severity,binary_attack_recall,1492,0.20107238605898123,,,1,,,,,
+seed,rule_0p30,,123,severity,low,low coupled severity,exact_attack_recall,1492,0.1628686327077748,,,1,,,,,
+seed,rule_0p30,,123,severity,medium,medium coupled severity,binary_attack_recall,1522,0.9658344283837057,,,1,,,,,
+seed,rule_0p30,,123,severity,medium,medium coupled severity,exact_attack_recall,1522,0.954664914586071,,,1,,,,,
+seed,rule_0p30,,123,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,rule_0p30,,123,severity,high,high coupled severity,exact_attack_recall,1540,0.9980519480519481,,,1,,,,,
+seed,rule_0p30,,123,family,DoS,DoS,binary_attack_recall,1141,0.7554776511831727,,,1,,,,,
+seed,rule_0p30,,123,family,DoS,DoS,exact_attack_recall,1141,0.7554776511831727,,,1,,,,,
+seed,rule_0p30,,123,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.7714285714285715,,,1,,,,,
+seed,rule_0p30,,123,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.7532467532467533,,,1,,,,,
+seed,rule_0p30,,123,family,Gear,Gear,binary_attack_recall,1124,0.7419928825622776,,,1,,,,,
+seed,rule_0p30,,123,family,Gear,Gear,exact_attack_recall,1124,0.697508896797153,,,1,,,,,
+seed,rule_0p30,,123,family,RPM,RPM,binary_attack_recall,1134,0.6375661375661376,,,1,,,,,
+seed,rule_0p30,,123,family,RPM,RPM,exact_attack_recall,1134,0.6322751322751323,,,1,,,,,
+seed,rule_0p30,,123,scenario,DoS_low,DoS low,binary_attack_recall,375,0.256,,,1,,,,,
+seed,rule_0p30,,123,scenario,DoS_low,DoS low,exact_attack_recall,375,0.256,,,1,,,,,
+seed,rule_0p30,,123,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.31070496083550914,,,1,,,,,
+seed,rule_0p30,,123,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.26370757180156656,,,1,,,,,
+seed,rule_0p30,,123,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.992462311557789,,,1,,,,,
+seed,rule_0p30,,123,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,Gear_low,Gear low,binary_attack_recall,375,0.22666666666666666,,,1,,,,,
+seed,rule_0p30,,123,scenario,Gear_low,Gear low,exact_attack_recall,375,0.12266666666666666,,,1,,,,,
+seed,rule_0p30,,123,scenario,Gear_medium,Gear medium,binary_attack_recall,372,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.9704301075268817,,,1,,,,,
+seed,rule_0p30,,123,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,Gear_high,Gear high,exact_attack_recall,377,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.8620689655172413,,,1,,,,,
+seed,rule_0p30,,123,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.8541114058355438,,,1,,,,,
+seed,rule_0p30,,123,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,123,scenario,RPM_high,RPM high,exact_attack_recall,398,0.992462311557789,,,1,,,,,
+seed,real_oversampling_0p30,,123,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.5136144049187528,,,1,,,,,
+seed,real_oversampling_0p30,,123,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.40974967061923584,,,1,,,,,
+seed,real_oversampling_0p30,,123,severity,low,low coupled severity,binary_attack_recall,1492,0.028150134048257374,,,1,,,,,
+seed,real_oversampling_0p30,,123,severity,low,low coupled severity,exact_attack_recall,1492,0.022788203753351208,,,1,,,,,
+seed,real_oversampling_0p30,,123,severity,medium,medium coupled severity,binary_attack_recall,1522,0.4980289093298292,,,1,,,,,
+seed,real_oversampling_0p30,,123,severity,medium,medium coupled severity,exact_attack_recall,1522,0.46583442838370565,,,1,,,,,
+seed,real_oversampling_0p30,,123,severity,high,high coupled severity,binary_attack_recall,1540,0.9993506493506493,,,1,,,,,
+seed,real_oversampling_0p30,,123,severity,high,high coupled severity,exact_attack_recall,1540,0.7292207792207792,,,1,,,,,
+seed,real_oversampling_0p30,,123,family,DoS,DoS,binary_attack_recall,1141,0.6888694127957932,,,1,,,,,
+seed,real_oversampling_0p30,,123,family,DoS,DoS,exact_attack_recall,1141,0.6862401402278703,,,1,,,,,
+seed,real_oversampling_0p30,,123,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.44502164502164504,,,1,,,,,
+seed,real_oversampling_0p30,,123,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.44242424242424244,,,1,,,,,
+seed,real_oversampling_0p30,,123,family,Gear,Gear,binary_attack_recall,1124,0.5685053380782918,,,1,,,,,
+seed,real_oversampling_0p30,,123,family,Gear,Gear,exact_attack_recall,1124,0.5088967971530249,,,1,,,,,
+seed,real_oversampling_0p30,,123,family,RPM,RPM,binary_attack_recall,1134,0.3527336860670194,,,1,,,,,
+seed,real_oversampling_0p30,,123,family,RPM,RPM,exact_attack_recall,1134,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,DoS_low,DoS low,binary_attack_recall,375,0.07466666666666667,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,DoS_low,DoS low,exact_attack_recall,375,0.07466666666666667,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,DoS_medium,DoS medium,binary_attack_recall,375,0.9786666666666667,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,DoS_medium,DoS medium,exact_attack_recall,375,0.9706666666666667,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,0.35175879396984927,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.3442211055276382,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Gear_low,Gear low,binary_attack_recall,375,0.037333333333333336,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Gear_low,Gear low,exact_attack_recall,375,0.016,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.6693548387096774,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.5591397849462365,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Gear_high,Gear high,binary_attack_recall,377,0.9973474801061007,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,Gear_high,Gear high,exact_attack_recall,377,0.9496021220159151,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.005305039787798408,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,123,scenario,RPM_high,RPM high,exact_attack_recall,398,0.0,,,1,,,,,
+seed,real_only,,2026,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.5748792270531401,,,1,,,,,
+seed,real_only,,2026,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.41545893719806765,,,1,,,,,
+seed,real_only,,2026,severity,low,low coupled severity,binary_attack_recall,1492,0.11662198391420911,,,1,,,,,
+seed,real_only,,2026,severity,low,low coupled severity,exact_attack_recall,1492,0.10924932975871314,,,1,,,,,
+seed,real_only,,2026,severity,medium,medium coupled severity,binary_attack_recall,1522,0.5939553219448095,,,1,,,,,
+seed,real_only,,2026,severity,medium,medium coupled severity,exact_attack_recall,1522,0.5499342969776609,,,1,,,,,
+seed,real_only,,2026,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,real_only,,2026,severity,high,high coupled severity,exact_attack_recall,1540,0.5792207792207792,,,1,,,,,
+seed,real_only,,2026,family,DoS,DoS,binary_attack_recall,1141,0.8098159509202454,,,1,,,,,
+seed,real_only,,2026,family,DoS,DoS,exact_attack_recall,1141,0.803680981595092,,,1,,,,,
+seed,real_only,,2026,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.5991341991341992,,,1,,,,,
+seed,real_only,,2026,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.5922077922077922,,,1,,,,,
+seed,real_only,,2026,family,Gear,Gear,binary_attack_recall,1124,0.5302491103202847,,,1,,,,,
+seed,real_only,,2026,family,Gear,Gear,exact_attack_recall,1124,0.2580071174377224,,,1,,,,,
+seed,real_only,,2026,family,RPM,RPM,binary_attack_recall,1134,0.35802469135802467,,,1,,,,,
+seed,real_only,,2026,family,RPM,RPM,exact_attack_recall,1134,0.0008818342151675485,,,1,,,,,
+seed,real_only,,2026,scenario,DoS_low,DoS low,binary_attack_recall,375,0.42133333333333334,,,1,,,,,
+seed,real_only,,2026,scenario,DoS_low,DoS low,exact_attack_recall,375,0.4026666666666667,,,1,,,,,
+seed,real_only,,2026,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,real_only,,2026,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,real_only,,2026,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,real_only,,2026,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,real_only,,2026,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.007832898172323759,,,1,,,,,
+seed,real_only,,2026,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.005221932114882507,,,1,,,,,
+seed,real_only,,2026,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,0.7914572864321608,,,1,,,,,
+seed,real_only,,2026,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.7738693467336684,,,1,,,,,
+seed,real_only,,2026,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,real_only,,2026,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,real_only,,2026,scenario,Gear_low,Gear low,binary_attack_recall,375,0.034666666666666665,,,1,,,,,
+seed,real_only,,2026,scenario,Gear_low,Gear low,exact_attack_recall,375,0.02666666666666667,,,1,,,,,
+seed,real_only,,2026,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.553763440860215,,,1,,,,,
+seed,real_only,,2026,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.41397849462365593,,,1,,,,,
+seed,real_only,,2026,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,real_only,,2026,scenario,Gear_high,Gear high,exact_attack_recall,377,0.33421750663129973,,,1,,,,,
+seed,real_only,,2026,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,real_only,,2026,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,real_only,,2026,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.021220159151193633,,,1,,,,,
+seed,real_only,,2026,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.0,,,1,,,,,
+seed,real_only,,2026,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,real_only,,2026,scenario,RPM_high,RPM high,exact_attack_recall,398,0.002512562814070352,,,1,,,,,
+seed,rule_0p30,,2026,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.7081686429512516,,,1,,,,,
+seed,rule_0p30,,2026,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.5270092226613966,,,1,,,,,
+seed,rule_0p30,,2026,severity,low,low coupled severity,binary_attack_recall,1492,0.1467828418230563,,,1,,,,,
+seed,rule_0p30,,2026,severity,low,low coupled severity,exact_attack_recall,1492,0.11327077747989277,,,1,,,,,
+seed,rule_0p30,,2026,severity,medium,medium coupled severity,binary_attack_recall,1522,0.9632063074901446,,,1,,,,,
+seed,rule_0p30,,2026,severity,medium,medium coupled severity,exact_attack_recall,1522,0.8416557161629435,,,1,,,,,
+seed,rule_0p30,,2026,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,rule_0p30,,2026,severity,high,high coupled severity,exact_attack_recall,1540,0.6168831168831169,,,1,,,,,
+seed,rule_0p30,,2026,family,DoS,DoS,binary_attack_recall,1141,0.7975460122699386,,,1,,,,,
+seed,rule_0p30,,2026,family,DoS,DoS,exact_attack_recall,1141,0.7957931638913234,,,1,,,,,
+seed,rule_0p30,,2026,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.6865800865800866,,,1,,,,,
+seed,rule_0p30,,2026,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.6813852813852814,,,1,,,,,
+seed,rule_0p30,,2026,family,Gear,Gear,binary_attack_recall,1124,0.7108540925266904,,,1,,,,,
+seed,rule_0p30,,2026,family,Gear,Gear,exact_attack_recall,1124,0.29359430604982206,,,1,,,,,
+seed,rule_0p30,,2026,family,RPM,RPM,binary_attack_recall,1134,0.6375661375661376,,,1,,,,,
+seed,rule_0p30,,2026,family,RPM,RPM,exact_attack_recall,1134,0.3306878306878307,,,1,,,,,
+seed,rule_0p30,,2026,scenario,DoS_low,DoS low,binary_attack_recall,375,0.384,,,1,,,,,
+seed,rule_0p30,,2026,scenario,DoS_low,DoS low,exact_attack_recall,375,0.37866666666666665,,,1,,,,,
+seed,rule_0p30,,2026,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.05483028720626632,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.044386422976501305,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.9949748743718593,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Gear_low,Gear low,binary_attack_recall,375,0.144,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Gear_low,Gear low,exact_attack_recall,375,0.02666666666666667,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.989247311827957,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.5053763440860215,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,Gear_high,Gear high,exact_attack_recall,377,0.35013262599469497,,,1,,,,,
+seed,rule_0p30,,2026,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.8620689655172413,,,1,,,,,
+seed,rule_0p30,,2026,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.8541114058355438,,,1,,,,,
+seed,rule_0p30,,2026,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,2026,scenario,RPM_high,RPM high,exact_attack_recall,398,0.13316582914572864,,,1,,,,,
+seed,real_oversampling_0p30,,2026,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.48155467720685113,,,1,,,,,
+seed,real_oversampling_0p30,,2026,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.36407553798858144,,,1,,,,,
+seed,real_oversampling_0p30,,2026,severity,low,low coupled severity,binary_attack_recall,1492,0.08646112600536193,,,1,,,,,
+seed,real_oversampling_0p30,,2026,severity,low,low coupled severity,exact_attack_recall,1492,0.08445040214477212,,,1,,,,,
+seed,real_oversampling_0p30,,2026,severity,medium,medium coupled severity,binary_attack_recall,1522,0.35019710906701706,,,1,,,,,
+seed,real_oversampling_0p30,,2026,severity,medium,medium coupled severity,exact_attack_recall,1522,0.33180026281208935,,,1,,,,,
+seed,real_oversampling_0p30,,2026,severity,high,high coupled severity,binary_attack_recall,1540,0.9941558441558441,,,1,,,,,
+seed,real_oversampling_0p30,,2026,severity,high,high coupled severity,exact_attack_recall,1540,0.6668831168831169,,,1,,,,,
+seed,real_oversampling_0p30,,2026,family,DoS,DoS,binary_attack_recall,1141,0.7817703768624014,,,1,,,,,
+seed,real_oversampling_0p30,,2026,family,DoS,DoS,exact_attack_recall,1141,0.7808939526730938,,,1,,,,,
+seed,real_oversampling_0p30,,2026,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.3515151515151515,,,1,,,,,
+seed,real_oversampling_0p30,,2026,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.3497835497835498,,,1,,,,,
+seed,real_oversampling_0p30,,2026,family,Gear,Gear,binary_attack_recall,1124,0.4412811387900356,,,1,,,,,
+seed,real_oversampling_0p30,,2026,family,Gear,Gear,exact_attack_recall,1124,0.32295373665480426,,,1,,,,,
+seed,real_oversampling_0p30,,2026,family,RPM,RPM,binary_attack_recall,1134,0.35185185185185186,,,1,,,,,
+seed,real_oversampling_0p30,,2026,family,RPM,RPM,exact_attack_recall,1134,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,DoS_low,DoS low,binary_attack_recall,375,0.336,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,DoS_low,DoS low,exact_attack_recall,375,0.3333333333333333,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,0.08040201005025126,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.07537688442211055,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Gear_low,Gear low,binary_attack_recall,375,0.008,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Gear_low,Gear low,exact_attack_recall,375,0.0026666666666666666,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.33602150537634407,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.26881720430107525,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Gear_high,Gear high,binary_attack_recall,377,0.9761273209549072,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,Gear_high,Gear high,exact_attack_recall,377,0.6949602122015915,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.002652519893899204,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,2026,scenario,RPM_high,RPM high,exact_attack_recall,398,0.0,,,1,,,,,
+seed,real_only,,3407,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.5221783047870004,,,1,,,,,
+seed,real_only,,3407,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.43280632411067194,,,1,,,,,
+seed,real_only,,3407,severity,low,low coupled severity,binary_attack_recall,1492,0.006032171581769437,,,1,,,,,
+seed,real_only,,3407,severity,low,low coupled severity,exact_attack_recall,1492,0.006032171581769437,,,1,,,,,
+seed,real_only,,3407,severity,medium,medium coupled severity,binary_attack_recall,1522,0.5446780551905388,,,1,,,,,
+seed,real_only,,3407,severity,medium,medium coupled severity,exact_attack_recall,1522,0.5387647831800263,,,1,,,,,
+seed,real_only,,3407,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,real_only,,3407,severity,high,high coupled severity,exact_attack_recall,1540,0.7415584415584415,,,1,,,,,
+seed,real_only,,3407,family,DoS,DoS,binary_attack_recall,1141,0.6765994741454864,,,1,,,,,
+seed,real_only,,3407,family,DoS,DoS,exact_attack_recall,1141,0.6765994741454864,,,1,,,,,
+seed,real_only,,3407,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.4251082251082251,,,1,,,,,
+seed,real_only,,3407,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.42424242424242425,,,1,,,,,
+seed,real_only,,3407,family,Gear,Gear,binary_attack_recall,1124,0.6352313167259787,,,1,,,,,
+seed,real_only,,3407,family,Gear,Gear,exact_attack_recall,1124,0.6307829181494662,,,1,,,,,
+seed,real_only,,3407,family,RPM,RPM,binary_attack_recall,1134,0.35361552028218696,,,1,,,,,
+seed,real_only,,3407,family,RPM,RPM,exact_attack_recall,1134,0.0,,,1,,,,,
+seed,real_only,,3407,scenario,DoS_low,DoS low,binary_attack_recall,375,0.018666666666666668,,,1,,,,,
+seed,real_only,,3407,scenario,DoS_low,DoS low,exact_attack_recall,375,0.018666666666666668,,,1,,,,,
+seed,real_only,,3407,scenario,DoS_medium,DoS medium,binary_attack_recall,375,0.9973333333333333,,,1,,,,,
+seed,real_only,,3407,scenario,DoS_medium,DoS medium,exact_attack_recall,375,0.9973333333333333,,,1,,,,,
+seed,real_only,,3407,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,real_only,,3407,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,real_only,,3407,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.0,,,1,,,,,
+seed,real_only,,3407,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.0,,,1,,,,,
+seed,real_only,,3407,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,0.29396984924623115,,,1,,,,,
+seed,real_only,,3407,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.2914572864321608,,,1,,,,,
+seed,real_only,,3407,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,real_only,,3407,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,real_only,,3407,scenario,Gear_low,Gear low,binary_attack_recall,375,0.005333333333333333,,,1,,,,,
+seed,real_only,,3407,scenario,Gear_low,Gear low,exact_attack_recall,375,0.005333333333333333,,,1,,,,,
+seed,real_only,,3407,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.9005376344086021,,,1,,,,,
+seed,real_only,,3407,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.8870967741935484,,,1,,,,,
+seed,real_only,,3407,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,real_only,,3407,scenario,Gear_high,Gear high,exact_attack_recall,377,1.0,,,1,,,,,
+seed,real_only,,3407,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,real_only,,3407,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,real_only,,3407,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.007957559681697613,,,1,,,,,
+seed,real_only,,3407,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.0,,,1,,,,,
+seed,real_only,,3407,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,real_only,,3407,scenario,RPM_high,RPM high,exact_attack_recall,398,0.0,,,1,,,,,
+seed,rule_0p30,,3407,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.7391304347826086,,,1,,,,,
+seed,rule_0p30,,3407,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.7039964866051822,,,1,,,,,
+seed,rule_0p30,,3407,severity,low,low coupled severity,binary_attack_recall,1492,0.26541554959785524,,,1,,,,,
+seed,rule_0p30,,3407,severity,low,low coupled severity,exact_attack_recall,1492,0.21849865951742628,,,1,,,,,
+seed,rule_0p30,,3407,severity,medium,medium coupled severity,binary_attack_recall,1522,0.9395532194480947,,,1,,,,,
+seed,rule_0p30,,3407,severity,medium,medium coupled severity,exact_attack_recall,1522,0.885676741130092,,,1,,,,,
+seed,rule_0p30,,3407,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,rule_0p30,,3407,severity,high,high coupled severity,exact_attack_recall,1540,0.9948051948051948,,,1,,,,,
+seed,rule_0p30,,3407,family,DoS,DoS,binary_attack_recall,1141,0.8422436459246275,,,1,,,,,
+seed,rule_0p30,,3407,family,DoS,DoS,exact_attack_recall,1141,0.8413672217353199,,,1,,,,,
+seed,rule_0p30,,3407,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.7653679653679654,,,1,,,,,
+seed,rule_0p30,,3407,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.7307359307359307,,,1,,,,,
+seed,rule_0p30,,3407,family,Gear,Gear,binary_attack_recall,1124,0.7428825622775801,,,1,,,,,
+seed,rule_0p30,,3407,family,Gear,Gear,exact_attack_recall,1124,0.646797153024911,,,1,,,,,
+seed,rule_0p30,,3407,family,RPM,RPM,binary_attack_recall,1134,0.6049382716049383,,,1,,,,,
+seed,rule_0p30,,3407,family,RPM,RPM,exact_attack_recall,1134,0.5952380952380952,,,1,,,,,
+seed,rule_0p30,,3407,scenario,DoS_low,DoS low,binary_attack_recall,375,0.52,,,1,,,,,
+seed,rule_0p30,,3407,scenario,DoS_low,DoS low,exact_attack_recall,375,0.5173333333333333,,,1,,,,,
+seed,rule_0p30,,3407,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,rule_0p30,,3407,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,rule_0p30,,3407,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,rule_0p30,,3407,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.2924281984334204,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.21148825065274152,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.9773869346733668,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Gear_low,Gear low,binary_attack_recall,375,0.23466666666666666,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Gear_low,Gear low,exact_attack_recall,375,0.136,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.9946236559139785,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.8091397849462365,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,rule_0p30,,3407,scenario,Gear_high,Gear high,exact_attack_recall,377,0.9946949602122016,,,1,,,,,
+seed,rule_0p30,,3407,scenario,RPM_low,RPM low,binary_attack_recall,359,0.002785515320334262,,,1,,,,,
+seed,rule_0p30,,3407,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,rule_0p30,,3407,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.7612732095490716,,,1,,,,,
+seed,rule_0p30,,3407,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.7506631299734748,,,1,,,,,
+seed,rule_0p30,,3407,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,rule_0p30,,3407,scenario,RPM_high,RPM high,exact_attack_recall,398,0.9849246231155779,,,1,,,,,
+seed,real_oversampling_0p30,,3407,overall,all_attacks,All attack windows,binary_attack_recall,4554,0.5485287659200703,,,1,,,,,
+seed,real_oversampling_0p30,,3407,overall,all_attacks,All attack windows,exact_attack_recall,4554,0.4464207290294247,,,1,,,,,
+seed,real_oversampling_0p30,,3407,severity,low,low coupled severity,binary_attack_recall,1492,0.06099195710455764,,,1,,,,,
+seed,real_oversampling_0p30,,3407,severity,low,low coupled severity,exact_attack_recall,1492,0.05563002680965148,,,1,,,,,
+seed,real_oversampling_0p30,,3407,severity,medium,medium coupled severity,binary_attack_recall,1522,0.5696452036793692,,,1,,,,,
+seed,real_oversampling_0p30,,3407,severity,medium,medium coupled severity,exact_attack_recall,1522,0.5308804204993429,,,1,,,,,
+seed,real_oversampling_0p30,,3407,severity,high,high coupled severity,binary_attack_recall,1540,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,severity,high,high coupled severity,exact_attack_recall,1540,0.7415584415584415,,,1,,,,,
+seed,real_oversampling_0p30,,3407,family,DoS,DoS,binary_attack_recall,1141,0.7370727432077125,,,1,,,,,
+seed,real_oversampling_0p30,,3407,family,DoS,DoS,exact_attack_recall,1141,0.7370727432077125,,,1,,,,,
+seed,real_oversampling_0p30,,3407,family,Fuzzy,Fuzzy,binary_attack_recall,1155,0.43203463203463205,,,1,,,,,
+seed,real_oversampling_0p30,,3407,family,Fuzzy,Fuzzy,exact_attack_recall,1155,0.42943722943722945,,,1,,,,,
+seed,real_oversampling_0p30,,3407,family,Gear,Gear,binary_attack_recall,1124,0.6743772241992882,,,1,,,,,
+seed,real_oversampling_0p30,,3407,family,Gear,Gear,exact_attack_recall,1124,0.6192170818505338,,,1,,,,,
+seed,real_oversampling_0p30,,3407,family,RPM,RPM,binary_attack_recall,1134,0.3527336860670194,,,1,,,,,
+seed,real_oversampling_0p30,,3407,family,RPM,RPM,exact_attack_recall,1134,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,DoS_low,DoS low,binary_attack_recall,375,0.2,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,DoS_low,DoS low,exact_attack_recall,375,0.2,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,DoS_medium,DoS medium,binary_attack_recall,375,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,DoS_medium,DoS medium,exact_attack_recall,375,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,DoS_high,DoS high,binary_attack_recall,391,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,DoS_high,DoS high,exact_attack_recall,391,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,0.314070351758794,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,0.3065326633165829,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Gear_low,Gear low,binary_attack_recall,375,0.042666666666666665,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Gear_low,Gear low,exact_attack_recall,375,0.021333333333333333,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Gear_medium,Gear medium,binary_attack_recall,372,0.9811827956989247,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Gear_medium,Gear medium,exact_attack_recall,372,0.8360215053763441,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Gear_high,Gear high,binary_attack_recall,377,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,Gear_high,Gear high,exact_attack_recall,377,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,RPM_low,RPM low,binary_attack_recall,359,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,RPM_low,RPM low,exact_attack_recall,359,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,RPM_medium,RPM medium,binary_attack_recall,377,0.005305039787798408,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,RPM_medium,RPM medium,exact_attack_recall,377,0.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,RPM_high,RPM high,binary_attack_recall,398,1.0,,,1,,,,,
+seed,real_oversampling_0p30,,3407,scenario,RPM_high,RPM high,exact_attack_recall,398,0.0,,,1,,,,,
+arm_summary,real_only,,,overall,all_attacks,All attack windows,binary_attack_recall,4554,,0.5537549407114624,0.03122209975687371,5,0.5184453227931489,0.5676328502415459,0.5856389986824769,0.5748792270531401,0.5221783047870004
+arm_summary,rule_0p30,,,overall,all_attacks,All attack windows,binary_attack_recall,4554,,0.7252086078173035,0.011431827334180026,5,0.7301273605621432,0.7217830478700044,0.7268335529205094,0.7081686429512516,0.7391304347826086
+arm_summary,real_oversampling_0p30,,,overall,all_attacks,All attack windows,binary_attack_recall,4554,,0.5300834431269213,0.03228080864376171,5,0.5456741326306543,0.5610452349582784,0.5136144049187528,0.48155467720685113,0.5485287659200703
+paired_difference,,rule_0p30_minus_real_only,,overall,all_attacks,All attack windows,binary_attack_recall,4554,,0.171453667105841,0.03987469739475066,5,0.2116820377689943,0.1541501976284585,0.1411945542380325,0.1332894158981115,0.2169521299956082
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,overall,all_attacks,All attack windows,binary_attack_recall,4554,,0.19512516469038205,0.02566991933631284,5,0.18445322793148888,0.16073781291172595,0.21321914800175668,0.22661396574440046,0.19060166886253838
+arm_summary,real_only,,,overall,all_attacks,All attack windows,exact_attack_recall,4554,,0.4437856829161177,0.031463478626604514,5,0.4176548089591568,0.46618357487922707,0.4868247694334651,0.41545893719806765,0.43280632411067194
+arm_summary,rule_0p30,,,overall,all_attacks,All attack windows,exact_attack_recall,4554,,0.6474747474747474,0.07525108674093435,5,0.6710584101888449,0.6253842775581906,0.709925340360123,0.5270092226613966,0.7039964866051822
+arm_summary,real_oversampling_0p30,,,overall,all_attacks,All attack windows,exact_attack_recall,4554,,0.41826965305226177,0.03969593211639006,5,0.4046991655687308,0.466403162055336,0.40974967061923584,0.36407553798858144,0.4464207290294247
+paired_difference,,rule_0p30_minus_real_only,,overall,all_attacks,All attack windows,exact_attack_recall,4554,,0.20368906455862978,0.06684592155538009,5,0.25340360122968814,0.15920070267896352,0.22310057092665792,0.11155028546332896,0.2711901624945103
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,overall,all_attacks,All attack windows,exact_attack_recall,4554,,0.2292050944224857,0.06431456858908945,5,0.2663592446201141,0.1589811155028546,0.30017566974088716,0.16293368467281516,0.2575757575757575
+arm_summary,real_only,,,severity,low,low coupled severity,binary_attack_recall,1492,,0.09450402144772117,0.06516007060153006,5,0.04758713136729222,0.15616621983914208,0.14611260053619302,0.11662198391420911,0.006032171581769437
+arm_summary,rule_0p30,,,severity,low,low coupled severity,binary_attack_recall,1492,,0.20616621983914207,0.04389594349202875,5,0.22654155495978553,0.19101876675603216,0.20107238605898123,0.1467828418230563,0.26541554959785524
+arm_summary,real_oversampling_0p30,,,severity,low,low coupled severity,binary_attack_recall,1492,,0.06474530831099194,0.022503544592422924,5,0.07037533512064344,0.0777479892761394,0.028150134048257374,0.08646112600536193,0.06099195710455764
+paired_difference,,rule_0p30_minus_real_only,,severity,low,low coupled severity,binary_attack_recall,1492,,0.11166219839142091,0.10260012812788605,5,0.1789544235924933,0.034852546916890076,0.05495978552278821,0.030160857908847177,0.2593833780160858
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,severity,low,low coupled severity,binary_attack_recall,1492,,0.14142091152815012,0.056010280239432546,5,0.15616621983914208,0.11327077747989275,0.17292225201072386,0.060321715817694355,0.2044235924932976
+arm_summary,real_only,,,severity,low,low coupled severity,exact_attack_recall,1492,,0.0886058981233244,0.06059181412622394,5,0.045576407506702415,0.14745308310991956,0.13471849865951743,0.10924932975871314,0.006032171581769437
+arm_summary,rule_0p30,,,severity,low,low coupled severity,exact_attack_recall,1492,,0.17198391420911527,0.040327700307421284,5,0.19973190348525469,0.16554959785522788,0.1628686327077748,0.11327077747989277,0.21849865951742628
+arm_summary,real_oversampling_0p30,,,severity,low,low coupled severity,exact_attack_recall,1492,,0.0599195710455764,0.023374995193069084,5,0.06367292225201072,0.07305630026809651,0.022788203753351208,0.08445040214477212,0.05563002680965148
+paired_difference,,rule_0p30_minus_real_only,,severity,low,low coupled severity,exact_attack_recall,1492,,0.08337801608579089,0.0939182404258223,5,0.15415549597855227,0.018096514745308323,0.028150134048257364,0.004021447721179627,0.21246648793565684
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,severity,low,low coupled severity,exact_attack_recall,1492,,0.11206434316353886,0.05304315120730823,5,0.13605898123324395,0.09249329758713137,0.14008042895442357,0.02882037533512065,0.1628686327077748
+arm_summary,real_only,,,severity,medium,medium coupled severity,binary_attack_recall,1522,,0.552431011826544,0.04390171526714211,5,0.492772667542707,0.533508541392904,0.5972404730617609,0.5939553219448095,0.5446780551905388
+arm_summary,rule_0p30,,,severity,medium,medium coupled severity,binary_attack_recall,1522,,0.9559789750328516,0.010816082544779448,5,0.9507227332457293,0.9605781865965834,0.9658344283837057,0.9632063074901446,0.9395532194480947
+arm_summary,real_oversampling_0p30,,,severity,medium,medium coupled severity,binary_attack_recall,1522,,0.5120893561103811,0.09679841452066333,5,0.5519053876478318,0.5906701708278581,0.4980289093298292,0.35019710906701706,0.5696452036793692
+paired_difference,,rule_0p30_minus_real_only,,severity,medium,medium coupled severity,binary_attack_recall,1522,,0.40354796320630754,0.03868507808416363,5,0.4579500657030223,0.4270696452036794,0.36859395532194483,0.3692509855453351,0.39487516425755587
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,severity,medium,medium coupled severity,binary_attack_recall,1522,,0.4438896189224705,0.10265411278002444,5,0.3988173455978975,0.36990801576872534,0.4678055190538765,0.6130091984231275,0.36990801576872545
+arm_summary,real_only,,,severity,medium,medium coupled severity,exact_attack_recall,1522,,0.5226018396846255,0.04568274020083843,5,0.45466491458607095,0.5,0.5696452036793692,0.5499342969776609,0.5387647831800263
+arm_summary,rule_0p30,,,severity,medium,medium coupled severity,exact_attack_recall,1522,,0.9042049934296978,0.04844099859753607,5,0.8869908015768725,0.9520367936925098,0.954664914586071,0.8416557161629435,0.885676741130092
+arm_summary,real_oversampling_0p30,,,severity,medium,medium coupled severity,exact_attack_recall,1522,,0.4654402102496714,0.09416139425640559,5,0.42509855453350853,0.573587385019711,0.46583442838370565,0.33180026281208935,0.5308804204993429
+paired_difference,,rule_0p30_minus_real_only,,severity,medium,medium coupled severity,exact_attack_recall,1522,,0.38160315374507225,0.06486056475271652,5,0.43232588699080154,0.4520367936925098,0.38501971090670173,0.2917214191852826,0.3469119579500657
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,severity,medium,medium coupled severity,exact_attack_recall,1522,,0.43876478318002626,0.06852733887662088,5,0.46189224704336396,0.37844940867279886,0.4888304862023653,0.5098554533508541,0.35479632063074906
+arm_summary,real_only,,,severity,high,high coupled severity,binary_attack_recall,1540,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,rule_0p30,,,severity,high,high coupled severity,binary_attack_recall,1540,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,real_oversampling_0p30,,,severity,high,high coupled severity,binary_attack_recall,1540,,0.9987012987012986,0.002556496062990859,5,1.0,1.0,0.9993506493506493,0.9941558441558441,1.0
+paired_difference,,rule_0p30_minus_real_only,,severity,high,high coupled severity,binary_attack_recall,1540,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,severity,high,high coupled severity,binary_attack_recall,1540,,0.0012987012987013102,0.002556496062990859,5,0.0,0.0,0.0006493506493506773,0.005844155844155874,0.0
+arm_summary,real_only,,,severity,high,high coupled severity,exact_attack_recall,1540,,0.71,0.07313429701975302,5,0.7415584415584415,0.7415584415584415,0.7461038961038962,0.5792207792207792,0.7415584415584415
+arm_summary,rule_0p30,,,severity,high,high coupled severity,exact_attack_recall,1540,,0.8544155844155844,0.16707780851092185,5,0.9142857142857143,0.7480519480519481,0.9980519480519481,0.6168831168831169,0.9948051948051948
+arm_summary,real_oversampling_0p30,,,severity,high,high coupled severity,exact_attack_recall,1540,,0.7188311688311689,0.031043443680003953,5,0.714935064935065,0.7415584415584415,0.7292207792207792,0.6668831168831169,0.7415584415584415
+paired_difference,,rule_0p30_minus_real_only,,severity,high,high coupled severity,exact_attack_recall,1540,,0.14441558441558444,0.11686291311675942,5,0.17272727272727273,0.006493506493506551,0.2519480519480519,0.03766233766233773,0.2532467532467533
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,severity,high,high coupled severity,exact_attack_recall,1540,,0.1355844155844156,0.14728483767976888,5,0.19935064935064928,0.006493506493506551,0.26883116883116887,-0.04999999999999993,0.2532467532467533
+arm_summary,real_only,,,family,DoS,DoS,binary_attack_recall,1141,,0.7791411042944785,0.07364049618790536,5,0.7283085013146363,0.8483786152497809,0.8326029798422436,0.8098159509202454,0.6765994741454864
+arm_summary,rule_0p30,,,family,DoS,DoS,binary_attack_recall,1141,,0.807712532865907,0.043972569448804774,5,0.8624014022787029,0.7808939526730938,0.7554776511831727,0.7975460122699386,0.8422436459246275
+arm_summary,real_oversampling_0p30,,,family,DoS,DoS,binary_attack_recall,1141,,0.7437335670464504,0.03522418489571586,5,0.7458369851007888,0.7651183172655566,0.6888694127957932,0.7817703768624014,0.7370727432077125
+paired_difference,,rule_0p30_minus_real_only,,family,DoS,DoS,binary_attack_recall,1141,,0.02857142857142858,0.1140069213673414,5,0.13409290096406656,-0.06748466257668706,-0.07712532865907096,-0.012269938650306789,0.16564417177914115
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,family,DoS,DoS,binary_attack_recall,1141,,0.06397896581945661,0.04773897925117028,5,0.1165644171779141,0.015775635407537236,0.0666082383873795,0.015775635407537236,0.10517090271691498
+arm_summary,real_only,,,family,DoS,DoS,exact_attack_recall,1141,,0.7765118317265556,0.07155884089891981,5,0.7283085013146363,0.8448729184925504,0.8290972830850132,0.803680981595092,0.6765994741454864
+arm_summary,rule_0p30,,,family,DoS,DoS,exact_attack_recall,1141,,0.8071866783523225,0.04390876441674091,5,0.8624014022787029,0.7808939526730938,0.7554776511831727,0.7957931638913234,0.8413672217353199
+arm_summary,real_oversampling_0p30,,,family,DoS,DoS,exact_attack_recall,1141,,0.7418054338299738,0.03546866063384207,5,0.7432077125328659,0.761612620508326,0.6862401402278703,0.7808939526730938,0.7370727432077125
+paired_difference,,rule_0p30_minus_real_only,,family,DoS,DoS,exact_attack_recall,1141,,0.03067484662576685,0.11180335593580366,5,0.13409290096406656,-0.06397896581945661,-0.07361963190184051,-0.007887817703768674,0.16476774758983348
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,family,DoS,DoS,exact_attack_recall,1141,,0.06538124452234881,0.047693100754657644,5,0.119193689745837,0.019281332164767795,0.0692375109553024,0.014899211218229569,0.10429447852760731
+arm_summary,real_only,,,family,Fuzzy,Fuzzy,binary_attack_recall,1155,,0.4460606060606061,0.09414643929742222,5,0.36277056277056274,0.3800865800865801,0.46320346320346323,0.5991341991341992,0.4251082251082251
+arm_summary,rule_0p30,,,family,Fuzzy,Fuzzy,binary_attack_recall,1155,,0.7376623376623377,0.037365100652883246,5,0.70995670995671,0.754978354978355,0.7714285714285715,0.6865800865800866,0.7653679653679654
+arm_summary,real_oversampling_0p30,,,family,Fuzzy,Fuzzy,binary_attack_recall,1155,,0.42095238095238097,0.04318775794841646,5,0.4121212121212121,0.4640692640692641,0.44502164502164504,0.3515151515151515,0.43203463203463205
+paired_difference,,rule_0p30_minus_real_only,,family,Fuzzy,Fuzzy,binary_attack_recall,1155,,0.2916017316017316,0.11656586735300037,5,0.34718614718614726,0.3748917748917749,0.30822510822510824,0.08744588744588744,0.34025974025974026
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,family,Fuzzy,Fuzzy,binary_attack_recall,1155,,0.3167099567099567,0.020791843208072144,5,0.2978354978354979,0.2909090909090909,0.3264069264069264,0.3350649350649351,0.3333333333333333
+arm_summary,real_only,,,family,Fuzzy,Fuzzy,exact_attack_recall,1155,,0.4438095238095238,0.09204322448314092,5,0.3619047619047619,0.3774891774891775,0.46320346320346323,0.5922077922077922,0.42424242424242425
+arm_summary,rule_0p30,,,family,Fuzzy,Fuzzy,exact_attack_recall,1155,,0.7224242424242424,0.02914677176086157,5,0.7047619047619048,0.741991341991342,0.7532467532467533,0.6813852813852814,0.7307359307359307
+arm_summary,real_oversampling_0p30,,,family,Fuzzy,Fuzzy,exact_attack_recall,1155,,0.4188744588744589,0.04301383746919794,5,0.4103896103896104,0.4623376623376623,0.44242424242424244,0.3497835497835498,0.42943722943722945
+paired_difference,,rule_0p30_minus_real_only,,family,Fuzzy,Fuzzy,exact_attack_recall,1155,,0.27861471861471865,0.10988408140963192,5,0.3428571428571429,0.3645021645021645,0.29004329004329005,0.08917748917748924,0.30649350649350643
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,family,Fuzzy,Fuzzy,exact_attack_recall,1155,,0.30354978354978357,0.019365703006927765,5,0.2943722943722944,0.27965367965367965,0.31082251082251083,0.3316017316017316,0.30129870129870123
+arm_summary,real_only,,,family,Gear,Gear,binary_attack_recall,1124,,0.6373665480427047,0.06689362096174259,5,0.6334519572953736,0.6930604982206405,0.6948398576512456,0.5302491103202847,0.6352313167259787
+arm_summary,rule_0p30,,,family,Gear,Gear,binary_attack_recall,1124,,0.7290035587188612,0.013934213575757436,5,0.7295373665480427,0.7197508896797153,0.7419928825622776,0.7108540925266904,0.7428825622775801
+arm_summary,real_oversampling_0p30,,,family,Gear,Gear,binary_attack_recall,1124,,0.6046263345195729,0.10165072564641359,5,0.6752669039145908,0.6637010676156584,0.5685053380782918,0.4412811387900356,0.6743772241992882
+paired_difference,,rule_0p30_minus_real_only,,family,Gear,Gear,binary_attack_recall,1124,,0.09163701067615662,0.05997589570825324,5,0.09608540925266906,0.026690391459074814,0.047153024911032015,0.18060498220640575,0.10765124555160144
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,family,Gear,Gear,binary_attack_recall,1124,,0.12437722419928825,0.09513002022609619,5,0.05427046263345192,0.05604982206405695,0.17348754448398573,0.2695729537366548,0.06850533807829184
+arm_summary,real_only,,,family,Gear,Gear,exact_attack_recall,1124,,0.5523131672597865,0.16667954172396407,5,0.5809608540925267,0.6432384341637011,0.6485765124555161,0.2580071174377224,0.6307829181494662
+arm_summary,rule_0p30,,,family,Gear,Gear,exact_attack_recall,1124,,0.5240213523131672,0.15855904733649123,5,0.4991103202846975,0.4830960854092527,0.697508896797153,0.29359430604982206,0.646797153024911
+arm_summary,real_oversampling_0p30,,,family,Gear,Gear,exact_attack_recall,1124,,0.5112099644128114,0.12879262421201684,5,0.46352313167259784,0.641459074733096,0.5088967971530249,0.32295373665480426,0.6192170818505338
+paired_difference,,rule_0p30_minus_real_only,,family,Gear,Gear,exact_attack_recall,1124,,-0.028291814946619243,0.08980566481807534,5,-0.08185053380782925,-0.16014234875444838,0.048932384341636936,0.03558718861209964,0.016014234875444844
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,family,Gear,Gear,exact_attack_recall,1124,,0.012811387900355875,0.12522159029579216,5,0.03558718861209964,-0.15836298932384335,0.18861209964412806,-0.029359430604982195,0.02758007117437722
+arm_summary,real_only,,,family,RPM,RPM,binary_attack_recall,1134,,0.35379188712522047,0.0025251889000487276,5,0.35185185185185186,0.35185185185185186,0.35361552028218696,0.35802469135802467,0.35361552028218696
+arm_summary,rule_0p30,,,family,RPM,RPM,binary_attack_recall,1134,,0.6257495590828925,0.014076239816038722,5,0.6181657848324515,0.6305114638447972,0.6375661375661376,0.6375661375661376,0.6049382716049383
+arm_summary,real_oversampling_0p30,,,family,RPM,RPM,binary_attack_recall,1134,,0.35238095238095235,0.00048300049162711535,5,0.35185185185185186,0.3527336860670194,0.3527336860670194,0.35185185185185186,0.3527336860670194
+paired_difference,,rule_0p30_minus_real_only,,family,RPM,RPM,binary_attack_recall,1134,,0.271957671957672,0.013265671006096498,5,0.2663139329805997,0.2786596119929453,0.2839506172839506,0.2795414462081129,0.25132275132275134
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,family,RPM,RPM,binary_attack_recall,1134,,0.27336860670194,0.014150623047514275,5,0.2663139329805997,0.2777777777777778,0.2848324514991182,0.2857142857142857,0.2522045855379189
+arm_summary,real_only,,,family,RPM,RPM,exact_attack_recall,1134,,0.0014109347442680775,0.002689232924510918,5,0.0,0.0,0.006172839506172839,0.0008818342151675485,0.0
+arm_summary,rule_0p30,,,family,RPM,RPM,exact_attack_recall,1134,,0.5328042328042328,0.1255714582842059,5,0.6146384479717814,0.4911816578483245,0.6322751322751323,0.3306878306878307,0.5952380952380952
+arm_summary,real_oversampling_0p30,,,family,RPM,RPM,exact_attack_recall,1134,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_only,,family,RPM,RPM,exact_attack_recall,1134,,0.5313932980599648,0.12472983099393856,5,0.6146384479717814,0.4911816578483245,0.6261022927689595,0.3298059964726632,0.5952380952380952
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,family,RPM,RPM,exact_attack_recall,1134,,0.5328042328042328,0.1255714582842059,5,0.6146384479717814,0.4911816578483245,0.6322751322751323,0.3306878306878307,0.5952380952380952
+arm_summary,real_only,,,scenario,DoS_low,DoS low,binary_attack_recall,375,,0.3285333333333333,0.2231364306129025,5,0.17333333333333334,0.5386666666666666,0.49066666666666664,0.42133333333333334,0.018666666666666668
+arm_summary,rule_0p30,,,scenario,DoS_low,DoS low,binary_attack_recall,375,,0.4149333333333334,0.13379387130956338,5,0.5813333333333334,0.3333333333333333,0.256,0.384,0.52
+arm_summary,real_oversampling_0p30,,,scenario,DoS_low,DoS low,binary_attack_recall,375,,0.22453333333333333,0.09897968366173826,5,0.22666666666666666,0.2853333333333333,0.07466666666666667,0.336,0.2
+paired_difference,,rule_0p30_minus_real_only,,scenario,DoS_low,DoS low,binary_attack_recall,375,,0.0864,0.3460846396154816,5,0.40800000000000003,-0.2053333333333333,-0.23466666666666663,-0.03733333333333333,0.5013333333333333
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,DoS_low,DoS low,binary_attack_recall,375,,0.19040000000000004,0.14527338213022906,5,0.3546666666666667,0.04799999999999999,0.18133333333333335,0.04799999999999999,0.32
+arm_summary,real_only,,,scenario,DoS_low,DoS low,exact_attack_recall,375,,0.32053333333333334,0.21680016400157798,5,0.17333333333333334,0.528,0.48,0.4026666666666667,0.018666666666666668
+arm_summary,rule_0p30,,,scenario,DoS_low,DoS low,exact_attack_recall,375,,0.4133333333333334,0.13359973386533708,5,0.5813333333333334,0.3333333333333333,0.256,0.37866666666666665,0.5173333333333333
+arm_summary,real_oversampling_0p30,,,scenario,DoS_low,DoS low,exact_attack_recall,375,,0.22026666666666667,0.09663861661997351,5,0.21866666666666668,0.27466666666666667,0.07466666666666667,0.3333333333333333,0.2
+paired_difference,,rule_0p30_minus_real_only,,scenario,DoS_low,DoS low,exact_attack_recall,375,,0.0928,0.33938192186515903,5,0.40800000000000003,-0.1946666666666667,-0.22399999999999998,-0.02400000000000002,0.49866666666666665
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,DoS_low,DoS low,exact_attack_recall,375,,0.19306666666666666,0.1451142078961717,5,0.3626666666666667,0.058666666666666645,0.18133333333333335,0.04533333333333334,0.3173333333333333
+arm_summary,real_only,,,scenario,DoS_medium,DoS medium,binary_attack_recall,375,,0.9994666666666667,0.0011925695879999054,5,1.0,1.0,1.0,1.0,0.9973333333333333
+arm_summary,rule_0p30,,,scenario,DoS_medium,DoS medium,binary_attack_recall,375,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,real_oversampling_0p30,,,scenario,DoS_medium,DoS medium,binary_attack_recall,375,,0.9957333333333335,0.009540556703999096,5,1.0,1.0,0.9786666666666667,1.0,1.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,DoS_medium,DoS medium,binary_attack_recall,375,,0.0005333333333333412,0.0011925695879999054,5,0.0,0.0,0.0,0.0,0.002666666666666706
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,DoS_medium,DoS medium,binary_attack_recall,375,,0.004266666666666663,0.009540556703999096,5,0.0,0.0,0.021333333333333315,0.0,0.0
+arm_summary,real_only,,,scenario,DoS_medium,DoS medium,exact_attack_recall,375,,0.9994666666666667,0.0011925695879999054,5,1.0,1.0,1.0,1.0,0.9973333333333333
+arm_summary,rule_0p30,,,scenario,DoS_medium,DoS medium,exact_attack_recall,375,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,real_oversampling_0p30,,,scenario,DoS_medium,DoS medium,exact_attack_recall,375,,0.9941333333333333,0.01311826546799876,5,1.0,1.0,0.9706666666666667,1.0,1.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,DoS_medium,DoS medium,exact_attack_recall,375,,0.0005333333333333412,0.0011925695879999054,5,0.0,0.0,0.0,0.0,0.002666666666666706
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,DoS_medium,DoS medium,exact_attack_recall,375,,0.005866666666666664,0.01311826546799876,5,0.0,0.0,0.029333333333333322,0.0,0.0
+arm_summary,real_only,,,scenario,DoS_high,DoS high,binary_attack_recall,391,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,rule_0p30,,,scenario,DoS_high,DoS high,binary_attack_recall,391,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,real_oversampling_0p30,,,scenario,DoS_high,DoS high,binary_attack_recall,391,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,DoS_high,DoS high,binary_attack_recall,391,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,DoS_high,DoS high,binary_attack_recall,391,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+arm_summary,real_only,,,scenario,DoS_high,DoS high,exact_attack_recall,391,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,rule_0p30,,,scenario,DoS_high,DoS high,exact_attack_recall,391,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,real_oversampling_0p30,,,scenario,DoS_high,DoS high,exact_attack_recall,391,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,DoS_high,DoS high,exact_attack_recall,391,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,DoS_high,DoS high,exact_attack_recall,391,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+arm_summary,real_only,,,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,,0.0015665796344647518,0.0035029785548299575,5,0.0,0.0,0.0,0.007832898172323759,0.0
+arm_summary,rule_0p30,,,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,,0.20887728459530028,0.11268065601587512,5,0.12532637075718014,0.26109660574412535,0.31070496083550914,0.05483028720626632,0.2924281984334204
+arm_summary,real_oversampling_0p30,,,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,,0.2073107049608355,0.11537988698674409,5,0.12532637075718014,0.26109660574412535,0.31070496083550914,0.046997389033942565,0.2924281984334204
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Fuzzy_low,Fuzzy low,binary_attack_recall,383,,0.20887728459530028,0.11268065601587512,5,0.12532637075718014,0.26109660574412535,0.31070496083550914,0.05483028720626632,0.2924281984334204
+arm_summary,real_only,,,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,,0.0010443864229765013,0.0023353190365533053,5,0.0,0.0,0.0,0.005221932114882507,0.0
+arm_summary,rule_0p30,,,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,,0.17023498694516973,0.09030319682863153,5,0.10966057441253264,0.22193211488250653,0.26370757180156656,0.044386422976501305,0.21148825065274152
+arm_summary,real_oversampling_0p30,,,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,,0.1691906005221932,0.0921341815037881,5,0.10966057441253264,0.22193211488250653,0.26370757180156656,0.0391644908616188,0.21148825065274152
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Fuzzy_low,Fuzzy low,exact_attack_recall,383,,0.17023498694516973,0.09030319682863153,5,0.10966057441253264,0.22193211488250653,0.26370757180156656,0.044386422976501305,0.21148825065274152
+arm_summary,real_only,,,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,,0.35326633165829147,0.2701536701206549,5,0.11306532663316583,0.16331658291457288,0.4045226130653266,0.7914572864321608,0.29396984924623115
+arm_summary,rule_0p30,,,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,real_oversampling_0p30,,,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,,0.2819095477386934,0.12533130761412312,5,0.2562814070351759,0.40703517587939697,0.35175879396984927,0.08040201005025126,0.314070351758794
+paired_difference,,rule_0p30_minus_real_only,,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,,0.6467336683417085,0.2701536701206549,5,0.8869346733668342,0.8366834170854272,0.5954773869346734,0.20854271356783916,0.7060301507537688
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Fuzzy_medium,Fuzzy medium,binary_attack_recall,398,,0.7180904522613065,0.1253313076141231,5,0.7437185929648241,0.592964824120603,0.6482412060301508,0.9195979899497487,0.6859296482412061
+arm_summary,real_only,,,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,,0.34723618090452263,0.26508668912964745,5,0.11055276381909548,0.15577889447236182,0.4045226130653266,0.7738693467336684,0.2914572864321608
+arm_summary,rule_0p30,,,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,,0.9929648241206032,0.00929987714739788,5,1.0,1.0,0.992462311557789,0.9949748743718593,0.9773869346733668
+arm_summary,real_oversampling_0p30,,,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,,0.2758793969849246,0.12482658863548653,5,0.25125628140703515,0.4020100502512563,0.3442211055276382,0.07537688442211055,0.3065326633165829
+paired_difference,,rule_0p30_minus_real_only,,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,,0.6457286432160803,0.2664856860000327,5,0.8894472361809045,0.8442211055276382,0.5879396984924623,0.2211055276381909,0.6859296482412061
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Fuzzy_medium,Fuzzy medium,exact_attack_recall,398,,0.7170854271356785,0.1255728521554503,5,0.7487437185929648,0.5979899497487438,0.6482412060301508,0.9195979899497487,0.6708542713567839
+arm_summary,real_only,,,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,rule_0p30,,,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,real_oversampling_0p30,,,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Fuzzy_high,Fuzzy high,binary_attack_recall,374,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+arm_summary,real_only,,,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,rule_0p30,,,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,real_oversampling_0p30,,,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Fuzzy_high,Fuzzy high,exact_attack_recall,374,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+arm_summary,real_only,,,scenario,Gear_low,Gear low,binary_attack_recall,375,,0.045866666666666674,0.038799770904249194,5,0.016,0.08266666666666667,0.09066666666666667,0.034666666666666665,0.005333333333333333
+arm_summary,rule_0p30,,,scenario,Gear_low,Gear low,binary_attack_recall,375,,0.19146666666666667,0.03983967871356394,5,0.192,0.16,0.22666666666666666,0.144,0.23466666666666666
+arm_summary,real_oversampling_0p30,,,scenario,Gear_low,Gear low,binary_attack_recall,375,,0.03306666666666667,0.01754739613478624,5,0.05333333333333334,0.024,0.037333333333333336,0.008,0.042666666666666665
+paired_difference,,rule_0p30_minus_real_only,,scenario,Gear_low,Gear low,binary_attack_recall,375,,0.1456,0.05916755867872191,5,0.176,0.07733333333333334,0.13599999999999998,0.10933333333333332,0.22933333333333333
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Gear_low,Gear low,binary_attack_recall,375,,0.1584,0.02949048810869174,5,0.13866666666666666,0.136,0.18933333333333333,0.13599999999999998,0.192
+arm_summary,real_only,,,scenario,Gear_low,Gear low,exact_attack_recall,375,,0.030933333333333334,0.02548027559592801,5,0.008,0.058666666666666666,0.056,0.02666666666666667,0.005333333333333333
+arm_summary,rule_0p30,,,scenario,Gear_low,Gear low,exact_attack_recall,375,,0.09706666666666666,0.04227318561715242,5,0.10133333333333333,0.09866666666666667,0.12266666666666666,0.02666666666666667,0.136
+arm_summary,real_oversampling_0p30,,,scenario,Gear_low,Gear low,exact_attack_recall,375,,0.01813333333333333,0.011531599098901148,5,0.034666666666666665,0.016,0.016,0.0026666666666666666,0.021333333333333333
+paired_difference,,rule_0p30_minus_real_only,,scenario,Gear_low,Gear low,exact_attack_recall,375,,0.06613333333333334,0.04990301705419334,5,0.09333333333333332,0.04,0.06666666666666665,0.0,0.13066666666666668
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Gear_low,Gear low,exact_attack_recall,375,,0.07893333333333334,0.03615276230417563,5,0.06666666666666667,0.08266666666666667,0.10666666666666666,0.024,0.11466666666666668
+arm_summary,real_only,,,scenario,Gear_medium,Gear medium,binary_attack_recall,372,,0.8661290322580646,0.18221563562342616,5,0.8844086021505376,0.9973118279569892,0.9946236559139785,0.553763440860215,0.9005376344086021
+arm_summary,rule_0p30,,,scenario,Gear_medium,Gear medium,binary_attack_recall,372,,0.9962365591397848,0.004498172185667069,5,0.9973118279569892,1.0,1.0,0.989247311827957,0.9946236559139785
+arm_summary,real_oversampling_0p30,,,scenario,Gear_medium,Gear medium,binary_attack_recall,372,,0.785483870967742,0.28382437911928715,5,0.9731182795698925,0.967741935483871,0.6693548387096774,0.33602150537634407,0.9811827956989247
+paired_difference,,rule_0p30_minus_real_only,,scenario,Gear_medium,Gear medium,binary_attack_recall,372,,0.13010752688172045,0.177933841849673,5,0.11290322580645162,0.0026881720430107503,0.005376344086021501,0.435483870967742,0.09408602150537637
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Gear_medium,Gear medium,binary_attack_recall,372,,0.21075268817204304,0.28095963512289346,5,0.024193548387096753,0.032258064516129004,0.3306451612903226,0.653225806451613,0.013440860215053752
+arm_summary,real_only,,,scenario,Gear_medium,Gear medium,exact_attack_recall,372,,0.7591397849462366,0.20354451029827186,5,0.7338709677419355,0.8709677419354839,0.8897849462365591,0.41397849462365593,0.8870967741935484
+arm_summary,rule_0p30,,,scenario,Gear_medium,Gear medium,exact_attack_recall,372,,0.7994623655913978,0.19101727597919327,5,0.7473118279569892,0.9650537634408602,0.9704301075268817,0.5053763440860215,0.8091397849462365
+arm_summary,real_oversampling_0p30,,,scenario,Gear_medium,Gear medium,exact_attack_recall,372,,0.6069892473118279,0.2650434031432862,5,0.46236559139784944,0.9086021505376344,0.5591397849462365,0.26881720430107525,0.8360215053763441
+paired_difference,,rule_0p30_minus_real_only,,scenario,Gear_medium,Gear medium,exact_attack_recall,372,,0.04032258064516129,0.07388806519830514,5,0.013440860215053752,0.09408602150537637,0.08064516129032262,0.09139784946236557,-0.07795698924731187
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Gear_medium,Gear medium,exact_attack_recall,372,,0.19247311827956992,0.17677260745436055,5,0.2849462365591398,0.05645161290322587,0.41129032258064524,0.23655913978494625,-0.026881720430107614
+arm_summary,real_only,,,scenario,Gear_high,Gear high,binary_attack_recall,377,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,rule_0p30,,,scenario,Gear_high,Gear high,binary_attack_recall,377,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,real_oversampling_0p30,,,scenario,Gear_high,Gear high,binary_attack_recall,377,,0.9946949602122015,0.010442981265267645,5,1.0,1.0,0.9973474801061007,0.9761273209549072,1.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,Gear_high,Gear high,binary_attack_recall,377,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Gear_high,Gear high,binary_attack_recall,377,,0.005305039787798416,0.010442981265267645,5,0.0,0.0,0.0026525198938992522,0.023872679045092826,0.0
+arm_summary,real_only,,,scenario,Gear_high,Gear high,exact_attack_recall,377,,0.8668435013262599,0.29774698268034333,5,1.0,1.0,1.0,0.33421750663129973,1.0
+arm_summary,rule_0p30,,,scenario,Gear_high,Gear high,exact_attack_recall,377,,0.676923076923077,0.3143454312002061,5,0.649867374005305,0.38992042440318303,1.0,0.35013262599469497,0.9946949602122016
+arm_summary,real_oversampling_0p30,,,scenario,Gear_high,Gear high,exact_attack_recall,377,,0.9071618037135278,0.126808761981979,5,0.8912466843501327,1.0,0.9496021220159151,0.6949602122015915,1.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,Gear_high,Gear high,exact_attack_recall,377,,-0.18992042440318302,0.28050068662590144,5,-0.35013262599469497,-0.6100795755968169,0.0,0.015915119363395236,-0.0053050397877983935
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,Gear_high,Gear high,exact_attack_recall,377,,-0.23023872679045088,0.2678086337360228,5,-0.24137931034482762,-0.6100795755968169,0.050397877984084904,-0.3448275862068966,-0.0053050397877983935
+arm_summary,real_only,,,scenario,RPM_low,RPM low,binary_attack_recall,359,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+arm_summary,rule_0p30,,,scenario,RPM_low,RPM low,binary_attack_recall,359,,0.0005571030640668524,0.0012457203217269024,5,0.0,0.0,0.0,0.0,0.002785515320334262
+arm_summary,real_oversampling_0p30,,,scenario,RPM_low,RPM low,binary_attack_recall,359,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,RPM_low,RPM low,binary_attack_recall,359,,0.0005571030640668524,0.0012457203217269024,5,0.0,0.0,0.0,0.0,0.002785515320334262
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,RPM_low,RPM low,binary_attack_recall,359,,0.0005571030640668524,0.0012457203217269024,5,0.0,0.0,0.0,0.0,0.002785515320334262
+arm_summary,real_only,,,scenario,RPM_low,RPM low,exact_attack_recall,359,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+arm_summary,rule_0p30,,,scenario,RPM_low,RPM low,exact_attack_recall,359,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+arm_summary,real_oversampling_0p30,,,scenario,RPM_low,RPM low,exact_attack_recall,359,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,RPM_low,RPM low,exact_attack_recall,359,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,RPM_low,RPM low,exact_attack_recall,359,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+arm_summary,real_only,,,scenario,RPM_medium,RPM medium,binary_attack_recall,377,,0.008488063660477453,0.0075956610415259165,5,0.002652519893899204,0.002652519893899204,0.007957559681697613,0.021220159151193633,0.007957559681697613
+arm_summary,rule_0p30,,,scenario,RPM_medium,RPM medium,binary_attack_recall,377,,0.825994694960212,0.04332629599808044,5,0.8037135278514589,0.8408488063660478,0.8620689655172413,0.8620689655172413,0.7612732095490716
+arm_summary,real_oversampling_0p30,,,scenario,RPM_medium,RPM medium,binary_attack_recall,377,,0.004244031830238726,0.0014528449801198041,5,0.002652519893899204,0.005305039787798408,0.005305039787798408,0.002652519893899204,0.005305039787798408
+paired_difference,,rule_0p30_minus_real_only,,scenario,RPM_medium,RPM medium,binary_attack_recall,377,,0.8175066312997347,0.04093827399622379,5,0.8010610079575596,0.8381962864721485,0.8541114058355437,0.8408488063660476,0.753315649867374
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,RPM_medium,RPM medium,binary_attack_recall,377,,0.8217506631299735,0.04356112859071859,5,0.8010610079575596,0.8355437665782494,0.8567639257294429,0.8594164456233421,0.7559681697612732
+arm_summary,real_only,,,scenario,RPM_medium,RPM medium,exact_attack_recall,377,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+arm_summary,rule_0p30,,,scenario,RPM_medium,RPM medium,exact_attack_recall,377,,0.8185676392572944,0.045504440707148416,5,0.7931034482758621,0.8408488063660478,0.8541114058355438,0.8541114058355438,0.7506631299734748
+arm_summary,real_oversampling_0p30,,,scenario,RPM_medium,RPM medium,exact_attack_recall,377,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,RPM_medium,RPM medium,exact_attack_recall,377,,0.8185676392572944,0.045504440707148416,5,0.7931034482758621,0.8408488063660478,0.8541114058355438,0.8541114058355438,0.7506631299734748
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,RPM_medium,RPM medium,exact_attack_recall,377,,0.8185676392572944,0.045504440707148416,5,0.7931034482758621,0.8408488063660478,0.8541114058355438,0.8541114058355438,0.7506631299734748
+arm_summary,real_only,,,scenario,RPM_high,RPM high,binary_attack_recall,398,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,rule_0p30,,,scenario,RPM_high,RPM high,binary_attack_recall,398,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+arm_summary,real_oversampling_0p30,,,scenario,RPM_high,RPM high,binary_attack_recall,398,,1.0,0.0,5,1.0,1.0,1.0,1.0,1.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,RPM_high,RPM high,binary_attack_recall,398,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,RPM_high,RPM high,binary_attack_recall,398,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+arm_summary,real_only,,,scenario,RPM_high,RPM high,exact_attack_recall,398,,0.004020100502512563,0.007662286774862767,5,0.0,0.0,0.017587939698492462,0.002512562814070352,0.0
+arm_summary,rule_0p30,,,scenario,RPM_high,RPM high,exact_attack_recall,398,,0.742713567839196,0.3802305396084434,5,1.0,0.6030150753768844,0.992462311557789,0.13316582914572864,0.9849246231155779
+arm_summary,real_oversampling_0p30,,,scenario,RPM_high,RPM high,exact_attack_recall,398,,0.0,0.0,5,0.0,0.0,0.0,0.0,0.0
+paired_difference,,rule_0p30_minus_real_only,,scenario,RPM_high,RPM high,exact_attack_recall,398,,0.7386934673366834,0.3784223228857156,5,1.0,0.6030150753768844,0.9748743718592965,0.13065326633165827,0.9849246231155779
+paired_difference,,rule_0p30_minus_real_oversampling_0p30,,scenario,RPM_high,RPM high,exact_attack_recall,398,,0.742713567839196,0.3802305396084434,5,1.0,0.6030150753768844,0.992462311557789,0.13316582914572864,0.9849246231155779

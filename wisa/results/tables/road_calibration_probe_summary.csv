@@ -1,0 +1,17 @@
+condition,setting,axis,seeds,windows,fpr_mean,fpr_std,attack_recall_mean,attack_recall_std
+original_argmax,real_only,ambient_heldout,7;42;123,385475,0.9991940679248547,0.0012700104624032294,nan,nan
+original_argmax,real_only,attack_captures,7;42;123,101975,1.0,0.0,1.0,0.0
+original_argmax,rule_0p30,ambient_heldout,7;42;123,385475,1.0,0.0,nan,nan
+original_argmax,rule_0p30,attack_captures,7;42;123,101975,1.0,0.0,1.0,0.0
+restandardize,real_only,ambient_heldout,7;42;123,385475,0.9999991352660138,1.497763199120379e-06,nan,nan
+restandardize,real_only,attack_captures,7;42;123,101975,1.0,0.0,1.0,0.0
+restandardize,rule_0p30,ambient_heldout,7;42;123,385475,1.0,0.0,nan,nan
+restandardize,rule_0p30,attack_captures,7;42;123,101975,1.0,0.0,1.0,0.0
+restandardize_threshold,real_only,ambient_heldout,7;42;123,385475,0.9999982705320276,2.9955263983048563e-06,nan,nan
+restandardize_threshold,real_only,attack_captures,7;42;123,101975,1.0,0.0,1.0,0.0
+restandardize_threshold,rule_0p30,ambient_heldout,7;42;123,385475,1.0,0.0,nan,nan
+restandardize_threshold,rule_0p30,attack_captures,7;42;123,101975,1.0,0.0,1.0,0.0
+threshold,real_only,ambient_heldout,7;42;123,385475,0.9389947467410339,0.10262822196057456,nan,nan
+threshold,real_only,attack_captures,7;42;123,101975,0.9688022523851677,0.053940284786280546,0.9990855339853266,0.0015839015992092501
+threshold,rule_0p30,ambient_heldout,7;42;123,385475,1.0,0.0,nan,nan
+threshold,rule_0p30,attack_captures,7;42;123,101975,1.0,0.0,1.0,0.0

@@ -1,0 +1,10 @@
+dataset,source_file,label_mode,rows_written,parse_errors,invalid_dlc,payload_len_mismatch,monotonic_breaks,segments,binary_distribution,attack_type_distribution,original_label_distribution,dlc_distribution
+Car-Hacking,DoS_dataset.csv,car_attack_csv,3665771,0,0,0,0,1,Attack:587521;Normal:3078250,DoS:587521;Normal:3078250,R:3078250;T:587521,2:31188;8:3634583
+Car-Hacking,Fuzzy_dataset.csv,car_attack_csv,3838860,0,0,0,0,1,Attack:491847;Normal:3347013,Fuzzy:491847;Normal:3347013,R:3347013;T:491847,2:34382;5:53451;6:3;8:3751024
+Car-Hacking,gear_dataset.csv,car_attack_csv,4443142,0,0,0,0,1,Attack:597252;Normal:3845890,Gear:597252;Normal:3845890,R:3845890;T:597252,2:40165;8:4402977
+Car-Hacking,RPM_dataset.csv,car_attack_csv,4621702,0,0,0,0,1,Attack:654897;Normal:3966805,Normal:3966805;RPM:654897,R:3966805;T:654897,2:41476;8:4580226
+Car-Hacking,normal_run_data/normal_run_data.txt,txt_all_normal,988871,1,0,0,0,1,Normal:988871,Normal:988871,scenario_normal:988871,2:10129;5:50606;8:928136
+OTIDS,Attack_free_dataset.txt,txt_all_normal,2369398,0,0,0,0,1,Normal:2369398,Normal:2369398,scenario_normal:2369398,0:100879;2:5189;3:10375;4:22623;5:103757;8:2126575
+OTIDS,DoS_attack_dataset.txt,txt_scenario_attack,656579,0,0,0,0,1,Attack:656579,DoS:656579,scenario_DoS:656579,0:10794;2:330;3:570;4:2729;5:14001;8:628155
+OTIDS,Fuzzy_attack_dataset.txt,txt_scenario_attack,591990,0,0,0,0,1,Attack:591990,Fuzzy:591990,scenario_Fuzzy:591990,0:12081;2:688;3:1330;4:2869;5:13620;8:561402
+OTIDS,Impersonation_attack_dataset.txt,txt_scenario_attack,995472,0,0,0,0,1,Attack:995472,Impersonation:995472,scenario_Impersonation:995472,2:2358;3:4699;4:5182;5:47212;8:936021

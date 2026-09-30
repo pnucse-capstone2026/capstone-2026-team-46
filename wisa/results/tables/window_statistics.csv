@@ -1,0 +1,5 @@
+split,windows,binary_normal,binary_attack,weak_windows,attack_type_distribution,groups_seen,groups_skipped_short,output
+train,262149,138976,123173,0,Normal:138976;DoS:20651;Fuzzy:29321;Gear:35531;RPM:37670,5,0,datasets/windows/train_windows.npz
+val,84890,46224,38666,0,Normal:46224;DoS:7007;Fuzzy:5617;Gear:12134;RPM:13908,5,0,datasets/windows/val_windows.npz
+test,201606,161666,39940,0,Normal:161666;DoS:7196;Fuzzy:6297;Gear:12427;RPM:14020,5,0,datasets/windows/test_windows.npz
+otids_cross,144156,74040,70116,70116,Normal:74040;DoS:20515;Fuzzy:18496;Impersonation:31105,4,0,datasets/windows/otids_cross_windows.npz

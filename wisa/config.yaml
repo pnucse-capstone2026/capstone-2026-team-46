@@ -1,0 +1,32 @@
+seed: 42
+
+paths:
+  car_hacking_zip: datasets/9) Car-Hacking Dataset.zip
+  otids_zip: datasets/10) CAN-Intrusion Dataset.zip
+  processed_dir: datasets/processed
+  results_dir: results
+  experiments_dir: experiments
+
+preprocessing:
+  payload_padding: right_pad_zero_to_8_bytes
+  parse_error_policy: exclude_row_and_log
+  payload_len_mismatch_policy: preserve_row_with_flag_and_log
+  invalid_dlc_policy: preserve_row_with_flag_and_log
+  otids_attack_labels: scenario_level_weak_labels
+
+split:
+  main_dataset: Car-Hacking
+  cross_test_dataset: OTIDS
+  strategy: source_local_chronological_attack_episode_split
+  train_ratio_by_attack_episode: 0.60
+  val_ratio_by_attack_episode: 0.20
+  test_ratio_by_attack_episode: 0.20
+  attack_episode_gap_seconds: 1.0
+  normal_only_source_strategy: source_local_contiguous_row_split
+  otids_strategy: cross_test_only
+
+windowing:
+  window_size: 128
+  stride: 32
+  label_rule: attack_if_any_attack_frame
+  multi_attack_rule: majority_attack_class_else_exclude

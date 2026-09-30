@@ -1,0 +1,73 @@
+{
+  "schema": "vehcom.attribution.positive_control.freeze.v1",
+  "created_utc": "2026-09-06T10:07:54.376877+00:00",
+  "public_preregistration": false,
+  "outcomes_observed": false,
+  "inputs": [
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/a_positive_control/config_v1.json",
+      "sha256": "c20d4ae6a72d2dc58b7bab849bfc94441459ebb23a325624543da5f8db98b0fe"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/a_positive_control/PROTOCOL_v1.md",
+      "sha256": "27dcbd685f75516f37d80f26cf6fc5e5910b4b47af2b0fb8344afa27eb3f278e"
+    },
+    {
+      "path": "journal/scripts/run_attribution_positive_control_v1.py",
+      "sha256": "175950d169286d861e5464fa7d9adfb6fa2d34f32fb420cef418cfa2d1cafc7a"
+    },
+    {
+      "path": "journal/scripts/lib_common.py",
+      "sha256": "c3f2b8dd613d7fa58a777c7f56044272a14cbc457c9e1570e560aaf924ec7417"
+    },
+    {
+      "path": "journal/scripts/train_generator_extension_cnn.py",
+      "sha256": "a5d88bcb579da77e234e991a9b050c040df21d2f75e971c0c952c6226749db61"
+    },
+    {
+      "path": "journal/scripts/train_generator_extension_rf.py",
+      "sha256": "411c8aa54c420edc54f8f5980b271065766ab5017506798a13d3ed3f0da8aea0"
+    },
+    {
+      "path": "journal/scripts/run_e18_relation_visible_rf_training.py",
+      "sha256": "235299d9ffb0673b8e465537f2398ba2fab6ae5b54b4db0157b32f3333382efd"
+    }
+  ],
+  "config": {
+    "schema": "vehcom.attribution.positive_control.config.v1",
+    "program": "attribution_strengthening_20260906",
+    "seed_namespace": "vehcom-attribution-positive-control-v1",
+    "noise_probability": 0.15,
+    "levels": [
+      31,
+      95,
+      160,
+      224
+    ],
+    "frames": 128,
+    "bases": {
+      "train": 1024,
+      "val": 256,
+      "test": 512
+    },
+    "pipelines": [
+      7,
+      42,
+      123,
+      2026,
+      3407
+    ],
+    "pilot_realizations": 2,
+    "confirmation_realizations": 20,
+    "cnn_steps": 128,
+    "validation_cadence": 16,
+    "batch_size": 512,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "rf_trees": 160,
+    "rf_workers": 4,
+    "torch_threads": 4,
+    "minimum_oracle_advantage_recovery": 0.5,
+    "interval_confidence": 0.95
+  }
+}

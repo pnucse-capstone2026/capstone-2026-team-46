@@ -1,0 +1,23 @@
+scope,set_id,subset_id,vehicle_axis,attack_axis,normal_unique_can_ids,car_hacking_train_normal_unique_can_ids,intersection_unique_can_ids,unique_overlap_ratio_vs_cantt,frame_coverage_by_car_hacking_ids,diagnostic_note
+can_id_support,all,all,all,all,161,38,5,0.031055900621118,0.0391971801064614,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_01,all,all,all,115,38,3,0.0260869565217391,0.0060988578292288,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,51,38,1,0.0196078431372549,0.0069271676546576,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,98,38,3,0.0306122448979591,0.0051357867515416,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,51,38,1,0.0196078431372549,0.0069249923094335,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,62,38,1,0.0161290322580645,0.0050023053371982,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_02,all,all,all,115,38,4,0.0347826086956521,0.0360940914363233,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,62,38,1,0.0161290322580645,0.0050023053371982,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,54,38,3,0.0555555555555555,0.1362951312095433,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,62,38,1,0.0161290322580645,0.0050002206865372,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,54,38,3,0.0555555555555555,0.1357343077049458,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_03,all,all,all,144,38,5,0.0347222222222222,0.045885305591792,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,98,38,3,0.0306122448979591,0.0051065659719638,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,54,38,3,0.0555555555555555,0.135856208789281,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,98,38,3,0.0306122448979591,0.0050544025381665,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,54,38,3,0.0555555555555555,0.1363506254233019,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_04,all,all,all,115,38,4,0.0347826086956521,0.0672315569720092,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,54,38,3,0.0555555555555555,0.1363506254233019,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,62,38,1,0.0161290322580645,0.0049996959803998,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,54,38,3,0.0555555555555555,0.135856208789281,low CAN ID support overlap indicates external input-support shift
+can_id_support,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,62,38,1,0.0161290322580645,0.0050033562925933,low CAN ID support overlap indicates external input-support shift
+scaled_feature_outlier,set_04,train_01,train,,,,,,,"delta_t scaled_mean=4.5734, p99=15.4201"

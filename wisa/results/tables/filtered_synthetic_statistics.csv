@@ -1,0 +1,4 @@
+filter,output,windows,keep_ratio,artifact_score_mean,artifact_score_max,DoS_windows,Fuzzy_windows,Gear_windows,RPM_windows
+temporal,datasets/synthetic/temporal_filtered_windows.npz,197148,0.7582615384615384,0.997054734161134,1.0,64999,2620,64868,64661
+artifact,datasets/synthetic/artifact_filtered_windows.npz,182000,0.7,0.9940592501975537,1.0,45500,45500,45500,45500
+temporal_artifact,datasets/synthetic/temporal_artifact_filtered_windows.npz,138454,0.5325153846153846,0.9958061647218516,1.0,45499,2386,45375,45194

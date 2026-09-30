@@ -1,0 +1,5 @@
+construction_seed,role,effect,delta_rule_minus_real,delta_placebo_minus_real,theta_rule_minus_placebo,closure_residual,theta_p1_component,theta_p0_component,status
+141421,bridge_sensitivity,P,-0.8077708333333333,-0.8499708333333335,0.042200000000000126,0.0,0.03882083333333333,-0.0033791666666666,"bridge sensitivity attached to the E15 lineage; never pooled with the primary twenty, never changes n or df"
+161803,bridge_sensitivity,P,-0.8345666666666667,-0.7533416666666667,-0.08122499999999999,0.0,-0.08083333333333331,0.00039166666666667904,"bridge sensitivity attached to the E15 lineage; never pooled with the primary twenty, never changes n or df"
+173205,bridge_sensitivity,P,-0.8636416666666665,-0.8084875,-0.055154166666666504,0.0,-0.05513333333333334,2.0833333333358794e-05,"bridge sensitivity attached to the E15 lineage; never pooled with the primary twenty, never changes n or df"
+271828,bridge_sensitivity,P,-0.8177041666666666,-0.9224916666666665,0.10478749999999992,0.0,0.10486666666666669,7.916666666663019e-05,"bridge sensitivity attached to the E15 lineage; never pooled with the primary twenty, never changes n or df"

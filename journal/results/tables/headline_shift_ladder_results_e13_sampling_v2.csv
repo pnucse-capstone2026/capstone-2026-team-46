@@ -1,0 +1,23 @@
+panel,rung,arm,subset,dataset,primary_metric,primary_mean,primary_std,secondary_metric,secondary_mean,secondary_std,seeds,source_file
+a,L1_fixed_variant,Real only,all,Car-Hacking fixed variant,attack_recall,0.4681499999999999,0.0225565521938748,,,,7;42;123;2026;3407,generator_extension_summary_e10a_placebo.csv
+a,L1_fixed_variant,Real dup. +30%,all,Car-Hacking fixed variant,attack_recall,0.4775875,0.0112556930039869,,,,7;42;123;2026;3407,generator_extension_summary_e10a_placebo.csv
+a,L1_fixed_variant,Rule +30%,all,Car-Hacking fixed variant,attack_recall,1.0,0.0,,,,7;42;123;2026;3407,generator_extension_summary_e10a_placebo.csv
+a,L1_fixed_variant,Placebo +30%,all,Car-Hacking fixed variant,attack_recall,0.9999749999999998,5.590169943751341e-05,,,,7;42;123;2026;3407,generator_extension_summary_e10a_placebo.csv
+b,L2_sensitivity,Real only,severity:low,Car-Hacking sensitivity sweep,attack_recall,0.1403666666666666,0.0789988044916574,,,,7;42;123;2026;3407,generator_extension_summary.csv
+b,L2_sensitivity,Real only,severity:medium,Car-Hacking sensitivity sweep,attack_recall,0.5449333333333334,0.039670798104175,,,,7;42;123;2026;3407,generator_extension_summary.csv
+b,L2_sensitivity,Real only,severity:high,Car-Hacking sensitivity sweep,attack_recall,1.0,0.0,,,,7;42;123;2026;3407,generator_extension_summary.csv
+b,L2_sensitivity,Rule +30%,severity:low,Car-Hacking sensitivity sweep,attack_recall,0.1815666666666666,0.1087143683644848,,,,7;42;123;2026;3407,generator_extension_summary.csv
+b,L2_sensitivity,Rule +30%,severity:medium,Car-Hacking sensitivity sweep,attack_recall,0.8988666666666667,0.0636567837006481,,,,7;42;123;2026;3407,generator_extension_summary.csv
+b,L2_sensitivity,Rule +30%,severity:high,Car-Hacking sensitivity sweep,attack_recall,1.0,0.0,,,,7;42;123;2026;3407,generator_extension_summary.csv
+b,L2_sensitivity,Rule +100%,severity:low,Car-Hacking sensitivity sweep,attack_recall,0.3442333333333333,0.0767547139341364,,,,7;42;123;2026;3407,generator_extension_summary.csv
+b,L2_sensitivity,Rule +100%,severity:medium,Car-Hacking sensitivity sweep,attack_recall,0.9795,0.006192513401053,,,,7;42;123;2026;3407,generator_extension_summary.csv
+b,L2_sensitivity,Rule +100%,severity:high,Car-Hacking sensitivity sweep,attack_recall,1.0,0.0,,,,7;42;123;2026;3407,generator_extension_summary.csv
+text,L5_external,Real only,all,OTIDS,fpr,0.9645056726094005,0.057641279863941,attack_recall,0.9365850875691708,0.0765660614602962,7;42;123;2026;3407,generator_extension_summary.csv
+text,L5_external,Real only,all,can-train,fpr,0.9998818744282556,9.425887565483718e-05,attack_recall,0.9997706896826282,0.0004968849544094,7;42;123;2026;3407,generator_extension_summary.csv
+text,L5_external,Real only,all,ROAD,fpr,0.9999609323808748,7.792525167080113e-05,attack_recall,1.0,0.0,7;42;123;2026;3407,generator_extension_summary.csv
+text,L5_external,Rule +30%,all,OTIDS,fpr,0.9974230145867098,0.0037850592244959,attack_recall,0.9984825146899424,0.0026592679802403,7;42;123;2026;3407,generator_extension_summary.csv
+text,L5_external,Rule +30%,all,can-train,fpr,0.9999772080372312,5.083064877959224e-05,attack_recall,0.9999961781613772,8.545890959807498e-06,7;42;123;2026;3407,generator_extension_summary.csv
+text,L5_external,Rule +30%,all,ROAD,fpr,1.0,0.0,attack_recall,1.0,0.0,7;42;123;2026;3407,generator_extension_summary.csv
+text,L5_external,Rule +100%,all,OTIDS,fpr,0.9981388438681794,0.0040338651203547,attack_recall,0.9985138912659022,0.0032675169148765,7;42;123;2026;3407,generator_extension_summary.csv
+text,L5_external,Rule +100%,all,can-train,fpr,0.9999995211772528,1.0706802119290614e-06,attack_recall,0.999992993295858,1.2416891692084402e-05,7;42;123;2026;3407,generator_extension_summary.csv
+text,L5_external,Rule +100%,all,ROAD,fpr,1.0,0.0,attack_recall,1.0,0.0,7;42;123;2026;3407,generator_extension_summary.csv

@@ -1,0 +1,648 @@
+{
+  "construction_axis": [
+    314159,
+    271828,
+    161803,
+    141421,
+    173205
+  ],
+  "cross_pool_row_overlap": {
+    "construction_order": [
+      314159,
+      271828,
+      161803,
+      141421,
+      173205
+    ],
+    "descriptive_only": true,
+    "pair_count": 10,
+    "pairs": [
+      {
+        "exact_row_content_overlap": 0,
+        "identical_complete_digest_sets": false,
+        "left_construction_seed": 314159,
+        "left_overlap_fraction": 0.0,
+        "left_rows": 260000,
+        "left_unique_row_digests": 260000,
+        "right_construction_seed": 271828,
+        "right_overlap_fraction": 0.0,
+        "right_rows": 260000,
+        "right_unique_row_digests": 260000
+      },
+      {
+        "exact_row_content_overlap": 0,
+        "identical_complete_digest_sets": false,
+        "left_construction_seed": 314159,
+        "left_overlap_fraction": 0.0,
+        "left_rows": 260000,
+        "left_unique_row_digests": 260000,
+        "right_construction_seed": 161803,
+        "right_overlap_fraction": 0.0,
+        "right_rows": 260000,
+        "right_unique_row_digests": 260000
+      },
+      {
+        "exact_row_content_overlap": 0,
+        "identical_complete_digest_sets": false,
+        "left_construction_seed": 314159,
+        "left_overlap_fraction": 0.0,
+        "left_rows": 260000,
+        "left_unique_row_digests": 260000,
+        "right_construction_seed": 141421,
+        "right_overlap_fraction": 0.0,
+        "right_rows": 260000,
+        "right_unique_row_digests": 260000
+      },
+      {
+        "exact_row_content_overlap": 0,
+        "identical_complete_digest_sets": false,
+        "left_construction_seed": 314159,
+        "left_overlap_fraction": 0.0,
+        "left_rows": 260000,
+        "left_unique_row_digests": 260000,
+        "right_construction_seed": 173205,
+        "right_overlap_fraction": 0.0,
+        "right_rows": 260000,
+        "right_unique_row_digests": 260000
+      },
+      {
+        "exact_row_content_overlap": 0,
+        "identical_complete_digest_sets": false,
+        "left_construction_seed": 271828,
+        "left_overlap_fraction": 0.0,
+        "left_rows": 260000,
+        "left_unique_row_digests": 260000,
+        "right_construction_seed": 161803,
+        "right_overlap_fraction": 0.0,
+        "right_rows": 260000,
+        "right_unique_row_digests": 260000
+      },
+      {
+        "exact_row_content_overlap": 0,
+        "identical_complete_digest_sets": false,
+        "left_construction_seed": 271828,
+        "left_overlap_fraction": 0.0,
+        "left_rows": 260000,
+        "left_unique_row_digests": 260000,
+        "right_construction_seed": 141421,
+        "right_overlap_fraction": 0.0,
+        "right_rows": 260000,
+        "right_unique_row_digests": 260000
+      },
+      {
+        "exact_row_content_overlap": 0,
+        "identical_complete_digest_sets": false,
+        "left_construction_seed": 271828,
+        "left_overlap_fraction": 0.0,
+        "left_rows": 260000,
+        "left_unique_row_digests": 260000,
+        "right_construction_seed": 173205,
+        "right_overlap_fraction": 0.0,
+        "right_rows": 260000,
+        "right_unique_row_digests": 260000
+      },
+      {
+        "exact_row_content_overlap": 0,
+        "identical_complete_digest_sets": false,
+        "left_construction_seed": 161803,
+        "left_overlap_fraction": 0.0,
+        "left_rows": 260000,
+        "left_unique_row_digests": 260000,
+        "right_construction_seed": 141421,
+        "right_overlap_fraction": 0.0,
+        "right_rows": 260000,
+        "right_unique_row_digests": 260000
+      },
+      {
+        "exact_row_content_overlap": 0,
+        "identical_complete_digest_sets": false,
+        "left_construction_seed": 161803,
+        "left_overlap_fraction": 0.0,
+        "left_rows": 260000,
+        "left_unique_row_digests": 260000,
+        "right_construction_seed": 173205,
+        "right_overlap_fraction": 0.0,
+        "right_rows": 260000,
+        "right_unique_row_digests": 260000
+      },
+      {
+        "exact_row_content_overlap": 0,
+        "identical_complete_digest_sets": false,
+        "left_construction_seed": 141421,
+        "left_overlap_fraction": 0.0,
+        "left_rows": 260000,
+        "left_unique_row_digests": 260000,
+        "right_construction_seed": 173205,
+        "right_overlap_fraction": 0.0,
+        "right_rows": 260000,
+        "right_unique_row_digests": 260000
+      }
+    ],
+    "pool_count": 5,
+    "schema_version": "e15.cross_pool_row_overlap.v1",
+    "serialization": "per-row-contiguous-little-endian-float32-C-sha256"
+  },
+  "distinctness": {
+    "five_distinct_ordered_content_hashes": true,
+    "five_distinct_pool_file_hashes": true
+  },
+  "environment": {
+    "byteorder": "little",
+    "default_rng_bit_generator": "numpy.random._pcg64.PCG64",
+    "expected_stable_projection_sha256": "0fa13120b151b1c8bcb5a0c68ea7a0846f3b4c19a8bcc7d895393e030d9c0cf9",
+    "full": {
+      "cpu_and_threads": {
+        "environment": {
+          "CUBLAS_WORKSPACE_CONFIG": null,
+          "CUDA_VISIBLE_DEVICES": null,
+          "MKL_NUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null,
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "PYTHONHASHSEED": null,
+          "VECLIB_MAXIMUM_THREADS": null
+        },
+        "os_cpu_count": 20,
+        "process_cpu_affinity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "torch_interop_threads": 20,
+        "torch_intraop_threads": 20,
+        "trainer_dataloader_workers": 2,
+        "trainer_train_batch_size": 512,
+        "trainer_validation_batch_size": 1024
+      },
+      "device": {
+        "cuda_available": true,
+        "cuda_current_device": 0,
+        "cuda_device_count": 1,
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "cudnn_available": true,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": false,
+        "cudnn_enabled": true,
+        "cudnn_version": 92000,
+        "devices": [
+          {
+            "capability": [
+              12,
+              1
+            ],
+            "index": 0,
+            "multi_processor_count": 48,
+            "name": "NVIDIA GB10",
+            "total_memory_bytes": 130669199360
+          }
+        ],
+        "driver": {
+          "nvidia_smi_executable": "/usr/bin/nvidia-smi",
+          "query_argv": [
+            "/usr/bin/nvidia-smi",
+            "--query-gpu=index,uuid,name,driver_version,memory.total",
+            "--format=csv,noheader,nounits"
+          ],
+          "query_lines": [
+            "0, GPU-8844975a-1dad-7054-42b5-fc82238da051, NVIDIA GB10, 580.82.09, [N/A]"
+          ],
+          "query_returncode": 0,
+          "query_stderr": ""
+        },
+        "pin_memory": true,
+        "selected_type": "cuda",
+        "trainer_selector": "cuda if torch.cuda.is_available() else cpu"
+      },
+      "identity_sha256": "6ab8a2cf6d33ac008a254a59d0c67aca81d4ea97dbff968e27abbc9a386a8157",
+      "packages": {
+        "numpy": "2.4.6",
+        "numpy_distribution": "2.4.6",
+        "scikit_learn": "1.9.0",
+        "scikit_learn_distribution": "1.9.0",
+        "torch": "2.12.0+cu130",
+        "torch_distribution": "2.12.0+cu130"
+      },
+      "platform": {
+        "machine": "aarch64",
+        "node": "spark-cfaf",
+        "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+        "processor": "aarch64",
+        "release": "6.11.0-1014-nvidia",
+        "system": "Linux"
+      },
+      "process": {
+        "gid": 1000,
+        "parent_pid": 3499269,
+        "pid": 619261,
+        "uid": 1000
+      },
+      "python": {
+        "base_prefix": "/usr",
+        "executable": "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python",
+        "executable_realpath": "/usr/bin/python3.12",
+        "expected_venv_prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "implementation": "CPython",
+        "prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "uses_expected_venv": true,
+        "version": "3.12.3",
+        "version_full": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]"
+      },
+      "torch_build": {
+        "configuration": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 202002\n  - Intel(R) MKL-DNN v3.11.2 (Git Hash 03c022d3ffdcee958cfacbe720048e725fdf644c)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: DEFAULT\n  - CUDA Runtime 13.0\n  - NVCC architecture flags: -gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_100,code=sm_100;-gencode;arch=compute_110,code=sm_110;-gencode;arch=compute_120,code=sm_120\n  - CuDNN 92.0  (built against CUDA 13.2)\n  - Build settings: BLAS_INFO=nvpl, BUILD_TYPE=Release, COMMIT_SHA=7661cd9c6b841b62b7f411aa52ec51f05457263b, CUDA_FLAGS= -DLIBCUDACXX_ENABLE_SIMPLIFIED_COMPLEX_OPERATIONS -Xfatbin -compress-all -DONNX_NAMESPACE=onnx_torch -gencode arch=compute_80,code=sm_80 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_100,code=sm_100 -gencode arch=compute_110,code=sm_110 -gencode arch=compute_120,code=sm_120 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -Xfatbin -compress-all --threads 2 -compress-mode=size -Wno-deprecated-gpu-targets --expt-extended-lambda -DCUB_WRAPPED_NAMESPACE=at_cuda_detail -DDISABLE_CUSPARSE_DEPRECATED -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -DC10_NODEPRECATED, CUDA_VERSION=13.0, CUDNN_VERSION=9.20.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -ffunction-sections -fdata-sections -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_MSLK -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-omit-frame-pointer -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=nvpl, TORCH_VERSION=2.12.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKLDNN=1, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+        "cuda_build_version": "13.0",
+        "debug": false,
+        "git_version": "7661cd9c6b841b62b7f411aa52ec51f05457263b",
+        "hip_build_version": null
+      }
+    },
+    "matches_frozen_environment": true,
+    "numpy_version": "2.4.6",
+    "stable_projection": {
+      "cpu_and_threads": {
+        "environment": {
+          "CUBLAS_WORKSPACE_CONFIG": null,
+          "CUDA_VISIBLE_DEVICES": null,
+          "MKL_NUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null,
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "PYTHONHASHSEED": null,
+          "VECLIB_MAXIMUM_THREADS": null
+        },
+        "os_cpu_count": 20,
+        "process_cpu_affinity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "torch_interop_threads": 20,
+        "torch_intraop_threads": 20,
+        "trainer_dataloader_workers": 2,
+        "trainer_train_batch_size": 512,
+        "trainer_validation_batch_size": 1024
+      },
+      "device": {
+        "cuda_available": true,
+        "cuda_current_device": 0,
+        "cuda_device_count": 1,
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "cudnn_available": true,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": false,
+        "cudnn_enabled": true,
+        "cudnn_version": 92000,
+        "devices": [
+          {
+            "capability": [
+              12,
+              1
+            ],
+            "index": 0,
+            "multi_processor_count": 48,
+            "name": "NVIDIA GB10",
+            "total_memory_bytes": 130669199360
+          }
+        ],
+        "driver": {
+          "nvidia_smi_executable": "/usr/bin/nvidia-smi",
+          "query_argv": [
+            "/usr/bin/nvidia-smi",
+            "--query-gpu=index,uuid,name,driver_version,memory.total",
+            "--format=csv,noheader,nounits"
+          ],
+          "query_lines": [
+            "0, GPU-8844975a-1dad-7054-42b5-fc82238da051, NVIDIA GB10, 580.82.09, [N/A]"
+          ],
+          "query_returncode": 0,
+          "query_stderr": ""
+        },
+        "pin_memory": true,
+        "selected_type": "cuda",
+        "trainer_selector": "cuda if torch.cuda.is_available() else cpu"
+      },
+      "packages": {
+        "numpy": "2.4.6",
+        "numpy_distribution": "2.4.6",
+        "scikit_learn": "1.9.0",
+        "scikit_learn_distribution": "1.9.0",
+        "torch": "2.12.0+cu130",
+        "torch_distribution": "2.12.0+cu130"
+      },
+      "platform": {
+        "machine": "aarch64",
+        "node": "spark-cfaf",
+        "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+        "processor": "aarch64",
+        "release": "6.11.0-1014-nvidia",
+        "system": "Linux"
+      },
+      "python": {
+        "base_prefix": "/usr",
+        "executable": "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python",
+        "executable_realpath": "/usr/bin/python3.12",
+        "expected_venv_prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "implementation": "CPython",
+        "prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "uses_expected_venv": true,
+        "version": "3.12.3",
+        "version_full": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]"
+      },
+      "torch_build": {
+        "configuration": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 202002\n  - Intel(R) MKL-DNN v3.11.2 (Git Hash 03c022d3ffdcee958cfacbe720048e725fdf644c)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: DEFAULT\n  - CUDA Runtime 13.0\n  - NVCC architecture flags: -gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_100,code=sm_100;-gencode;arch=compute_110,code=sm_110;-gencode;arch=compute_120,code=sm_120\n  - CuDNN 92.0  (built against CUDA 13.2)\n  - Build settings: BLAS_INFO=nvpl, BUILD_TYPE=Release, COMMIT_SHA=7661cd9c6b841b62b7f411aa52ec51f05457263b, CUDA_FLAGS= -DLIBCUDACXX_ENABLE_SIMPLIFIED_COMPLEX_OPERATIONS -Xfatbin -compress-all -DONNX_NAMESPACE=onnx_torch -gencode arch=compute_80,code=sm_80 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_100,code=sm_100 -gencode arch=compute_110,code=sm_110 -gencode arch=compute_120,code=sm_120 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -Xfatbin -compress-all --threads 2 -compress-mode=size -Wno-deprecated-gpu-targets --expt-extended-lambda -DCUB_WRAPPED_NAMESPACE=at_cuda_detail -DDISABLE_CUSPARSE_DEPRECATED -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -DC10_NODEPRECATED, CUDA_VERSION=13.0, CUDNN_VERSION=9.20.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -ffunction-sections -fdata-sections -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_MSLK -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-omit-frame-pointer -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=nvpl, TORCH_VERSION=2.12.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKLDNN=1, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+        "cuda_build_version": "13.0",
+        "debug": false,
+        "git_version": "7661cd9c6b841b62b7f411aa52ec51f05457263b",
+        "hip_build_version": null
+      }
+    },
+    "stable_projection_bytes": 5059,
+    "stable_projection_sha256": "0fa13120b151b1c8bcb5a0c68ea7a0846f3b4c19a8bcc7d895393e030d9c0cf9"
+  },
+  "finished_utc": "2026-07-25T08:29:14.531380Z",
+  "model_inference_performed": false,
+  "one_shot_complete": true,
+  "pipeline_axis_used": false,
+  "pool_audit": {
+    "bytes": 3801,
+    "path": "journal/results/tables/e15_rule_construction_pool_audit_v2.csv",
+    "sha256": "e98e3fe74629e77d4a115a4716e77fef1a311ab837fb7c6d3c965b785b327c1b"
+  },
+  "pools": [
+    {
+      "anchor_equivalence": {
+        "array_equal": {
+          "feature_names": true,
+          "injection_count": true,
+          "stride": true,
+          "synthetic_type": true,
+          "window_size": true,
+          "x": true,
+          "y_attack_type": true,
+          "y_binary": true
+        },
+        "compared_keys": [
+          "x",
+          "y_binary",
+          "y_attack_type",
+          "injection_count",
+          "synthetic_type",
+          "feature_names",
+          "window_size",
+          "stride"
+        ],
+        "expected_ordered_content_sha256": "9c05045481fc235ea58d85709295996a99c6842c39053332507c6d7ebfbbbc43",
+        "ordered_content_sha256": "9c05045481fc235ea58d85709295996a99c6842c39053332507c6d7ebfbbbc43",
+        "status": "anchor-array-equivalent"
+      },
+      "construction_seed": 314159,
+      "generation_log_path": "journal/results/logs/e15_generate_rule_cseed314159_v2.json",
+      "generation_log_sha256": "a776e535375c35bc9f809ce09a0540dbc3900a4c46c1d74e3f0cc39386848bbb",
+      "ordered_content_sha256": "9c05045481fc235ea58d85709295996a99c6842c39053332507c6d7ebfbbbc43",
+      "pool_bytes": 283861955,
+      "pool_file_sha256": "8723a499be3e45e27d6c353e5566ece70942688b1758185e212a8b60eeac0bf3",
+      "pool_identifier": "e15_rule_cseed314159_v2",
+      "pool_path": "journal/datasets/synthetic/rule_cseed314159_windows_v2.npz",
+      "statistics_path": "journal/results/tables/e15_rule_cseed314159_statistics_v2.csv",
+      "statistics_sha256": "a909275c35b833477e955d0c7d81e0e417c89e13f9c7e509d524f280751f97b6"
+    },
+    {
+      "anchor_equivalence": null,
+      "construction_seed": 271828,
+      "generation_log_path": "journal/results/logs/e15_generate_rule_cseed271828_v2.json",
+      "generation_log_sha256": "b4efb6eadc4558d67dfd4513cd03de30a98c297ae4d259aaef27cbcde7e9347e",
+      "ordered_content_sha256": "8ffb54dc909930ebc6f2150258c7415fb7e4e050bf3937fea02e645b28007ffc",
+      "pool_bytes": 284050059,
+      "pool_file_sha256": "e13209205e7fdde8188d6ee89a123451d6eeeee653b2ea85011adc105f8b2d2d",
+      "pool_identifier": "e15_rule_cseed271828_v2",
+      "pool_path": "journal/datasets/synthetic/rule_cseed271828_windows_v2.npz",
+      "statistics_path": "journal/results/tables/e15_rule_cseed271828_statistics_v2.csv",
+      "statistics_sha256": "5d9c83c451c70a3e1b37aac162fdc2121a81cf4accf0514fc3aebca12bfc1a26"
+    },
+    {
+      "anchor_equivalence": null,
+      "construction_seed": 161803,
+      "generation_log_path": "journal/results/logs/e15_generate_rule_cseed161803_v2.json",
+      "generation_log_sha256": "dbd2bc384d3c284529909804a09d1c3faa40ac6d49f615ba440fc636df45ef20",
+      "ordered_content_sha256": "49b970d605b11bebe460e1d53ca926875610b785feaa39c3a4a23c4d3103367d",
+      "pool_bytes": 283957614,
+      "pool_file_sha256": "01d9426397b0297e5c2d7f3806c6791bf898b6a5f9dcfbbb8d91d299d3767413",
+      "pool_identifier": "e15_rule_cseed161803_v2",
+      "pool_path": "journal/datasets/synthetic/rule_cseed161803_windows_v2.npz",
+      "statistics_path": "journal/results/tables/e15_rule_cseed161803_statistics_v2.csv",
+      "statistics_sha256": "09b82d2527b756b3d724a69e099ab3318a68949646cecf6ec0c11a4ce01365fa"
+    },
+    {
+      "anchor_equivalence": null,
+      "construction_seed": 141421,
+      "generation_log_path": "journal/results/logs/e15_generate_rule_cseed141421_v2.json",
+      "generation_log_sha256": "5170bf01215173c08a4ce9a77bbaaaae1d58cd21a0046ae93a2f106db51b8523",
+      "ordered_content_sha256": "87fe8f00fa7e4f995608fd065d42d675bb652a6093d874b4d548226968925b91",
+      "pool_bytes": 284063197,
+      "pool_file_sha256": "52a961e3db47266ab2bcec145d4db7aa46e779f1cf65b61c0674e0dee1b60f0c",
+      "pool_identifier": "e15_rule_cseed141421_v2",
+      "pool_path": "journal/datasets/synthetic/rule_cseed141421_windows_v2.npz",
+      "statistics_path": "journal/results/tables/e15_rule_cseed141421_statistics_v2.csv",
+      "statistics_sha256": "c025962fd08e118dd4f2e7c38154b9ea57f28e10af994869cf780530639c4db5"
+    },
+    {
+      "anchor_equivalence": null,
+      "construction_seed": 173205,
+      "generation_log_path": "journal/results/logs/e15_generate_rule_cseed173205_v2.json",
+      "generation_log_sha256": "eb63549a21946551568475dd38d4c1aa4282557d60d69a7e9e17f10e66fc3027",
+      "ordered_content_sha256": "983c19fc159ce94f42038e80d9a231b82631afc372e9273802b37a73542a3775",
+      "pool_bytes": 283863974,
+      "pool_file_sha256": "5f4a4567785bfff00def5959062731cf7479d0828c430cc2d51dba0dba00e18a",
+      "pool_identifier": "e15_rule_cseed173205_v2",
+      "pool_path": "journal/datasets/synthetic/rule_cseed173205_windows_v2.npz",
+      "statistics_path": "journal/results/tables/e15_rule_cseed173205_statistics_v2.csv",
+      "statistics_sha256": "ea7379330e0e543d5e336adc8fa6427165de7c90a280d59b5fb6ff1f0f3ae4b1"
+    }
+  ],
+  "preflight": {
+    "path": "journal/experiments/e15_rule_construction_crossing/pool_generation_preflight_v2.json",
+    "sha256": "9ec066c95472c9e662004668197b5b93cedbebdf3b4da7085092601eb52df0dc"
+  },
+  "record_type": "e15_rule_pool_generation_run",
+  "schema_version": "e15.pool_generation_run.v1",
+  "seed_axes_combined": false,
+  "source_commit": "052c890d8096bb4d1eecd937d200a33dd7ea2b51",
+  "source_snapshot_after_preflight": {
+    "environment_stable_projection_sha256": "0fa13120b151b1c8bcb5a0c68ea7a0846f3b4c19a8bcc7d895393e030d9c0cf9",
+    "hash_snapshot": {
+      "all_hashes_match": true,
+      "all_present": true,
+      "file_count": 14,
+      "sha256": {
+        "journal/datasets/synthetic/rule_based_windows.npz": "4078ab00b8531f760b296b5fd293e3df914bef996d317c958ead4762137bafd5",
+        "journal/datasets/windows/train_windows.npz": "44b3bedeebe113e4850ebb2e38314b413f140f350712e0e9eda81a34faec7cb4",
+        "journal/experiments/e15_rule_construction_crossing/IMPLEMENTATION_AMENDMENT_2026-07-25_V2_PATH_IDENTITY.md": "e747c5c8877a5dfd4e4d6b5b23c54b0ec23f122cd40f145011fa33cb622afd12",
+        "journal/experiments/e15_rule_construction_crossing/PREREG.md": "5fedd45f2b81608e6358281e97843a0600f1d5676aacd4b1e909c64e08bc1905",
+        "journal/experiments/e15_rule_construction_crossing/training_failure_v1.json": "b5e4cde58d0e6ba207bf5ba91bf39a150c0485be66a27171810a83e3daadb828",
+        "journal/scripts/analyze_rule_construction_seed_crossing.py": "38861734f0c3c41a6676146865f4a0a914d1496e95cb5ab3e0d11169db6e94c5",
+        "journal/scripts/evaluate_rule_construction_seed_crossing.py": "f47e9a57d47ba3c914971a443a4fac3eff4fa4c8d9d7e164c29f361f93945505",
+        "journal/scripts/generate_rule_based_synthetic_v2.py": "34ff0374af1856fd842da8226580d5ff0d47cbd16b36fb4273de3e06bcac2570",
+        "journal/scripts/generate_rule_construction_sensitivity.py": "4d5e2a46dc805b907615a41bc8013a28dba5e87c95483def3776f0665625bdde",
+        "journal/scripts/generator_protocol.py": "f23c52ad9f08673c365a0db158d8c6e2db8213b5d30c2584ac777e066a4f85c0",
+        "journal/scripts/lib_common.py": "5848ff4b0063d4394cd1d6627faf49e072cb363d7796cc64fce3acc48b05639a",
+        "journal/scripts/train_rule_construction_seed_crossing.py": "2f2aabefe908aef01903530dc3130872355c74d8c112c6bf4358903250991f83",
+        "journal/tests/test_rule_construction_seed_crossing.py": "fadfcf42026e2c7ebccd83211afb2c2edb31c24158c45032de30e5d14046881f",
+        "wisa/scripts/generate_rule_based_synthetic.py": "df7fa574efa2b2bd94daa846970fbcd7beb7c6b6ecf13ecd2c6a5b2855cc5f69"
+      },
+      "stage": "T-INCOMPLETE"
+    },
+    "head_commit": "052c890d8096bb4d1eecd937d200a33dd7ea2b51",
+    "snapshot_unchanged": true,
+    "source_status": {
+      "allowed_untracked_paths": [
+        "journal/datasets/synthetic/rule_cseed141421_windows_v2.npz",
+        "journal/datasets/synthetic/rule_cseed161803_windows_v2.npz",
+        "journal/datasets/synthetic/rule_cseed173205_windows_v2.npz",
+        "journal/datasets/synthetic/rule_cseed271828_windows_v2.npz",
+        "journal/datasets/synthetic/rule_cseed314159_windows_v2.npz",
+        "journal/experiments/e15_rule_construction_crossing/pool_generation_preflight_v2.json",
+        "journal/experiments/e15_rule_construction_crossing/pool_generation_run_v2.json",
+        "journal/results/logs/e15_generate_rule_cseed141421_v2.json",
+        "journal/results/logs/e15_generate_rule_cseed161803_v2.json",
+        "journal/results/logs/e15_generate_rule_cseed173205_v2.json",
+        "journal/results/logs/e15_generate_rule_cseed271828_v2.json",
+        "journal/results/logs/e15_generate_rule_cseed314159_v2.json",
+        "journal/results/tables/e15_rule_construction_pool_audit_v2.csv",
+        "journal/results/tables/e15_rule_cseed141421_statistics_v2.csv",
+        "journal/results/tables/e15_rule_cseed161803_statistics_v2.csv",
+        "journal/results/tables/e15_rule_cseed173205_statistics_v2.csv",
+        "journal/results/tables/e15_rule_cseed271828_statistics_v2.csv",
+        "journal/results/tables/e15_rule_cseed314159_statistics_v2.csv"
+      ],
+      "observed_allowed_untracked_records": [
+        "?? journal/experiments/e15_rule_construction_crossing/pool_generation_preflight_v2.json"
+      ],
+      "rejected_status_records": [],
+      "stage": "T-INCOMPLETE",
+      "status_records": [
+        "?? journal/experiments/e15_rule_construction_crossing/pool_generation_preflight_v2.json"
+      ],
+      "tracked_index_head_clean": true
+    },
+    "stage": "T-INCOMPLETE"
+  },
+  "source_snapshot_before_completion": {
+    "environment_stable_projection_sha256": "0fa13120b151b1c8bcb5a0c68ea7a0846f3b4c19a8bcc7d895393e030d9c0cf9",
+    "hash_snapshot": {
+      "all_hashes_match": true,
+      "all_present": true,
+      "file_count": 14,
+      "sha256": {
+        "journal/datasets/synthetic/rule_based_windows.npz": "4078ab00b8531f760b296b5fd293e3df914bef996d317c958ead4762137bafd5",
+        "journal/datasets/windows/train_windows.npz": "44b3bedeebe113e4850ebb2e38314b413f140f350712e0e9eda81a34faec7cb4",
+        "journal/experiments/e15_rule_construction_crossing/IMPLEMENTATION_AMENDMENT_2026-07-25_V2_PATH_IDENTITY.md": "e747c5c8877a5dfd4e4d6b5b23c54b0ec23f122cd40f145011fa33cb622afd12",
+        "journal/experiments/e15_rule_construction_crossing/PREREG.md": "5fedd45f2b81608e6358281e97843a0600f1d5676aacd4b1e909c64e08bc1905",
+        "journal/experiments/e15_rule_construction_crossing/training_failure_v1.json": "b5e4cde58d0e6ba207bf5ba91bf39a150c0485be66a27171810a83e3daadb828",
+        "journal/scripts/analyze_rule_construction_seed_crossing.py": "38861734f0c3c41a6676146865f4a0a914d1496e95cb5ab3e0d11169db6e94c5",
+        "journal/scripts/evaluate_rule_construction_seed_crossing.py": "f47e9a57d47ba3c914971a443a4fac3eff4fa4c8d9d7e164c29f361f93945505",
+        "journal/scripts/generate_rule_based_synthetic_v2.py": "34ff0374af1856fd842da8226580d5ff0d47cbd16b36fb4273de3e06bcac2570",
+        "journal/scripts/generate_rule_construction_sensitivity.py": "4d5e2a46dc805b907615a41bc8013a28dba5e87c95483def3776f0665625bdde",
+        "journal/scripts/generator_protocol.py": "f23c52ad9f08673c365a0db158d8c6e2db8213b5d30c2584ac777e066a4f85c0",
+        "journal/scripts/lib_common.py": "5848ff4b0063d4394cd1d6627faf49e072cb363d7796cc64fce3acc48b05639a",
+        "journal/scripts/train_rule_construction_seed_crossing.py": "2f2aabefe908aef01903530dc3130872355c74d8c112c6bf4358903250991f83",
+        "journal/tests/test_rule_construction_seed_crossing.py": "fadfcf42026e2c7ebccd83211afb2c2edb31c24158c45032de30e5d14046881f",
+        "wisa/scripts/generate_rule_based_synthetic.py": "df7fa574efa2b2bd94daa846970fbcd7beb7c6b6ecf13ecd2c6a5b2855cc5f69"
+      },
+      "stage": "T-INCOMPLETE"
+    },
+    "head_commit": "052c890d8096bb4d1eecd937d200a33dd7ea2b51",
+    "snapshot_unchanged": true,
+    "source_status": {
+      "allowed_untracked_paths": [
+        "journal/datasets/synthetic/rule_cseed141421_windows_v2.npz",
+        "journal/datasets/synthetic/rule_cseed161803_windows_v2.npz",
+        "journal/datasets/synthetic/rule_cseed173205_windows_v2.npz",
+        "journal/datasets/synthetic/rule_cseed271828_windows_v2.npz",
+        "journal/datasets/synthetic/rule_cseed314159_windows_v2.npz",
+        "journal/experiments/e15_rule_construction_crossing/pool_generation_preflight_v2.json",
+        "journal/experiments/e15_rule_construction_crossing/pool_generation_run_v2.json",
+        "journal/results/logs/e15_generate_rule_cseed141421_v2.json",
+        "journal/results/logs/e15_generate_rule_cseed161803_v2.json",
+        "journal/results/logs/e15_generate_rule_cseed173205_v2.json",
+        "journal/results/logs/e15_generate_rule_cseed271828_v2.json",
+        "journal/results/logs/e15_generate_rule_cseed314159_v2.json",
+        "journal/results/tables/.e15_rule_construction_pool_audit_v2.csv.e15-stage-9r5e4h4y.tmp",
+        "journal/results/tables/e15_rule_construction_pool_audit_v2.csv",
+        "journal/results/tables/e15_rule_cseed141421_statistics_v2.csv",
+        "journal/results/tables/e15_rule_cseed161803_statistics_v2.csv",
+        "journal/results/tables/e15_rule_cseed173205_statistics_v2.csv",
+        "journal/results/tables/e15_rule_cseed271828_statistics_v2.csv",
+        "journal/results/tables/e15_rule_cseed314159_statistics_v2.csv"
+      ],
+      "observed_allowed_untracked_records": [
+        "?? journal/experiments/e15_rule_construction_crossing/pool_generation_preflight_v2.json",
+        "?? journal/results/logs/e15_generate_rule_cseed141421_v2.json",
+        "?? journal/results/logs/e15_generate_rule_cseed161803_v2.json",
+        "?? journal/results/logs/e15_generate_rule_cseed173205_v2.json",
+        "?? journal/results/logs/e15_generate_rule_cseed271828_v2.json",
+        "?? journal/results/logs/e15_generate_rule_cseed314159_v2.json",
+        "?? journal/results/tables/.e15_rule_construction_pool_audit_v2.csv.e15-stage-9r5e4h4y.tmp",
+        "?? journal/results/tables/e15_rule_cseed141421_statistics_v2.csv",
+        "?? journal/results/tables/e15_rule_cseed161803_statistics_v2.csv",
+        "?? journal/results/tables/e15_rule_cseed173205_statistics_v2.csv",
+        "?? journal/results/tables/e15_rule_cseed271828_statistics_v2.csv",
+        "?? journal/results/tables/e15_rule_cseed314159_statistics_v2.csv"
+      ],
+      "rejected_status_records": [],
+      "stage": "T-INCOMPLETE",
+      "status_records": [
+        "?? journal/experiments/e15_rule_construction_crossing/pool_generation_preflight_v2.json",
+        "?? journal/results/logs/e15_generate_rule_cseed141421_v2.json",
+        "?? journal/results/logs/e15_generate_rule_cseed161803_v2.json",
+        "?? journal/results/logs/e15_generate_rule_cseed173205_v2.json",
+        "?? journal/results/logs/e15_generate_rule_cseed271828_v2.json",
+        "?? journal/results/logs/e15_generate_rule_cseed314159_v2.json",
+        "?? journal/results/tables/.e15_rule_construction_pool_audit_v2.csv.e15-stage-9r5e4h4y.tmp",
+        "?? journal/results/tables/e15_rule_cseed141421_statistics_v2.csv",
+        "?? journal/results/tables/e15_rule_cseed161803_statistics_v2.csv",
+        "?? journal/results/tables/e15_rule_cseed173205_statistics_v2.csv",
+        "?? journal/results/tables/e15_rule_cseed271828_statistics_v2.csv",
+        "?? journal/results/tables/e15_rule_cseed314159_statistics_v2.csv"
+      ],
+      "tracked_index_head_clean": true
+    },
+    "stage": "T-INCOMPLETE"
+  },
+  "started_utc": "2026-07-25T08:23:37.781431Z",
+  "status": "T-PASS"
+}

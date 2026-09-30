@@ -1,0 +1,23 @@
+{
+  "analysis_version": "v1",
+  "experiment": "e13_sampling_v2",
+  "inputs": {
+    "analysis_provenance": "journal/results/logs/e13_sampling_v2_analysis_provenance_v1.json",
+    "analysis_summary": "journal/results/tables/e13_sampling_v2_summary_v1.csv",
+    "analysis_supporting_holm": "journal/results/tables/e13_sampling_v2_supporting_holm_v1.csv",
+    "arlm_cnn_retained": "journal/results/tables/generator_extension_summary_arlm_protocol_valid.csv",
+    "arlm_rf_retained": "journal/results/tables/rf_generator_extension_summary_arlm_protocol_valid.csv",
+    "gan_cnn_retained": "journal/results/tables/generator_extension_summary_gan_protocol_valid.csv",
+    "gan_rf_retained": "journal/results/tables/rf_generator_extension_summary_gan_protocol_valid.csv",
+    "placebo_paired_retained": "journal/results/tables/generator_extension_paired_e10a_placebo.csv",
+    "placebo_summary_retained": "journal/results/tables/generator_extension_summary_e10a_placebo.csv",
+    "realization_paired_e13": "journal/results/tables/evaluation_realization_paired_summary_e13_sampling_v2.csv"
+  },
+  "notes": {
+    "canonical_e13": "The unified E13 summary supplies retained real-only and +30% controls plus strict-v2 +100% rows on the original schedule.",
+    "generator_context": "Protocol-valid WGAN +30% and AR-LM +30% are explicitly retained legacy context; only WGAN +100% is replaced by the strict-v2 E13 row.",
+    "placebo_context": "The placebo and real-duplication controls are unaffected retained E10a rows.",
+    "scope": "The versioned E13 family, ladder, and external figures exclude the legacy Conv-AE threshold rows."
+  },
+  "schema_version": 1
+}

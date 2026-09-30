@@ -1,0 +1,219 @@
+schema_version: 2
+
+reproducibility:
+  # Detector/model seeds used for the five-seed headline arms.
+  detector_seeds: [7, 42, 123, 2026, 3407]
+  # Learned/rule pool generation seed. Generator-seed sensitivity uses the
+  # two additional seeds below.
+  generator_seed: 314159
+  generator_sensitivity_seeds: [271828, 161803]
+  audit_seed: 42
+  deterministic_scope: seed_controlled_not_bitwise_gpu_deterministic
+  python_version: "3.12.3"
+
+# Legacy scalar retained for scripts/notebooks that used the original config.
+seed: 42
+
+paths:
+  car_hacking_zip: datasets/9) Car-Hacking Dataset.zip
+  otids_zip: datasets/10) CAN-Intrusion Dataset.zip
+  processed_dir: datasets/processed
+  results_dir: results
+  experiments_dir: experiments
+
+data_roles:
+  car_hacking: primary_train_validation_test_and_generator_fit
+  otids: evaluation_only_external_binary_weak_label
+  road: evaluation_only_external_frame_attributable_captures
+  can_train_and_test: evaluation_only_by_default
+  can_train_and_test_diagnostic_exception: >-
+    set_01/set_04 source re-instantiation fits source-local models and
+    generators only as an explicitly labelled diagnostic; it never feeds
+    primary Car-Hacking model selection
+
+data_artifacts:
+  car_hacking:
+    filename: "9) Car-Hacking Dataset.zip"
+    sha256: 03b1238a09306fa8d7b251740796cfa07780c78f5bc51458914b2ada6a00787e
+    source: https://ocslab.hksecurity.net/Datasets/car-hacking-dataset
+  otids:
+    filename: "10) CAN-Intrusion Dataset.zip"
+    sha256: 2b17706c7fdd96bfd15fef9f508697a2aae440c7a3340234101a420f016dd6aa
+    source: https://ocslab.hksecurity.net/Dataset/CAN-intrusion-dataset
+  can_train_and_test:
+    filename: can-train-and-test.zip
+    sha256: a9c607b38bd28f1768021ad01c29ffbfe4e82bb0ae5815ac3ce7ad74751ae061
+    doi: 10.11583/DTU.24805533.v1
+  road:
+    filename: road.zip
+    sha256: 0e4fe6ed7f99b5cdabf6b772c91a2025c614a071ba8579c532904d0ef7aea5f6
+    source: https://zenodo.org/records/10462796
+
+preprocessing:
+  payload_padding: right_pad_zero_to_8_bytes
+  parse_error_policy: exclude_row_and_log
+  payload_len_mismatch_policy: preserve_row_with_flag_and_log
+  invalid_dlc_policy: preserve_row_with_flag_and_log
+  otids_attack_labels: scenario_level_weak_labels
+
+split:
+  main_dataset: Car-Hacking
+  cross_test_dataset: OTIDS
+  strategy: source_local_chronological_attack_episode_split
+  train_ratio_by_attack_episode: 0.60
+  val_ratio_by_attack_episode: 0.20
+  test_ratio_by_attack_episode: 0.20
+  attack_episode_gap_seconds: 1.0
+  normal_only_source_strategy: source_local_contiguous_row_split
+  otids_strategy: cross_test_only
+  can_train_diagnostic_strategy: position_stratified_interior_validation_blocks
+  can_train_diagnostic_validation_fraction: 0.15
+  can_train_diagnostic_boundary_drop_windows: 3
+
+windowing:
+  window_size: 128
+  stride: 32
+  label_rule: attack_if_any_attack_frame
+  # Actual frozen implementation: np.unique returns sorted positive labels and
+  # np.argmax selects the first maximum, hence the smallest label wins a tie.
+  multi_attack_rule: majority_positive_attack_class_tie_lowest_label
+  mixed_family_validation: >-
+    Car-Hacking windows stay within source_file and segment_id; each observed
+    attack source has exactly one positive attack family, so mixed-family ties
+    do not occur in the current primary train/val/test artifacts. Re-run the
+    artifact smoke test whenever preprocessing or grouping changes.
+
+augmentation:
+  primary_ratios: [0.10, 0.30, 1.00]
+  equal_budget_real_oversampling_ratios: [0.30, 1.00]
+  class_sampling: balanced_over_attack_classes
+  sampling_seed_rule: detector_seed_plus_integer_ratio_times_1000
+  rule_pool:
+    attack_classes: [DoS, Fuzzy, Gear, RPM]
+    windows_per_attack: 65000
+    total_windows: 260000
+    background: car_hacking_train_normal_windows_only
+  learned_pools:
+    wgan_gp: [gan, ganb, ganc]
+    protocol_repaired_wgan_gp: ganvalid
+    id_snapped_wgan_contrast: gansnap
+    autoregressive_lm: arlm
+    protocol_repaired_autoregressive_lm: arlmvalid
+
+training:
+  input_features: [can_id, dlc, data0, data1, data2, data3, data4, data5, data6, data7, delta_t]
+  standardizer_fit: real_source_train_windows_only
+  checkpoint_metric: validation_multiclass_macro_f1
+  neural_common:
+    optimizer: AdamW
+    learning_rate: 0.001
+    weight_decay: 0.0001
+    train_batch_size: 512
+    evaluation_batch_size: 1024
+    real_only_max_epochs: 20
+    real_only_early_stopping_patience: 4
+    augmented_max_epochs: 12
+    augmented_early_stopping_patience: 3
+    loss: class_weighted_cross_entropy
+    legacy_budget_note: >-
+      Equal epoch counts do not imply equal optimizer-update counts after
+      augmentation; matched-step runs are separately tagged diagnostics.
+    matched_step_diagnostic:
+      reference: twelve_real_source_epochs
+      validation_cadence: one_real_source_epoch_of_optimizer_steps
+      early_stopping: disabled
+      checkpoint_selection: best_validation_multiclass_macro_f1
+  cnn:
+    channels: [64, 128, 128]
+    kernels: [5, 5, 3]
+    dropout: 0.2
+  bilstm:
+    hidden_size: 128
+    layers: 2
+    bidirectional: true
+    dropout: 0.2
+  transformer:
+    d_model: 128
+    attention_heads: 4
+    encoder_layers: 4
+    feedforward_size: 256
+    dropout: 0.1
+    positional_embedding_length: 128
+  autoencoder:
+    encoder_channels: [64, 128, 32]
+    optimizer: AdamW
+    max_epochs: 20
+    early_stopping_patience: 4
+  random_forest:
+    features: [mean, std, min, max, last_minus_first]
+    estimators: 160
+    max_depth: null
+    min_samples_leaf: 2
+    class_weight: balanced_subsample
+
+generators:
+  represented_frame_protocol:
+    can_id: integer_inclusive_0_to_2047
+    dlc: integer_inclusive_0_to_8
+    payload: integer_inclusive_0_to_255
+    padding: payload_positions_at_or_beyond_dlc_are_zero
+    delta_t: finite_and_nonnegative
+    repair_policy: new_versioned_pool_never_silent_legacy_overwrite
+  wgan_gp:
+    latent_dim: 64
+    class_embedding_dim: 16
+    gradient_penalty: 10.0
+    auxiliary_loss_weight: 1.0
+    critic_steps: 5
+    optimizer: Adam
+    learning_rate: 0.0001
+    betas: [0.0, 0.9]
+    epochs: 30
+    batch_size: 256
+  autoregressive_lm:
+    id_vocabulary: 2048
+    dlc_vocabulary: 9
+    byte_vocabulary: 256
+    delta_t_quantile_bins: 64
+    hidden_size: 512
+    layers: 2
+    optimizer: AdamW
+    learning_rate: 0.001
+    weight_decay: 0.0001
+    epochs: 20
+    batch_size: 256
+
+second_source_diagnostic_controls:
+  equal_attack_count_real_duplication: realdup_0p30
+  matched_optimizer_step_tag: matchedsteps
+  interpretation: controls_for_attack_mass_and_update_opportunity_not_new_main_rungs
+
+reporting:
+  external_primary_order: [fpr, normal_recall, attack_recall, macro_f1_binary]
+  distinguish_binary_from_exact_attack_type: true
+  aggregate: mean_and_sample_standard_deviation
+  five_seed_arms: [7, 42, 123, 2026, 3407]
+  three_seed_diagnostics: [7, 42, 123]
+  metrics:
+    fpr: FP/(FP+TN)
+    normal_recall: TN/(TN+FP)=1-FPR
+    attack_recall: TP/(TP+FN)
+    macro_f1_binary: unweighted_mean_of_normal_and_attack_class_F1
+    exact_type_recall: correctly_predicted_same_attack_type/true_frames_or_windows_of_that_attack_type
+  uncertainty:
+    primary_effect_unit: detector_seed
+    primary_interval: two_sided_student_t_95_percent_CI_over_paired_seed_effects
+    window_intervals: conditional_supporting_diagnostics_only
+  external_interpretation:
+    jointly_report_operating_point: [fpr, normal_recall, attack_recall]
+    ranking_metric_when_score_cache_available: auroc
+    usable_transfer_binary_decision: not_predefined
+    note: >-
+      Do not infer deployment usability from one metric or impose a
+      retrospective cutoff; report the joint operating/ranking evidence.
+  protocol_decision:
+    pass_fail_margins_predefined: false
+    interpretation: descriptive_shift_ladder_not_formal_acceptance_test
+    note: >-
+      No retrospective rung-pass threshold is introduced. Any future formal
+      acceptance/non-inferiority criteria must be prospectively specified.

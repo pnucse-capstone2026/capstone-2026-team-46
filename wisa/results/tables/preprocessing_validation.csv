@@ -1,0 +1,3 @@
+parquet_file,rows,row_groups,columns,source_file_distribution,binary_distribution,attack_type_distribution,is_weak_label_distribution,payload_len_mismatch,invalid_dlc
+datasets/processed/car_hacking.parquet,17558346,88,26,DoS_dataset.csv:3665771;Fuzzy_dataset.csv:3838860;RPM_dataset.csv:4621702;gear_dataset.csv:4443142;normal_run_data/normal_run_data.txt:988871,Attack:2331517;Normal:15226829,DoS:587521;Fuzzy:491847;Gear:597252;Normal:15226829;RPM:654897,False:17558346,0,0
+datasets/processed/otids.parquet,4613439,24,26,Attack_free_dataset.txt:2369398;DoS_attack_dataset.txt:656579;Fuzzy_attack_dataset.txt:591990;Impersonation_attack_dataset.txt:995472,Attack:2244041;Normal:2369398,DoS:656579;Fuzzy:591990;Impersonation:995472;Normal:2369398,False:2369398;True:2244041,0,0

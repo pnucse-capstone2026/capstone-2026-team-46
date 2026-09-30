@@ -1,0 +1,34 @@
+{
+  "completed_utc": "2026-08-08T18:54:41Z",
+  "completeness_gate": {
+    "devices": [
+      "cuda"
+    ],
+    "fits": 245,
+    "gate": "fit_completeness",
+    "optimizer_updates": 6156,
+    "passed": true,
+    "validation_checkpoints": 12
+  },
+  "elapsed_seconds": 114139.136,
+  "expected_fit_count": 245,
+  "fit_count": 245,
+  "identical_training_row_gate": {
+    "checked": 220,
+    "exempt_bridge_rule_fits": 20,
+    "gate": "identical_training_row_contract",
+    "passed": true
+  },
+  "pairing_gate": {
+    "gate": "paired_draw_identity",
+    "incomplete_pairs": [],
+    "pairs_checked": 120,
+    "passed": true
+  },
+  "preflight_path": "journal/experiments/e19_bilstm_relational_crossing/training_preflight_v1.json",
+  "schema_version": "e19.training_run.v1",
+  "stage": "e19_paired_training",
+  "started_utc": "2026-08-07T11:12:22Z",
+  "status": "T-PASS",
+  "technical_status": "T-PASS"
+}

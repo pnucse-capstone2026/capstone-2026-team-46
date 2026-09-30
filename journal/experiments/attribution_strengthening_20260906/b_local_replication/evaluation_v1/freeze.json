@@ -1,0 +1,35 @@
+{
+  "utc": "2026-09-06T11:26:21.976888+00:00",
+  "inputs": [
+    {
+      "path": "journal/scripts/evaluate_attribution_local_replication_v1.py",
+      "sha256": "54c868847a191c5c591ca6a53e86d295d34a39dcb5eed382b4f9fe192f092185"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/EVALUATION_v1.md",
+      "sha256": "4ec5f3d832839372cda12449f5d5dd60a00e9a9ed3676bf24fdfafa8e5e8b9f5"
+    },
+    {
+      "path": "journal/tests/test_attribution_local_evaluation_v1.py",
+      "sha256": "a6d38c071c7445dc8cb297fcd0fcc21aee74760a9d75978a32a577dd32bb70ff"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/freeze_v1.json",
+      "sha256": "dc132920bac87bf6d17cf8db5debbc3b0baaf30b0e7d0617eefe3bb819e09355"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/evaluation_v1/prepared/run.json",
+      "sha256": "1ef24b03f81074e8580dda32405e49c16d7cdc6622acb51db5bd05ac32f9cb12"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/evaluation_v1/prepared/manipulation.csv",
+      "sha256": "0af39eeaca22c5fa260df42169f5dd6860c31b375f6eab1b6adeea9a7ad90e68"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/evaluation_v1/historical_continuity.json",
+      "sha256": "386b552277fc1ae30bebe8e27787751395384d9f4a77f853f4421313fc170315"
+    }
+  ],
+  "new_model_inference": false,
+  "public_preregistration": false
+}

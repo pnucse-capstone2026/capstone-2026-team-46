@@ -1,0 +1,4 @@
+family,endpoint,effect,n,mean,sd,ci95_low,ci95_high,raw_p,strict_positive,strict_negative,holm_adjusted_p,resolved
+attack_and_stratum_heterogeneity_descriptive,exact_recall,Gear_canonical,20,-0.023784999999999994,0.1419323918001288,-0.09021140410009673,0.04264140410009674,,9,11,,
+attack_and_stratum_heterogeneity_descriptive,exact_recall,RPM_canonical,20,0.012846250000000009,0.06481523895536173,-0.017488215586658862,0.043180715586658876,,11,9,,
+attack_and_stratum_heterogeneity_descriptive,exact_recall,equal_macro_shifted,20,-0.005058541666666694,0.09176134153449464,-0.04800417145722871,0.037887088123895324,,10,10,,

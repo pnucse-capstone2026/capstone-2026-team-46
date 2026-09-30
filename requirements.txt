@@ -1,0 +1,26 @@
+# Core data processing
+numpy
+scipy
+pandas
+pyarrow
+scikit-learn
+
+# Plotting and reporting
+matplotlib
+seaborn
+tqdm
+rich
+
+# Experiment configuration and utilities
+pyyaml
+joblib
+pytest
+
+# Notebook support
+jupyterlab
+ipykernel
+
+# Deep learning
+# Install with the CUDA 13 PyTorch index on DGX Spark:
+# python -m pip install torch --index-url https://download.pytorch.org/whl/cu130
+torch

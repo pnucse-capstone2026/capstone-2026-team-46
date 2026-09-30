@@ -1,0 +1,12 @@
+{
+  "status": "started",
+  "utc": "2026-09-06T11:50:53.332282+00:00",
+  "pid": 1849224,
+  "recovery_audit_sha256": "f6195df121c1a16454d90418a2f069369c9bab0f79c8965ccb897deedb072edf",
+  "scientific_freeze_sha256": "dc132920bac87bf6d17cf8db5debbc3b0baaf30b0e7d0617eefe3bb819e09355",
+  "inherited_fits": 24,
+  "planned_new_fits": 976,
+  "retry_enabled": false,
+  "test_scoring_enabled": false,
+  "execution": "user systemd service; no automatic restart"
+}

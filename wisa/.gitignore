@@ -1,0 +1,19 @@
+# Raw/derived data (downloaded separately; see datasets/DOWNLOAD.md)
+datasets/*.zip
+datasets/raw/
+datasets/processed/
+datasets/windows/
+datasets/synthetic/
+.venv/
+
+# Regenerated outputs not shipped in the lean public artifact
+models/
+experiments/
+results/logs/
+results/paper/tables/
+results/paper/figures/*.png
+results/tables/cantt_gate0_model_artifact_inventory.csv
+
+# Python
+__pycache__/
+*.pyc

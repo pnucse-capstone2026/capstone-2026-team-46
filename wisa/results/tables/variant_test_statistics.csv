@@ -1,0 +1,6 @@
+variant_type,windows,binary_label,attack_type_id,injection_count_mean,injection_count_min,injection_count_max
+Normal,32000,Normal,0,0.0,0,0
+DoS,8000,Attack,1,54.216125,24,96
+Fuzzy,8000,Attack,2,41.322125,14,96
+Gear,8000,Attack,3,36.274375,24,48
+RPM,8000,Attack,4,36.08075,24,48

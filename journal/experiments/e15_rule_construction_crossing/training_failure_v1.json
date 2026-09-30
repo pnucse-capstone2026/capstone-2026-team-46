@@ -1,0 +1,92 @@
+{
+  "canonical_status": "T-INCOMPLETE",
+  "canonical_output_version": "v1",
+  "record_created_utc": "2026-07-25T08:17:34Z",
+  "record_type": "diagnostic_training_failure",
+  "schema_version": "e15.training_failure.v1",
+  "source_commit": "244308fd8729e5488958b87f1ce780521d83415d",
+  "failure": {
+    "failing_cell": {
+      "construction_seed": 314159,
+      "pipeline_seed": 7
+    },
+    "first_failure_mapping": "T-INCOMPLETE",
+    "parent_error": "T-INCOMPLETE: fresh child fit failed; v1 must not be resumed: construction=314159, pipeline=7",
+    "child_error": "T-STOP-TRAINING: child pool path differs from frozen grid: /home/hyunjin/workspace/wisa_can_ids/datasets/synthetic/rule_cseed314159_windows_v1.npz != /home/hyunjin/workspace/wisa_can_ids/journal/datasets/synthetic/rule_cseed314159_windows_v1.npz",
+    "cause": "The explicit child CLI path was resolved through journal/datasets -> ../datasets, but the frozen TrainingJob pool path was compared as an unresolved logical path.",
+    "minimal_technical_fix": "Compare the resolved CLI pool path with expected.pool_path.resolve().",
+    "scientific_protocol_changed": false
+  },
+  "execution_inventory": {
+    "training_preflight_published": true,
+    "child_process_started": true,
+    "run_child_fit_entered": false,
+    "model_fit_started": false,
+    "completed_fits": 0,
+    "checkpoint_count": 0,
+    "training_log_count": 0,
+    "private_training_stage_count": 0,
+    "training_run_record_exists": false,
+    "validation_forward_passes": 0,
+    "scientific_outcomes_observed": 0,
+    "evaluation_artifact_count": 0,
+    "analysis_artifact_count": 0
+  },
+  "evidence": {
+    "pool_generation_preflight_v1": {
+      "path": "journal/experiments/e15_rule_construction_crossing/pool_generation_preflight_v1.json",
+      "sha256": "229dd633e71de87fdec40e4b3c1223cf0b477a0b15e2f7c55b0115c3c0b2e76e"
+    },
+    "pool_generation_run_v1": {
+      "path": "journal/experiments/e15_rule_construction_crossing/pool_generation_run_v1.json",
+      "sha256": "8c9e4d4bf732def4c3275b0bf5a81daf64f070f9b859ac408b3b38749616941b",
+      "status": "T-PASS",
+      "started_utc": "2026-07-25T07:55:39.150636Z",
+      "finished_utc": "2026-07-25T08:01:16.023653Z",
+      "model_inference_performed": false
+    },
+    "training_preflight_v1": {
+      "path": "journal/experiments/e15_rule_construction_crossing/training_preflight_v1.json",
+      "sha256": "2bb94cf69ad5e00962f98f3201dc082d038f0943b847bbeed1f74baeb980b312",
+      "created_utc": "2026-07-25T08:03:53.048933Z",
+      "mode": "execute"
+    },
+    "pool_files": [
+      {
+        "construction_seed": 314159,
+        "path": "journal/datasets/synthetic/rule_cseed314159_windows_v1.npz",
+        "sha256": "e22903b66676a24a325db585be6cc7fac8cdc36567ffe57973b6f7aefdaa8fe9"
+      },
+      {
+        "construction_seed": 271828,
+        "path": "journal/datasets/synthetic/rule_cseed271828_windows_v1.npz",
+        "sha256": "522e8090777464353ec7f6ac5b009765ad62b09e5e70405ad9ed69344cf6b7f0"
+      },
+      {
+        "construction_seed": 161803,
+        "path": "journal/datasets/synthetic/rule_cseed161803_windows_v1.npz",
+        "sha256": "57f96165a193613f06b57466f10b13a0dd6db15c30b547edbc7e718de4cb2b0a"
+      },
+      {
+        "construction_seed": 141421,
+        "path": "journal/datasets/synthetic/rule_cseed141421_windows_v1.npz",
+        "sha256": "1053917c4ee2822a64cb26131c25f0c315255bf5574caf38ddfae5a5bf770e0d"
+      },
+      {
+        "construction_seed": 173205,
+        "path": "journal/datasets/synthetic/rule_cseed173205_windows_v1.npz",
+        "sha256": "87a400c83522dcac65a1ca1d8b8a920cab8a1360a6fe322b88e344c79e14050a"
+      }
+    ]
+  },
+  "preservation_and_retry_policy": {
+    "resume_v1": "forbidden",
+    "retry_v1": "forbidden",
+    "overwrite_v1": "forbidden",
+    "delete_v1": "forbidden",
+    "import_v1_into_v2": "forbidden",
+    "v1_use": "diagnosis_only",
+    "required_retry_identity": "v2",
+    "required_retry_start": "pool generation with every v2 target absent"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "arm": "real_oversampling_0p30",
+  "batch_size": 512,
+  "batches_per_cycle": 666,
+  "checkpoint": {
+    "bytes": 392666,
+    "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_oversampling_0p30_seed42_v1.pt",
+    "sha256": "45b833c4146df3e797722289137ac387180a92065df0caa153ddb2edd55152f4"
+  },
+  "class_weights_Normal_DoS_Fuzzy_Gear_RPM": [
+    0.4904357586921483,
+    1.690739959814452,
+    1.391507084235025,
+    1.2349398463545442,
+    1.1888646630967539
+  ],
+  "completed_utc": "2026-07-28T16:43:42.820632Z",
+  "construction": {
+    "added_windows": 78645,
+    "construction_permutation_sha256_int64_c": "fac21c3b58e98a5a3d69d115a72f530b2ce3893e6521bfadd83f9c17fbe18df6",
+    "sampling_seed": 443,
+    "selected_class_counts": {
+      "1": 19662,
+      "2": 19661,
+      "3": 19661,
+      "4": 19661
+    },
+    "selected_index_sha256_int64_c": "ae9551ed910a8d31ec06daa82b3e53b6dc20924c787735fb6537b30bfeb15aca",
+    "selected_unique_indices": 78645,
+    "training_windows": 340794
+  },
+  "contract_id": "ced08773aee05aa8b59390b16fb90dd5339fec6d85877a9bbce9175e34d9c42b",
+  "device": "cuda",
+  "history": {
+    "bytes": 1252,
+    "path": "wisa_camera_ready/experiments/02_matched_update/histories/real_oversampling_0p30_seed42_v1.csv",
+    "sha256": "54961b7751c226ef7fc90dc9c99976aee593f354ba97b063579d682e8e8c06ab"
+  },
+  "implementation_commit": "cab014f30b89a22fbaaaabb42b11ff0e558178f9",
+  "implementation_sha256": "afacf325e8fca206d5ae15ac928fcc98a1fd8d70d77433962fbbac25deee6f71",
+  "input_inventory_digest": "6a3315cefca76c6145a638822847cc7e6f78f8632c651762d01c01a55746e469",
+  "pipeline_seed": 42,
+  "runtime_seconds": 71.86958354199305,
+  "sampler_seed": 1000045,
+  "selected_checkpoint_recomputed_val_macro_f1_multiclass": 0.9992738741957752,
+  "selected_update": 7992,
+  "selected_val_macro_f1_multiclass": 0.9992738741957752,
+  "started_utc": "2026-07-28T16:42:30.944296Z",
+  "training_class_counts": {
+    "0": 138976,
+    "1": 40313,
+    "2": 48982,
+    "3": 55192,
+    "4": 57331
+  },
+  "training_windows": 340794,
+  "updates_run": 7992,
+  "validation_updates": [
+    666,
+    1332,
+    1998,
+    2664,
+    3330,
+    3996,
+    4662,
+    5328,
+    5994,
+    6660,
+    7326,
+    7992
+  ],
+  "version": "matched_update_v1",
+  "worker_seed": 2000045
+}

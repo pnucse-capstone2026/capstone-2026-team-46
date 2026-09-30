@@ -1,0 +1,46 @@
+{
+  "augmented_scoring_started_after_reference_pass": true,
+  "completed_utc": "2026-08-07T07:06:18Z",
+  "completeness": {
+    "by_cell_rows": 11760,
+    "evaluation_panel_rows": 198000,
+    "expected_scenario_rows": 23520,
+    "normal_rows": 735,
+    "scenario_rows": 23520
+  },
+  "elapsed_seconds": 67.751,
+  "environment": {
+    "detector_family": "random_forest",
+    "device": "cpu",
+    "feature_dimension": 83,
+    "feature_map": "joint_structure_83",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "schema_version": "e18.evaluation_environment.v1",
+    "standardizer_applied": false
+  },
+  "exact_and_binary_endpoints_separate": true,
+  "identities": 245,
+  "inference_ledger": {
+    "inference_calls": 250,
+    "prediction_rows": 49500000
+  },
+  "normal_control_reported_before_attack_results": true,
+  "reference_continuity_gate": {
+    "all_integer_count_differences_zero": true,
+    "device": "cpu",
+    "gate": "G12_real_only_reference_continuity",
+    "integer_comparisons": 975,
+    "normal_rows": 15,
+    "passed": true,
+    "references_scored_before_any_augmented_arm": true,
+    "rows": 495,
+    "scenario_rows": 480,
+    "status": "T-PASS"
+  },
+  "schema_version": "e18.evaluation_run.v1",
+  "stage": "e18_evaluation",
+  "started_utc": "2026-08-07T07:05:10Z",
+  "status": "T-PASS",
+  "technical_status": "T-PASS"
+}

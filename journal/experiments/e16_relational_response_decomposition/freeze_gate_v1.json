@@ -1,0 +1,24 @@
+{
+  "stage": "S0_freeze",
+  "schema_version": "e16.freeze_gate.v1",
+  "registration_source_commit": "8bd3b29156108e6e6091231855822d46ce71dcd3",
+  "inputs": {
+    "journal/datasets/windows/train_windows.npz": "44b3bedeebe113e4850ebb2e38314b413f140f350712e0e9eda81a34faec7cb4",
+    "journal/datasets/windows/test_windows.npz": "4ac72a497f5bfc7e59ce8baf08b78c5aebbf5e060fb4f2d73629a591c56b54b7",
+    "journal/results/tables/evaluation_realization_blocks_e13_sampling_v2.csv": "9e18b3844e20f259938c732a10bc0251767f0d2eaae9c731ba8da7ef087f5efb",
+    "journal/results/tables/e15_l4_factorial_hierarchical_summary_v2.csv": "d43cbea09ea9956de9add362787bf0e90016596318accb5bae8149372ed3e0f3",
+    "journal/results/tables/e14_l4_factorial_effects_v1.csv": "63ea3c4bb09167033c1b2c8d7760c2329fe701de6608b274d26a6cb357e4c21f",
+    "journal/results/tables/e14_l4_factorial_augmentation_delta_v1.csv": "791648aec54c059402bc9c0be71d9d10b0c23bd254cfd2c0c889f15c29285066",
+    "journal/scripts/generate_rule_placebo_twin.py": "aaecede2f3f642b393c8d43ad27cfa989da5cc0b81c85de880d60019c5ec259e",
+    "journal/scripts/generate_rule_construction_sensitivity.py": "4d5e2a46dc805b907615a41bc8013a28dba5e87c95483def3776f0665625bdde",
+    "journal/scripts/train_rule_construction_seed_crossing.py": "2f2aabefe908aef01903530dc3130872355c74d8c112c6bf4358903250991f83",
+    "journal/scripts/evaluate_rule_construction_seed_crossing.py": "f47e9a57d47ba3c914971a443a4fac3eff4fa4c8d9d7e164c29f361f93945505"
+  },
+  "shared_real_checkpoints": {
+    "cnn_real_only_matchedsteps_e14_v1_seed7.pt": "2eccea8cfc2d734602b8d70f0cd728b7b9c311e262dc51bdec4e7c9957f9fc32",
+    "cnn_real_only_matchedsteps_e14_v1_seed42.pt": "96df37d40ea9afd7694d6e15f6c38de4c18283e7e2ca2fa8b60207fcb9d4e32d",
+    "cnn_real_only_matchedsteps_e14_v1_seed123.pt": "b32a663c646ccfd50538af024ec2107cf167462d814487287359301ff2ee0ebb",
+    "cnn_real_only_matchedsteps_e14_v1_seed2026.pt": "1020d15f99c0de5335633ce9de97f53485faf281fc3e5cafa1182a993e6d7a94",
+    "cnn_real_only_matchedsteps_e14_v1_seed3407.pt": "d0005ebfbef6562450a70e0c8e4d9ef5769e792f66d6725340fa551a9a673a88"
+  }
+}

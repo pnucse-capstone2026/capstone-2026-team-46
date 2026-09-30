@@ -1,0 +1,6 @@
+scenario_id,attack_type,id_condition,target_id_hex,windows,injection_count_mean
+Normal_normal,Normal,normal,,8000,0.0
+Gear_canonical_id,Gear,canonical,0x43f,4000,32.0
+Gear_shifted_id_0x440,Gear,shifted,0x440,4000,32.0
+RPM_canonical_id,RPM,canonical,0x316,4000,32.0
+RPM_shifted_id_0x329,RPM,shifted,0x329,4000,32.0

@@ -1,0 +1,9 @@
+train_domain,model,evaluation,fpr_mean,attack_recall_mean,normal_recall_mean,interpretation
+Car-Hacking train,RF_source_real,Car-Hacking test,6.18559251790729e-06,0.9973376731764312,0.999993814407482,source RF reference
+Car-Hacking train,RF_source_real,OTIDS,0.1794570502431118,0.6042985909064978,0.8205429497568882,source RF reference
+Car-Hacking train,RF_source_real,can-train external,0.3677080981615361,0.4883821413974128,0.6322919018384638,source-to-target diagnostic
+Car-Hacking train,RF_source_real,ROAD,0.9998891435702032,1.0,0.0001108564297965,source-to-target diagnostic
+can-train train_01,RF_cantt_native,can-train held-out,0.00296495025470577,0.5773874548147204,0.9970350497452943,native sanity
+can-train train_01,RF_cantt_native,Car-Hacking test,0.00036701182272916587,0.03042063094641963,0.9996329881772709,target-to-source/other transfer diagnostic
+can-train train_01,RF_cantt_native,OTIDS,0.402962362686836,0.33092304181641846,0.597037637313164,target-to-source/other transfer diagnostic
+can-train train_01,RF_cantt_native,ROAD,0.9746410765519283,0.9978848610500304,0.025358923448071797,target-to-source/other transfer diagnostic

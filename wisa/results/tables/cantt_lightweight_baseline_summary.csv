@@ -1,0 +1,4 @@
+method,rule,dataset,set_id,subset_id,source_stem,windows,normal_windows,attack_windows,normal_recall,fpr,attack_recall,tn,fp,fn,tp
+can_id_whitelist,window_attack_if_any_can_id_not_in_car_hacking_train_normal_whitelist,car_hacking_real_test,all,all,all,201606,161666,39940,1.0,0.0,0.3377816725087631,161666,0,26449,13491
+can_id_whitelist,window_attack_if_any_can_id_not_in_car_hacking_train_normal_whitelist,otids_cross_binary,all,all,all,144156,74040,70116,0.0,1.0,1.0,0,74040,0,70116
+can_id_whitelist,window_attack_if_any_can_id_not_in_car_hacking_train_normal_whitelist,can_train_and_test_external,all,all,all,4490896,4176911,313985,0.0,1.0,1.0,0,4176911,0,313985

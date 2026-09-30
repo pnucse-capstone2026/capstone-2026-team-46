@@ -1,0 +1,427 @@
+{
+  "child_command": {
+    "argv": [
+      "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python",
+      "journal/scripts/train_generator_extension_cnn.py",
+      "--settings",
+      "real_only",
+      "--seeds",
+      "7,42,123,2026,3407",
+      "--budget-mode",
+      "matched_steps",
+      "--max-steps",
+      "6156",
+      "--model-tag",
+      "matchedsteps_e14_v1"
+    ],
+    "argv_sha256": "abcdd8e19babb99014b8b484b3deb668a0c14e86f0d4080bcc0b66c2e15f8731",
+    "cwd": "/home/hyunjin/workspace/wisa_can_ids",
+    "display": "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python journal/scripts/train_generator_extension_cnn.py --settings real_only --seeds 7,42,123,2026,3407 --budget-mode matched_steps --max-steps 6156 --model-tag matchedsteps_e14_v1",
+    "environment_policy": "inherit wrapper environment without overrides",
+    "sampling_policy": "legacy (frozen trainer default; no override flag)"
+  },
+  "created_utc": "2026-07-24T16:57:31.518829Z",
+  "environment": {
+    "cpu_and_threads": {
+      "environment": {
+        "CUBLAS_WORKSPACE_CONFIG": null,
+        "CUDA_VISIBLE_DEVICES": null,
+        "MKL_NUM_THREADS": null,
+        "NUMEXPR_NUM_THREADS": null,
+        "OMP_NUM_THREADS": null,
+        "OPENBLAS_NUM_THREADS": null,
+        "PYTHONHASHSEED": null,
+        "VECLIB_MAXIMUM_THREADS": null
+      },
+      "os_cpu_count": 20,
+      "process_cpu_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "torch_interop_threads": 20,
+      "torch_intraop_threads": 20,
+      "trainer_dataloader_workers": 2,
+      "trainer_train_batch_size": 512,
+      "trainer_validation_batch_size": 1024
+    },
+    "device": {
+      "cuda_available": true,
+      "cuda_current_device": 0,
+      "cuda_device_count": 1,
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": true,
+      "cudnn_available": true,
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": false,
+      "cudnn_enabled": true,
+      "cudnn_version": 92000,
+      "devices": [
+        {
+          "capability": [
+            12,
+            1
+          ],
+          "index": 0,
+          "multi_processor_count": 48,
+          "name": "NVIDIA GB10",
+          "total_memory_bytes": 130669199360
+        }
+      ],
+      "driver": {
+        "nvidia_smi_executable": "/usr/bin/nvidia-smi",
+        "query_argv": [
+          "/usr/bin/nvidia-smi",
+          "--query-gpu=index,uuid,name,driver_version,memory.total",
+          "--format=csv,noheader,nounits"
+        ],
+        "query_lines": [
+          "0, GPU-8844975a-1dad-7054-42b5-fc82238da051, NVIDIA GB10, 580.82.09, [N/A]"
+        ],
+        "query_returncode": 0,
+        "query_stderr": ""
+      },
+      "pin_memory": true,
+      "selected_type": "cuda",
+      "trainer_selector": "cuda if torch.cuda.is_available() else cpu"
+    },
+    "identity_sha256": "7994e84f061901278df487cc02d27c7ae30ea75e09060542f0e2f96c9b32b85a",
+    "packages": {
+      "numpy": "2.4.6",
+      "numpy_distribution": "2.4.6",
+      "scikit_learn": "1.9.0",
+      "scikit_learn_distribution": "1.9.0",
+      "torch": "2.12.0+cu130",
+      "torch_distribution": "2.12.0+cu130"
+    },
+    "platform": {
+      "machine": "aarch64",
+      "node": "spark-cfaf",
+      "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+      "processor": "aarch64",
+      "release": "6.11.0-1014-nvidia",
+      "system": "Linux"
+    },
+    "process": {
+      "gid": 1000,
+      "parent_pid": 3499269,
+      "pid": 2848528,
+      "uid": 1000
+    },
+    "python": {
+      "base_prefix": "/usr",
+      "executable": "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python",
+      "executable_realpath": "/usr/bin/python3.12",
+      "expected_venv_prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+      "implementation": "CPython",
+      "prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+      "uses_expected_venv": true,
+      "version": "3.12.3",
+      "version_full": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]"
+    },
+    "torch_build": {
+      "configuration": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 202002\n  - Intel(R) MKL-DNN v3.11.2 (Git Hash 03c022d3ffdcee958cfacbe720048e725fdf644c)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: DEFAULT\n  - CUDA Runtime 13.0\n  - NVCC architecture flags: -gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_100,code=sm_100;-gencode;arch=compute_110,code=sm_110;-gencode;arch=compute_120,code=sm_120\n  - CuDNN 92.0  (built against CUDA 13.2)\n  - Build settings: BLAS_INFO=nvpl, BUILD_TYPE=Release, COMMIT_SHA=7661cd9c6b841b62b7f411aa52ec51f05457263b, CUDA_FLAGS= -DLIBCUDACXX_ENABLE_SIMPLIFIED_COMPLEX_OPERATIONS -Xfatbin -compress-all -DONNX_NAMESPACE=onnx_torch -gencode arch=compute_80,code=sm_80 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_100,code=sm_100 -gencode arch=compute_110,code=sm_110 -gencode arch=compute_120,code=sm_120 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -Xfatbin -compress-all --threads 2 -compress-mode=size -Wno-deprecated-gpu-targets --expt-extended-lambda -DCUB_WRAPPED_NAMESPACE=at_cuda_detail -DDISABLE_CUSPARSE_DEPRECATED -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -DC10_NODEPRECATED, CUDA_VERSION=13.0, CUDNN_VERSION=9.20.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -ffunction-sections -fdata-sections -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_MSLK -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-omit-frame-pointer -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=nvpl, TORCH_VERSION=2.12.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKLDNN=1, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+      "cuda_build_version": "13.0",
+      "debug": false,
+      "git_version": "7661cd9c6b841b62b7f411aa52ec51f05457263b",
+      "hip_build_version": null
+    }
+  },
+  "factorial_outcomes_computed": false,
+  "fixed_protocol": {
+    "batch_size": 512,
+    "budget_mode": "matched_steps",
+    "checkpoint_selection": "highest validation multiclass macro-F1",
+    "learning_rate": 0.001,
+    "loss": "balanced cross-entropy",
+    "max_optimizer_steps": 6156,
+    "model_tag": "matchedsteps_e14_v1",
+    "optimizer": "AdamW",
+    "sampling_policy": "legacy",
+    "seeds": [
+      7,
+      42,
+      123,
+      2026,
+      3407
+    ],
+    "setting": "real_only",
+    "standardization": "complete real train only",
+    "validation_cadence_optimizer_steps": 513,
+    "validation_checkpoints": 12,
+    "weight_decay": 0.0001
+  },
+  "frozen_inputs": {
+    "additional_actual_trainer_inputs": {
+      "journal/datasets/windows/val_windows.npz": {
+        "bytes": 22221900,
+        "expected_sha256": "b4920e7f60fbf38b38e12976129f120ebff160a21a4c77093f3746f3c1aa218e",
+        "matches": true,
+        "path": "journal/datasets/windows/val_windows.npz",
+        "registration_scope": "implementation-commit freeze of actual validation input",
+        "sha256": "b4920e7f60fbf38b38e12976129f120ebff160a21a4c77093f3746f3c1aa218e"
+      }
+    },
+    "all_hashes_match": true,
+    "derived_standardizer": {
+      "all_hashes_match": true,
+      "dtype": "<f4",
+      "expected_sha256": {
+        "mean": "1e53f10b4dfb1de8522513ca20c7d0c2b5a19a8de8f76067e4273a93467da8a2",
+        "mean_then_standard_deviation": "9019b1a91c983859e8dd998717eb5c7b612ed03dc2a65ec63402fd54ab42ef4e",
+        "standard_deviation": "092f42e9a1019fe709233a91c6e876e976f8b3b8616807b42eb6e6da7b7dbb7c"
+      },
+      "method": "lib_common.fit_standardizer-equivalent real-train reduction",
+      "order": "C",
+      "sha256": {
+        "mean": "1e53f10b4dfb1de8522513ca20c7d0c2b5a19a8de8f76067e4273a93467da8a2",
+        "mean_then_standard_deviation": "9019b1a91c983859e8dd998717eb5c7b612ed03dc2a65ec63402fd54ab42ef4e",
+        "standard_deviation": "092f42e9a1019fe709233a91c6e876e976f8b3b8616807b42eb6e6da7b7dbb7c"
+      },
+      "shape": [
+        1,
+        1,
+        11
+      ],
+      "source_path": "journal/datasets/windows/train_windows.npz"
+    },
+    "registered": {
+      "journal/datasets/synthetic/rule_based_windows.npz": {
+        "bytes": 282039519,
+        "expected_sha256": "4078ab00b8531f760b296b5fd293e3df914bef996d317c958ead4762137bafd5",
+        "matches": true,
+        "path": "journal/datasets/synthetic/rule_based_windows.npz",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "4078ab00b8531f760b296b5fd293e3df914bef996d317c958ead4762137bafd5"
+      },
+      "journal/datasets/synthetic/rule_placebo_windows.npz": {
+        "bytes": 284067997,
+        "expected_sha256": "2b336ed46bb8f3248d10831c80fdfa6db25c3e6eb44f4fd680f78546a63ec4fa",
+        "matches": true,
+        "path": "journal/datasets/synthetic/rule_placebo_windows.npz",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "2b336ed46bb8f3248d10831c80fdfa6db25c3e6eb44f4fd680f78546a63ec4fa"
+      },
+      "journal/datasets/windows/test_windows.npz": {
+        "bytes": 50992356,
+        "expected_sha256": "4ac72a497f5bfc7e59ce8baf08b78c5aebbf5e060fb4f2d73629a591c56b54b7",
+        "matches": true,
+        "path": "journal/datasets/windows/test_windows.npz",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "4ac72a497f5bfc7e59ce8baf08b78c5aebbf5e060fb4f2d73629a591c56b54b7"
+      },
+      "journal/datasets/windows/train_windows.npz": {
+        "bytes": 70962600,
+        "expected_sha256": "44b3bedeebe113e4850ebb2e38314b413f140f350712e0e9eda81a34faec7cb4",
+        "matches": true,
+        "path": "journal/datasets/windows/train_windows.npz",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "44b3bedeebe113e4850ebb2e38314b413f140f350712e0e9eda81a34faec7cb4"
+      },
+      "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24.md": {
+        "bytes": 4152,
+        "expected_sha256": "f6ecf1c56a08ef9d6fc02f3a2f9f9277b6c4e7cf4c972dd4314bbcc4bb431b62",
+        "matches": true,
+        "path": "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24.md",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "f6ecf1c56a08ef9d6fc02f3a2f9f9277b6c4e7cf4c972dd4314bbcc4bb431b62"
+      },
+      "journal/experiments/e14_l4_counterfactual_factorial/PREREG.md": {
+        "bytes": 34789,
+        "expected_sha256": "f0465fea952b9f7d5fd1b20a7864a96192099b9d3346f6c81e4274ce0fe0424a",
+        "matches": true,
+        "path": "journal/experiments/e14_l4_counterfactual_factorial/PREREG.md",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "f0465fea952b9f7d5fd1b20a7864a96192099b9d3346f6c81e4274ce0fe0424a"
+      },
+      "journal/experiments/e8_evaluation_realization/run_e13_sampling_v2.json": {
+        "bytes": 37011,
+        "expected_sha256": "fae2ca82bb26ab24a5699fce9f331951be23746093fef9e28d0b240fd2c3b2db",
+        "matches": true,
+        "path": "journal/experiments/e8_evaluation_realization/run_e13_sampling_v2.json",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "fae2ca82bb26ab24a5699fce9f331951be23746093fef9e28d0b240fd2c3b2db"
+      },
+      "journal/results/logs/generate_rule_placebo_twin.log": {
+        "bytes": 2728,
+        "expected_sha256": "5ca8287c5f7cef322808f73759fa1ad69e5b6d1c80182ab4b795809d0bfaddc6",
+        "matches": true,
+        "path": "journal/results/logs/generate_rule_placebo_twin.log",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "5ca8287c5f7cef322808f73759fa1ad69e5b6d1c80182ab4b795809d0bfaddc6"
+      },
+      "journal/results/tables/evaluation_realization_blocks_e13_sampling_v2.csv": {
+        "bytes": 2294686,
+        "expected_sha256": "9e18b3844e20f259938c732a10bc0251767f0d2eaae9c731ba8da7ef087f5efb",
+        "matches": true,
+        "path": "journal/results/tables/evaluation_realization_blocks_e13_sampling_v2.csv",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "9e18b3844e20f259938c732a10bc0251767f0d2eaae9c731ba8da7ef087f5efb"
+      },
+      "journal/scripts/e10a_crossover.py": {
+        "bytes": 22306,
+        "expected_sha256": "a1156ce1228b1975906fcfe8aad1c888e307944e7e88b6242aa32e5c3713432f",
+        "matches": true,
+        "path": "journal/scripts/e10a_crossover.py",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "a1156ce1228b1975906fcfe8aad1c888e307944e7e88b6242aa32e5c3713432f"
+      },
+      "journal/scripts/evaluate_evaluation_realization.py": {
+        "bytes": 51822,
+        "expected_sha256": "eadf93df237946b7f670a74e316f0b80fc1d1920d4cc7072c7434c699a2ff2bb",
+        "matches": true,
+        "path": "journal/scripts/evaluate_evaluation_realization.py",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "eadf93df237946b7f670a74e316f0b80fc1d1920d4cc7072c7434c699a2ff2bb"
+      },
+      "journal/scripts/generate_rule_based_synthetic_v2.py": {
+        "bytes": 33400,
+        "expected_sha256": "34ff0374af1856fd842da8226580d5ff0d47cbd16b36fb4273de3e06bcac2570",
+        "matches": true,
+        "path": "journal/scripts/generate_rule_based_synthetic_v2.py",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "34ff0374af1856fd842da8226580d5ff0d47cbd16b36fb4273de3e06bcac2570"
+      },
+      "journal/scripts/lib_common.py": {
+        "bytes": 81471,
+        "expected_sha256": "5848ff4b0063d4394cd1d6627faf49e072cb363d7796cc64fce3acc48b05639a",
+        "matches": true,
+        "path": "journal/scripts/lib_common.py",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "5848ff4b0063d4394cd1d6627faf49e072cb363d7796cc64fce3acc48b05639a"
+      },
+      "journal/scripts/train_generator_extension_cnn.py": {
+        "bytes": 18881,
+        "expected_sha256": "a5d88bcb579da77e234e991a9b050c040df21d2f75e971c0c952c6226749db61",
+        "matches": true,
+        "path": "journal/scripts/train_generator_extension_cnn.py",
+        "registration_scope": "PREREG Section 3.1 plus PREREG itself",
+        "sha256": "a5d88bcb579da77e234e991a9b050c040df21d2f75e971c0c952c6226749db61"
+      }
+    }
+  },
+  "invocation": {
+    "argv": [
+      "journal/scripts/run_e14_matched_real_training.py",
+      "--execute"
+    ],
+    "argv_sha256": "cc924b4263fa22e117b101d200919401af001d31737128c59c20febd43f13c58",
+    "cwd": "/home/hyunjin/workspace/wisa_can_ids",
+    "display": "journal/scripts/run_e14_matched_real_training.py --execute",
+    "wrapper_path": "journal/scripts/run_e14_matched_real_training.py",
+    "wrapper_sha256": "b430428e33ca9956cdca69bf8e510657b50a1eb4dacf6c2d99198c3f66149e2d"
+  },
+  "mode": "execute",
+  "pre_result": true,
+  "record_target_absence": {
+    "all_absent": true,
+    "expected_count": 4,
+    "label": "E14 matched-real record/transcript target",
+    "paths": [
+      "journal/experiments/e14_l4_counterfactual_factorial/matched_real_training_preflight_v1.json",
+      "journal/experiments/e14_l4_counterfactual_factorial/matched_real_training_run_v1.json",
+      "journal/experiments/e14_l4_counterfactual_factorial/matched_real_training_failure_v1.json",
+      "journal/experiments/e14_l4_counterfactual_factorial/matched_real_training_child_output_v1.log"
+    ],
+    "verified_absent_count": 4
+  },
+  "record_type": "matched_real_training_preflight",
+  "schema_version": "e14.matched_real_training_preflight.v1",
+  "source_provenance": {
+    "branch": "main",
+    "commit_time": "2026-07-24T12:02:05+00:00",
+    "head_commit": "ef7afd2da361718c3a6fe4ad75cd82068430c61c",
+    "preregistration_commit": "686f4aaae8d35e1b807480c56abd02ead7a13c27",
+    "preregistration_commit_is_ancestor": true,
+    "source_files": {
+      "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24.md": {
+        "bytes": 4152,
+        "committed_blob_sha256": "f6ecf1c56a08ef9d6fc02f3a2f9f9277b6c4e7cf4c972dd4314bbcc4bb431b62",
+        "git_blob_oid": "3fac2588d2e280aaf3a9098fca3d5b7954c80b27",
+        "matches_head": true,
+        "path": "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24.md",
+        "sha256": "f6ecf1c56a08ef9d6fc02f3a2f9f9277b6c4e7cf4c972dd4314bbcc4bb431b62"
+      },
+      "journal/experiments/e14_l4_counterfactual_factorial/PREREG.md": {
+        "bytes": 34789,
+        "committed_blob_sha256": "f0465fea952b9f7d5fd1b20a7864a96192099b9d3346f6c81e4274ce0fe0424a",
+        "git_blob_oid": "73f00bfaed374e8474ef2c94eb7d76afb6b89488",
+        "matches_head": true,
+        "path": "journal/experiments/e14_l4_counterfactual_factorial/PREREG.md",
+        "sha256": "f0465fea952b9f7d5fd1b20a7864a96192099b9d3346f6c81e4274ce0fe0424a"
+      },
+      "journal/scripts/analyze_l4_counterfactual_factorial.py": {
+        "bytes": 93303,
+        "committed_blob_sha256": "5f6728da33aab24e06ea508e602ed656f17347cde427fcb03f9547a74b4796f7",
+        "git_blob_oid": "720ef26d92f886d7f0a5e10f4d8c3d7bb738fe9b",
+        "matches_head": true,
+        "path": "journal/scripts/analyze_l4_counterfactual_factorial.py",
+        "sha256": "5f6728da33aab24e06ea508e602ed656f17347cde427fcb03f9547a74b4796f7"
+      },
+      "journal/scripts/evaluate_l4_counterfactual_factorial.py": {
+        "bytes": 119120,
+        "committed_blob_sha256": "8d00821c2a544275c48f2cb149fdb880839a443fad8d6802d3765961330c7dca",
+        "git_blob_oid": "319984e48cc9d8256f14b4df0e8be853499bb043",
+        "matches_head": true,
+        "path": "journal/scripts/evaluate_l4_counterfactual_factorial.py",
+        "sha256": "8d00821c2a544275c48f2cb149fdb880839a443fad8d6802d3765961330c7dca"
+      },
+      "journal/scripts/run_e14_matched_real_training.py": {
+        "bytes": 54853,
+        "committed_blob_sha256": "b430428e33ca9956cdca69bf8e510657b50a1eb4dacf6c2d99198c3f66149e2d",
+        "git_blob_oid": "ec9f36eb787e427ce397765078a5fe93d51dc870",
+        "matches_head": true,
+        "path": "journal/scripts/run_e14_matched_real_training.py",
+        "sha256": "b430428e33ca9956cdca69bf8e510657b50a1eb4dacf6c2d99198c3f66149e2d"
+      },
+      "journal/tests/test_l4_counterfactual_factorial.py": {
+        "bytes": 26370,
+        "committed_blob_sha256": "352ac412df45d09804d2af6dc5ace8c99cef6c863d211ea88fd0043056da7202",
+        "git_blob_oid": "a7956af52c8c83aee570a96b77756114120de400",
+        "matches_head": true,
+        "path": "journal/tests/test_l4_counterfactual_factorial.py",
+        "sha256": "352ac412df45d09804d2af6dc5ace8c99cef6c863d211ea88fd0043056da7202"
+      }
+    },
+    "wisa_clean": true,
+    "wisa_status_records": [],
+    "worktree_clean": true,
+    "worktree_status_records": []
+  },
+  "status": "T-PASS-PREFLIGHT",
+  "target_absence": {
+    "all_absent": true,
+    "expected_count": 10,
+    "label": "E14 matched-real checkpoint/log target",
+    "paths": [
+      "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed7.pt",
+      "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed42.pt",
+      "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed123.pt",
+      "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed2026.pt",
+      "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed3407.pt",
+      "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed7.log",
+      "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed42.log",
+      "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed123.log",
+      "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed2026.log",
+      "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed3407.log"
+    ],
+    "verified_absent_count": 10
+  }
+}

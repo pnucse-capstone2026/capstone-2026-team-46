@@ -1,0 +1,38 @@
+{
+  "stage": "pilot",
+  "pilot_excluded_from_confirmation": true,
+  "families": [
+    {
+      "family": "cnn",
+      "n_realizations": 2,
+      "U_mean": 0.38232421875,
+      "U_sd": 0.03659830019813185,
+      "U_ci95_low": 0.05350153758922915,
+      "U_ci95_high": 0.7111468999107708,
+      "U_positive": 2,
+      "L_equals_U_by_design": true,
+      "rule_intact_mean": 0.849609375,
+      "placebo_intact_mean": 0.46728515625,
+      "oracle_accuracy_mean": 0.8505859375,
+      "minimum_mean_U": 0.175,
+      "recovery_criterion_met": true
+    },
+    {
+      "family": "rf83",
+      "n_realizations": 2,
+      "U_mean": 0.3779296875,
+      "U_sd": 0.026240290708094537,
+      "U_ci95_low": 0.14217002930925862,
+      "U_ci95_high": 0.6136893456907414,
+      "U_positive": 2,
+      "L_equals_U_by_design": true,
+      "rule_intact_mean": 0.8505859375,
+      "placebo_intact_mean": 0.47265625,
+      "oracle_accuracy_mean": 0.8505859375,
+      "minimum_mean_U": 0.175,
+      "recovery_criterion_met": true
+    }
+  ],
+  "joint_recovery": true,
+  "interpretation": "synthetic diagnostic only; not physical CAN utility"
+}

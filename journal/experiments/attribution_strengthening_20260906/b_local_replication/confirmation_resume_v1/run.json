@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "utc": "2026-09-07T06:03:30.863560+00:00",
+  "fits": 1000,
+  "jobs": 600,
+  "inherited_fits": 24,
+  "new_fits": 976,
+  "inherited_jobs": 15,
+  "new_jobs": 585,
+  "elapsed_seconds": 65557.53106773831,
+  "recovery_audit_sha256": "f6195df121c1a16454d90418a2f069369c9bab0f79c8965ccb897deedb072edf",
+  "full_grid_manifest_sha256": "9f00b968a57ece1e987951f86e4a32048ffb65bff915824a572aefe595d5c8e3",
+  "test_scoring_performed": false,
+  "overall_research_complete": false
+}

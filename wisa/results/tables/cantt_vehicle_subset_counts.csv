@@ -1,0 +1,26 @@
+set_id,subset_id,vehicle_axis,attack_axis,vehicle,rows,normal_frames,attack_frames,attack_frame_rate
+all,all,all,all,all,193240845,191356444,1884401,0.00975156675598267
+set_01,all,all,all,all,44659557,44347484,312073,0.006987821218199724
+set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,2011 Chevrolet Impala,5702670,5639390,63280,0.011096556525276757
+set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,2016 Chevrolet Silverado,6447917,6283750,164167,0.02546047041238279
+set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,2011 Chevrolet Impala,8635275,8614450,20825,0.0024116197804933833
+set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,2016 Chevrolet Silverado,13220555,13206311,14244,0.0010774131645759199
+set_01,train_01,train,train,2011 Chevrolet Impala,10653140,10603583,49557,0.0046518678999806625
+set_02,all,all,all,all,55946752,55641323,305429,0.00545928028136468
+set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,2011 Chevrolet Traverse,13220555,13206311,14244,0.0010774131645759199
+set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,2017 Subaru Forester,8445427,8425378,20049,0.0023739474629287543
+set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,2011 Chevrolet Traverse,12150056,12121265,28791,0.0023696187079302353
+set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,2017 Subaru Forester,4789904,4771896,18008,0.0037595743046207187
+set_02,train_01,train,train,2011 Chevrolet Traverse,17340810,17116473,224337,0.012936938931918406
+set_03,all,all,all,all,43799762,43143289,656473,0.01498804947844237
+set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,2016 Chevrolet Silverado,8575791,8413286,162505,0.018949272434461147
+set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,2017 Subaru Forester,6854234,6698045,156189,0.02278722903244914
+set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,2016 Chevrolet Silverado,9447951,9429799,18152,0.0019212631394891866
+set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,2017 Subaru Forester,6896019,6746071,149948,0.021744139626065414
+set_03,train_01,train,train,2016 Chevrolet Silverado,12025767,11856088,169679,0.014109619785582075
+set_04,all,all,all,all,48834774,48224348,610426,0.012499822360189483
+set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,2017 Subaru Forester,6896019,6746071,149948,0.021744139626065414
+set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,2011 Chevrolet Traverse,17408094,17350855,57239,0.0032880681825362386
+set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,2017 Subaru Forester,6854234,6698045,156189,0.02278722903244914
+set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,2011 Chevrolet Traverse,8183626,7962655,220971,0.027001600513024422
+set_04,train_01,train,train,2017 Subaru Forester,9492801,9466722,26079,0.0027472397240814383

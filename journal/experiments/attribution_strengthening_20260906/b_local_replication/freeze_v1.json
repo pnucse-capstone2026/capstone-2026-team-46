@@ -1,0 +1,223 @@
+{
+  "schema": "vehcom.attribution.local_replication.freeze.v1",
+  "utc": "2026-09-06T10:33:05.928623+00:00",
+  "config": {
+    "schema": "vehcom.attribution.local_replication.config.v1",
+    "seed_namespace": "vehcom-attribution-B-v1",
+    "confirmation_realizations": 100,
+    "pipelines": [
+      7,
+      42,
+      123,
+      2026,
+      3407
+    ],
+    "per_attack": 65000,
+    "synthetic_total": 78645,
+    "sampling_seed_offset": 300,
+    "steps": 6156,
+    "validation_cadence": 513,
+    "batch_size": 512,
+    "validation_batch_size": 1024,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "torch_threads": 4,
+    "loader_workers": 2,
+    "primary_k": 8,
+    "secondary_k": [
+      2,
+      4,
+      16,
+      32
+    ],
+    "primary_interval_confidence": 0.975,
+    "evaluation_role": "checkpoint_selection_attack_historical"
+  },
+  "seeds": {
+    "pilot": [
+      210961
+    ],
+    "confirmation": [
+      510571,
+      363939,
+      235483,
+      656293,
+      594129,
+      149847,
+      823995,
+      792491,
+      485280,
+      411527,
+      926916,
+      252181,
+      440802,
+      445881,
+      741401,
+      366227,
+      306813,
+      468618,
+      310572,
+      588244,
+      197508,
+      546528,
+      842248,
+      974803,
+      596251,
+      343901,
+      995471,
+      420976,
+      643167,
+      797687,
+      534863,
+      730283,
+      613941,
+      951730,
+      329458,
+      330928,
+      790130,
+      674196,
+      764179,
+      122036,
+      804232,
+      225067,
+      299571,
+      570392,
+      261272,
+      669218,
+      554303,
+      136736,
+      862263,
+      226880,
+      573819,
+      174232,
+      391668,
+      635098,
+      392213,
+      583424,
+      997391,
+      746144,
+      539107,
+      897237,
+      492372,
+      694661,
+      119581,
+      371605,
+      640307,
+      434761,
+      295460,
+      414876,
+      692844,
+      739382,
+      602637,
+      756035,
+      154669,
+      806103,
+      396788,
+      535344,
+      799989,
+      873742,
+      349181,
+      774878,
+      164364,
+      245630,
+      630220,
+      544408,
+      639542,
+      576943,
+      922516,
+      887061,
+      473335,
+      215489,
+      483378,
+      656444,
+      903597,
+      893875,
+      114718,
+      333722,
+      546432,
+      201693,
+      661069,
+      876704
+    ]
+  },
+  "roles": {
+    "bases": 6000,
+    "selected_roles": {
+      "checkpoint_selection_attack_historical": 6000
+    },
+    "sealed_window_overlap": 0,
+    "new_holdout": false,
+    "test_scoring_performed": false
+  },
+  "inputs": [
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/config_v1.json",
+      "sha256": "44cc7ab5dc27c085d712ad3544c55bd858711dc7f1872eaefd3428a602960040"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/PROTOCOL_v1.md",
+      "sha256": "3d8730762e2589b587b8f25800238073cc6078b45d8f7530b2bf07434e955e15"
+    },
+    {
+      "path": "journal/results/tables/e14_l4_factorial_base_manifest_v1.csv",
+      "sha256": "0852d9d4281c309fc1f5926935ebe97b00aff312396c0163e32ab4a93f2d418d"
+    },
+    {
+      "path": "journal/results/tables/cfot_crfe_evaluation_split_v1.csv",
+      "sha256": "7c19f1aeb0172f9d67a8699f824cdf4913dd03a3dec08fb05cad3f144f8fd55b"
+    },
+    {
+      "path": "journal/results/tables/e14_l4_factorial_latent_manifest_v1.csv",
+      "sha256": "07e300706a4dc91f3e08e621967e0bb45d875b0ef97a1ec271145beaf1a25281"
+    },
+    {
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/prepare_v1.json",
+      "sha256": "5945790bee2e0bf11739901e0fdd9237d499353d9d8ead6b34de06fe0311a16e"
+    },
+    {
+      "path": "journal/datasets/windows/train_windows.npz",
+      "sha256": "44b3bedeebe113e4850ebb2e38314b413f140f350712e0e9eda81a34faec7cb4"
+    },
+    {
+      "path": "journal/datasets/windows/val_windows.npz",
+      "sha256": "b4920e7f60fbf38b38e12976129f120ebff160a21a4c77093f3746f3c1aa218e"
+    },
+    {
+      "path": "journal/datasets/windows/test_windows.npz",
+      "sha256": "4ac72a497f5bfc7e59ce8baf08b78c5aebbf5e060fb4f2d73629a591c56b54b7"
+    },
+    {
+      "path": "journal/scripts/run_attribution_local_replication_v1.py",
+      "sha256": "808170f0a283f28e9b1b74b7804433779c714fc39bd67d4fdaee077c6deefc3c"
+    },
+    {
+      "path": "journal/scripts/lib_common.py",
+      "sha256": "c3f2b8dd613d7fa58a777c7f56044272a14cbc457c9e1570e560aaf924ec7417"
+    },
+    {
+      "path": "journal/scripts/generate_e16_rule_placebo_pairs.py",
+      "sha256": "036006b8284f7de8511fb1227dffdedb654c754e8d10bd87791f64796f952efa"
+    },
+    {
+      "path": "journal/scripts/generate_rule_based_synthetic_v2.py",
+      "sha256": "34ff0374af1856fd842da8226580d5ff0d47cbd16b36fb4273de3e06bcac2570"
+    },
+    {
+      "path": "journal/scripts/train_generator_extension_cnn.py",
+      "sha256": "a5d88bcb579da77e234e991a9b050c040df21d2f75e971c0c952c6226749db61"
+    },
+    {
+      "path": "journal/scripts/train_rule_construction_seed_crossing.py",
+      "sha256": "2f2aabefe908aef01903530dc3130872355c74d8c112c6bf4358903250991f83"
+    },
+    {
+      "path": "journal/scripts/evaluate_l4_counterfactual_factorial.py",
+      "sha256": "a1aad9c689a13c8b040a4e8dd7cbddc2cba816d6434e8cf8c6a2f20add15a354"
+    },
+    {
+      "path": "journal/scripts/evaluate_e20_missing_cell_probe.py",
+      "sha256": "a77f2238313b0b3c52d1ba6cca5f0520e1c3f3ddf55bae5b041dec6da7430c40"
+    }
+  ],
+  "public_preregistration": false
+}

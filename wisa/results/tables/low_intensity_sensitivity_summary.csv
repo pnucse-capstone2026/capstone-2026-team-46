@@ -1,0 +1,13 @@
+setting,label,attack_type,severity,attack_detection_recall_mean,exact_class_recall_mean
+real_only,Real only,Fuzzy,low,0.002,0.0015555555555555
+real_only,Real only,Gear,low,0.1328888888888889,0.0611111111111111
+real_only,Real only,RPM,low,0.0,0.0
+real_oversampling_0p50,Real oversampling +50%,Fuzzy,low,0.0024444444444444,0.0004444444444444
+real_oversampling_0p50,Real oversampling +50%,Gear,low,0.05,0.0128888888888888
+real_oversampling_0p50,Real oversampling +50%,RPM,low,0.0,0.0
+rule_0p30,Rule +30%,Fuzzy,low,0.2177777777777777,0.1853333333333333
+rule_0p30,Rule +30%,Gear,low,0.1506666666666667,0.0815555555555555
+rule_0p30,Rule +30%,RPM,low,0.0004444444444444,0.0004444444444444
+rule_1p00,Rule +100%,Fuzzy,low,0.2284444444444444,0.1491111111111111
+rule_1p00,Rule +100%,Gear,low,0.5055555555555555,0.3919999999999999
+rule_1p00,Rule +100%,RPM,low,0.0011111111111111,0.0008888888888888

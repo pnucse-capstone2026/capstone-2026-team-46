@@ -1,0 +1,28 @@
+{
+  "completed_utc": "2026-07-25T23:13:46Z",
+  "completeness_gate": {
+    "devices": [
+      "cuda"
+    ],
+    "fits": 220,
+    "gate": "G10d_fit_completeness",
+    "optimizer_updates": 6156,
+    "passed": true,
+    "validation_checkpoints": 12
+  },
+  "elapsed_seconds": 15790.394,
+  "expected_fit_count": 220,
+  "fresh_fit_count": 220,
+  "pairing_gate": {
+    "gate": "G10c_paired_draw_identity",
+    "incomplete_pairs": [],
+    "pairs_checked": 100,
+    "passed": true
+  },
+  "preflight_path": "journal/experiments/e16_relational_response_decomposition/training_preflight_v2.json",
+  "schema_version": "e16.training_run.v1",
+  "stage": "e16_paired_training",
+  "started_utc": "2026-07-25T18:50:36Z",
+  "status": "T-PASS",
+  "technical_status": "T-PASS"
+}

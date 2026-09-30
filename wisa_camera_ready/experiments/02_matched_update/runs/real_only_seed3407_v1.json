@@ -1,0 +1,69 @@
+{
+  "arm": "real_only",
+  "batch_size": 512,
+  "batches_per_cycle": 513,
+  "checkpoint": {
+    "bytes": 392283,
+    "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_only_seed3407_v1.pt",
+    "sha256": "d4da6b3e2c96d7be2384cee4e644d36442cbf918fa8b77aefe6ae53a399491bd"
+  },
+  "class_weights_Normal_DoS_Fuzzy_Gear_RPM": [
+    0.37725794381763755,
+    2.5388504188659144,
+    1.788131373418369,
+    1.4756072162337115,
+    1.3918184231483939
+  ],
+  "completed_utc": "2026-07-28T16:52:08.208798Z",
+  "construction": {
+    "added_windows": 0,
+    "construction_permutation_sha256_int64_c": null,
+    "sampling_seed": null,
+    "selected_class_counts": {},
+    "selected_index_sha256_int64_c": null,
+    "selected_unique_indices": 0,
+    "training_windows": 262149
+  },
+  "contract_id": "ced08773aee05aa8b59390b16fb90dd5339fec6d85877a9bbce9175e34d9c42b",
+  "device": "cuda",
+  "history": {
+    "bytes": 1107,
+    "path": "wisa_camera_ready/experiments/02_matched_update/histories/real_only_seed3407_v1.csv",
+    "sha256": "043b5ff5f33fb4f268560b15771a8d23cbf8c660e15ea6d005a1494df502e0ca"
+  },
+  "implementation_commit": "cab014f30b89a22fbaaaabb42b11ff0e558178f9",
+  "implementation_sha256": "afacf325e8fca206d5ae15ac928fcc98a1fd8d70d77433962fbbac25deee6f71",
+  "input_inventory_digest": "6a3315cefca76c6145a638822847cc7e6f78f8632c651762d01c01a55746e469",
+  "pipeline_seed": 3407,
+  "runtime_seconds": 71.04026063904166,
+  "sampler_seed": 1003410,
+  "selected_checkpoint_recomputed_val_macro_f1_multiclass": 0.9985148559191476,
+  "selected_update": 7992,
+  "selected_val_macro_f1_multiclass": 0.9985148559191476,
+  "started_utc": "2026-07-28T16:50:57.150319Z",
+  "training_class_counts": {
+    "0": 138976,
+    "1": 20651,
+    "2": 29321,
+    "3": 35531,
+    "4": 37670
+  },
+  "training_windows": 262149,
+  "updates_run": 7992,
+  "validation_updates": [
+    666,
+    1332,
+    1998,
+    2664,
+    3330,
+    3996,
+    4662,
+    5328,
+    5994,
+    6660,
+    7326,
+    7992
+  ],
+  "version": "matched_update_v1",
+  "worker_seed": 2003410
+}

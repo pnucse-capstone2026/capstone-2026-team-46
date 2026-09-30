@@ -1,0 +1,289 @@
+setting,label,seed,set_id,subset_or_stem,vehicle_axis,attack_axis,windows,normal_windows,attack_windows,accuracy,macro_f1_binary,normal_recall,fpr,attack_recall,tn,fp,fn,tp
+real_only,Real only,42,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+real_only,Real only,7,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+real_only,Real only,123,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+real_oversampling_0p50,Real oversampling +50%,42,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+real_oversampling_0p50,Real oversampling +50%,7,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+real_oversampling_0p50,Real oversampling +50%,123,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_0p10,Rule +10%,42,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_0p10,Rule +10%,7,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_0p10,Rule +10%,123,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_0p30,Rule +30%,42,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_0p30,Rule +30%,7,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_0p30,Rule +30%,123,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_0p50,Rule +50%,42,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_0p50,Rule +50%,7,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_0p50,Rule +50%,123,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_1p00,Rule +100%,42,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_1p00,Rule +100%,7,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+rule_1p00,Rule +100%,123,set_01,test_01_known_vehicle_known_attack,known_vehicle,known_attack,178181,172082,6099,0.03422923880772922,0.03309637508139787,0.0,1.0,1.0,0,172082,0,6099
+real_only,Real only,42,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+real_only,Real only,7,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+real_only,Real only,123,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+real_oversampling_0p50,Real oversampling +50%,42,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+real_oversampling_0p50,Real oversampling +50%,7,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+real_oversampling_0p50,Real oversampling +50%,123,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_0p10,Rule +10%,42,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_0p10,Rule +10%,7,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_0p10,Rule +10%,123,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_0p30,Rule +30%,42,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_0p30,Rule +30%,7,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_0p30,Rule +30%,123,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_0p50,Rule +50%,42,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_0p50,Rule +50%,7,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_0p50,Rule +50%,123,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_1p00,Rule +100%,42,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_1p00,Rule +100%,7,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+rule_1p00,Rule +100%,123,set_01,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,201470,183425,18045,0.08956668486623319,0.08220394961619935,0.0,1.0,1.0,0,183425,0,18045
+real_only,Real only,42,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+real_only,Real only,7,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+real_only,Real only,123,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+real_oversampling_0p50,Real oversampling +50%,42,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+real_oversampling_0p50,Real oversampling +50%,7,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+real_oversampling_0p50,Real oversampling +50%,123,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_0p10,Rule +10%,42,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_0p10,Rule +10%,7,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_0p10,Rule +10%,123,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_0p30,Rule +30%,42,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_0p30,Rule +30%,7,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_0p30,Rule +30%,123,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_0p50,Rule +50%,42,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_0p50,Rule +50%,7,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_0p50,Rule +50%,123,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_1p00,Rule +100%,42,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_1p00,Rule +100%,7,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+rule_1p00,Rule +100%,123,set_01,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,269810,242054,27756,0.1028723916830362,0.09327678565427502,0.0,1.0,1.0,0,242054,0,27756
+real_only,Real only,42,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+real_only,Real only,7,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+real_only,Real only,123,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012621641249092229,0.012476392450666894,0.0002500073531574458,0.9997499926468425,1.0,102,407886,0,5112
+real_oversampling_0p50,Real oversampling +50%,42,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012604696199467441,0.012459038673025483,0.0002328499857838956,0.9997671500142161,1.0,95,407893,0,5112
+real_oversampling_0p50,Real oversampling +50%,7,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012398934882595013,0.012248267820969752,2.451052481935743e-05,0.9999754894751807,1.0,10,407978,0,5112
+real_oversampling_0p50,Real oversampling +50%,123,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.013042846768336964,0.01290768288094411,0.0006789415374962008,0.9993210584625039,0.9998043818466353,277,407711,1,5111
+rule_0p10,Rule +10%,42,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p10,Rule +10%,7,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p10,Rule +10%,123,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p30,Rule +30%,42,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012391672718470104,0.012240827282589553,1.7157367373550202e-05,0.9999828426326265,1.0,7,407981,0,5112
+rule_0p30,Rule +30%,7,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p30,Rule +30%,123,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p50,Rule +50%,42,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p50,Rule +50%,7,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p50,Rule +50%,123,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_1p00,Rule +100%,42,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_1p00,Rule +100%,7,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_1p00,Rule +100%,123,set_01,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+real_only,Real only,42,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+real_only,Real only,7,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+real_only,Real only,123,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012621641249092229,0.012476392450666894,0.0002500073531574458,0.9997499926468425,1.0,102,407886,0,5112
+real_oversampling_0p50,Real oversampling +50%,42,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012604696199467441,0.012459038673025483,0.0002328499857838956,0.9997671500142161,1.0,95,407893,0,5112
+real_oversampling_0p50,Real oversampling +50%,7,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012398934882595013,0.012248267820969752,2.451052481935743e-05,0.9999754894751807,1.0,10,407978,0,5112
+real_oversampling_0p50,Real oversampling +50%,123,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.013042846768336964,0.01290768288094411,0.0006789415374962008,0.9993210584625039,0.9998043818466353,277,407711,1,5111
+rule_0p10,Rule +10%,42,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p10,Rule +10%,7,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p10,Rule +10%,123,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p30,Rule +30%,42,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012391672718470104,0.012240827282589553,1.7157367373550202e-05,0.9999828426326265,1.0,7,407981,0,5112
+rule_0p30,Rule +30%,7,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p30,Rule +30%,123,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p50,Rule +50%,42,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p50,Rule +50%,7,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_0p50,Rule +50%,123,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_1p00,Rule +100%,42,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_1p00,Rule +100%,7,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+rule_1p00,Rule +100%,123,set_02,test_01_known_vehicle_known_attack,known_vehicle,known_attack,413100,407988,5112,0.012374727668845316,0.012223465610742877,0.0,1.0,1.0,0,407988,0,5112
+real_only,Real only,42,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02728543980718289,0.026582313072900883,0.00021033688958481834,0.9997896631104152,1.0,54,256677,0,7146
+real_only,Real only,7,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+real_only,Real only,123,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+real_oversampling_0p50,Real oversampling +50%,42,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+real_oversampling_0p50,Real oversampling +50%,7,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02730817767368888,0.02660625742630762,0.00023370765509424262,0.9997662923449058,1.0,60,256671,0,7146
+real_oversampling_0p50,Real oversampling +50%,123,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.027342284473447855,0.026642171958146634,0.000268763803358379,0.9997312361966416,1.0,69,256662,0,7146
+rule_0p10,Rule +10%,42,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_0p10,Rule +10%,7,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_0p10,Rule +10%,123,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_0p30,Rule +30%,42,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_0p30,Rule +30%,7,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_0p30,Rule +30%,123,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_0p50,Rule +50%,42,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_0p50,Rule +50%,7,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_0p50,Rule +50%,123,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_1p00,Rule +100%,42,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_1p00,Rule +100%,7,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+rule_1p00,Rule +100%,123,set_02,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,263877,256731,7146,0.02708079900862902,0.02636676592023555,0.0,1.0,1.0,0,256731,0,7146
+real_only,Real only,42,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+real_only,Real only,7,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+real_only,Real only,123,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007830669992440625,0.007774009581413299,0.00013802622498274673,0.9998619737750173,1.0,52,376688,0,2921
+real_oversampling_0p50,Real oversampling +50%,42,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007817500348995551,0.0077606415079915,0.00012475447258055954,0.9998752455274195,1.0,47,376693,0,2921
+real_oversampling_0p50,Real oversampling +50%,7,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007725312844880038,0.007667055206186064,3.1852205765249246e-05,0.9999681477942347,1.0,12,376728,0,2921
+real_oversampling_0p50,Real oversampling +50%,123,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.008086161075275048,0.008033281059158692,0.0003954982215851781,0.9996045017784149,1.0,149,376591,0,2921
+rule_0p10,Rule +10%,42,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+rule_0p10,Rule +10%,7,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+rule_0p10,Rule +10%,123,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007701607486678906,0.007642987388220871,7.963051441312312e-06,0.9999920369485586,1.0,3,376737,0,2921
+rule_0p30,Rule +30%,42,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+rule_0p30,Rule +30%,7,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+rule_0p30,Rule +30%,123,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007725312844880038,0.007667055206186064,3.1852205765249246e-05,0.9999681477942347,1.0,12,376728,0,2921
+rule_0p50,Rule +50%,42,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+rule_0p50,Rule +50%,7,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+rule_0p50,Rule +50%,123,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+rule_1p00,Rule +100%,42,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+rule_1p00,Rule +100%,7,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+rule_1p00,Rule +100%,123,set_02,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,379661,376740,2921,0.007693705700611861,0.00763496453047974,0.0,1.0,1.0,0,376740,0,2921
+real_only,Real only,42,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.016197253683471986,0.01597640527903854,0.0006176945737907441,0.9993823054262092,1.0,91,147231,0,2333
+real_only,Real only,7,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+real_only,Real only,123,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+real_oversampling_0p50,Real oversampling +50%,42,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+real_oversampling_0p50,Real oversampling +50%,7,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01407904847816645,0.01392590984825139,0.0008213301475679124,0.9991786698524321,0.8512644663523361,121,147201,347,1986
+real_oversampling_0p50,Real oversampling +50%,123,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.0144331963516087,0.014288691089085273,0.0011810863279075766,0.9988189136720924,0.8512644663523361,174,147148,347,1986
+rule_0p10,Rule +10%,42,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+rule_0p10,Rule +10%,7,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.013638034145200628,0.013454540660267904,0.0,1.0,0.8748392627518217,0,147322,292,2041
+rule_0p10,Rule +10%,123,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+rule_0p30,Rule +30%,42,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.015642644749590727,0.015405003911043071,5.4302819673911566e-05,0.9999456971803261,1.0,8,147314,0,2333
+rule_0p30,Rule +30%,7,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.014647021482743643,0.014435583185706665,0.0,1.0,0.939562794684955,0,147322,141,2192
+rule_0p30,Rule +30%,123,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+rule_0p50,Rule +50%,42,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+rule_0p50,Rule +50%,7,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+rule_0p50,Rule +50%,123,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+rule_1p00,Rule +100%,42,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+rule_1p00,Rule +100%,7,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.015595870502154956,0.01535678484560507,6.787852459238946e-06,0.9999932121475408,1.0,1,147321,0,2333
+rule_1p00,Rule +100%,123,set_02,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,149655,147322,2333,0.01558918846680699,0.01534989604442456,0.0,1.0,1.0,0,147322,0,2333
+real_only,Real only,42,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+real_only,Real only,7,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+real_only,Real only,123,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+real_oversampling_0p50,Real oversampling +50%,42,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+real_oversampling_0p50,Real oversampling +50%,7,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+real_oversampling_0p50,Real oversampling +50%,123,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_0p10,Rule +10%,42,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_0p10,Rule +10%,7,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_0p10,Rule +10%,123,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_0p30,Rule +30%,42,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_0p30,Rule +30%,7,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_0p30,Rule +30%,123,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_0p50,Rule +50%,42,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_0p50,Rule +50%,7,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_0p50,Rule +50%,123,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_1p00,Rule +100%,42,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_1p00,Rule +100%,7,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+rule_1p00,Rule +100%,123,set_03,test_01_known_vehicle_known_attack,known_vehicle,known_attack,267961,247286,20675,0.07715675042263613,0.07163001150237669,0.0,1.0,1.0,0,247286,0,20675
+real_only,Real only,42,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08312009712364588,0.07687057252773101,0.0004581341722279065,0.999541865827772,1.0,90,196359,0,17711
+real_only,Real only,7,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.0827045199850579,0.0763884085924478,5.0903796914211834e-06,0.9999949096203086,1.0,1,196448,0,17711
+real_only,Real only,123,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+real_oversampling_0p50,Real oversampling +50%,42,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+real_oversampling_0p50,Real oversampling +50%,7,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08325550989914082,0.0770275984146436,0.0006057551832791208,0.9993942448167209,1.0,119,196330,0,17711
+real_oversampling_0p50,Real oversampling +50%,123,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08351232723197609,0.07732529322551704,0.0008857260663072858,0.9991142739336927,1.0,174,196275,0,17711
+rule_0p10,Rule +10%,42,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p10,Rule +10%,7,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p10,Rule +10%,123,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p30,Rule +30%,42,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08271852820321256,0.0764046676247311,2.0361518765684734e-05,0.9999796384812343,1.0,4,196445,0,17711
+rule_0p30,Rule +30%,7,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p30,Rule +30%,123,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p50,Rule +50%,42,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p50,Rule +50%,7,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p50,Rule +50%,123,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_1p00,Rule +100%,42,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_1p00,Rule +100%,7,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.0827045199850579,0.0763884085924478,5.0903796914211834e-06,0.9999949096203086,1.0,1,196448,0,17711
+rule_1p00,Rule +100%,123,set_03,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+real_only,Real only,42,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+real_only,Real only,7,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+real_only,Real only,123,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+real_oversampling_0p50,Real oversampling +50%,42,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+real_oversampling_0p50,Real oversampling +50%,7,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+real_oversampling_0p50,Real oversampling +50%,123,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_0p10,Rule +10%,42,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_0p10,Rule +10%,7,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_0p10,Rule +10%,123,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_0p30,Rule +30%,42,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_0p30,Rule +30%,7,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_0p30,Rule +30%,123,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_0p50,Rule +50%,42,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_0p50,Rule +50%,7,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_0p50,Rule +50%,123,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_1p00,Rule +100%,42,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_1p00,Rule +100%,7,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+rule_1p00,Rule +100%,123,set_03,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,295201,271372,23829,0.08072127126940627,0.07469203523179638,0.0,1.0,1.0,0,271372,0,23829
+real_only,Real only,42,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_only,Real only,7,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_only,Real only,123,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_oversampling_0p50,Real oversampling +50%,42,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_oversampling_0p50,Real oversampling +50%,7,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_oversampling_0p50,Real oversampling +50%,123,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p10,Rule +10%,42,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p10,Rule +10%,7,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p10,Rule +10%,123,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p30,Rule +30%,42,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p30,Rule +30%,7,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p30,Rule +30%,123,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p50,Rule +50%,42,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p50,Rule +50%,7,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p50,Rule +50%,123,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_1p00,Rule +100%,42,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_1p00,Rule +100%,7,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_1p00,Rule +100%,123,set_03,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_only,Real only,42,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_only,Real only,7,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_only,Real only,123,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_oversampling_0p50,Real oversampling +50%,42,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_oversampling_0p50,Real oversampling +50%,7,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_oversampling_0p50,Real oversampling +50%,123,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p10,Rule +10%,42,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p10,Rule +10%,7,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p10,Rule +10%,123,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p30,Rule +30%,42,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p30,Rule +30%,7,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p30,Rule +30%,123,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p50,Rule +50%,42,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p50,Rule +50%,7,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_0p50,Rule +50%,123,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_1p00,Rule +100%,42,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_1p00,Rule +100%,7,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+rule_1p00,Rule +100%,123,set_04,test_01_known_vehicle_known_attack,known_vehicle,known_attack,215452,163757,51695,0.2399374338599781,0.1935076942657039,0.0,1.0,1.0,0,163757,0,51695
+real_only,Real only,42,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+real_only,Real only,7,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+real_only,Real only,123,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05326185670111811,0.05059600981796367,0.00014367369761734646,0.9998563263023826,1.0,74,514982,0,28898
+real_oversampling_0p50,Real oversampling +50%,42,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.053263695091864384,0.05059803887664346,0.00014561523407163494,0.9998543847659284,1.0,75,514981,0,28898
+real_oversampling_0p50,Real oversampling +50%,7,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05315706842858036,0.05048034152341139,3.3006119722903915e-05,0.9999669938802771,1.0,17,515039,0,28898
+real_oversampling_0p50,Real oversampling +50%,123,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.053574383127985084,0.05094084599605704,0.00047373489484638564,0.9995262651051536,1.0,244,514812,0,28898
+rule_0p10,Rule +10%,42,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_0p10,Rule +10%,7,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_0p10,Rule +10%,123,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_0p30,Rule +30%,42,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_0p30,Rule +30%,7,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_0p30,Rule +30%,123,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_0p50,Rule +50%,42,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_0p50,Rule +50%,7,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_0p50,Rule +50%,123,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_1p00,Rule +100%,42,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_1p00,Rule +100%,7,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+rule_1p00,Rule +100%,123,set_04,test_02_unknown_vehicle_known_attack,unknown_vehicle,known_attack,543954,515056,28898,0.05312581578589366,0.05044583941401968,0.0,1.0,1.0,0,515056,0,28898
+real_only,Real only,42,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08312009712364588,0.07687057252773101,0.0004581341722279065,0.999541865827772,1.0,90,196359,0,17711
+real_only,Real only,7,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.0827045199850579,0.0763884085924478,5.0903796914211834e-06,0.9999949096203086,1.0,1,196448,0,17711
+real_only,Real only,123,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+real_oversampling_0p50,Real oversampling +50%,42,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+real_oversampling_0p50,Real oversampling +50%,7,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08325550989914082,0.0770275984146436,0.0006057551832791208,0.9993942448167209,1.0,119,196330,0,17711
+real_oversampling_0p50,Real oversampling +50%,123,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08351232723197609,0.07732529322551704,0.0008857260663072858,0.9991142739336927,1.0,174,196275,0,17711
+rule_0p10,Rule +10%,42,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p10,Rule +10%,7,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p10,Rule +10%,123,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p30,Rule +30%,42,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08271852820321256,0.0764046676247311,2.0361518765684734e-05,0.9999796384812343,1.0,4,196445,0,17711
+rule_0p30,Rule +30%,7,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p30,Rule +30%,123,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p50,Rule +50%,42,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p50,Rule +50%,7,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_0p50,Rule +50%,123,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_1p00,Rule +100%,42,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+rule_1p00,Rule +100%,7,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.0827045199850579,0.0763884085924478,5.0903796914211834e-06,0.9999949096203086,1.0,1,196448,0,17711
+rule_1p00,Rule +100%,123,set_04,test_03_known_vehicle_unknown_attack,known_vehicle,unknown_attack,214160,196449,17711,0.08269985057900635,0.07638298881705775,0.0,1.0,1.0,0,196449,0,17711
+real_only,Real only,42,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+real_only,Real only,7,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+real_only,Real only,123,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10666322516053844,0.0964238667972301,0.00011818520058654878,0.9998818147994134,1.0,27,228428,0,27247
+real_oversampling_0p50,Real oversampling +50%,42,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10664367114844624,0.09640028338937427,9.629905232978048e-05,0.9999037009476702,1.0,22,228433,0,27247
+real_oversampling_0p50,Real oversampling +50%,7,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.1065810983097512,0.0963248104521985,2.626337790812195e-05,0.9999737366220919,1.0,6,228449,0,27247
+real_oversampling_0p50,Real oversampling +50%,123,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10675317361616256,0.09653233891445831,0.0002188614825676829,0.9997811385174323,1.0,50,228405,0,27247
+rule_0p10,Rule +10%,42,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_0p10,Rule +10%,7,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_0p10,Rule +10%,123,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_0p30,Rule +30%,42,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_0p30,Rule +30%,7,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_0p30,Rule +30%,123,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_0p50,Rule +50%,42,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_0p50,Rule +50%,7,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_0p50,Rule +50%,123,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_1p00,Rule +100%,42,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_1p00,Rule +100%,7,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247
+rule_1p00,Rule +100%,123,set_04,test_04_unknown_vehicle_unknown_attack,unknown_vehicle,unknown_attack,255702,228455,27247,0.10655763349524056,0.09629650573071473,0.0,1.0,1.0,0,228455,0,27247

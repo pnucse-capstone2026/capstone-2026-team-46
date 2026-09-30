@@ -1,0 +1,19 @@
+{
+  "schema_version": "e16.training_incident.v1",
+  "stage": "e16_paired_training",
+  "attempt": 1,
+  "recorded_utc": "2026-07-25T19:03:00Z",
+  "outcome": "halted before the first fit completed",
+  "classification": "implementation defect, not a registered gate failure",
+  "cause": "run_child_fit read the no-replacement audit with the keys 'repeated'/'drawn'/'unique', but sample_indices_without_replacement nests them under 'total' and also exposes them as '*_total'. The child raised KeyError before any gate evaluated and before any optimizer update ran.",
+  "fix": "read sampling['total'] and additionally assert requested == drawn and requested == SYNTHETIC_TOTAL",
+  "artifacts_published_by_attempt_1": {
+    "checkpoints": 0,
+    "training_logs": 0,
+    "tables": 0,
+    "preflight_record": "training_preflight_v2_attempt1_halted.json"
+  },
+  "outcome_produced": false,
+  "amendment_required": false,
+  "amendment_rationale": "PREREG 15.4 requires an amendment and a new output version for a gate failure that changes a registered quantity. This was a crash in the runner before any gate ran; no registered quantity, estimand, seed, threshold, or output identity changes, and no canonical artifact was published, so the v2 identity is retained and the failed preflight is preserved as provenance."
+}

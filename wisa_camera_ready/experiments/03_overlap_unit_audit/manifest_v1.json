@@ -1,0 +1,276 @@
+{
+  "analysis_plan": {
+    "commit": "08f566108eeb6e84256800dff7ff7c59c9ef8f6d",
+    "path": "wisa_camera_ready/experiments/03_overlap_unit_audit/PLAN.md",
+    "sha256": "5e7c31b6e141fba170af021f7742a5ac410fda0cd29b78438a6a1031d5c3a757"
+  },
+  "analysis_type": "post-review evaluation-only raw-frame-disjoint window sensitivity",
+  "completed_utc": "2026-07-29T01:00:55.538202Z",
+  "environment": {
+    "cuda_available": true,
+    "cuda_device_name": "NVIDIA GB10",
+    "device": "cuda",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+    "python": "3.12.3",
+    "scikit_learn": "1.9.0",
+    "torch": "2.12.0+cu130"
+  },
+  "experiment": "overlap_unit_audit_v1",
+  "implementation": {
+    "allow_uncommitted_preflight": false,
+    "commit": "445efa2d67929086055b8610cd729e470527c7b8",
+    "path": "wisa_camera_ready/scripts/evaluate_overlap_unit_v1.py",
+    "sha256": "89336831e77fe84c59eab14213a553e1484896339642020bac223612b4e102af"
+  },
+  "inputs": [
+    {
+      "bytes": 50992356,
+      "path": "datasets/windows/test_windows.npz",
+      "sha256": "4ac72a497f5bfc7e59ce8baf08b78c5aebbf5e060fb4f2d73629a591c56b54b7"
+    },
+    {
+      "bytes": 60445693,
+      "path": "datasets/windows/variant_test_windows.npz",
+      "sha256": "91bd4d5dca2bd73907fad11bb94ea6dec075f60bb3b24e3c517617bf2d50b2ba"
+    },
+    {
+      "bytes": 29966923,
+      "path": "datasets/windows/variant_sensitivity_windows.npz",
+      "sha256": "4266fb3bbb3e248ef1ab53aaca19cb4534a3815a18c9134dc3db446cdfcf5674"
+    },
+    {
+      "bytes": 6802,
+      "path": "wisa/scripts/generate_variant_test.py",
+      "sha256": "fde7346a8f32a84c03c0c0340a9c892764ba5e2ef737d6afbab59b64194595bc"
+    },
+    {
+      "bytes": 9925,
+      "path": "wisa/scripts/generate_variant_sensitivity.py",
+      "sha256": "6368717317c679f79f41ca05626fdbcc427db61ceeca419f60f662b67a916069"
+    },
+    {
+      "bytes": 52313,
+      "path": "wisa_camera_ready/experiments/02_matched_update/training_manifest_v1.json",
+      "sha256": "c03419848737d29714381c84f84e8587756ec4b2685a26e9cb2be46b0a9fb228"
+    },
+    {
+      "bytes": 13050,
+      "path": "wisa_camera_ready/experiments/02_matched_update/manifest_v1.json",
+      "sha256": "cc582638a9b086cff6f0cb0a7374ce72396205fd915ac168c554a939e0767671"
+    },
+    {
+      "bytes": 83564,
+      "path": "wisa_camera_ready/scripts/run_matched_update_v1.py",
+      "sha256": "afacf325e8fca206d5ae15ac928fcc98a1fd8d70d77433962fbbac25deee6f71"
+    },
+    {
+      "bytes": 1440,
+      "path": "wisa_camera_ready/models/matched_update_v1/standardizer_source_real_train_v1.npz",
+      "sha256": "14f5ee3f90429c04c08da93d00ac2cfc2f13ac7727347838f14af68cba731810"
+    },
+    {
+      "bytes": 392196,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_only_seed7_v1.pt",
+      "sha256": "e894684e4bbcc6ced58a45a64b875cd5e7fb1883a677471017f6d14f02c76d64"
+    },
+    {
+      "bytes": 392196,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_rule_0p30_seed7_v1.pt",
+      "sha256": "1098901d9b7825219101e402a23e329443150fb20ad922a7c725b944a88cc1dc"
+    },
+    {
+      "bytes": 392573,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_oversampling_0p30_seed7_v1.pt",
+      "sha256": "a4fd98acc1ca69ec94d5aaa35d0d988c0430389cb39981b9d4f3ad204117528d"
+    },
+    {
+      "bytes": 392225,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_only_seed42_v1.pt",
+      "sha256": "0aed6cd2a7c866de689604e7247cbb481552085c2cde55392a42d4419a2d426f"
+    },
+    {
+      "bytes": 392225,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_rule_0p30_seed42_v1.pt",
+      "sha256": "aea0eb1d8b6ab6923b7872cf7a12f35f28c1e120bf68c57fb8ffe8f7e7cf772c"
+    },
+    {
+      "bytes": 392666,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_oversampling_0p30_seed42_v1.pt",
+      "sha256": "45b833c4146df3e797722289137ac387180a92065df0caa153ddb2edd55152f4"
+    },
+    {
+      "bytes": 392254,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_only_seed123_v1.pt",
+      "sha256": "f3d1c3a733beac4e4e6419e83311a98fc9649ed16fa2106d1f99ef545fba7d08"
+    },
+    {
+      "bytes": 392254,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_rule_0p30_seed123_v1.pt",
+      "sha256": "092a58ec9b4705c5e73b6bd4c043078a1a0eb640ccec36cf720ed5168b468dd6"
+    },
+    {
+      "bytes": 392695,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_oversampling_0p30_seed123_v1.pt",
+      "sha256": "a805491ad957a3afcb72709876b10a830e82239f66ce09b42ac8a4a5fd592eed"
+    },
+    {
+      "bytes": 392283,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_only_seed2026_v1.pt",
+      "sha256": "489a34e939a550de8de98470cbde72f02a4ad52ccb85fab1620e169e9311a885"
+    },
+    {
+      "bytes": 392283,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_rule_0p30_seed2026_v1.pt",
+      "sha256": "cba15e837ec1ebd02179b6eb3aa02d1127845f6336878534b0ce9e16e4e4d0e1"
+    },
+    {
+      "bytes": 392724,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_oversampling_0p30_seed2026_v1.pt",
+      "sha256": "9f75d91b1043affe04bb2e0999e8f8948711aaf9d369f05a85994378e59b09b3"
+    },
+    {
+      "bytes": 392283,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_only_seed3407_v1.pt",
+      "sha256": "d4da6b3e2c96d7be2384cee4e644d36442cbf918fa8b77aefe6ae53a399491bd"
+    },
+    {
+      "bytes": 392283,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_rule_0p30_seed3407_v1.pt",
+      "sha256": "6e58d1bd71ca0716911aef23480b7982aa96dc35251bc9e0506f48038528ea69"
+    },
+    {
+      "bytes": 392724,
+      "path": "wisa_camera_ready/models/matched_update_v1/cnn1d_real_oversampling_0p30_seed3407_v1.pt",
+      "sha256": "fcf8a0698fcf1a2a50c3f0c77f2c4b6aecca6727370c4ef1f207b602ffe00090"
+    },
+    {
+      "bytes": 14743,
+      "path": "wisa_camera_ready/results/tables/matched_update_by_seed_v1.csv",
+      "sha256": "52ea009230daffadaa1424d0221834a393409af01dde81a93f7bdea1936f3a0f"
+    }
+  ],
+  "matched_update_lineage": {
+    "arms": [
+      "real_only",
+      "rule_0p30",
+      "real_oversampling_0p30"
+    ],
+    "contract_id": "ced08773aee05aa8b59390b16fb90dd5339fec6d85877a9bbce9175e34d9c42b",
+    "final_manifest": {
+      "bytes": 13050,
+      "path": "wisa_camera_ready/experiments/02_matched_update/manifest_v1.json",
+      "sha256": "cc582638a9b086cff6f0cb0a7374ce72396205fd915ac168c554a939e0767671"
+    },
+    "paired_pipeline_seeds": [
+      7,
+      42,
+      123,
+      2026,
+      3407
+    ],
+    "selected_checkpoint_count": 15,
+    "training_manifest": {
+      "bytes": 52313,
+      "path": "wisa_camera_ready/experiments/02_matched_update/training_manifest_v1.json",
+      "sha256": "c03419848737d29714381c84f84e8587756ec4b2685a26e9cb2be46b0a9fb228"
+    }
+  },
+  "origin_reconstruction": {
+    "fixed_variant": {
+      "final_permutation_sha256_int64_c": "8816e308f72099fed3bf4b860f1ab98e6f6af70d0f98ebdf27ced68f854362d5",
+      "full_generator_replay_bit_exact": true,
+      "generator_seed": 42,
+      "nonoverlap_validation": {
+        "adjacent_interval_comparisons": 15971,
+        "groups": 5,
+        "pairwise_overlap_detected": false
+      },
+      "ordered_base_index_sha256_int64_c": "1745e4de8e15968f02612845dae55099dc46918c3087939fc4a02442c8e1e794",
+      "retained_evaluation_index_sha256_int64_c": "9b958ad6f576dc1cead79b4fd8bb0fbbb21e31909d422c1b0a30789d6f113e1f",
+      "retained_fraction": 0.249625,
+      "retained_windows": 15976,
+      "selected_index_sha256_int64_c": "2fc6fe85cb28c46979a18677f1557f960685f3868944bc63dbb967b224d4e3a7",
+      "selected_indices": 64000
+    },
+    "sensitivity": {
+      "final_permutation_sha256_int64_c": "1b251e2c74597c16724e2c7bd9cc13efaf2e50385070ff57e3a3e5c73c06e15a",
+      "full_generator_replay_bit_exact": true,
+      "generator_seed": 20260611,
+      "nonoverlap_validation": {
+        "adjacent_interval_comparisons": 7460,
+        "groups": 5,
+        "pairwise_overlap_detected": false
+      },
+      "ordered_base_index_sha256_int64_c": "5fb9314a10f4793a42a3390df661aee505726a495e0954ee9e4628337f242676",
+      "retained_evaluation_index_sha256_int64_c": "9fe2b666c68a9ed3850c6c4404b5947b69eab3c2eeb79a4b509aca37acaa7972",
+      "retained_fraction": 0.24883333333333332,
+      "retained_windows": 7465,
+      "selected_index_sha256_int64_c": "d2fc239eba5d532c02b8e9aff1b8914c4aa358b24fca21c2f1e90e9f2703bc81",
+      "selected_indices": 30000
+    }
+  },
+  "outputs": [
+    {
+      "bytes": 2295,
+      "path": "wisa_camera_ready/results/tables/overlap_unit_origin_summary_v1.csv",
+      "sha256": "8630052448a0e6ec6b1cd6d121274bf6b9ef14757c58fd59fab3b33b073711c9"
+    },
+    {
+      "bytes": 9872,
+      "path": "wisa_camera_ready/results/tables/overlap_unit_by_seed_v1.csv",
+      "sha256": "2d86a03277f2fe10415aecf4bbdf46c528f3e440f44b07b9d56e52c63e3edbd8"
+    },
+    {
+      "bytes": 46462,
+      "path": "wisa_camera_ready/results/tables/overlap_unit_summary_v1.csv",
+      "sha256": "73924b88475274107715661eecc3f760623d2a84435ae328787da3e90d51a80e"
+    },
+    {
+      "bytes": 41389,
+      "path": "wisa_camera_ready/results/tables/overlap_unit_by_source_v1.csv",
+      "sha256": "6073a36c343776abaf1e98622d6d1c134df9b06c1f68ef700a3eb601058c90fc"
+    },
+    {
+      "bytes": 100181,
+      "path": "wisa_camera_ready/results/tables/overlap_unit_sensitivity_by_scenario_v1.csv",
+      "sha256": "1af848467b24dce88880c96eff0872acdf9563738029b1456cf52e8217f4c3d8"
+    },
+    {
+      "bytes": 5756,
+      "path": "wisa_camera_ready/results/logs/overlap_unit_v1.log",
+      "sha256": "8ce38475cce7e8b1d69240ba07dca89e9d190959929ca6b60da5c57e5c07f8f2"
+    },
+    {
+      "bytes": 1931,
+      "path": "wisa_camera_ready/experiments/03_overlap_unit_audit/RESULTS_v1.md",
+      "sha256": "3a92c959d21c73fa8c71ac2242f8d15d516d15560cdd4cd148a7f934787d5fee"
+    }
+  ],
+  "runtime_seconds": 7.655828951857984,
+  "started_utc": "2026-07-29T01:00:47.881879Z",
+  "subset_rule": {
+    "alternate_offsets_searched": false,
+    "labels_or_predictions_used_for_selection": false,
+    "retain_if": "start_index % 128 == 0 and end_index - start_index + 1 == 128",
+    "window_size_frames": 128
+  },
+  "validation_gates": {
+    "all_pooled_metrics_finite_and_bounded": true,
+    "fixed_nonoverlap_windows": 15976,
+    "required_arm_seed_evaluation_cells_complete": true,
+    "sensitivity_nonoverlap_windows": 7465,
+    "sensitivity_seed_row_count": 600,
+    "source_file_row_count": 150,
+    "summary_row_count": 150
+  },
+  "version": "overlap_unit_audit_v1",
+  "warnings": [
+    "The train/validation/test raw-range feasibility check was observed before the plan and is post-hoc.",
+    "Generated NPZ files omit base indices; origins are reconstructed from frozen generator seeds and source-test order.",
+    "The retained windows are raw-frame-disjoint within each evaluation, not independent captures or vehicles.",
+    "The five repeats are paired pipeline seeds, not data-level or population replication.",
+    "Full-set matched-update v1 remains primary; this is a reviewer-requested sensitivity."
+  ]
+}

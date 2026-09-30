@@ -1,0 +1,322 @@
+{
+  "checkpoints": {
+    "count": 245,
+    "gate": "checkpoints_present",
+    "passed": true
+  },
+  "created_utc": "2026-08-07T07:05:10Z",
+  "e14_prepare_sha256": "5945790bee2e0bf11739901e0fdd9237d499353d9d8ead6b34de06fe0311a16e",
+  "environment": {
+    "byteorder": "little",
+    "default_rng_bit_generator": "numpy.random._pcg64.PCG64",
+    "expected_stable_projection_sha256": "0fa13120b151b1c8bcb5a0c68ea7a0846f3b4c19a8bcc7d895393e030d9c0cf9",
+    "full": {
+      "cpu_and_threads": {
+        "environment": {
+          "CUBLAS_WORKSPACE_CONFIG": null,
+          "CUDA_VISIBLE_DEVICES": null,
+          "MKL_NUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null,
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "PYTHONHASHSEED": null,
+          "VECLIB_MAXIMUM_THREADS": null
+        },
+        "os_cpu_count": 20,
+        "process_cpu_affinity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "torch_interop_threads": 20,
+        "torch_intraop_threads": 20,
+        "trainer_dataloader_workers": 2,
+        "trainer_train_batch_size": 512,
+        "trainer_validation_batch_size": 1024
+      },
+      "device": {
+        "cuda_available": true,
+        "cuda_current_device": 0,
+        "cuda_device_count": 1,
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "cudnn_available": true,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": false,
+        "cudnn_enabled": true,
+        "cudnn_version": 92000,
+        "devices": [
+          {
+            "capability": [
+              12,
+              1
+            ],
+            "index": 0,
+            "multi_processor_count": 48,
+            "name": "NVIDIA GB10",
+            "total_memory_bytes": 130669199360
+          }
+        ],
+        "driver": {
+          "nvidia_smi_executable": "/usr/bin/nvidia-smi",
+          "query_argv": [
+            "/usr/bin/nvidia-smi",
+            "--query-gpu=index,uuid,name,driver_version,memory.total",
+            "--format=csv,noheader,nounits"
+          ],
+          "query_lines": [
+            "0, GPU-8844975a-1dad-7054-42b5-fc82238da051, NVIDIA GB10, 580.82.09, [N/A]"
+          ],
+          "query_returncode": 0,
+          "query_stderr": ""
+        },
+        "pin_memory": true,
+        "selected_type": "cuda",
+        "trainer_selector": "cuda if torch.cuda.is_available() else cpu"
+      },
+      "identity_sha256": "f293ab44e42c7842a2b0ad47c73f8912e4a3e9044a2d8c25d19ed0d5caabbcc4",
+      "packages": {
+        "numpy": "2.4.6",
+        "numpy_distribution": "2.4.6",
+        "scikit_learn": "1.9.0",
+        "scikit_learn_distribution": "1.9.0",
+        "torch": "2.12.0+cu130",
+        "torch_distribution": "2.12.0+cu130"
+      },
+      "platform": {
+        "machine": "aarch64",
+        "node": "spark-cfaf",
+        "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+        "processor": "aarch64",
+        "release": "6.11.0-1014-nvidia",
+        "system": "Linux"
+      },
+      "process": {
+        "gid": 1000,
+        "parent_pid": 2303797,
+        "pid": 3308380,
+        "uid": 1000
+      },
+      "python": {
+        "base_prefix": "/usr",
+        "executable": "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python",
+        "executable_realpath": "/usr/bin/python3.12",
+        "expected_venv_prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "implementation": "CPython",
+        "prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "uses_expected_venv": true,
+        "version": "3.12.3",
+        "version_full": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]"
+      },
+      "torch_build": {
+        "configuration": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 202002\n  - Intel(R) MKL-DNN v3.11.2 (Git Hash 03c022d3ffdcee958cfacbe720048e725fdf644c)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: DEFAULT\n  - CUDA Runtime 13.0\n  - NVCC architecture flags: -gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_100,code=sm_100;-gencode;arch=compute_110,code=sm_110;-gencode;arch=compute_120,code=sm_120\n  - CuDNN 92.0  (built against CUDA 13.2)\n  - Build settings: BLAS_INFO=nvpl, BUILD_TYPE=Release, COMMIT_SHA=7661cd9c6b841b62b7f411aa52ec51f05457263b, CUDA_FLAGS= -DLIBCUDACXX_ENABLE_SIMPLIFIED_COMPLEX_OPERATIONS -Xfatbin -compress-all -DONNX_NAMESPACE=onnx_torch -gencode arch=compute_80,code=sm_80 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_100,code=sm_100 -gencode arch=compute_110,code=sm_110 -gencode arch=compute_120,code=sm_120 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -Xfatbin -compress-all --threads 2 -compress-mode=size -Wno-deprecated-gpu-targets --expt-extended-lambda -DCUB_WRAPPED_NAMESPACE=at_cuda_detail -DDISABLE_CUSPARSE_DEPRECATED -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -DC10_NODEPRECATED, CUDA_VERSION=13.0, CUDNN_VERSION=9.20.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -ffunction-sections -fdata-sections -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_MSLK -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-omit-frame-pointer -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=nvpl, TORCH_VERSION=2.12.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKLDNN=1, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+        "cuda_build_version": "13.0",
+        "debug": false,
+        "git_version": "7661cd9c6b841b62b7f411aa52ec51f05457263b",
+        "hip_build_version": null
+      }
+    },
+    "matches_frozen_environment": true,
+    "numpy_version": "2.4.6",
+    "stable_projection": {
+      "cpu_and_threads": {
+        "environment": {
+          "CUBLAS_WORKSPACE_CONFIG": null,
+          "CUDA_VISIBLE_DEVICES": null,
+          "MKL_NUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null,
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "PYTHONHASHSEED": null,
+          "VECLIB_MAXIMUM_THREADS": null
+        },
+        "os_cpu_count": 20,
+        "process_cpu_affinity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "torch_interop_threads": 20,
+        "torch_intraop_threads": 20,
+        "trainer_dataloader_workers": 2,
+        "trainer_train_batch_size": 512,
+        "trainer_validation_batch_size": 1024
+      },
+      "device": {
+        "cuda_available": true,
+        "cuda_current_device": 0,
+        "cuda_device_count": 1,
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "cudnn_available": true,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": false,
+        "cudnn_enabled": true,
+        "cudnn_version": 92000,
+        "devices": [
+          {
+            "capability": [
+              12,
+              1
+            ],
+            "index": 0,
+            "multi_processor_count": 48,
+            "name": "NVIDIA GB10",
+            "total_memory_bytes": 130669199360
+          }
+        ],
+        "driver": {
+          "nvidia_smi_executable": "/usr/bin/nvidia-smi",
+          "query_argv": [
+            "/usr/bin/nvidia-smi",
+            "--query-gpu=index,uuid,name,driver_version,memory.total",
+            "--format=csv,noheader,nounits"
+          ],
+          "query_lines": [
+            "0, GPU-8844975a-1dad-7054-42b5-fc82238da051, NVIDIA GB10, 580.82.09, [N/A]"
+          ],
+          "query_returncode": 0,
+          "query_stderr": ""
+        },
+        "pin_memory": true,
+        "selected_type": "cuda",
+        "trainer_selector": "cuda if torch.cuda.is_available() else cpu"
+      },
+      "packages": {
+        "numpy": "2.4.6",
+        "numpy_distribution": "2.4.6",
+        "scikit_learn": "1.9.0",
+        "scikit_learn_distribution": "1.9.0",
+        "torch": "2.12.0+cu130",
+        "torch_distribution": "2.12.0+cu130"
+      },
+      "platform": {
+        "machine": "aarch64",
+        "node": "spark-cfaf",
+        "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+        "processor": "aarch64",
+        "release": "6.11.0-1014-nvidia",
+        "system": "Linux"
+      },
+      "python": {
+        "base_prefix": "/usr",
+        "executable": "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python",
+        "executable_realpath": "/usr/bin/python3.12",
+        "expected_venv_prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "implementation": "CPython",
+        "prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "uses_expected_venv": true,
+        "version": "3.12.3",
+        "version_full": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]"
+      },
+      "torch_build": {
+        "configuration": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 202002\n  - Intel(R) MKL-DNN v3.11.2 (Git Hash 03c022d3ffdcee958cfacbe720048e725fdf644c)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: DEFAULT\n  - CUDA Runtime 13.0\n  - NVCC architecture flags: -gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_100,code=sm_100;-gencode;arch=compute_110,code=sm_110;-gencode;arch=compute_120,code=sm_120\n  - CuDNN 92.0  (built against CUDA 13.2)\n  - Build settings: BLAS_INFO=nvpl, BUILD_TYPE=Release, COMMIT_SHA=7661cd9c6b841b62b7f411aa52ec51f05457263b, CUDA_FLAGS= -DLIBCUDACXX_ENABLE_SIMPLIFIED_COMPLEX_OPERATIONS -Xfatbin -compress-all -DONNX_NAMESPACE=onnx_torch -gencode arch=compute_80,code=sm_80 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_100,code=sm_100 -gencode arch=compute_110,code=sm_110 -gencode arch=compute_120,code=sm_120 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -Xfatbin -compress-all --threads 2 -compress-mode=size -Wno-deprecated-gpu-targets --expt-extended-lambda -DCUB_WRAPPED_NAMESPACE=at_cuda_detail -DDISABLE_CUSPARSE_DEPRECATED -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -DC10_NODEPRECATED, CUDA_VERSION=13.0, CUDNN_VERSION=9.20.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -ffunction-sections -fdata-sections -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_MSLK -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-omit-frame-pointer -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=nvpl, TORCH_VERSION=2.12.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKLDNN=1, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+        "cuda_build_version": "13.0",
+        "debug": false,
+        "git_version": "7661cd9c6b841b62b7f411aa52ec51f05457263b",
+        "hip_build_version": null
+      }
+    },
+    "stable_projection_bytes": 5059,
+    "stable_projection_sha256": "0fa13120b151b1c8bcb5a0c68ea7a0846f3b4c19a8bcc7d895393e030d9c0cf9"
+  },
+  "grid": {
+    "blocks": [
+      "block_01",
+      "block_02",
+      "block_03"
+    ],
+    "factor_cells": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ],
+    "id_strata": [
+      "canonical",
+      "shifted"
+    ],
+    "pipeline_seeds": [
+      7,
+      42,
+      123,
+      2026,
+      3407
+    ]
+  },
+  "identities": 245,
+  "model_inference_performed": false,
+  "registration": {
+    "amendment_commit": "73aa1690b6849a427e357f944ff797e8fe49836d",
+    "amendment_commit_is_ancestor": true,
+    "amendment_path": "journal/experiments/e18_relation_visible_rf/AMENDMENT_2026-08-07_V1_FLOAT32_REDUCTION_ARTIFACT.md",
+    "amendment_sha256": "35bffb0b146e1053744a897e8b52d76013a6f2466c7e0cedcf930add9649a8af",
+    "gate": "G0_registration_committed",
+    "implementation_commits": {
+      "journal/scripts/analyze_e18_relation_visible_rf.py": "b9b462a4454190ecf055a68f6ce55416f7ef64b1",
+      "journal/scripts/evaluate_e18_relation_visible_rf.py": "b9b462a4454190ecf055a68f6ce55416f7ef64b1",
+      "journal/scripts/run_e18_relation_visible_rf_training.py": "674916a3fa463e85e59e0b588539d6c63f240028"
+    },
+    "passed": true,
+    "preregistration_path": "journal/experiments/e18_relation_visible_rf/PREREG.md",
+    "registration_commit": "f2f9930d75f8bfaac5caeae36d7abf4f5a3a5b14",
+    "registration_commit_files": [
+      "journal/experiments/e18_relation_visible_rf/PREREG.md"
+    ],
+    "registration_commit_is_ancestor": true,
+    "registration_last_modified_commit": "f2f9930d75f8bfaac5caeae36d7abf4f5a3a5b14",
+    "registration_precedes_implementation": true,
+    "registration_sha256": "401697694c0d6d2c733317f96f43af33a017a434f4a06b79057cd7b35a77e6e4",
+    "registration_source_commit_in_header": "93dbdc4",
+    "wisa_tree_clean": true
+  },
+  "schema_version": "e18.evaluation_prepare.v1",
+  "scoring": {
+    "detector_family": "random_forest",
+    "device": "cpu",
+    "feature_dimension": 83,
+    "feature_map": "joint_structure_83",
+    "standardizer": null,
+    "windows": "raw, un-standardized"
+  },
+  "stage": "e18_evaluation_prepare",
+  "training_run_sha256": "150f3ac93329c1f08afeab9f6cb3a810f41dfb289cf33e5c5f059dbee0d2eb6f"
+}

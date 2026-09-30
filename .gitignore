@@ -1,0 +1,22 @@
+# 데이터셋과 생성 산출물 (datasets/DOWNLOAD.md 참고)
+datasets/*
+!datasets/DOWNLOAD.md
+*.npz
+*.npy
+*.pt
+*.pth
+*.joblib
+
+# 재생성 가능한 출력
+models/
+wisa/experiments/
+results/logs/
+journal/datasets/synthetic/
+wisa_camera_ready/models/
+
+# Python·환경
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/

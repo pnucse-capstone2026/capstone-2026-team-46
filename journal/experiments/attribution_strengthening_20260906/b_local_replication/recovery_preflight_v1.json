@@ -1,0 +1,3918 @@
+{
+  "status": "pass",
+  "utc": "2026-09-06T11:50:29.207490+00:00",
+  "scientific_freeze_sha256": "dc132920bac87bf6d17cf8db5debbc3b0baaf30b0e7d0617eefe3bb819e09355",
+  "code_inputs": [
+    {
+      "path": "journal/scripts/resume_attribution_local_grid_v1.py",
+      "sha256": "48da05030c015f0f86c10b6f5017987a2cdae13f3fd24ff4472b5213e03fc0f9",
+      "bytes": 13962
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/RECOVERY_v1.md",
+      "sha256": "41e1be245e83d392fd4005dcb7479fe74952a00b2de6830928074418fde05705",
+      "bytes": 3669
+    },
+    {
+      "path": "journal/tests/test_attribution_resume_v1.py",
+      "sha256": "9fd4fd895587a1e173d8699d071565ce38a5295bdb1cde2b0648f1457eac15cb",
+      "bytes": 3431
+    },
+    {
+      "path": "journal/scripts/run_attribution_local_grid_v1.py",
+      "sha256": "6a7ce2792a38c7f9d5fbecb849d2b741da8a0ad542bdd4d009b71c524938692d",
+      "bytes": 4870
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/freeze_v1.json",
+      "sha256": "dc132920bac87bf6d17cf8db5debbc3b0baaf30b0e7d0617eefe3bb819e09355",
+      "bytes": 5477
+    }
+  ],
+  "inherited_jobs": 15,
+  "inherited_fits": 24,
+  "remaining_jobs": [
+    [
+      "fit-pair",
+      2,
+      123
+    ],
+    [
+      "fit-pair",
+      2,
+      2026
+    ],
+    [
+      "fit-pair",
+      2,
+      3407
+    ],
+    [
+      "prepare",
+      3,
+      null
+    ],
+    [
+      "fit-pair",
+      3,
+      7
+    ],
+    [
+      "fit-pair",
+      3,
+      42
+    ],
+    [
+      "fit-pair",
+      3,
+      123
+    ],
+    [
+      "fit-pair",
+      3,
+      2026
+    ],
+    [
+      "fit-pair",
+      3,
+      3407
+    ],
+    [
+      "prepare",
+      4,
+      null
+    ],
+    [
+      "fit-pair",
+      4,
+      7
+    ],
+    [
+      "fit-pair",
+      4,
+      42
+    ],
+    [
+      "fit-pair",
+      4,
+      123
+    ],
+    [
+      "fit-pair",
+      4,
+      2026
+    ],
+    [
+      "fit-pair",
+      4,
+      3407
+    ],
+    [
+      "prepare",
+      5,
+      null
+    ],
+    [
+      "fit-pair",
+      5,
+      7
+    ],
+    [
+      "fit-pair",
+      5,
+      42
+    ],
+    [
+      "fit-pair",
+      5,
+      123
+    ],
+    [
+      "fit-pair",
+      5,
+      2026
+    ],
+    [
+      "fit-pair",
+      5,
+      3407
+    ],
+    [
+      "prepare",
+      6,
+      null
+    ],
+    [
+      "fit-pair",
+      6,
+      7
+    ],
+    [
+      "fit-pair",
+      6,
+      42
+    ],
+    [
+      "fit-pair",
+      6,
+      123
+    ],
+    [
+      "fit-pair",
+      6,
+      2026
+    ],
+    [
+      "fit-pair",
+      6,
+      3407
+    ],
+    [
+      "prepare",
+      7,
+      null
+    ],
+    [
+      "fit-pair",
+      7,
+      7
+    ],
+    [
+      "fit-pair",
+      7,
+      42
+    ],
+    [
+      "fit-pair",
+      7,
+      123
+    ],
+    [
+      "fit-pair",
+      7,
+      2026
+    ],
+    [
+      "fit-pair",
+      7,
+      3407
+    ],
+    [
+      "prepare",
+      8,
+      null
+    ],
+    [
+      "fit-pair",
+      8,
+      7
+    ],
+    [
+      "fit-pair",
+      8,
+      42
+    ],
+    [
+      "fit-pair",
+      8,
+      123
+    ],
+    [
+      "fit-pair",
+      8,
+      2026
+    ],
+    [
+      "fit-pair",
+      8,
+      3407
+    ],
+    [
+      "prepare",
+      9,
+      null
+    ],
+    [
+      "fit-pair",
+      9,
+      7
+    ],
+    [
+      "fit-pair",
+      9,
+      42
+    ],
+    [
+      "fit-pair",
+      9,
+      123
+    ],
+    [
+      "fit-pair",
+      9,
+      2026
+    ],
+    [
+      "fit-pair",
+      9,
+      3407
+    ],
+    [
+      "prepare",
+      10,
+      null
+    ],
+    [
+      "fit-pair",
+      10,
+      7
+    ],
+    [
+      "fit-pair",
+      10,
+      42
+    ],
+    [
+      "fit-pair",
+      10,
+      123
+    ],
+    [
+      "fit-pair",
+      10,
+      2026
+    ],
+    [
+      "fit-pair",
+      10,
+      3407
+    ],
+    [
+      "prepare",
+      11,
+      null
+    ],
+    [
+      "fit-pair",
+      11,
+      7
+    ],
+    [
+      "fit-pair",
+      11,
+      42
+    ],
+    [
+      "fit-pair",
+      11,
+      123
+    ],
+    [
+      "fit-pair",
+      11,
+      2026
+    ],
+    [
+      "fit-pair",
+      11,
+      3407
+    ],
+    [
+      "prepare",
+      12,
+      null
+    ],
+    [
+      "fit-pair",
+      12,
+      7
+    ],
+    [
+      "fit-pair",
+      12,
+      42
+    ],
+    [
+      "fit-pair",
+      12,
+      123
+    ],
+    [
+      "fit-pair",
+      12,
+      2026
+    ],
+    [
+      "fit-pair",
+      12,
+      3407
+    ],
+    [
+      "prepare",
+      13,
+      null
+    ],
+    [
+      "fit-pair",
+      13,
+      7
+    ],
+    [
+      "fit-pair",
+      13,
+      42
+    ],
+    [
+      "fit-pair",
+      13,
+      123
+    ],
+    [
+      "fit-pair",
+      13,
+      2026
+    ],
+    [
+      "fit-pair",
+      13,
+      3407
+    ],
+    [
+      "prepare",
+      14,
+      null
+    ],
+    [
+      "fit-pair",
+      14,
+      7
+    ],
+    [
+      "fit-pair",
+      14,
+      42
+    ],
+    [
+      "fit-pair",
+      14,
+      123
+    ],
+    [
+      "fit-pair",
+      14,
+      2026
+    ],
+    [
+      "fit-pair",
+      14,
+      3407
+    ],
+    [
+      "prepare",
+      15,
+      null
+    ],
+    [
+      "fit-pair",
+      15,
+      7
+    ],
+    [
+      "fit-pair",
+      15,
+      42
+    ],
+    [
+      "fit-pair",
+      15,
+      123
+    ],
+    [
+      "fit-pair",
+      15,
+      2026
+    ],
+    [
+      "fit-pair",
+      15,
+      3407
+    ],
+    [
+      "prepare",
+      16,
+      null
+    ],
+    [
+      "fit-pair",
+      16,
+      7
+    ],
+    [
+      "fit-pair",
+      16,
+      42
+    ],
+    [
+      "fit-pair",
+      16,
+      123
+    ],
+    [
+      "fit-pair",
+      16,
+      2026
+    ],
+    [
+      "fit-pair",
+      16,
+      3407
+    ],
+    [
+      "prepare",
+      17,
+      null
+    ],
+    [
+      "fit-pair",
+      17,
+      7
+    ],
+    [
+      "fit-pair",
+      17,
+      42
+    ],
+    [
+      "fit-pair",
+      17,
+      123
+    ],
+    [
+      "fit-pair",
+      17,
+      2026
+    ],
+    [
+      "fit-pair",
+      17,
+      3407
+    ],
+    [
+      "prepare",
+      18,
+      null
+    ],
+    [
+      "fit-pair",
+      18,
+      7
+    ],
+    [
+      "fit-pair",
+      18,
+      42
+    ],
+    [
+      "fit-pair",
+      18,
+      123
+    ],
+    [
+      "fit-pair",
+      18,
+      2026
+    ],
+    [
+      "fit-pair",
+      18,
+      3407
+    ],
+    [
+      "prepare",
+      19,
+      null
+    ],
+    [
+      "fit-pair",
+      19,
+      7
+    ],
+    [
+      "fit-pair",
+      19,
+      42
+    ],
+    [
+      "fit-pair",
+      19,
+      123
+    ],
+    [
+      "fit-pair",
+      19,
+      2026
+    ],
+    [
+      "fit-pair",
+      19,
+      3407
+    ],
+    [
+      "prepare",
+      20,
+      null
+    ],
+    [
+      "fit-pair",
+      20,
+      7
+    ],
+    [
+      "fit-pair",
+      20,
+      42
+    ],
+    [
+      "fit-pair",
+      20,
+      123
+    ],
+    [
+      "fit-pair",
+      20,
+      2026
+    ],
+    [
+      "fit-pair",
+      20,
+      3407
+    ],
+    [
+      "prepare",
+      21,
+      null
+    ],
+    [
+      "fit-pair",
+      21,
+      7
+    ],
+    [
+      "fit-pair",
+      21,
+      42
+    ],
+    [
+      "fit-pair",
+      21,
+      123
+    ],
+    [
+      "fit-pair",
+      21,
+      2026
+    ],
+    [
+      "fit-pair",
+      21,
+      3407
+    ],
+    [
+      "prepare",
+      22,
+      null
+    ],
+    [
+      "fit-pair",
+      22,
+      7
+    ],
+    [
+      "fit-pair",
+      22,
+      42
+    ],
+    [
+      "fit-pair",
+      22,
+      123
+    ],
+    [
+      "fit-pair",
+      22,
+      2026
+    ],
+    [
+      "fit-pair",
+      22,
+      3407
+    ],
+    [
+      "prepare",
+      23,
+      null
+    ],
+    [
+      "fit-pair",
+      23,
+      7
+    ],
+    [
+      "fit-pair",
+      23,
+      42
+    ],
+    [
+      "fit-pair",
+      23,
+      123
+    ],
+    [
+      "fit-pair",
+      23,
+      2026
+    ],
+    [
+      "fit-pair",
+      23,
+      3407
+    ],
+    [
+      "prepare",
+      24,
+      null
+    ],
+    [
+      "fit-pair",
+      24,
+      7
+    ],
+    [
+      "fit-pair",
+      24,
+      42
+    ],
+    [
+      "fit-pair",
+      24,
+      123
+    ],
+    [
+      "fit-pair",
+      24,
+      2026
+    ],
+    [
+      "fit-pair",
+      24,
+      3407
+    ],
+    [
+      "prepare",
+      25,
+      null
+    ],
+    [
+      "fit-pair",
+      25,
+      7
+    ],
+    [
+      "fit-pair",
+      25,
+      42
+    ],
+    [
+      "fit-pair",
+      25,
+      123
+    ],
+    [
+      "fit-pair",
+      25,
+      2026
+    ],
+    [
+      "fit-pair",
+      25,
+      3407
+    ],
+    [
+      "prepare",
+      26,
+      null
+    ],
+    [
+      "fit-pair",
+      26,
+      7
+    ],
+    [
+      "fit-pair",
+      26,
+      42
+    ],
+    [
+      "fit-pair",
+      26,
+      123
+    ],
+    [
+      "fit-pair",
+      26,
+      2026
+    ],
+    [
+      "fit-pair",
+      26,
+      3407
+    ],
+    [
+      "prepare",
+      27,
+      null
+    ],
+    [
+      "fit-pair",
+      27,
+      7
+    ],
+    [
+      "fit-pair",
+      27,
+      42
+    ],
+    [
+      "fit-pair",
+      27,
+      123
+    ],
+    [
+      "fit-pair",
+      27,
+      2026
+    ],
+    [
+      "fit-pair",
+      27,
+      3407
+    ],
+    [
+      "prepare",
+      28,
+      null
+    ],
+    [
+      "fit-pair",
+      28,
+      7
+    ],
+    [
+      "fit-pair",
+      28,
+      42
+    ],
+    [
+      "fit-pair",
+      28,
+      123
+    ],
+    [
+      "fit-pair",
+      28,
+      2026
+    ],
+    [
+      "fit-pair",
+      28,
+      3407
+    ],
+    [
+      "prepare",
+      29,
+      null
+    ],
+    [
+      "fit-pair",
+      29,
+      7
+    ],
+    [
+      "fit-pair",
+      29,
+      42
+    ],
+    [
+      "fit-pair",
+      29,
+      123
+    ],
+    [
+      "fit-pair",
+      29,
+      2026
+    ],
+    [
+      "fit-pair",
+      29,
+      3407
+    ],
+    [
+      "prepare",
+      30,
+      null
+    ],
+    [
+      "fit-pair",
+      30,
+      7
+    ],
+    [
+      "fit-pair",
+      30,
+      42
+    ],
+    [
+      "fit-pair",
+      30,
+      123
+    ],
+    [
+      "fit-pair",
+      30,
+      2026
+    ],
+    [
+      "fit-pair",
+      30,
+      3407
+    ],
+    [
+      "prepare",
+      31,
+      null
+    ],
+    [
+      "fit-pair",
+      31,
+      7
+    ],
+    [
+      "fit-pair",
+      31,
+      42
+    ],
+    [
+      "fit-pair",
+      31,
+      123
+    ],
+    [
+      "fit-pair",
+      31,
+      2026
+    ],
+    [
+      "fit-pair",
+      31,
+      3407
+    ],
+    [
+      "prepare",
+      32,
+      null
+    ],
+    [
+      "fit-pair",
+      32,
+      7
+    ],
+    [
+      "fit-pair",
+      32,
+      42
+    ],
+    [
+      "fit-pair",
+      32,
+      123
+    ],
+    [
+      "fit-pair",
+      32,
+      2026
+    ],
+    [
+      "fit-pair",
+      32,
+      3407
+    ],
+    [
+      "prepare",
+      33,
+      null
+    ],
+    [
+      "fit-pair",
+      33,
+      7
+    ],
+    [
+      "fit-pair",
+      33,
+      42
+    ],
+    [
+      "fit-pair",
+      33,
+      123
+    ],
+    [
+      "fit-pair",
+      33,
+      2026
+    ],
+    [
+      "fit-pair",
+      33,
+      3407
+    ],
+    [
+      "prepare",
+      34,
+      null
+    ],
+    [
+      "fit-pair",
+      34,
+      7
+    ],
+    [
+      "fit-pair",
+      34,
+      42
+    ],
+    [
+      "fit-pair",
+      34,
+      123
+    ],
+    [
+      "fit-pair",
+      34,
+      2026
+    ],
+    [
+      "fit-pair",
+      34,
+      3407
+    ],
+    [
+      "prepare",
+      35,
+      null
+    ],
+    [
+      "fit-pair",
+      35,
+      7
+    ],
+    [
+      "fit-pair",
+      35,
+      42
+    ],
+    [
+      "fit-pair",
+      35,
+      123
+    ],
+    [
+      "fit-pair",
+      35,
+      2026
+    ],
+    [
+      "fit-pair",
+      35,
+      3407
+    ],
+    [
+      "prepare",
+      36,
+      null
+    ],
+    [
+      "fit-pair",
+      36,
+      7
+    ],
+    [
+      "fit-pair",
+      36,
+      42
+    ],
+    [
+      "fit-pair",
+      36,
+      123
+    ],
+    [
+      "fit-pair",
+      36,
+      2026
+    ],
+    [
+      "fit-pair",
+      36,
+      3407
+    ],
+    [
+      "prepare",
+      37,
+      null
+    ],
+    [
+      "fit-pair",
+      37,
+      7
+    ],
+    [
+      "fit-pair",
+      37,
+      42
+    ],
+    [
+      "fit-pair",
+      37,
+      123
+    ],
+    [
+      "fit-pair",
+      37,
+      2026
+    ],
+    [
+      "fit-pair",
+      37,
+      3407
+    ],
+    [
+      "prepare",
+      38,
+      null
+    ],
+    [
+      "fit-pair",
+      38,
+      7
+    ],
+    [
+      "fit-pair",
+      38,
+      42
+    ],
+    [
+      "fit-pair",
+      38,
+      123
+    ],
+    [
+      "fit-pair",
+      38,
+      2026
+    ],
+    [
+      "fit-pair",
+      38,
+      3407
+    ],
+    [
+      "prepare",
+      39,
+      null
+    ],
+    [
+      "fit-pair",
+      39,
+      7
+    ],
+    [
+      "fit-pair",
+      39,
+      42
+    ],
+    [
+      "fit-pair",
+      39,
+      123
+    ],
+    [
+      "fit-pair",
+      39,
+      2026
+    ],
+    [
+      "fit-pair",
+      39,
+      3407
+    ],
+    [
+      "prepare",
+      40,
+      null
+    ],
+    [
+      "fit-pair",
+      40,
+      7
+    ],
+    [
+      "fit-pair",
+      40,
+      42
+    ],
+    [
+      "fit-pair",
+      40,
+      123
+    ],
+    [
+      "fit-pair",
+      40,
+      2026
+    ],
+    [
+      "fit-pair",
+      40,
+      3407
+    ],
+    [
+      "prepare",
+      41,
+      null
+    ],
+    [
+      "fit-pair",
+      41,
+      7
+    ],
+    [
+      "fit-pair",
+      41,
+      42
+    ],
+    [
+      "fit-pair",
+      41,
+      123
+    ],
+    [
+      "fit-pair",
+      41,
+      2026
+    ],
+    [
+      "fit-pair",
+      41,
+      3407
+    ],
+    [
+      "prepare",
+      42,
+      null
+    ],
+    [
+      "fit-pair",
+      42,
+      7
+    ],
+    [
+      "fit-pair",
+      42,
+      42
+    ],
+    [
+      "fit-pair",
+      42,
+      123
+    ],
+    [
+      "fit-pair",
+      42,
+      2026
+    ],
+    [
+      "fit-pair",
+      42,
+      3407
+    ],
+    [
+      "prepare",
+      43,
+      null
+    ],
+    [
+      "fit-pair",
+      43,
+      7
+    ],
+    [
+      "fit-pair",
+      43,
+      42
+    ],
+    [
+      "fit-pair",
+      43,
+      123
+    ],
+    [
+      "fit-pair",
+      43,
+      2026
+    ],
+    [
+      "fit-pair",
+      43,
+      3407
+    ],
+    [
+      "prepare",
+      44,
+      null
+    ],
+    [
+      "fit-pair",
+      44,
+      7
+    ],
+    [
+      "fit-pair",
+      44,
+      42
+    ],
+    [
+      "fit-pair",
+      44,
+      123
+    ],
+    [
+      "fit-pair",
+      44,
+      2026
+    ],
+    [
+      "fit-pair",
+      44,
+      3407
+    ],
+    [
+      "prepare",
+      45,
+      null
+    ],
+    [
+      "fit-pair",
+      45,
+      7
+    ],
+    [
+      "fit-pair",
+      45,
+      42
+    ],
+    [
+      "fit-pair",
+      45,
+      123
+    ],
+    [
+      "fit-pair",
+      45,
+      2026
+    ],
+    [
+      "fit-pair",
+      45,
+      3407
+    ],
+    [
+      "prepare",
+      46,
+      null
+    ],
+    [
+      "fit-pair",
+      46,
+      7
+    ],
+    [
+      "fit-pair",
+      46,
+      42
+    ],
+    [
+      "fit-pair",
+      46,
+      123
+    ],
+    [
+      "fit-pair",
+      46,
+      2026
+    ],
+    [
+      "fit-pair",
+      46,
+      3407
+    ],
+    [
+      "prepare",
+      47,
+      null
+    ],
+    [
+      "fit-pair",
+      47,
+      7
+    ],
+    [
+      "fit-pair",
+      47,
+      42
+    ],
+    [
+      "fit-pair",
+      47,
+      123
+    ],
+    [
+      "fit-pair",
+      47,
+      2026
+    ],
+    [
+      "fit-pair",
+      47,
+      3407
+    ],
+    [
+      "prepare",
+      48,
+      null
+    ],
+    [
+      "fit-pair",
+      48,
+      7
+    ],
+    [
+      "fit-pair",
+      48,
+      42
+    ],
+    [
+      "fit-pair",
+      48,
+      123
+    ],
+    [
+      "fit-pair",
+      48,
+      2026
+    ],
+    [
+      "fit-pair",
+      48,
+      3407
+    ],
+    [
+      "prepare",
+      49,
+      null
+    ],
+    [
+      "fit-pair",
+      49,
+      7
+    ],
+    [
+      "fit-pair",
+      49,
+      42
+    ],
+    [
+      "fit-pair",
+      49,
+      123
+    ],
+    [
+      "fit-pair",
+      49,
+      2026
+    ],
+    [
+      "fit-pair",
+      49,
+      3407
+    ],
+    [
+      "prepare",
+      50,
+      null
+    ],
+    [
+      "fit-pair",
+      50,
+      7
+    ],
+    [
+      "fit-pair",
+      50,
+      42
+    ],
+    [
+      "fit-pair",
+      50,
+      123
+    ],
+    [
+      "fit-pair",
+      50,
+      2026
+    ],
+    [
+      "fit-pair",
+      50,
+      3407
+    ],
+    [
+      "prepare",
+      51,
+      null
+    ],
+    [
+      "fit-pair",
+      51,
+      7
+    ],
+    [
+      "fit-pair",
+      51,
+      42
+    ],
+    [
+      "fit-pair",
+      51,
+      123
+    ],
+    [
+      "fit-pair",
+      51,
+      2026
+    ],
+    [
+      "fit-pair",
+      51,
+      3407
+    ],
+    [
+      "prepare",
+      52,
+      null
+    ],
+    [
+      "fit-pair",
+      52,
+      7
+    ],
+    [
+      "fit-pair",
+      52,
+      42
+    ],
+    [
+      "fit-pair",
+      52,
+      123
+    ],
+    [
+      "fit-pair",
+      52,
+      2026
+    ],
+    [
+      "fit-pair",
+      52,
+      3407
+    ],
+    [
+      "prepare",
+      53,
+      null
+    ],
+    [
+      "fit-pair",
+      53,
+      7
+    ],
+    [
+      "fit-pair",
+      53,
+      42
+    ],
+    [
+      "fit-pair",
+      53,
+      123
+    ],
+    [
+      "fit-pair",
+      53,
+      2026
+    ],
+    [
+      "fit-pair",
+      53,
+      3407
+    ],
+    [
+      "prepare",
+      54,
+      null
+    ],
+    [
+      "fit-pair",
+      54,
+      7
+    ],
+    [
+      "fit-pair",
+      54,
+      42
+    ],
+    [
+      "fit-pair",
+      54,
+      123
+    ],
+    [
+      "fit-pair",
+      54,
+      2026
+    ],
+    [
+      "fit-pair",
+      54,
+      3407
+    ],
+    [
+      "prepare",
+      55,
+      null
+    ],
+    [
+      "fit-pair",
+      55,
+      7
+    ],
+    [
+      "fit-pair",
+      55,
+      42
+    ],
+    [
+      "fit-pair",
+      55,
+      123
+    ],
+    [
+      "fit-pair",
+      55,
+      2026
+    ],
+    [
+      "fit-pair",
+      55,
+      3407
+    ],
+    [
+      "prepare",
+      56,
+      null
+    ],
+    [
+      "fit-pair",
+      56,
+      7
+    ],
+    [
+      "fit-pair",
+      56,
+      42
+    ],
+    [
+      "fit-pair",
+      56,
+      123
+    ],
+    [
+      "fit-pair",
+      56,
+      2026
+    ],
+    [
+      "fit-pair",
+      56,
+      3407
+    ],
+    [
+      "prepare",
+      57,
+      null
+    ],
+    [
+      "fit-pair",
+      57,
+      7
+    ],
+    [
+      "fit-pair",
+      57,
+      42
+    ],
+    [
+      "fit-pair",
+      57,
+      123
+    ],
+    [
+      "fit-pair",
+      57,
+      2026
+    ],
+    [
+      "fit-pair",
+      57,
+      3407
+    ],
+    [
+      "prepare",
+      58,
+      null
+    ],
+    [
+      "fit-pair",
+      58,
+      7
+    ],
+    [
+      "fit-pair",
+      58,
+      42
+    ],
+    [
+      "fit-pair",
+      58,
+      123
+    ],
+    [
+      "fit-pair",
+      58,
+      2026
+    ],
+    [
+      "fit-pair",
+      58,
+      3407
+    ],
+    [
+      "prepare",
+      59,
+      null
+    ],
+    [
+      "fit-pair",
+      59,
+      7
+    ],
+    [
+      "fit-pair",
+      59,
+      42
+    ],
+    [
+      "fit-pair",
+      59,
+      123
+    ],
+    [
+      "fit-pair",
+      59,
+      2026
+    ],
+    [
+      "fit-pair",
+      59,
+      3407
+    ],
+    [
+      "prepare",
+      60,
+      null
+    ],
+    [
+      "fit-pair",
+      60,
+      7
+    ],
+    [
+      "fit-pair",
+      60,
+      42
+    ],
+    [
+      "fit-pair",
+      60,
+      123
+    ],
+    [
+      "fit-pair",
+      60,
+      2026
+    ],
+    [
+      "fit-pair",
+      60,
+      3407
+    ],
+    [
+      "prepare",
+      61,
+      null
+    ],
+    [
+      "fit-pair",
+      61,
+      7
+    ],
+    [
+      "fit-pair",
+      61,
+      42
+    ],
+    [
+      "fit-pair",
+      61,
+      123
+    ],
+    [
+      "fit-pair",
+      61,
+      2026
+    ],
+    [
+      "fit-pair",
+      61,
+      3407
+    ],
+    [
+      "prepare",
+      62,
+      null
+    ],
+    [
+      "fit-pair",
+      62,
+      7
+    ],
+    [
+      "fit-pair",
+      62,
+      42
+    ],
+    [
+      "fit-pair",
+      62,
+      123
+    ],
+    [
+      "fit-pair",
+      62,
+      2026
+    ],
+    [
+      "fit-pair",
+      62,
+      3407
+    ],
+    [
+      "prepare",
+      63,
+      null
+    ],
+    [
+      "fit-pair",
+      63,
+      7
+    ],
+    [
+      "fit-pair",
+      63,
+      42
+    ],
+    [
+      "fit-pair",
+      63,
+      123
+    ],
+    [
+      "fit-pair",
+      63,
+      2026
+    ],
+    [
+      "fit-pair",
+      63,
+      3407
+    ],
+    [
+      "prepare",
+      64,
+      null
+    ],
+    [
+      "fit-pair",
+      64,
+      7
+    ],
+    [
+      "fit-pair",
+      64,
+      42
+    ],
+    [
+      "fit-pair",
+      64,
+      123
+    ],
+    [
+      "fit-pair",
+      64,
+      2026
+    ],
+    [
+      "fit-pair",
+      64,
+      3407
+    ],
+    [
+      "prepare",
+      65,
+      null
+    ],
+    [
+      "fit-pair",
+      65,
+      7
+    ],
+    [
+      "fit-pair",
+      65,
+      42
+    ],
+    [
+      "fit-pair",
+      65,
+      123
+    ],
+    [
+      "fit-pair",
+      65,
+      2026
+    ],
+    [
+      "fit-pair",
+      65,
+      3407
+    ],
+    [
+      "prepare",
+      66,
+      null
+    ],
+    [
+      "fit-pair",
+      66,
+      7
+    ],
+    [
+      "fit-pair",
+      66,
+      42
+    ],
+    [
+      "fit-pair",
+      66,
+      123
+    ],
+    [
+      "fit-pair",
+      66,
+      2026
+    ],
+    [
+      "fit-pair",
+      66,
+      3407
+    ],
+    [
+      "prepare",
+      67,
+      null
+    ],
+    [
+      "fit-pair",
+      67,
+      7
+    ],
+    [
+      "fit-pair",
+      67,
+      42
+    ],
+    [
+      "fit-pair",
+      67,
+      123
+    ],
+    [
+      "fit-pair",
+      67,
+      2026
+    ],
+    [
+      "fit-pair",
+      67,
+      3407
+    ],
+    [
+      "prepare",
+      68,
+      null
+    ],
+    [
+      "fit-pair",
+      68,
+      7
+    ],
+    [
+      "fit-pair",
+      68,
+      42
+    ],
+    [
+      "fit-pair",
+      68,
+      123
+    ],
+    [
+      "fit-pair",
+      68,
+      2026
+    ],
+    [
+      "fit-pair",
+      68,
+      3407
+    ],
+    [
+      "prepare",
+      69,
+      null
+    ],
+    [
+      "fit-pair",
+      69,
+      7
+    ],
+    [
+      "fit-pair",
+      69,
+      42
+    ],
+    [
+      "fit-pair",
+      69,
+      123
+    ],
+    [
+      "fit-pair",
+      69,
+      2026
+    ],
+    [
+      "fit-pair",
+      69,
+      3407
+    ],
+    [
+      "prepare",
+      70,
+      null
+    ],
+    [
+      "fit-pair",
+      70,
+      7
+    ],
+    [
+      "fit-pair",
+      70,
+      42
+    ],
+    [
+      "fit-pair",
+      70,
+      123
+    ],
+    [
+      "fit-pair",
+      70,
+      2026
+    ],
+    [
+      "fit-pair",
+      70,
+      3407
+    ],
+    [
+      "prepare",
+      71,
+      null
+    ],
+    [
+      "fit-pair",
+      71,
+      7
+    ],
+    [
+      "fit-pair",
+      71,
+      42
+    ],
+    [
+      "fit-pair",
+      71,
+      123
+    ],
+    [
+      "fit-pair",
+      71,
+      2026
+    ],
+    [
+      "fit-pair",
+      71,
+      3407
+    ],
+    [
+      "prepare",
+      72,
+      null
+    ],
+    [
+      "fit-pair",
+      72,
+      7
+    ],
+    [
+      "fit-pair",
+      72,
+      42
+    ],
+    [
+      "fit-pair",
+      72,
+      123
+    ],
+    [
+      "fit-pair",
+      72,
+      2026
+    ],
+    [
+      "fit-pair",
+      72,
+      3407
+    ],
+    [
+      "prepare",
+      73,
+      null
+    ],
+    [
+      "fit-pair",
+      73,
+      7
+    ],
+    [
+      "fit-pair",
+      73,
+      42
+    ],
+    [
+      "fit-pair",
+      73,
+      123
+    ],
+    [
+      "fit-pair",
+      73,
+      2026
+    ],
+    [
+      "fit-pair",
+      73,
+      3407
+    ],
+    [
+      "prepare",
+      74,
+      null
+    ],
+    [
+      "fit-pair",
+      74,
+      7
+    ],
+    [
+      "fit-pair",
+      74,
+      42
+    ],
+    [
+      "fit-pair",
+      74,
+      123
+    ],
+    [
+      "fit-pair",
+      74,
+      2026
+    ],
+    [
+      "fit-pair",
+      74,
+      3407
+    ],
+    [
+      "prepare",
+      75,
+      null
+    ],
+    [
+      "fit-pair",
+      75,
+      7
+    ],
+    [
+      "fit-pair",
+      75,
+      42
+    ],
+    [
+      "fit-pair",
+      75,
+      123
+    ],
+    [
+      "fit-pair",
+      75,
+      2026
+    ],
+    [
+      "fit-pair",
+      75,
+      3407
+    ],
+    [
+      "prepare",
+      76,
+      null
+    ],
+    [
+      "fit-pair",
+      76,
+      7
+    ],
+    [
+      "fit-pair",
+      76,
+      42
+    ],
+    [
+      "fit-pair",
+      76,
+      123
+    ],
+    [
+      "fit-pair",
+      76,
+      2026
+    ],
+    [
+      "fit-pair",
+      76,
+      3407
+    ],
+    [
+      "prepare",
+      77,
+      null
+    ],
+    [
+      "fit-pair",
+      77,
+      7
+    ],
+    [
+      "fit-pair",
+      77,
+      42
+    ],
+    [
+      "fit-pair",
+      77,
+      123
+    ],
+    [
+      "fit-pair",
+      77,
+      2026
+    ],
+    [
+      "fit-pair",
+      77,
+      3407
+    ],
+    [
+      "prepare",
+      78,
+      null
+    ],
+    [
+      "fit-pair",
+      78,
+      7
+    ],
+    [
+      "fit-pair",
+      78,
+      42
+    ],
+    [
+      "fit-pair",
+      78,
+      123
+    ],
+    [
+      "fit-pair",
+      78,
+      2026
+    ],
+    [
+      "fit-pair",
+      78,
+      3407
+    ],
+    [
+      "prepare",
+      79,
+      null
+    ],
+    [
+      "fit-pair",
+      79,
+      7
+    ],
+    [
+      "fit-pair",
+      79,
+      42
+    ],
+    [
+      "fit-pair",
+      79,
+      123
+    ],
+    [
+      "fit-pair",
+      79,
+      2026
+    ],
+    [
+      "fit-pair",
+      79,
+      3407
+    ],
+    [
+      "prepare",
+      80,
+      null
+    ],
+    [
+      "fit-pair",
+      80,
+      7
+    ],
+    [
+      "fit-pair",
+      80,
+      42
+    ],
+    [
+      "fit-pair",
+      80,
+      123
+    ],
+    [
+      "fit-pair",
+      80,
+      2026
+    ],
+    [
+      "fit-pair",
+      80,
+      3407
+    ],
+    [
+      "prepare",
+      81,
+      null
+    ],
+    [
+      "fit-pair",
+      81,
+      7
+    ],
+    [
+      "fit-pair",
+      81,
+      42
+    ],
+    [
+      "fit-pair",
+      81,
+      123
+    ],
+    [
+      "fit-pair",
+      81,
+      2026
+    ],
+    [
+      "fit-pair",
+      81,
+      3407
+    ],
+    [
+      "prepare",
+      82,
+      null
+    ],
+    [
+      "fit-pair",
+      82,
+      7
+    ],
+    [
+      "fit-pair",
+      82,
+      42
+    ],
+    [
+      "fit-pair",
+      82,
+      123
+    ],
+    [
+      "fit-pair",
+      82,
+      2026
+    ],
+    [
+      "fit-pair",
+      82,
+      3407
+    ],
+    [
+      "prepare",
+      83,
+      null
+    ],
+    [
+      "fit-pair",
+      83,
+      7
+    ],
+    [
+      "fit-pair",
+      83,
+      42
+    ],
+    [
+      "fit-pair",
+      83,
+      123
+    ],
+    [
+      "fit-pair",
+      83,
+      2026
+    ],
+    [
+      "fit-pair",
+      83,
+      3407
+    ],
+    [
+      "prepare",
+      84,
+      null
+    ],
+    [
+      "fit-pair",
+      84,
+      7
+    ],
+    [
+      "fit-pair",
+      84,
+      42
+    ],
+    [
+      "fit-pair",
+      84,
+      123
+    ],
+    [
+      "fit-pair",
+      84,
+      2026
+    ],
+    [
+      "fit-pair",
+      84,
+      3407
+    ],
+    [
+      "prepare",
+      85,
+      null
+    ],
+    [
+      "fit-pair",
+      85,
+      7
+    ],
+    [
+      "fit-pair",
+      85,
+      42
+    ],
+    [
+      "fit-pair",
+      85,
+      123
+    ],
+    [
+      "fit-pair",
+      85,
+      2026
+    ],
+    [
+      "fit-pair",
+      85,
+      3407
+    ],
+    [
+      "prepare",
+      86,
+      null
+    ],
+    [
+      "fit-pair",
+      86,
+      7
+    ],
+    [
+      "fit-pair",
+      86,
+      42
+    ],
+    [
+      "fit-pair",
+      86,
+      123
+    ],
+    [
+      "fit-pair",
+      86,
+      2026
+    ],
+    [
+      "fit-pair",
+      86,
+      3407
+    ],
+    [
+      "prepare",
+      87,
+      null
+    ],
+    [
+      "fit-pair",
+      87,
+      7
+    ],
+    [
+      "fit-pair",
+      87,
+      42
+    ],
+    [
+      "fit-pair",
+      87,
+      123
+    ],
+    [
+      "fit-pair",
+      87,
+      2026
+    ],
+    [
+      "fit-pair",
+      87,
+      3407
+    ],
+    [
+      "prepare",
+      88,
+      null
+    ],
+    [
+      "fit-pair",
+      88,
+      7
+    ],
+    [
+      "fit-pair",
+      88,
+      42
+    ],
+    [
+      "fit-pair",
+      88,
+      123
+    ],
+    [
+      "fit-pair",
+      88,
+      2026
+    ],
+    [
+      "fit-pair",
+      88,
+      3407
+    ],
+    [
+      "prepare",
+      89,
+      null
+    ],
+    [
+      "fit-pair",
+      89,
+      7
+    ],
+    [
+      "fit-pair",
+      89,
+      42
+    ],
+    [
+      "fit-pair",
+      89,
+      123
+    ],
+    [
+      "fit-pair",
+      89,
+      2026
+    ],
+    [
+      "fit-pair",
+      89,
+      3407
+    ],
+    [
+      "prepare",
+      90,
+      null
+    ],
+    [
+      "fit-pair",
+      90,
+      7
+    ],
+    [
+      "fit-pair",
+      90,
+      42
+    ],
+    [
+      "fit-pair",
+      90,
+      123
+    ],
+    [
+      "fit-pair",
+      90,
+      2026
+    ],
+    [
+      "fit-pair",
+      90,
+      3407
+    ],
+    [
+      "prepare",
+      91,
+      null
+    ],
+    [
+      "fit-pair",
+      91,
+      7
+    ],
+    [
+      "fit-pair",
+      91,
+      42
+    ],
+    [
+      "fit-pair",
+      91,
+      123
+    ],
+    [
+      "fit-pair",
+      91,
+      2026
+    ],
+    [
+      "fit-pair",
+      91,
+      3407
+    ],
+    [
+      "prepare",
+      92,
+      null
+    ],
+    [
+      "fit-pair",
+      92,
+      7
+    ],
+    [
+      "fit-pair",
+      92,
+      42
+    ],
+    [
+      "fit-pair",
+      92,
+      123
+    ],
+    [
+      "fit-pair",
+      92,
+      2026
+    ],
+    [
+      "fit-pair",
+      92,
+      3407
+    ],
+    [
+      "prepare",
+      93,
+      null
+    ],
+    [
+      "fit-pair",
+      93,
+      7
+    ],
+    [
+      "fit-pair",
+      93,
+      42
+    ],
+    [
+      "fit-pair",
+      93,
+      123
+    ],
+    [
+      "fit-pair",
+      93,
+      2026
+    ],
+    [
+      "fit-pair",
+      93,
+      3407
+    ],
+    [
+      "prepare",
+      94,
+      null
+    ],
+    [
+      "fit-pair",
+      94,
+      7
+    ],
+    [
+      "fit-pair",
+      94,
+      42
+    ],
+    [
+      "fit-pair",
+      94,
+      123
+    ],
+    [
+      "fit-pair",
+      94,
+      2026
+    ],
+    [
+      "fit-pair",
+      94,
+      3407
+    ],
+    [
+      "prepare",
+      95,
+      null
+    ],
+    [
+      "fit-pair",
+      95,
+      7
+    ],
+    [
+      "fit-pair",
+      95,
+      42
+    ],
+    [
+      "fit-pair",
+      95,
+      123
+    ],
+    [
+      "fit-pair",
+      95,
+      2026
+    ],
+    [
+      "fit-pair",
+      95,
+      3407
+    ],
+    [
+      "prepare",
+      96,
+      null
+    ],
+    [
+      "fit-pair",
+      96,
+      7
+    ],
+    [
+      "fit-pair",
+      96,
+      42
+    ],
+    [
+      "fit-pair",
+      96,
+      123
+    ],
+    [
+      "fit-pair",
+      96,
+      2026
+    ],
+    [
+      "fit-pair",
+      96,
+      3407
+    ],
+    [
+      "prepare",
+      97,
+      null
+    ],
+    [
+      "fit-pair",
+      97,
+      7
+    ],
+    [
+      "fit-pair",
+      97,
+      42
+    ],
+    [
+      "fit-pair",
+      97,
+      123
+    ],
+    [
+      "fit-pair",
+      97,
+      2026
+    ],
+    [
+      "fit-pair",
+      97,
+      3407
+    ],
+    [
+      "prepare",
+      98,
+      null
+    ],
+    [
+      "fit-pair",
+      98,
+      7
+    ],
+    [
+      "fit-pair",
+      98,
+      42
+    ],
+    [
+      "fit-pair",
+      98,
+      123
+    ],
+    [
+      "fit-pair",
+      98,
+      2026
+    ],
+    [
+      "fit-pair",
+      98,
+      3407
+    ],
+    [
+      "prepare",
+      99,
+      null
+    ],
+    [
+      "fit-pair",
+      99,
+      7
+    ],
+    [
+      "fit-pair",
+      99,
+      42
+    ],
+    [
+      "fit-pair",
+      99,
+      123
+    ],
+    [
+      "fit-pair",
+      99,
+      2026
+    ],
+    [
+      "fit-pair",
+      99,
+      3407
+    ]
+  ],
+  "remaining_fits": 976,
+  "verified_completed": [
+    {
+      "job": "g000_prepare",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/prepare.json",
+          "sha256": "32e5d21ad1d6b8d10b330eb47313f07c78e5ada5c1466fd7901e8321ce62a565",
+          "bytes": 737
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/rule_pool.npz",
+          "sha256": "b251eb0ec5b9784b8202f682525e998599a9616a042f7d6c47300ca6a73cc65c",
+          "bytes": 285565792
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/placebo_pool.npz",
+          "sha256": "ad80910455d2d9d802441274cc4bf1695eb7b809460deb4e74b223ffee5d8a07",
+          "bytes": 285744802
+        }
+      ]
+    },
+    {
+      "job": "g000_fit-pair_p7",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/run.json",
+          "sha256": "d5ebe06f31c44e1976893da49ac75ebb2bd6a862e5444ad5dc6d18ee1236f9e9",
+          "bytes": 340
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/rule.pt",
+          "sha256": "68f8a086d5fcbf7d2979870aa61a73d6cf20584a3902b1158bac71e67dd01ba3",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/rule.json",
+          "sha256": "731633769b89df60bef2b0413c9cdf0c8a3953273fa8cbc2c1a1069dd01e9d56",
+          "bytes": 3920
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/placebo.pt",
+          "sha256": "421af1a941bd60887c7328d51dd2beffc7f22ca234643a13d97cbcb42e967af1",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/placebo.json",
+          "sha256": "b681fe5f244baff3c505a2b66ec1d86bf623c8c24352c0a74ce2d6d5380a2c8c",
+          "bytes": 3923
+        }
+      ]
+    },
+    {
+      "job": "g000_fit-pair_p42",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/run.json",
+          "sha256": "c0cc87762ed7933871c6f0f826cd93995fec8c191900440ec37773a97dbd64f2",
+          "bytes": 340
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/rule.pt",
+          "sha256": "9289f835627b1573999e65130843d9a900ecd038be6d59e7016bc4929bba6cde",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/rule.json",
+          "sha256": "b61e69da21ac9d2f81b5bf895e4c2218b70da10e1b8182b7b4706f349ce4df20",
+          "bytes": 3923
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/placebo.pt",
+          "sha256": "2b71b59e1401bd198343551d6ad7859e32307e9e95f91fc488ada1ef9ce76ad5",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/placebo.json",
+          "sha256": "ad1fcae9730e925bf9b32d5132b352329fb0d89af08599c720b03e16ff7cf40e",
+          "bytes": 3927
+        }
+      ]
+    },
+    {
+      "job": "g000_fit-pair_p123",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/run.json",
+          "sha256": "d2d46c7c400a42c1cac79584c4a98ee4b50a52bfecf31984f050a502b8f2c9bb",
+          "bytes": 341
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/rule.pt",
+          "sha256": "9557f6f1926ee44ee296099d115304e942f79b5a2a5f4669c7bbc69d57b47afe",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/rule.json",
+          "sha256": "18be45bdc374e6ca8c1989c5b44eb962af710be3bb6272bc0d0f047e908e491f",
+          "bytes": 3926
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/placebo.pt",
+          "sha256": "ecedeecb86a5d005e4dbbe288ee7f9d347970e1acff39e94a4f8400fb9f99657",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/placebo.json",
+          "sha256": "f65bdec801cda8e65aa6cd29e75e3827bf77d24efaab2f7283bc681ebf265c71",
+          "bytes": 3932
+        }
+      ]
+    },
+    {
+      "job": "g000_fit-pair_p2026",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/run.json",
+          "sha256": "ac093e947bb1b7ab99e1f44aafa416103424a07afc133bc7f9c4ce83f654562a",
+          "bytes": 341
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/rule.pt",
+          "sha256": "abebfabaca1e87be07f21f1549bbd4e4bdb5de2f9fc2a012a428263d492f50ba",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/rule.json",
+          "sha256": "332cc0f1a4deb8118aa98953b7461fc4cdd0ba9f5760dc711696213cc90f1b65",
+          "bytes": 3928
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/placebo.pt",
+          "sha256": "016c2ae2ca921cb98fa0fe5d849e89f144b3cd85be3a2435443f1385fcfdc057",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/placebo.json",
+          "sha256": "b6130fc26943a75019bcf468bfb18118d8c90c4698eb69eb69397031c38352dc",
+          "bytes": 3934
+        }
+      ]
+    },
+    {
+      "job": "g000_fit-pair_p3407",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/run.json",
+          "sha256": "b43c26577f14e19e6f2c03221dcc127c2b005e328d4e2e86656e3ae41e95ad76",
+          "bytes": 341
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/rule.pt",
+          "sha256": "f67a18bf306828cbeafb002c9df332f848f8252bf0b0a1181b1cc0c73fefa0d8",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/rule.json",
+          "sha256": "f48fbe25ae9d3d09f55d5a3bf346e9dcd38486ebf5173449a4c7fe1055aca168",
+          "bytes": 3923
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/placebo.pt",
+          "sha256": "42d7ca91dc878d7b6003f56b105af4ab69c496e393f930b818b6842c36e4d83a",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/placebo.json",
+          "sha256": "df7db150b8c92e4c45431389a9199c28e9c3d658183c85f137326518f17e5a11",
+          "bytes": 3935
+        }
+      ]
+    },
+    {
+      "job": "g001_prepare",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/prepare.json",
+          "sha256": "013154aa3b6b8325c9cb917884b280482ffd49b73ffe693e6b4fbea80032dd48",
+          "bytes": 737
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/rule_pool.npz",
+          "sha256": "1610d3f4088160674b5aabe3f248f7cd2813b1a87cf2df0d85e35456cd265919",
+          "bytes": 285810268
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/placebo_pool.npz",
+          "sha256": "dc1e7f75d04373606ebc44533597b304b46c264269a26b151859ae11c9b592d1",
+          "bytes": 285986640
+        }
+      ]
+    },
+    {
+      "job": "g001_fit-pair_p7",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/run.json",
+          "sha256": "7a7a5924e1cc478b30a0e6ec0b16ee9228d4f45af928282315f109b5cb2c80c8",
+          "bytes": 341
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/rule.pt",
+          "sha256": "df54f9fa7a4e4c9befa202ae55ece748fbf6a9d43a2ca00c22ee8bef65127ff2",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/rule.json",
+          "sha256": "f5efd9da5f2f6c8d97afdc1c70c4441d5d5b616ff4943932c8429b16d38afdb2",
+          "bytes": 3921
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/placebo.pt",
+          "sha256": "357a6822adb99b24a386cfbab8550616a335d6561ba12da8108929d78bcf260a",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/placebo.json",
+          "sha256": "6cf1a1cb44310d143222f9d2bb08e5f0d86bc027294e8723a940607459a5feb4",
+          "bytes": 3924
+        }
+      ]
+    },
+    {
+      "job": "g001_fit-pair_p42",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/run.json",
+          "sha256": "11f0245e6771b1a3e85c84e7334c3d26a7b7f6087f9dceef0414b46d53782124",
+          "bytes": 341
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/rule.pt",
+          "sha256": "cb2d41ecdcdd55ffe83af38587e8fdd24f1c4daef1466b4c616fc00bccbc9257",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/rule.json",
+          "sha256": "08226df144f940a5b282f5b0f8a93599b6c2036a1bad09db7fc5b3a2b06e56fa",
+          "bytes": 3922
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/placebo.pt",
+          "sha256": "9862c586372e327af39ec196daf9ca41bc0fb1be6f53914b6f7056fa186a7f89",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/placebo.json",
+          "sha256": "2d541fcae25f8481780ddd3298b1e3e6d769b228de6b9dd10ac7dc160c34f64d",
+          "bytes": 3927
+        }
+      ]
+    },
+    {
+      "job": "g001_fit-pair_p123",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/run.json",
+          "sha256": "dabc6504ff4519578b500cac302538f85c58bafb0aa28aa1e01ce1de76bacd1e",
+          "bytes": 341
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/rule.pt",
+          "sha256": "04c89e7f9faff17622f190eeb96a7752c601e645ca081ace49f96d43c42d11ee",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/rule.json",
+          "sha256": "fc246bfcee05624283bf2589ada21549db3aae235ef527f06547bc7528d012c8",
+          "bytes": 3924
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/placebo.pt",
+          "sha256": "77ffc5bf89c93ed08d717859a9186fc787c3c858900c8743b19bf21aa6589983",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/placebo.json",
+          "sha256": "6780410bf2f780313c2f05a2c3ef03feed3b04893fc328c7f24f3cef8cdc0650",
+          "bytes": 3926
+        }
+      ]
+    },
+    {
+      "job": "g001_fit-pair_p2026",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/run.json",
+          "sha256": "59f39179fe3eae344d493d8f9aad1bcf3740e7015b9d4c4d7c84a4ba7943228b",
+          "bytes": 340
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/rule.pt",
+          "sha256": "483a4eb8488598ac74c1fe25eeef7876f3bddc0fbb8a6b1abb0c164c56762679",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/rule.json",
+          "sha256": "7c62169dd47b3983b077eb082d14b9b1b534d7fa509c19ee525970e51c310497",
+          "bytes": 3927
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/placebo.pt",
+          "sha256": "69726577179151db3022b6b8e763ea4e9f5b73db374c042ab67c93fbc9313390",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/placebo.json",
+          "sha256": "7232a50eda603234dc35b7f38fbfed4b76aa28de805339954367335ac54e01d2",
+          "bytes": 3931
+        }
+      ]
+    },
+    {
+      "job": "g001_fit-pair_p3407",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/run.json",
+          "sha256": "210267972e4fd0e6e2d8dcfbaae47c10b0bbfa51e8e4b3fd6f183bcb585608f2",
+          "bytes": 340
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/rule.pt",
+          "sha256": "f8e7a91a4195c41ff674a97e9de3f4992e1462a3cca254de5c6cf98f7379c729",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/rule.json",
+          "sha256": "4893781d5a1872767712d6bb9be9d47972fd41ed3b5fb53e05da81a5a75440cf",
+          "bytes": 3928
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/placebo.pt",
+          "sha256": "a3370386d0fe6ba0e923fea1d396e74560d6595f503f82be18c19f84e89816f7",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/placebo.json",
+          "sha256": "b3c20fdaa84e4495b94ce31ebbc40e13009952014deabea2a15edb4fe63bbf24",
+          "bytes": 3934
+        }
+      ]
+    },
+    {
+      "job": "g002_prepare",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/prepare.json",
+          "sha256": "a389f0b0b2dd2bf7d26fb7db9920d611e0c90b25bbdb79275dea53778bcb0c1b",
+          "bytes": 737
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/rule_pool.npz",
+          "sha256": "044f3d5ac7ec74b91fc621fc23efebfe1ca4bef8b3275e7adbf822f43b3776e1",
+          "bytes": 285898351
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/placebo_pool.npz",
+          "sha256": "23c5e990c7db081718823ed0356501674a7f36789b88090f9179537450a3b239",
+          "bytes": 286079169
+        }
+      ]
+    },
+    {
+      "job": "g002_fit-pair_p7",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/run.json",
+          "sha256": "c11b9ca4c62e8b0bf24fc2f3a0aa7e57c4ba4a56ce28629eeb8264e24d1bb3bc",
+          "bytes": 340
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/rule.pt",
+          "sha256": "70afc74cb2177083ecd27575cca9823a8ae477ae8cf241f6d4d676c7ca1887b8",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/rule.json",
+          "sha256": "59eb62e65e3cb96ef57557dc7a2615a569c3f3adc43e9dc62505a9d9ff61dbb8",
+          "bytes": 3919
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/placebo.pt",
+          "sha256": "a281ff5d00d3d5536cc47cf5eab37488496c9c2372803b679b6e35bf23d47fa2",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/placebo.json",
+          "sha256": "eb3674fde60b152508afdebd8651c3272fd107c73e472dc7f5480aed1ea0f197",
+          "bytes": 3927
+        }
+      ]
+    },
+    {
+      "job": "g002_fit-pair_p42",
+      "files": [
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/run.json",
+          "sha256": "504af37ac5e8cc2603c4e0afdcfcb60a3ae0588e1cf2f6c9db0b264cf453bb92",
+          "bytes": 340
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/rule.pt",
+          "sha256": "cfb24a705a4d34d1aae2b2062e6dcdeb1fcdaefb9462ca2d976b389e99cfcc82",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/rule.json",
+          "sha256": "949ff903c3b726210b27ba4aaff1831fc2924cdc9e56eb96e8cc0b7b40ee3c4e",
+          "bytes": 3920
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/placebo.pt",
+          "sha256": "8b4fd66089e4dc8285d99a0ef637adfa1d73f176b0debe3e757d14e9d0e82ea5",
+          "bytes": 390302
+        },
+        {
+          "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/placebo.json",
+          "sha256": "23aa7b8242f2c94960eb0164d28d4359126ba379e18fd147dc86cd85547f08a6",
+          "bytes": 3927
+        }
+      ]
+    }
+  ],
+  "original_inventory": [
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/construction_checks.json",
+      "sha256": "e663ef2fbe621142c7acde7a18cdd56cc83593ce5f4073f3729a34687c9cb9e7",
+      "bytes": 2842
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/placebo.json",
+      "sha256": "f65bdec801cda8e65aa6cd29e75e3827bf77d24efaab2f7283bc681ebf265c71",
+      "bytes": 3932
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/placebo.pt",
+      "sha256": "ecedeecb86a5d005e4dbbe288ee7f9d347970e1acff39e94a4f8400fb9f99657",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/rule.json",
+      "sha256": "18be45bdc374e6ca8c1989c5b44eb962af710be3bb6272bc0d0f047e908e491f",
+      "bytes": 3926
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/rule.pt",
+      "sha256": "9557f6f1926ee44ee296099d115304e942f79b5a2a5f4669c7bbc69d57b47afe",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/run.json",
+      "sha256": "d2d46c7c400a42c1cac79584c4a98ee4b50a52bfecf31984f050a502b8f2c9bb",
+      "bytes": 341
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_123/started.json",
+      "sha256": "dfe01fd90d5633adbee2fdadfcd13039e161d7d73e28495c1dffa2673f82aa91",
+      "bytes": 212
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/placebo.json",
+      "sha256": "b6130fc26943a75019bcf468bfb18118d8c90c4698eb69eb69397031c38352dc",
+      "bytes": 3934
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/placebo.pt",
+      "sha256": "016c2ae2ca921cb98fa0fe5d849e89f144b3cd85be3a2435443f1385fcfdc057",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/rule.json",
+      "sha256": "332cc0f1a4deb8118aa98953b7461fc4cdd0ba9f5760dc711696213cc90f1b65",
+      "bytes": 3928
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/rule.pt",
+      "sha256": "abebfabaca1e87be07f21f1549bbd4e4bdb5de2f9fc2a012a428263d492f50ba",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/run.json",
+      "sha256": "ac093e947bb1b7ab99e1f44aafa416103424a07afc133bc7f9c4ce83f654562a",
+      "bytes": 341
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_2026/started.json",
+      "sha256": "7eb2825b22877a2802f0e456e83fd1a90e904f685b54b1dfa03ae3c1e4f9ee9d",
+      "bytes": 213
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/placebo.json",
+      "sha256": "df7db150b8c92e4c45431389a9199c28e9c3d658183c85f137326518f17e5a11",
+      "bytes": 3935
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/placebo.pt",
+      "sha256": "42d7ca91dc878d7b6003f56b105af4ab69c496e393f930b818b6842c36e4d83a",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/rule.json",
+      "sha256": "f48fbe25ae9d3d09f55d5a3bf346e9dcd38486ebf5173449a4c7fe1055aca168",
+      "bytes": 3923
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/rule.pt",
+      "sha256": "f67a18bf306828cbeafb002c9df332f848f8252bf0b0a1181b1cc0c73fefa0d8",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/run.json",
+      "sha256": "b43c26577f14e19e6f2c03221dcc127c2b005e328d4e2e86656e3ae41e95ad76",
+      "bytes": 341
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_3407/started.json",
+      "sha256": "36167764b18739393d87f3ca63c3a83801fcfa3be128eb8361c32d901990d350",
+      "bytes": 213
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/placebo.json",
+      "sha256": "ad1fcae9730e925bf9b32d5132b352329fb0d89af08599c720b03e16ff7cf40e",
+      "bytes": 3927
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/placebo.pt",
+      "sha256": "2b71b59e1401bd198343551d6ad7859e32307e9e95f91fc488ada1ef9ce76ad5",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/rule.json",
+      "sha256": "b61e69da21ac9d2f81b5bf895e4c2218b70da10e1b8182b7b4706f349ce4df20",
+      "bytes": 3923
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/rule.pt",
+      "sha256": "9289f835627b1573999e65130843d9a900ecd038be6d59e7016bc4929bba6cde",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/run.json",
+      "sha256": "c0cc87762ed7933871c6f0f826cd93995fec8c191900440ec37773a97dbd64f2",
+      "bytes": 340
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_42/started.json",
+      "sha256": "47822c4ec02f270aa30e05b5996cd3b59de8d3efb78a58bbc75e07ca2d0234bc",
+      "bytes": 211
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/placebo.json",
+      "sha256": "b681fe5f244baff3c505a2b66ec1d86bf623c8c24352c0a74ce2d6d5380a2c8c",
+      "bytes": 3923
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/placebo.pt",
+      "sha256": "421af1a941bd60887c7328d51dd2beffc7f22ca234643a13d97cbcb42e967af1",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/rule.json",
+      "sha256": "731633769b89df60bef2b0413c9cdf0c8a3953273fa8cbc2c1a1069dd01e9d56",
+      "bytes": 3920
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/rule.pt",
+      "sha256": "68f8a086d5fcbf7d2979870aa61a73d6cf20584a3902b1158bac71e67dd01ba3",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/run.json",
+      "sha256": "d5ebe06f31c44e1976893da49ac75ebb2bd6a862e5444ad5dc6d18ee1236f9e9",
+      "bytes": 340
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/pipeline_7/started.json",
+      "sha256": "3a22a74adf35754882c185223467ac47e9aff98655ff56b085b20207eb524eaa",
+      "bytes": 210
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/placebo_pool.npz",
+      "sha256": "ad80910455d2d9d802441274cc4bf1695eb7b809460deb4e74b223ffee5d8a07",
+      "bytes": 285744802
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/prepare.json",
+      "sha256": "32e5d21ad1d6b8d10b330eb47313f07c78e5ada5c1466fd7901e8321ce62a565",
+      "bytes": 737
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/prepare_started.json",
+      "sha256": "7ccce243f5f96ffbcb253ba988e68ad2fd0da05e2670d7dd88a950d5c443f480",
+      "bytes": 225
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g000/rule_pool.npz",
+      "sha256": "b251eb0ec5b9784b8202f682525e998599a9616a042f7d6c47300ca6a73cc65c",
+      "bytes": 285565792
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/construction_checks.json",
+      "sha256": "45f6121880b01ea7f57ee3cd3bc0f8b8c54f9858ecdfafad1b44a710059f9718",
+      "bytes": 2843
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/placebo.json",
+      "sha256": "6780410bf2f780313c2f05a2c3ef03feed3b04893fc328c7f24f3cef8cdc0650",
+      "bytes": 3926
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/placebo.pt",
+      "sha256": "77ffc5bf89c93ed08d717859a9186fc787c3c858900c8743b19bf21aa6589983",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/rule.json",
+      "sha256": "fc246bfcee05624283bf2589ada21549db3aae235ef527f06547bc7528d012c8",
+      "bytes": 3924
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/rule.pt",
+      "sha256": "04c89e7f9faff17622f190eeb96a7752c601e645ca081ace49f96d43c42d11ee",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/run.json",
+      "sha256": "dabc6504ff4519578b500cac302538f85c58bafb0aa28aa1e01ce1de76bacd1e",
+      "bytes": 341
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_123/started.json",
+      "sha256": "56ea61b845970d7e6045c7e3e24545eb137fe65d7a135e36d98fd52306755b55",
+      "bytes": 212
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/placebo.json",
+      "sha256": "7232a50eda603234dc35b7f38fbfed4b76aa28de805339954367335ac54e01d2",
+      "bytes": 3931
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/placebo.pt",
+      "sha256": "69726577179151db3022b6b8e763ea4e9f5b73db374c042ab67c93fbc9313390",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/rule.json",
+      "sha256": "7c62169dd47b3983b077eb082d14b9b1b534d7fa509c19ee525970e51c310497",
+      "bytes": 3927
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/rule.pt",
+      "sha256": "483a4eb8488598ac74c1fe25eeef7876f3bddc0fbb8a6b1abb0c164c56762679",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/run.json",
+      "sha256": "59f39179fe3eae344d493d8f9aad1bcf3740e7015b9d4c4d7c84a4ba7943228b",
+      "bytes": 340
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_2026/started.json",
+      "sha256": "d6d544c32d0322ab59e605079e15ee2087c4a48cb587ffcf1ba553964376e238",
+      "bytes": 213
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/placebo.json",
+      "sha256": "b3c20fdaa84e4495b94ce31ebbc40e13009952014deabea2a15edb4fe63bbf24",
+      "bytes": 3934
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/placebo.pt",
+      "sha256": "a3370386d0fe6ba0e923fea1d396e74560d6595f503f82be18c19f84e89816f7",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/rule.json",
+      "sha256": "4893781d5a1872767712d6bb9be9d47972fd41ed3b5fb53e05da81a5a75440cf",
+      "bytes": 3928
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/rule.pt",
+      "sha256": "f8e7a91a4195c41ff674a97e9de3f4992e1462a3cca254de5c6cf98f7379c729",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/run.json",
+      "sha256": "210267972e4fd0e6e2d8dcfbaae47c10b0bbfa51e8e4b3fd6f183bcb585608f2",
+      "bytes": 340
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_3407/started.json",
+      "sha256": "f7cf6376df3f7d5bb9dded991a86ef7242039e7d664e07655a49ed40d65a4275",
+      "bytes": 213
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/placebo.json",
+      "sha256": "2d541fcae25f8481780ddd3298b1e3e6d769b228de6b9dd10ac7dc160c34f64d",
+      "bytes": 3927
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/placebo.pt",
+      "sha256": "9862c586372e327af39ec196daf9ca41bc0fb1be6f53914b6f7056fa186a7f89",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/rule.json",
+      "sha256": "08226df144f940a5b282f5b0f8a93599b6c2036a1bad09db7fc5b3a2b06e56fa",
+      "bytes": 3922
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/rule.pt",
+      "sha256": "cb2d41ecdcdd55ffe83af38587e8fdd24f1c4daef1466b4c616fc00bccbc9257",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/run.json",
+      "sha256": "11f0245e6771b1a3e85c84e7334c3d26a7b7f6087f9dceef0414b46d53782124",
+      "bytes": 341
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_42/started.json",
+      "sha256": "b35d78e426603e1c4c4ea1e359a805bcbf78162ce3cc590f48e862ad615a4e01",
+      "bytes": 211
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/placebo.json",
+      "sha256": "6cf1a1cb44310d143222f9d2bb08e5f0d86bc027294e8723a940607459a5feb4",
+      "bytes": 3924
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/placebo.pt",
+      "sha256": "357a6822adb99b24a386cfbab8550616a335d6561ba12da8108929d78bcf260a",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/rule.json",
+      "sha256": "f5efd9da5f2f6c8d97afdc1c70c4441d5d5b616ff4943932c8429b16d38afdb2",
+      "bytes": 3921
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/rule.pt",
+      "sha256": "df54f9fa7a4e4c9befa202ae55ece748fbf6a9d43a2ca00c22ee8bef65127ff2",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/run.json",
+      "sha256": "7a7a5924e1cc478b30a0e6ec0b16ee9228d4f45af928282315f109b5cb2c80c8",
+      "bytes": 341
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/pipeline_7/started.json",
+      "sha256": "7a4fafc46bde59698925ab8c4f604290cc113dd931881a5b35086659be661998",
+      "bytes": 210
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/placebo_pool.npz",
+      "sha256": "dc1e7f75d04373606ebc44533597b304b46c264269a26b151859ae11c9b592d1",
+      "bytes": 285986640
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/prepare.json",
+      "sha256": "013154aa3b6b8325c9cb917884b280482ffd49b73ffe693e6b4fbea80032dd48",
+      "bytes": 737
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/prepare_started.json",
+      "sha256": "b1ce0dc5ba10f7c38463256866d399f40092d3cc55fdf5fda4ff1a49a52f52ce",
+      "bytes": 225
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g001/rule_pool.npz",
+      "sha256": "1610d3f4088160674b5aabe3f248f7cd2813b1a87cf2df0d85e35456cd265919",
+      "bytes": 285810268
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/construction_checks.json",
+      "sha256": "6864aed8feb05b389ce815001d775de1a853ffe0979657c10383ad504bcb4cbe",
+      "bytes": 2843
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_123/started.json",
+      "sha256": "dfc71c9c947476b88861eb09c67e31881a357058e865cc4034b49fd9780ce2a0",
+      "bytes": 212
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/placebo.json",
+      "sha256": "23aa7b8242f2c94960eb0164d28d4359126ba379e18fd147dc86cd85547f08a6",
+      "bytes": 3927
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/placebo.pt",
+      "sha256": "8b4fd66089e4dc8285d99a0ef637adfa1d73f176b0debe3e757d14e9d0e82ea5",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/rule.json",
+      "sha256": "949ff903c3b726210b27ba4aaff1831fc2924cdc9e56eb96e8cc0b7b40ee3c4e",
+      "bytes": 3920
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/rule.pt",
+      "sha256": "cfb24a705a4d34d1aae2b2062e6dcdeb1fcdaefb9462ca2d976b389e99cfcc82",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/run.json",
+      "sha256": "504af37ac5e8cc2603c4e0afdcfcb60a3ae0588e1cf2f6c9db0b264cf453bb92",
+      "bytes": 340
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_42/started.json",
+      "sha256": "41a2a532683f257de893b6c0891d5bda7eb39b118f9279b0e15cdc36ea946c24",
+      "bytes": 211
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/placebo.json",
+      "sha256": "eb3674fde60b152508afdebd8651c3272fd107c73e472dc7f5480aed1ea0f197",
+      "bytes": 3927
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/placebo.pt",
+      "sha256": "a281ff5d00d3d5536cc47cf5eab37488496c9c2372803b679b6e35bf23d47fa2",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/rule.json",
+      "sha256": "59eb62e65e3cb96ef57557dc7a2615a569c3f3adc43e9dc62505a9d9ff61dbb8",
+      "bytes": 3919
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/rule.pt",
+      "sha256": "70afc74cb2177083ecd27575cca9823a8ae477ae8cf241f6d4d676c7ca1887b8",
+      "bytes": 390302
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/run.json",
+      "sha256": "c11b9ca4c62e8b0bf24fc2f3a0aa7e57c4ba4a56ce28629eeb8264e24d1bb3bc",
+      "bytes": 340
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_7/started.json",
+      "sha256": "d04d7053d1215b3a6a38a54efcc7fbfe254577fe7938ec0b0383674881280036",
+      "bytes": 210
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/placebo_pool.npz",
+      "sha256": "23c5e990c7db081718823ed0356501674a7f36789b88090f9179537450a3b239",
+      "bytes": 286079169
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/prepare.json",
+      "sha256": "a389f0b0b2dd2bf7d26fb7db9920d611e0c90b25bbdb79275dea53778bcb0c1b",
+      "bytes": 737
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/prepare_started.json",
+      "sha256": "96ceeb0222a5aa27a3d1906973fb52502fd7237edf80849cbab91e2338ace5b1",
+      "bytes": 225
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/rule_pool.npz",
+      "sha256": "044f3d5ac7ec74b91fc621fc23efebfe1ca4bef8b3275e7adbf822f43b3776e1",
+      "bytes": 285898351
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g000_fit-pair_p123.log",
+      "sha256": "521f030d943eaa85c1cbf84e596f5ea1cf843b1ece37b5a920aafe772372e756",
+      "bytes": 3121
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g000_fit-pair_p2026.log",
+      "sha256": "3cc8dae43e9a81b6c5c0b3efbe77fdbd194ac404e08d02902231c0eecdfe95d5",
+      "bytes": 3144
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g000_fit-pair_p3407.log",
+      "sha256": "f2f393f4b4ab8bf80b26879cd8557bb69554285f32771242a68143338108dfb9",
+      "bytes": 3141
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g000_fit-pair_p42.log",
+      "sha256": "299b15fcd4a70e7ad3221f06463315f947bd9b0e242daabc6a8a6b35e9228c6d",
+      "bytes": 3094
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g000_fit-pair_p7.log",
+      "sha256": "aa07e4537622210eab26022fb4b61f8258410315006c991b44baa0dcd7ed012c",
+      "bytes": 3066
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g000_prepare.log",
+      "sha256": "3192a7ee3b7a77cebe88a149354ebcf838bbc479bfeb4143a5c242dd7e745ec9",
+      "bytes": 651
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g001_fit-pair_p123.log",
+      "sha256": "28732d894ba156d9a95579c4916b1ad48bf82b10c602cb9afa66d85016e5ec4e",
+      "bytes": 3115
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g001_fit-pair_p2026.log",
+      "sha256": "dc233e6e556453e1fe212eab794a6e54e124e7671762f76a9bd0458b437a5248",
+      "bytes": 3140
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g001_fit-pair_p3407.log",
+      "sha256": "e1905b8bde3bf1622bd75f84f9ff5ddbb9d8ece17ccc7bac658713ccd69b1820",
+      "bytes": 3142
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g001_fit-pair_p42.log",
+      "sha256": "9ce6d2cd75a1002c390922c4bb17c1bb341e61016cd2cb64d76b3bd1e3f11fff",
+      "bytes": 3093
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g001_fit-pair_p7.log",
+      "sha256": "dbb69fb156d79061a4196820edc3bf7986fd50ab50029c96c3bd19e8316351d5",
+      "bytes": 3071
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g001_prepare.log",
+      "sha256": "1cd2f39396ce941d712e8140518f562b8e2b6571be625b7376f6be4b6d5c7f33",
+      "bytes": 651
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g002_fit-pair_p123.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g002_fit-pair_p42.log",
+      "sha256": "6a1b78fbb4f7514b46e35a6342ff4219ebacc33b2c707ba7098eb55f25b46e8f",
+      "bytes": 3090
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g002_fit-pair_p7.log",
+      "sha256": "957d77e7f5e6627f847704cccc41a8b3c35eed6c2bc67371edf4f442734a97ee",
+      "bytes": 3068
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/g002_prepare.log",
+      "sha256": "d818934f235e5ec0d7c7b0196575f808f6f7bafa662119173a89ffe3692b114c",
+      "bytes": 651
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/progress.jsonl",
+      "sha256": "c71f717a7436dc5c6b6acb5bd8feb6e988c88dc88962e6a303131fc680c8f63c",
+      "bytes": 5165
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/started.json",
+      "sha256": "8f3b296be04c2ff2b1208f5b4b3486c3ca486dea366f8ca101eb3ccc8f0b7e9b",
+      "bytes": 1948
+    }
+  ],
+  "test_scoring_performed": false,
+  "checkpoint_loading_performed": false
+}

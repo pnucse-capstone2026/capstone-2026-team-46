@@ -1,0 +1,13 @@
+source_stem,car_hacking_synthetic_family_candidate,mapping_confidence,target_can_id_overlap_interpretation,observed_can_id_range_weighted,dlc_distribution_from_files,primary_metric_policy
+DoS,DoS,direct_name,not_claimed_from_name_only,170-1928:327152;193-1919:140663;0-1928:98028;2-1994:65015;0-1919:29699;0-1994:24182,1:171466;2:542728;3:243326;4:905135;5:415448;6:608859;7:782377;8:8047300,binary_detection_recall
+double,other_attack,binary_only,not_claimed_from_name_only,2-1994:33654;193-1919:32784;170-1928:5685,1:201660;2:1052658;3:545893;4:1938291;5:766133;6:876004;7:1088124;8:12664544,binary_detection_recall
+force-neutral,Gear-like,tentative_semantic,not_claimed_from_name_only,193-1919:10699;2-1994:7776;170-1928:3860,1:246855;2:1148868;3:589882;4:2135655;5:966046;6:1195334;7:1457960;8:12817909,binary_detection_recall
+fuzzing,Fuzzy,direct_name,not_claimed_from_name_only,0-2047:381807;0-2046:1510;2-2044:870;7-2040:553;16-2022:406;14-2032:172;21-1982:38,0:24282;1:168133;2:840125;3:466681;4:1552232;5:602252;6:655560;7:775148;8:9640803,binary_detection_recall
+interval,other_attack,binary_only,not_claimed_from_name_only,2-1994:212628;193-1919:37292;170-1928:7970,1:126160;2:935322;3:475292;4:1776166;5:655417;6:600491;7:807612;8:11574955,binary_detection_recall
+rpm,RPM,direct_name,not_claimed_from_name_only,2-1994:13488;193-1919:8168;170-1928:1899,1:154174;2:1020609;3:485178;4:1939554;5:803782;6:787470;7:1103884;8:12310180,binary_detection_recall
+rpm-accessory,RPM/accessory,binary_only,not_claimed_from_name_only,2-1994:10989;2-1788:659;193-1919:344;170-1928:58,1:20831;2:105068;3:53263;4:185306;5:60815;6:66870;7:86039;8:1443775,binary_detection_recall
+speed,other_attack,binary_only,not_claimed_from_name_only,2-1994:29800;193-1919:11835;170-1928:1424,1:134407;2:1803409;3:1079414;4:3643075;5:1251392;6:1014481;7:1107890;8:18366260,binary_detection_recall
+speed-accessory,Speed/accessory,binary_only,not_claimed_from_name_only,170-1928:4102;2-1788:3065;2-1994:1817;193-1919:60,1:28627;2:124558;3:53263;4:206434;5:61978;6:66870;7:105921;8:2000211,binary_detection_recall
+standstill,other_attack,binary_only,not_claimed_from_name_only,2-1788:15868;193-1919:5868;2-1994:5748;170-1928:2454,1:153354;2:758561;3:267410;4:1372245;5:669521;6:699571;7:1131373;8:10399525,binary_detection_recall
+systematic,other_attack,binary_only,not_claimed_from_name_only,0-2047:126396;0-1919:3005;0-1928:748,0:8096;1:135153;2:618477;3:236233;4:1040076;5:378884;6:364116;7:639580;8:9742043,binary_detection_recall
+triple,other_attack,binary_only,not_claimed_from_name_only,2-1994:131691;193-1919:76444;170-1928:6028,1:140596;2:1090734;3:607942;4:2127972;5:802224;6:786750;7:952974;8:11940225,binary_detection_recall

@@ -1,0 +1,5 @@
+generator,ratio,seed,synthetic_windows,DoS_synthetic_windows,Fuzzy_synthetic_windows,Gear_synthetic_windows,RPM_synthetic_windows
+rule_based,0.1,57.333333333333336,26215.0,6554.0,6554.0,6554.0,6553.0
+rule_based,0.3,57.333333333333336,78645.0,19662.0,19661.0,19661.0,19661.0
+rule_based,0.5,57.333333333333336,131074.0,32769.0,32769.0,32768.0,32768.0
+rule_based,1.0,57.333333333333336,262149.0,65538.0,65537.0,65537.0,65537.0

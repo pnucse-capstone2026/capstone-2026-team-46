@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "utc": "2026-09-07T15:58:47.995959+00:00",
+  "co_primary": [
+    {
+      "metric": "exact",
+      "family": "macro",
+      "k": 8,
+      "endpoint": "U",
+      "analysis_role": "co_primary",
+      "n_constructions": 100,
+      "mean": 0.0010780000000000002,
+      "sd": 0.04653862309181166,
+      "confidence": 0.975,
+      "ci_low": -0.009514206786710323,
+      "ci_high": 0.011670206786710324,
+      "positive_units": 53
+    },
+    {
+      "metric": "exact",
+      "family": "macro",
+      "k": 8,
+      "endpoint": "L",
+      "analysis_role": "co_primary",
+      "n_constructions": 100,
+      "mean": 0.026399499999999992,
+      "sd": 0.005548507375043231,
+      "confidence": 0.975,
+      "ci_low": 0.025136657793471847,
+      "ci_high": 0.027662342206528138,
+      "positive_units": 100
+    }
+  ],
+  "n_constructions": 100,
+  "evaluation_freeze_sha256": "6e660fd667dbe100b008b66ca28af5a69cb2148fe0b2d00343ee475f17296bc9",
+  "interpretation": "construction-conditional U/L; no equivalence or source-generalization claim"
+}

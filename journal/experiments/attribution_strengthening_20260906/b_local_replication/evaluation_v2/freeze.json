@@ -1,0 +1,53 @@
+{
+  "utc": "2026-09-07T14:52:54.678029+00:00",
+  "inputs": [
+    {
+      "path": "journal/scripts/evaluate_attribution_local_replication_v2.py",
+      "sha256": "e4858bbfa4fae047472922f14db4924408723cc9256e01e1b5cad2cb3baa4976"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/EVALUATION_v2.md",
+      "sha256": "b2c14c6d3c9cab0823a6fffaf8fa695032219473d686e515a7e69d214e5abbc4"
+    },
+    {
+      "path": "journal/tests/test_attribution_local_evaluation_v2.py",
+      "sha256": "1f3a2f7f0a7d9513357b1bb8f4cdd132a06765b6366739c027f29a6b0cdc7294"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/evaluation_v1/freeze.json",
+      "sha256": "c50941a2cef766350ac9b3de627a38ae9d836651a8e56383a21b1c97c378fc72"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/recovery_preflight_v1.json",
+      "sha256": "f6195df121c1a16454d90418a2f069369c9bab0f79c8965ccb897deedb072edf"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_resume_v1/started.json",
+      "sha256": "b870ffcb4cff69f5db7d42d46e7968cf68cf1cf946c26486131513aa3b642a24"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_resume_v1/run.json",
+      "sha256": "0ccc47a43fddf72323cf5ac7f2eb11d4057913359924d08a3e3e71573b329c36"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_resume_v1/full_grid_manifest.json",
+      "sha256": "9f00b968a57ece1e987951f86e4a32048ffb65bff915824a572aefe595d5c8e3"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_resume_v1/archived_attempt.json",
+      "sha256": "ae201ee47fd1be68bf81d6eb58af34e2e5d95ef89ce9ef2f88641dbe8bccaa3a"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_resume_v1/progress.jsonl",
+      "sha256": "ac601190b265ffb16d7c79e2c96b7e9b787d1b7484fd45405db6d238c44f2b9d"
+    },
+    {
+      "path": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_launch_v1/progress.jsonl",
+      "sha256": "c71f717a7436dc5c6b6acb5bd8feb6e988c88dc88962e6a303131fc680c8f63c"
+    }
+  ],
+  "new_model_inference": false,
+  "public_preregistration": false,
+  "change_scope": "composite recovery completion gate and new output paths only",
+  "scientific_contract": "EVALUATION_v1.md unchanged"
+}

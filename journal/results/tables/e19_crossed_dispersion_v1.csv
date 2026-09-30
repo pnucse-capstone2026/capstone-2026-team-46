@@ -1,0 +1,2 @@
+effect,grid_cells,realizations,pipelines,grand_mean,realization_marginal_sample_sd,pipeline_marginal_sample_sd,rms_interaction,ss_realization,ss_pipeline,ss_interaction,ss_total,share_realization,share_pipeline,share_interaction,interpretation
+P,100,20,5,-0.005469374999999998,0.09227275872881734,0.03947118798278779,0.14801886865984443,0.808854890325521,0.12463797446180569,2.1909585479340272,3.124451412721354,0.2588790105783785,0.03989115463736648,0.701229834784255,descriptive finite-grid dispersion; not a random-effects variance component

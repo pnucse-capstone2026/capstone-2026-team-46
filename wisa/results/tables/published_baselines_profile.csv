@@ -1,0 +1,6 @@
+item,value
+entropy_band_lo,4.254146110099673
+entropy_band_hi,4.553674923233573
+entropy_percentiles,0.1/99.9
+timing_profile_id_count,35
+timing_rule,"mean in-window interval < 0.5 * train-normal median, min 4 occurrences"

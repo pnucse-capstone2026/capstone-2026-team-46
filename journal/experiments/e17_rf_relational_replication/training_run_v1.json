@@ -1,0 +1,136 @@
+{
+  "completed_utc": "2026-08-07T02:15:40Z",
+  "completeness_gate": {
+    "by_role": {
+      "bridge_sensitivity": 40,
+      "primary": 200,
+      "shared_reference": 5
+    },
+    "devices": [
+      "cpu"
+    ],
+    "fits": 245,
+    "gate": "G10d_fit_completeness",
+    "passed": true
+  },
+  "cross_family_inheritance_gate": {
+    "exempt_fits": [
+      "271828:rule:7",
+      "271828:rule:42",
+      "271828:rule:123",
+      "271828:rule:2026",
+      "271828:rule:3407",
+      "161803:rule:7",
+      "161803:rule:42",
+      "161803:rule:123",
+      "161803:rule:2026",
+      "161803:rule:3407",
+      "141421:rule:7",
+      "141421:rule:42",
+      "141421:rule:123",
+      "141421:rule:2026",
+      "141421:rule:3407",
+      "173205:rule:7",
+      "173205:rule:42",
+      "173205:rule:123",
+      "173205:rule:2026",
+      "173205:rule:3407"
+    ],
+    "exemption_reason": "E16 fit only the placebo arm for the bridge realizations, so the 20 bridge Rule fits have no E16 CNN counterpart (PREREG section 5.2); they are covered by G10c-i alone",
+    "fits_checked": 220,
+    "gate": "G10c-ii_cross_family_draw_inheritance",
+    "passed": true,
+    "reference": "journal/results/tables/e16_training_manifest_v2.csv",
+    "reference_sha256": "4fda3eff57583df47e6e437a25f02d007688968847457411b6d4ba08ea30e398"
+  },
+  "determinism_gate": {
+    "checks": [
+      {
+        "arm": "rule",
+        "evaluation_prediction_rows": 6000,
+        "evaluation_predictions_identical": true,
+        "joblib_payload_byte_identical": true,
+        "key": "415637:rule:7",
+        "prediction_sha256": "bb918147fe10391b43adeba4bd21b9ef32e5bd6c5076c3517733a05ed6dd0569",
+        "published_checkpoint_sha256": "157f15f497f4e9f585741bb66faf66d203e25136811fe36b9b2586d6319af9ef",
+        "repeated_checkpoint_sha256": "157f15f497f4e9f585741bb66faf66d203e25136811fe36b9b2586d6319af9ef"
+      },
+      {
+        "arm": "placebo",
+        "evaluation_prediction_rows": 6000,
+        "evaluation_predictions_identical": true,
+        "joblib_payload_byte_identical": true,
+        "key": "415637:placebo:7",
+        "prediction_sha256": "bb918147fe10391b43adeba4bd21b9ef32e5bd6c5076c3517733a05ed6dd0569",
+        "published_checkpoint_sha256": "4b9aec4ce4ac02e3bd99a74c69bf72195f1f1ddd6ddc95902c86ecf22491bb91",
+        "repeated_checkpoint_sha256": "4b9aec4ce4ac02e3bd99a74c69bf72195f1f1ddd6ddc95902c86ecf22491bb91"
+      }
+    ],
+    "gate": "G15_fit_determinism",
+    "note": "replaces the CNN deterministic-runtime-flag record, which has no Random-Forest analogue",
+    "passed": true,
+    "repeated_in_fresh_child_interpreter": true
+  },
+  "draw_integrity_gate": {
+    "fits_checked": 240,
+    "gate": "G9i_draw_integrity",
+    "passed": true,
+    "per_attack_cap": 65000,
+    "repeated": 0,
+    "requested_equals_drawn_equals_unique": true
+  },
+  "elapsed_seconds": 4258.001,
+  "expected_fit_count": 245,
+  "fit_count": 245,
+  "internal_pairing_gate": {
+    "gate": "G10c-i_paired_draw_identity",
+    "pairs_checked": 120,
+    "passed": true
+  },
+  "matching_contract": "identical training rows; the CNN's 6,156-update matched budget has no Random-Forest analogue and is not simulated",
+  "preflight_path": "journal/experiments/e17_rf_relational_replication/training_preflight_v1.json",
+  "registration": {
+    "amendment_commit": "42ae5c5646e0f05f159b1a1c6da8c08846ac5382",
+    "amendment_commit_is_ancestor": true,
+    "amendment_last_modified_commit": "42ae5c5646e0f05f159b1a1c6da8c08846ac5382",
+    "amendment_sha256": "52209f70af94a669d75a0c03bc293c5249ba2165c925cb528f691daff8cf6336",
+    "gate": "registration_committed",
+    "passed": true,
+    "preregistration_path": "journal/experiments/e17_rf_relational_replication/PREREG.md",
+    "registration_commit": "d18e027dbc436673e53ecb72f8f53827519ad650",
+    "registration_commit_is_ancestor": true,
+    "registration_last_modified_commit": "d18e027dbc436673e53ecb72f8f53827519ad650",
+    "registration_sha256": "c8dd8db1509d59f906a27d6c02fcf5d2fb28d6616c01119354932b0033c3fca1",
+    "registration_source_commit_in_header": "42ec54c",
+    "wisa_tree_clean": true
+  },
+  "rf_contract_gate": {
+    "estimator": {
+      "class_weight": "balanced_subsample",
+      "max_depth": null,
+      "min_samples_leaf": 2,
+      "n_estimators": 160
+    },
+    "estimator_matches_frozen_harness_source": true,
+    "feature_dimension": 55,
+    "feature_function": "train_generator_extension_rf.rf_features",
+    "feature_function_is_imported_object": true,
+    "features_computed_on_raw_windows": true,
+    "gate": "G14_rf_contract_fidelity",
+    "passed": true,
+    "standardizer_constructed": false,
+    "upstream_keywords": {
+      "class_weight": "balanced_subsample",
+      "max_depth": null,
+      "min_samples_leaf": 2,
+      "n_estimators": 160,
+      "n_jobs": -1,
+      "random_state": "seed"
+    }
+  },
+  "schema_version": "e17.training_run.v1",
+  "stage": "e17_rf_paired_training",
+  "started_utc": "2026-08-07T01:04:42Z",
+  "status": "T-PASS",
+  "technical_status": "T-PASS"
+}

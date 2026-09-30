@@ -1,0 +1,7 @@
+{
+  "utc": "2026-09-06T11:50:53.332820+00:00",
+  "original": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_v1/g002/pipeline_123",
+  "preserved_at": "journal/experiments/attribution_strengthening_20260906/b_local_replication/confirmation_resume_v1/interrupted_attempts/g002_pipeline_123",
+  "sha256": "dfc71c9c947476b88861eb09c67e31881a357058e865cc4034b49fd9780ce2a0",
+  "reason": "start-only attempt lost its processes; no fitted model or outcome existed"
+}

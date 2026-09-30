@@ -1,0 +1,5 @@
+model,dataset,axis,seeds,windows,normal_recall_mean,fpr_mean,fpr_std,attack_recall_mean,attack_recall_std
+RandomForest_real_only,cantt_external,all,7;42;123,4490896,0.6322919018384638,0.36770809816153616,0.026202213538816525,0.4883821413974128,0.0569888976411249
+RandomForest_real_only,road,all,7;42;123,856605,0.0001108564297965599,0.9998891435702033,8.28086361026371e-05,1.0,0.0
+RandomForest_real_only,road,ambient,7;42;123,754630,0.00011882202757201101,0.9998811779724278,8.875885738198719e-05,nan,nan
+RandomForest_real_only,road,attack_captures,7;42;123,101975,0.0,1.0,0.0,1.0,0.0

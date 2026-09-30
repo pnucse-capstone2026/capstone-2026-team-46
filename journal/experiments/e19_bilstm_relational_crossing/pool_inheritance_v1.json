@@ -1,0 +1,225 @@
+{
+  "constructions": 24,
+  "gate": "pool_inheritance",
+  "inherited_manipulation_checks": "journal/results/tables/e16_manipulation_checks_v2.csv",
+  "inherited_manipulation_checks_sha256": "5000d22b5414444c17af77556c9368c2f9ce5895227b0f4d4162215100b4e298",
+  "passed": true,
+  "rows": [
+    {
+      "construction_seed": 415637,
+      "label_vector_sha256": "987df83b3ddd1ad88a6bf13f5298e1bdb706ee162e3e2d3e7e0785f3945a7127",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed415637_windows_v2.npz",
+      "placebo_pool_sha256": "12d375d38ba1ba670607582eabc45de4741f1b08b7cb1d06125900938c6b9168",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed415637_windows_v2.npz",
+      "rule_pool_sha256": "193d02e36c2b7709e41964b93691425eae3b2601c905c8152571b3bf63731470"
+    },
+    {
+      "construction_seed": 748203,
+      "label_vector_sha256": "576dc27bc3ebacb2bdf3cd6e1c8b528c1314cfc572ba751e150f6f57caf788b1",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed748203_windows_v2.npz",
+      "placebo_pool_sha256": "adbdeb7553c6f6ea1e41d51f5302ea7edfdfe41ac239b73319680d0479d18b70",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed748203_windows_v2.npz",
+      "rule_pool_sha256": "d331c05fab2e012d95cd453e2b03310cf86776206891f8048c69a30c1e84a619"
+    },
+    {
+      "construction_seed": 560657,
+      "label_vector_sha256": "c019fd85c442971b7379e8716d168523b107432b9884de85131e391a7d721015",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed560657_windows_v2.npz",
+      "placebo_pool_sha256": "793770af5d1952fb72af7a7c61c388245ab85b0c8a7b43bd303968f54d07e02e",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed560657_windows_v2.npz",
+      "rule_pool_sha256": "01043433964f5e46764c88ac9843325af1f7b2df75e7c80e8935414008ef7a77"
+    },
+    {
+      "construction_seed": 459336,
+      "label_vector_sha256": "03b185bc1115be32fd503cc4628de1088816a01357b5114c59c8d8d19a590d20",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed459336_windows_v2.npz",
+      "placebo_pool_sha256": "e5feee61cf40518dd6e33ba74916658625570aae9ec09a160d4f9d81f74a42f2",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed459336_windows_v2.npz",
+      "rule_pool_sha256": "02e2afac29ed9452573aa06f9432c8cf97ae9427eefc753ea007b2d30058feea"
+    },
+    {
+      "construction_seed": 457191,
+      "label_vector_sha256": "cf4c9317812817008098a1a5ab518d94dbdef814f8819fc9df29b0c2c17875f7",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed457191_windows_v2.npz",
+      "placebo_pool_sha256": "ec7d50d18f45708b48a5f18029e2d9b1df80861bdd8e03f7708f51bf9b730a8d",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed457191_windows_v2.npz",
+      "rule_pool_sha256": "73a7d56be0357cbf8beede334a3796ec27b70c9508eb95b9e823f8f9d81af3c7"
+    },
+    {
+      "construction_seed": 999191,
+      "label_vector_sha256": "8820190740e38f6e0cdd66b381a0566b1ea77953b590fbf3c0f9df5afe866aa0",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed999191_windows_v2.npz",
+      "placebo_pool_sha256": "79a79e0a4d93cba04829bd517f86cd2a9c5066e4285bd4c358e2bc36af775a04",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed999191_windows_v2.npz",
+      "rule_pool_sha256": "1c96db50be6ae47931c4dc853b6ab61c2c64042c9f2ebfd6ca02adf020d3cc9a"
+    },
+    {
+      "construction_seed": 715822,
+      "label_vector_sha256": "e5e5cbe621a5322f1c312657b4f731c745eb2d6cbe75a2bc860239c02f15b0c2",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed715822_windows_v2.npz",
+      "placebo_pool_sha256": "37e1bd294adca4d1021121680cccd90cd443501cde8efa660a9198b5cf0704da",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed715822_windows_v2.npz",
+      "rule_pool_sha256": "0c885be27f4c434d2cadc8397e01350fadce333b7bb247574209ccf05d2e9265"
+    },
+    {
+      "construction_seed": 298581,
+      "label_vector_sha256": "91a46c7bd23ce5034175669931f8b6db670364ce80f13966a0fb745a1c5143f7",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed298581_windows_v2.npz",
+      "placebo_pool_sha256": "44b138c66f932ff1ef164e7d5cbdcdd03ad7749ce364215cc546cc84619c7375",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed298581_windows_v2.npz",
+      "rule_pool_sha256": "24d0dabf3c55389f6dd1cf5356e859cafaeb694ecb51fcff9c5b247392333f8c"
+    },
+    {
+      "construction_seed": 922089,
+      "label_vector_sha256": "1b60f040c7c1c8a41f2c6407c540dee310708fc0fda52936a518667c9d56d643",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed922089_windows_v2.npz",
+      "placebo_pool_sha256": "dfe94284a591cdab0573645f3ccf6e90e049669f6a888f20ddfeb921fe7d3db5",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed922089_windows_v2.npz",
+      "rule_pool_sha256": "e0c04b76ac99aeb1ed60dd91eb987a1dcac70996bff4f876c5c38934c930e5f3"
+    },
+    {
+      "construction_seed": 864178,
+      "label_vector_sha256": "6aa3bec7a7de614f18728a4b818a66b677ee3ae578da5270c019b17123069484",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed864178_windows_v2.npz",
+      "placebo_pool_sha256": "8cea1abded745f09687c91001dc5790a53caac88ba8efd548f794f01a627e82c",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed864178_windows_v2.npz",
+      "rule_pool_sha256": "6f4476f5997fc245ec83b682d3098edf6229b3af9dab8324e100a02a95b6b77b"
+    },
+    {
+      "construction_seed": 583909,
+      "label_vector_sha256": "d6702352e40b6576c34984dcc5a045c65e3df5f1c17205efc53590cf0dd15443",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed583909_windows_v2.npz",
+      "placebo_pool_sha256": "4969456ac85bfb941f78351695564b21455e60a7996f1f75e4f07c29a7dc62c2",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed583909_windows_v2.npz",
+      "rule_pool_sha256": "9884092add87ccbcf076cdc545c08daace87e3ded31982cea53854b733f787bd"
+    },
+    {
+      "construction_seed": 467232,
+      "label_vector_sha256": "08beb7de473a63f7df7d8a40ab7b02cfd90bbbfa9175c7c883bae2f27cb72524",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed467232_windows_v2.npz",
+      "placebo_pool_sha256": "d38ead55d22bfa352a1123d93a00b9f44b8a2237e5bbbadcbb54a6d3791af8fe",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed467232_windows_v2.npz",
+      "rule_pool_sha256": "f0e95c9951f1001f90df455a836ea5af9c3b2e974dc1ef3a33597f6237982c07"
+    },
+    {
+      "construction_seed": 550427,
+      "label_vector_sha256": "73faebbe9ce73b1bbb6150f2252ae19b8ddfab0ebd36ba8c3447a0337daa9642",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed550427_windows_v2.npz",
+      "placebo_pool_sha256": "41697a3bc2f3980e7ec1cbb59728832d639dea761551ecfb96fd7905b50687cd",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed550427_windows_v2.npz",
+      "rule_pool_sha256": "1b141cc2ceba8e760d1d4fbdbee378106058f16b0d0fbe8bdb67f397c9633be6"
+    },
+    {
+      "construction_seed": 485791,
+      "label_vector_sha256": "ebac8add0829d11e37ae61609283d56e5a554a228534c15a9a6d769ca1408efd",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed485791_windows_v2.npz",
+      "placebo_pool_sha256": "9e24dfcc1b01e49be67501d22e32fe71f795970266e64808a9814afcff46f90c",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed485791_windows_v2.npz",
+      "rule_pool_sha256": "ace81cf36722c83b8bf19b310807cc91f08c9483dd0ee9bf5fe1742b7f14757a"
+    },
+    {
+      "construction_seed": 820632,
+      "label_vector_sha256": "56b9ce686349449641951753ba06810ed15523b8ca7c0cfcc41778cc85633b30",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed820632_windows_v2.npz",
+      "placebo_pool_sha256": "f8bee2b67e4b267966a5cc7beb8793634de370ba097c52c438de381b67a1ed93",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed820632_windows_v2.npz",
+      "rule_pool_sha256": "f9a51b4e410ae7d49796ad8e392db345dbad001379a0ea84f18ccc3a69c99350"
+    },
+    {
+      "construction_seed": 837943,
+      "label_vector_sha256": "a3e9c6519d9ef41fe8f77b14e026ee0aa00547aac49e21785b5d8bfce7aea212",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed837943_windows_v2.npz",
+      "placebo_pool_sha256": "2580a473a53ace1fa2a16c84f29f7facc8ee808d6813d44563716aa04ff31347",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed837943_windows_v2.npz",
+      "rule_pool_sha256": "18451a681d322af7037fb7ef4d8f17c48a664810e4103721b5ca6eff1cf99e03"
+    },
+    {
+      "construction_seed": 222537,
+      "label_vector_sha256": "537f6dfadccf4efcf90779fc1a1eaee991edf7b1d9b390604eb1864446db27db",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed222537_windows_v2.npz",
+      "placebo_pool_sha256": "ad737f15216789cafc4bfeb191829de07ee746585c6963e75581305fb5ad469b",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed222537_windows_v2.npz",
+      "rule_pool_sha256": "178f96d645270c22e1acf81c03fbd49fb050ff3d5bd6b244315bda88601ff00f"
+    },
+    {
+      "construction_seed": 685012,
+      "label_vector_sha256": "1fcf01034aab8fe02dab646416043b7a7fdb445c592d524661abc67b924eec09",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed685012_windows_v2.npz",
+      "placebo_pool_sha256": "431d0521f73fcbd5d8a3184fc56e98e619a15699e38ac868165da4667d909d74",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed685012_windows_v2.npz",
+      "rule_pool_sha256": "85df1698e362d2d41e875d62eb1eefb1244ac007be8cf14ce5532db688988b90"
+    },
+    {
+      "construction_seed": 192753,
+      "label_vector_sha256": "bb23ad4df32c5055932dd0540b5381f1acf82d52970d5859ad9e8330de01f3cf",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed192753_windows_v2.npz",
+      "placebo_pool_sha256": "8eaaece1d54fc2d9479c7c3ac77e4903b56547c4fba96efc40c9acb6b2b8c4e0",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed192753_windows_v2.npz",
+      "rule_pool_sha256": "c89418a38ea375624653590a6f7daada4e105a256cb2671505949d1957d868fc"
+    },
+    {
+      "construction_seed": 739263,
+      "label_vector_sha256": "f894f1f3cc8ef029a4e60f271ce281f6277a93d1ffba60350c42be6180958c06",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed739263_windows_v2.npz",
+      "placebo_pool_sha256": "7e33ab5b333ef7e7f33217e0c0fa5641db02d1d8e214bb9566ae124088c6eeaf",
+      "role": "primary",
+      "rule_pool": "journal/datasets/synthetic/e16_rule_cseed739263_windows_v2.npz",
+      "rule_pool_sha256": "3947d0aa9b9cf68e63452565dc9dcceca73b43fb84edf10eabafaf72a297211b"
+    },
+    {
+      "construction_seed": 271828,
+      "label_vector_sha256": "18ce254d9a7525c48e8d695cced84975689785735128b9cd392676b7594f1d9f",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed271828_windows_v2.npz",
+      "placebo_pool_sha256": "2c4fbf4923103f2b8607c55691581381ec4f7203bee9fb37d3efcdadaba9af4e",
+      "role": "bridge_sensitivity",
+      "rule_pool": "journal/datasets/synthetic/rule_cseed271828_windows_v2.npz",
+      "rule_pool_sha256": "e13209205e7fdde8188d6ee89a123451d6eeeee653b2ea85011adc105f8b2d2d"
+    },
+    {
+      "construction_seed": 161803,
+      "label_vector_sha256": "fc01e6e6bf1575d2d190f8f905480ae6c5794b0b82b5b436807ba009ae9d4b0f",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed161803_windows_v2.npz",
+      "placebo_pool_sha256": "b6062ed04b50ef0777ae3e0b3421b0522c6c7dfdf827003b0991d4a6643338f4",
+      "role": "bridge_sensitivity",
+      "rule_pool": "journal/datasets/synthetic/rule_cseed161803_windows_v2.npz",
+      "rule_pool_sha256": "01d9426397b0297e5c2d7f3806c6791bf898b6a5f9dcfbbb8d91d299d3767413"
+    },
+    {
+      "construction_seed": 141421,
+      "label_vector_sha256": "8cd12c0d7b0b4c603889ab7c2967255895ebd3adf958cf0ea926ad296af8d638",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed141421_windows_v2.npz",
+      "placebo_pool_sha256": "06cd0713fbd24f4a7773b15ed9da8cf93434c36844a68d50fce38bc2bf3bda35",
+      "role": "bridge_sensitivity",
+      "rule_pool": "journal/datasets/synthetic/rule_cseed141421_windows_v2.npz",
+      "rule_pool_sha256": "52a961e3db47266ab2bcec145d4db7aa46e779f1cf65b61c0674e0dee1b60f0c"
+    },
+    {
+      "construction_seed": 173205,
+      "label_vector_sha256": "204c7268aea9af76bef0e81d460c541975f7ec9a28041d1be2409a7174b5b0f8",
+      "placebo_pool": "journal/datasets/synthetic/e16_placebo_cseed173205_windows_v2.npz",
+      "placebo_pool_sha256": "f0e12d73f9d3e85d386fd3166c88eacd6789c4b684f809be68a34596cac8dd79",
+      "role": "bridge_sensitivity",
+      "rule_pool": "journal/datasets/synthetic/rule_cseed173205_windows_v2.npz",
+      "rule_pool_sha256": "5f4a4567785bfff00def5959062731cf7479d0828c430cc2d51dba0dba00e18a"
+    }
+  ]
+}

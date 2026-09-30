@@ -1,0 +1,9 @@
+row_id,label,group,role,metric,delta,ci_lo,ci_hi,sign_consistency,decision,source_file
+K1_cnn_L1_rule_gain,K1  CNN L1 · Rule +30%,recall,focal,attack_recall,0.53185,0.5038423412172616,0.5598576587827385,5/5,positive_effect_supported,confirmatory_comparisons_holm_v1.csv
+K3_lstm_L1_rule_gain,K3  BiLSTM L1 · Rule +30%,recall,focal,attack_recall,0.4959875,0.4895772029191432,0.5023977970808569,5/5,positive_effect_supported,confirmatory_comparisons_holm_v1.csv
+K6_ss_rf_L1_rule_gain,K6  RF L1 · Rule +30% (second source),recall,focal,attack_recall,0.99654,0.9961638967160515,0.9969161032839486,5/5,positive_effect_supported,confirmatory_comparisons_holm_v1.csv
+K2_cnn_L1_ganvalid_shift_e13,K2  CNN L1 · WGAN strict-v2 +100%,recall,focal,attack_recall,0.0351875,0.0056666487551683,0.0647083512448317,5/5,positive_effect_supported,confirmatory_comparisons_holm_v1.csv
+S_frame_disjoint_L2,CNN L2 · Rule strict-v2 +100% (frame-disjoint),recall,sensitivity,binary_attack_recall,0.2116888888888889,0.1640129156310798,0.2593648621466979,,prospective_sensitivity,evaluation_realization_paired_summary_e8_v2.csv
+S_rule_minus_placebo_L1,CNN L1 · Rule − Placebo,recall,sensitivity,attack_recall,2.500000000000835e-05,-4.441112762995967e-05,9.441112762997636e-05,1+/40/0-,inconclusive_not_equivalent,generator_extension_paired_e10a_placebo.csv
+K4_rf_otids_fpr_rule_push_e13,K4  RF OTIDS FPR · Rule strict-v2 +100%,fpr,focal,fpr,0.3051755807671529,0.2290027853034086,0.3813483762308971,5/5,positive_effect_supported,confirmatory_comparisons_holm_v1.csv
+K5_rf_otids_fpr_ganvalid_push_e13,K5  RF OTIDS FPR · WGAN strict-v2 +100%,fpr,focal,fpr,0.3862992976769314,0.1519219305204428,0.6206766648334199,5/5,positive_effect_supported,confirmatory_comparisons_holm_v1.csv

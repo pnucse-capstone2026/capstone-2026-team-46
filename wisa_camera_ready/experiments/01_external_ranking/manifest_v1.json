@@ -1,0 +1,647 @@
+{
+  "accepted_source_commit_at_plan_freeze": "57880aa350ddf0f916b7e1bd2e940529d0fc6ea6",
+  "analysis_plan": {
+    "commit": "18b2176140a0458509eaf10c9e0bb1e129b15017",
+    "frozen_before_inference": true,
+    "path": "wisa_camera_ready/experiments/01_external_ranking/PLAN.md"
+  },
+  "analysis_type": "post-review target-label-dependent diagnostic evaluation",
+  "document_control": {
+    "camera_ready_checklist_commit": "3e10851020b19d63b4ce9501e735c4aea7205dbd",
+    "camera_ready_checklist_path": "wisa_camera_ready/CAMERA_READY_REVIEW_CHECKLIST.md",
+    "checklist_committed_before_new_outcome_access": true
+  },
+  "completed_utc": "2026-07-28T16:02:15.712638Z",
+  "contract": {
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 20260728,
+    "datasets": [
+      "OTIDS",
+      "ROAD",
+      "can-train-and-test"
+    ],
+    "fixed_fpr_tie_rule": "most permissive threshold immediately above next excluded normal-score tie; no interpolation or fractional tie breaking",
+    "paired_pipeline_seeds": [
+      7,
+      42,
+      123
+    ],
+    "primary_contrast": "rule_0p30 - real_only",
+    "score_definition": "1 - p(normal) from unchanged five-class CNN softmax",
+    "settings": [
+      "real_only",
+      "real_oversampling_0p50",
+      "rule_0p10",
+      "rule_0p30",
+      "rule_0p50",
+      "rule_1p00"
+    ],
+    "source_policy": "attack iff five-class argmax != normal class 0",
+    "stride": 32,
+    "target_fpr_ceilings": [
+      0.001,
+      0.01
+    ],
+    "window_size": 128
+  },
+  "elapsed_seconds": 737.1790707111359,
+  "environment": {
+    "cuda_available": true,
+    "cuda_runtime": "13.0",
+    "device": "cuda",
+    "device_name": "NVIDIA GB10",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+    "python": "3.12.3",
+    "scikit_learn": "1.9.0",
+    "torch": "2.12.0+cu130"
+  },
+  "evaluator": {
+    "command": "source .venv/bin/activate && python wisa_camera_ready/scripts/evaluate_external_ranking_v1.py",
+    "commit": "db383345e15bf04b10536215d23deefb167a07f7",
+    "path": "wisa_camera_ready/scripts/evaluate_external_ranking_v1.py",
+    "sha256": "82da43f44868fd12a1b335e2aa3d7ed8211111b86d0883f08ec7297026875bce"
+  },
+  "experiment": "external_ranking_v1",
+  "external_data_role": "evaluation-only",
+  "inputs": {
+    "checkpoint_and_scaler_files": [
+      {
+        "bytes": 392046,
+        "path": "wisa/models/baseline/cnn1d_real_only_seed123.pt",
+        "sha256": "c90d4cc1b09fafcebb4f02d74742c577b2e19e56bd2358ac9c2990342be875eb"
+      },
+      {
+        "bytes": 392017,
+        "path": "wisa/models/baseline/cnn1d_real_only_seed42.pt",
+        "sha256": "8b6ef1f134d2624aaf05c28cdf4aa87283250c4c30913f4c47a0da5496f37bbb"
+      },
+      {
+        "bytes": 391924,
+        "path": "wisa/models/baseline/cnn1d_real_only_seed7.pt",
+        "sha256": "3ae4c4868a8a959a9ef89ec61e7cddb57c3ae2d1df0911bbfb2896572a237250"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/baseline/cnn_standardizer.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 392568,
+        "path": "wisa/models/oversampling/cnn1d_real_oversampling_ratio0p50_seed123.pt",
+        "sha256": "183373c381d12a3c18dbafc46c0e0b5f946e06e1bf07fbe26ec26f8b7ac46d04"
+      },
+      {
+        "bytes": 392539,
+        "path": "wisa/models/oversampling/cnn1d_real_oversampling_ratio0p50_seed42.pt",
+        "sha256": "9cfde9f3b00d8d4ae945bcf4655c3fd4959eef0745fd56e2ddd5cd3238018872"
+      },
+      {
+        "bytes": 392510,
+        "path": "wisa/models/oversampling/cnn1d_real_oversampling_ratio0p50_seed7.pt",
+        "sha256": "131bd1ce4f01cd62c607c46458d22351f1911feb83285afb34189fc2a2a8456b"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/oversampling/standardizer_real_oversampling_ratio0p50_seed123.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/oversampling/standardizer_real_oversampling_ratio0p50_seed42.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/oversampling/standardizer_real_oversampling_ratio0p50_seed7.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 392191,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio0p10_seed123.pt",
+        "sha256": "b7c75ca7c94c73120525605798bade6a78a548f542279e559e8152c5a0a15016"
+      },
+      {
+        "bytes": 392162,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio0p10_seed42.pt",
+        "sha256": "a2a1a9e9e1cb1920cfcd96c431eda0a1e947192f0fa1065a2cfccbfeaaef8ac0"
+      },
+      {
+        "bytes": 392133,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio0p10_seed7.pt",
+        "sha256": "ca5ad83eee4eabe3946ca87d0715371b213dd24e63b4f574b6d1bc9e13130a36"
+      },
+      {
+        "bytes": 392191,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio0p30_seed123.pt",
+        "sha256": "57925dbc4d7cc4a0d3eea625609144a25e93c7d5d4e1ac89c1cf0f98062be6f7"
+      },
+      {
+        "bytes": 392162,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio0p30_seed42.pt",
+        "sha256": "62d815dabec98fe695264f6ff280920e6e77fd354d7c67404a39d9eb94471c08"
+      },
+      {
+        "bytes": 392133,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio0p30_seed7.pt",
+        "sha256": "9116073096cdddddf6d42a5693b0ed65427fc15d216de169c45e014f1b5cc144"
+      },
+      {
+        "bytes": 392191,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio0p50_seed123.pt",
+        "sha256": "aa4013367c5d9170aa5068539986f7ea2a80d4a18123d726901617a52800ed00"
+      },
+      {
+        "bytes": 392162,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio0p50_seed42.pt",
+        "sha256": "36d1a40b6457524b8d2ab1c544c245a3a4d7c1686f9f65b48bdb27b9e8276e3b"
+      },
+      {
+        "bytes": 392133,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio0p50_seed7.pt",
+        "sha256": "02c488db52eb09d1ecf24ff23243439c0a2388917f9f0596b0599c88b766f453"
+      },
+      {
+        "bytes": 392191,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio1p00_seed123.pt",
+        "sha256": "a4ba93939acbfe499c853c18208648c31bf957caba3f05f1641f463a28c6a536"
+      },
+      {
+        "bytes": 392162,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio1p00_seed42.pt",
+        "sha256": "c07103779aadd3e08d48a949f95d90df836cab66f421a6b0998cb3ee76daf504"
+      },
+      {
+        "bytes": 392133,
+        "path": "wisa/models/ratio_sweep/cnn1d_rule_ratio1p00_seed7.pt",
+        "sha256": "6e7dbd0ccc0386b76188d3fe8301e753911dcf665333ba91d52795dd6e6c2464"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio0p10_seed123.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio0p10_seed42.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio0p10_seed7.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio0p30_seed123.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio0p30_seed42.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio0p30_seed7.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio0p50_seed123.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio0p50_seed42.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio0p50_seed7.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio1p00_seed123.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio1p00_seed42.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      },
+      {
+        "bytes": 588,
+        "path": "wisa/models/ratio_sweep/standardizer_rule_ratio1p00_seed7.npz",
+        "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+      }
+    ],
+    "checkpoint_and_scaler_inventory_sha256": "9bfae8a7c58a639cc2f42e414061c6fea9058b447e67c1566a085c41c54f0e17",
+    "dataset_files": [
+      {
+        "bytes": 43289129,
+        "path": "datasets/windows/otids_cross_windows.npz",
+        "sha256": "b521f3546f633c6220e2696234abb6d7c37a03d64f19e71ec37bf36a100ed596"
+      },
+      {
+        "bytes": 1507455719,
+        "path": "datasets/can-train-and-test.zip",
+        "sha256": "a9c607b38bd28f1768021ad01c29ffbfe4e82bb0ae5815ac3ce7ad74751ae061"
+      }
+    ],
+    "dependency_files": [
+      {
+        "bytes": 14599,
+        "path": "wisa/scripts/train_real_only_baselines.py",
+        "sha256": "5f4d423a07c573d69210034e752b2a847eb4b87486907cd8ea81aee06d9aef31"
+      },
+      {
+        "bytes": 32134,
+        "path": "wisa/scripts/run_cantt_tier1.py",
+        "sha256": "6f7fd11fe17c727889c5d0ec56fce199e1656a3fabf22a8f061fd217de9a114e"
+      },
+      {
+        "bytes": 5027,
+        "path": "wisa/results/tables/road_dataset_profile.csv",
+        "sha256": "0d6202ae75e7e8e883ef5fb40fd205c205803b25307932c2b2bd9cf0eef7df83"
+      }
+    ],
+    "label_group_audit": {
+      "OTIDS": {
+        "attack_windows": 70116,
+        "groups": 4,
+        "normal_windows": 74040,
+        "weak_attack_windows": 70116,
+        "windows": 144156
+      },
+      "ROAD": {
+        "ambient_captures": 12,
+        "attack_captures": 29,
+        "groups": 41
+      },
+      "can-train-and-test": {
+        "groups": 176,
+        "sets": [
+          "set_01",
+          "set_02",
+          "set_03",
+          "set_04"
+        ],
+        "subsets": [
+          "test_01_known_vehicle_known_attack",
+          "test_02_unknown_vehicle_known_attack",
+          "test_03_known_vehicle_unknown_attack",
+          "test_04_unknown_vehicle_unknown_attack"
+        ]
+      }
+    },
+    "road_files": [
+      {
+        "bytes": 33895299,
+        "path": "datasets/processed/road_frames/ambient_dyno_drive_basic_long.parquet",
+        "sha256": "8b063a4b9f350ad5b37e9ac48e8e8ae37f6c09eef89ef9207c23793b92c15427"
+      },
+      {
+        "bytes": 12439541,
+        "path": "datasets/processed/road_frames/ambient_dyno_drive_basic_short.parquet",
+        "sha256": "dc0461ccfc06e526ec2828b6223f15c6de7107ed00f40c83900741c409e8734f"
+      },
+      {
+        "bytes": 8233292,
+        "path": "datasets/processed/road_frames/ambient_dyno_drive_benign_anomaly.parquet",
+        "sha256": "3180503553db01c37c60c9e54f4e0f4f226eb043116133e4347e5557c228c1d5"
+      },
+      {
+        "bytes": 15986231,
+        "path": "datasets/processed/road_frames/ambient_dyno_drive_extended_long.parquet",
+        "sha256": "87c7c1ae8d08125c45a164e387190c99a29ea5121ae597ced00bf5d3ffb5a9ae"
+      },
+      {
+        "bytes": 8952037,
+        "path": "datasets/processed/road_frames/ambient_dyno_drive_extended_short.parquet",
+        "sha256": "1ebc4d79df1c8517714279e3620e3b02d1d9b810229c0434169eb2aea5f1fef4"
+      },
+      {
+        "bytes": 9966205,
+        "path": "datasets/processed/road_frames/ambient_dyno_drive_radio_infotainment.parquet",
+        "sha256": "7f0e7383ce8bbd4afc196c9560b8c852888f3a095c88e2c7584eb2f91663fd36"
+      },
+      {
+        "bytes": 1506982,
+        "path": "datasets/processed/road_frames/ambient_dyno_drive_winter.parquet",
+        "sha256": "f36bc5d94237661b79c0071f44e5e6ed257fb15089fc57a4af1dc632bb25f640"
+      },
+      {
+        "bytes": 47166035,
+        "path": "datasets/processed/road_frames/ambient_dyno_exercise_all_bits.parquet",
+        "sha256": "cf8bb0149a4b6a071398ed2883d84a75ccd8fd2932e283748b0da8ee48a5c574"
+      },
+      {
+        "bytes": 15980123,
+        "path": "datasets/processed/road_frames/ambient_dyno_idle_radio_infotainment.parquet",
+        "sha256": "97fca55578308d60de058767fdf21230adb1df823167647f951f50d69373e19f"
+      },
+      {
+        "bytes": 1571387,
+        "path": "datasets/processed/road_frames/ambient_dyno_reverse.parquet",
+        "sha256": "6143bc72fd19a809dbb0d850692cc848a518a811320ca64a0a941b2833eb408a"
+      },
+      {
+        "bytes": 13527686,
+        "path": "datasets/processed/road_frames/ambient_highway_street_driving_diagnostics.parquet",
+        "sha256": "4fcde500c18f6d0eb3ffb54f48b21ab271075d90056edb4b9a119c76b37a1427"
+      },
+      {
+        "bytes": 103721343,
+        "path": "datasets/processed/road_frames/ambient_highway_street_driving_long.parquet",
+        "sha256": "7aa7a92a5aab9d6ab967bcb72d36f2ba6c183cba19a0f2c08bba1743f1790ed5"
+      },
+      {
+        "bytes": 1093483,
+        "path": "datasets/processed/road_frames/correlated_signal_attack_1.parquet",
+        "sha256": "9c3c40d065a7f52942b63b48f242364299e87bf50c0b9d9943f2a59a57a37ad7"
+      },
+      {
+        "bytes": 1062328,
+        "path": "datasets/processed/road_frames/correlated_signal_attack_1_masquerade.parquet",
+        "sha256": "6f4dcf5491480f9fc5a4d243ac066a9744f2e6549a230bbd88754f02a12166e9"
+      },
+      {
+        "bytes": 973174,
+        "path": "datasets/processed/road_frames/correlated_signal_attack_2.parquet",
+        "sha256": "5115e0e9cec1a840badc8b20f62faea2c2e8a51e11b69f0145c9a73872dee450"
+      },
+      {
+        "bytes": 935535,
+        "path": "datasets/processed/road_frames/correlated_signal_attack_2_masquerade.parquet",
+        "sha256": "e1cebf1df86fb94405d70863ab1bf963670b83a63df9120956590c58c6cb97eb"
+      },
+      {
+        "bytes": 581101,
+        "path": "datasets/processed/road_frames/correlated_signal_attack_3.parquet",
+        "sha256": "1aa2ef0e79820f08246d5c9f72883fb664d36c2ccaa3902f9a1c352fe0cac89d"
+      },
+      {
+        "bytes": 557204,
+        "path": "datasets/processed/road_frames/correlated_signal_attack_3_masquerade.parquet",
+        "sha256": "b6ae0903da6488843c851bcc75782830a6c92fbd7108543590cadda45e6646a9"
+      },
+      {
+        "bytes": 660992,
+        "path": "datasets/processed/road_frames/fuzzing_attack_1.parquet",
+        "sha256": "7a59c5f7cf1623794dfed5db8a35160f1887ee47e0392d17920d38e3f9efcdfc"
+      },
+      {
+        "bytes": 437713,
+        "path": "datasets/processed/road_frames/fuzzing_attack_2.parquet",
+        "sha256": "be10522ffbd500ab6dbae5123ddb61be97ef408de62b010de1d59844b2a0e932"
+      },
+      {
+        "bytes": 193907,
+        "path": "datasets/processed/road_frames/fuzzing_attack_3.parquet",
+        "sha256": "ab136f1af99b1d43003f86701bc61f521d1c76b456f14faaeeecc0743aa32207"
+      },
+      {
+        "bytes": 807840,
+        "path": "datasets/processed/road_frames/max_engine_coolant_temp_attack.parquet",
+        "sha256": "7c87862921c3dd3e476f4535284d1207729478300717e86da6e24cd90605bdfd"
+      },
+      {
+        "bytes": 807490,
+        "path": "datasets/processed/road_frames/max_engine_coolant_temp_attack_masquerade.parquet",
+        "sha256": "a06caab9ae422b557361a19ebfc0478623087c496d1163449121107c0fb5f4df"
+      },
+      {
+        "bytes": 2585889,
+        "path": "datasets/processed/road_frames/max_speedometer_attack_1.parquet",
+        "sha256": "ab13578fd34305baaeff3f776f28e57dacc3980c6fa78a89f95e01cf72e9b94c"
+      },
+      {
+        "bytes": 2563594,
+        "path": "datasets/processed/road_frames/max_speedometer_attack_1_masquerade.parquet",
+        "sha256": "222cbc0df005e9752f7422486de8532fcf5f1dbe9a7e791cbc2b18204b893cae"
+      },
+      {
+        "bytes": 1953430,
+        "path": "datasets/processed/road_frames/max_speedometer_attack_2.parquet",
+        "sha256": "fc4ed6cf2b78b527063ff63630a0f5aa30d66072441fbde287f792f527d3e189"
+      },
+      {
+        "bytes": 1914454,
+        "path": "datasets/processed/road_frames/max_speedometer_attack_2_masquerade.parquet",
+        "sha256": "8ada5857777e9bf4cd802792a3938f8caae232cfbe8049ec70b9e86d6c00afa2"
+      },
+      {
+        "bytes": 2681981,
+        "path": "datasets/processed/road_frames/max_speedometer_attack_3.parquet",
+        "sha256": "51d6d8edf91937c411f1e6a9f3e36d54fa4d4ee21a075857dd30022efc2bcc75"
+      },
+      {
+        "bytes": 2618388,
+        "path": "datasets/processed/road_frames/max_speedometer_attack_3_masquerade.parquet",
+        "sha256": "6bed958f9dc0a31fcbd8ce7dfe0c9aa7a6149a56424020f6719a9bde9bf6e72e"
+      },
+      {
+        "bytes": 884961,
+        "path": "datasets/processed/road_frames/reverse_light_off_attack_1.parquet",
+        "sha256": "ffb1abf9309d355cc4494b33ed2fed3723508fc1dbd63081bb4518617a546a49"
+      },
+      {
+        "bytes": 877514,
+        "path": "datasets/processed/road_frames/reverse_light_off_attack_1_masquerade.parquet",
+        "sha256": "b334aefec3ae56bf797ffffe7b452ce894058824773a060ab0667decf8bf2caf"
+      },
+      {
+        "bytes": 1294073,
+        "path": "datasets/processed/road_frames/reverse_light_off_attack_2.parquet",
+        "sha256": "bbc44b3d882fd2ef14cb2505f6ab09a6a893d7ed7d3e4886b559c0cf48b1f230"
+      },
+      {
+        "bytes": 1266047,
+        "path": "datasets/processed/road_frames/reverse_light_off_attack_2_masquerade.parquet",
+        "sha256": "537b9d0c4365969840fe33e647ee34e670039140cec1ce09cce9240ec95f78ad"
+      },
+      {
+        "bytes": 1779028,
+        "path": "datasets/processed/road_frames/reverse_light_off_attack_3.parquet",
+        "sha256": "ceaa0f5a9f66ca5653bd65b56df7a8058c556d6113158dafd38efdb921dbf653"
+      },
+      {
+        "bytes": 1757041,
+        "path": "datasets/processed/road_frames/reverse_light_off_attack_3_masquerade.parquet",
+        "sha256": "a45d3d4318665201a4711a1bfe7165aca93cb369d90ef11c0d8db087f85a1f36"
+      },
+      {
+        "bytes": 1727278,
+        "path": "datasets/processed/road_frames/reverse_light_on_attack_1.parquet",
+        "sha256": "ade49c07bc2f4ae99fcecbf66ce3a23208d4ccd6aed388bff365230551ab1669"
+      },
+      {
+        "bytes": 1703344,
+        "path": "datasets/processed/road_frames/reverse_light_on_attack_1_masquerade.parquet",
+        "sha256": "592792d117567419abb97bf6067d199b16a92d5de832c6e26afdaefd76a6e7dc"
+      },
+      {
+        "bytes": 2223738,
+        "path": "datasets/processed/road_frames/reverse_light_on_attack_2.parquet",
+        "sha256": "1da95a033d784d3d3ab1af9a4962cc5f57e37eb297f89aecf799baf3a26067e5"
+      },
+      {
+        "bytes": 2187154,
+        "path": "datasets/processed/road_frames/reverse_light_on_attack_2_masquerade.parquet",
+        "sha256": "a4f89eb57dc07f6bc7dd5ab795b41c342a175d020ac76d63e9ff125e97dcd0c7"
+      },
+      {
+        "bytes": 2020596,
+        "path": "datasets/processed/road_frames/reverse_light_on_attack_3.parquet",
+        "sha256": "3b23f2ef7ab0524690785b34b8ac6b2b72bd8767351c84b68a5648a3a257bbd0"
+      },
+      {
+        "bytes": 1996763,
+        "path": "datasets/processed/road_frames/reverse_light_on_attack_3_masquerade.parquet",
+        "sha256": "697442d83ae0172701b17582951d75ff3a239e07f3a9f9c2e36c2f4d874f9638"
+      }
+    ],
+    "road_tree_sha256": "a2c0471df17466e7cbc0b9a5b997a6e49cf6a59c413259c39719313ed1510156"
+  },
+  "observed_dataset_audit": {
+    "OTIDS": {
+      "attack_windows": 70116,
+      "groups": 4,
+      "normal_windows": 74040,
+      "seeds": [
+        7,
+        42,
+        123
+      ],
+      "settings": [
+        "real_only",
+        "real_oversampling_0p50",
+        "rule_0p10",
+        "rule_0p30",
+        "rule_0p50",
+        "rule_1p00"
+      ],
+      "windows": 144156
+    },
+    "ROAD": {
+      "attack_windows": 47751,
+      "groups": 41,
+      "normal_windows": 808854,
+      "seeds": [
+        7,
+        42,
+        123
+      ],
+      "settings": [
+        "real_only",
+        "real_oversampling_0p50",
+        "rule_0p10",
+        "rule_0p30",
+        "rule_0p50",
+        "rule_1p00"
+      ],
+      "windows": 856605
+    },
+    "can-train-and-test": {
+      "attack_windows": 313985,
+      "groups": 176,
+      "normal_windows": 4176911,
+      "seeds": [
+        7,
+        42,
+        123
+      ],
+      "settings": [
+        "real_only",
+        "real_oversampling_0p50",
+        "rule_0p10",
+        "rule_0p30",
+        "rule_0p50",
+        "rule_1p00"
+      ],
+      "windows": 4490896
+    }
+  },
+  "outputs": {
+    "by_group": {
+      "bytes": 2720129,
+      "path": "wisa_camera_ready/results/tables/external_low_fpr_by_group_v1.csv",
+      "sha256": "2a9daed41980f6441a5fb8350537c4a3839e2c009ef9e62b124b385a3ec3e00e"
+    },
+    "by_seed": {
+      "bytes": 29195,
+      "path": "wisa_camera_ready/results/tables/external_ranking_by_seed_v1.csv",
+      "sha256": "0262bf922376413df8bc49edb03d99c1e46984a1ee762e0f5837ffa6d63dcc85"
+    },
+    "log": {
+      "bytes": 66253,
+      "path": "wisa_camera_ready/results/logs/external_ranking_v1.log",
+      "sha256": "d2cec88bd65a776f8cb4a83088b01a73137391af5ad06d5d1d5d5199f9c99e29"
+    },
+    "summary": {
+      "bytes": 10653,
+      "path": "wisa_camera_ready/results/tables/external_ranking_summary_v1.csv",
+      "sha256": "abd4ca050f2c0906952712e9790b1b980529564d28af3dd3d1342ba194a3bcbf"
+    }
+  },
+  "post_run_qa": {
+    "completed_utc": "2026-07-28T16:07:46Z",
+    "frozen_source_policy_crosscheck": {
+      "confusion_cells_compared": 216,
+      "datasets": 3,
+      "result": "exact_match",
+      "rows": 54
+    },
+    "output_hash_recheck": "passed",
+    "results_note": {
+      "path": "wisa_camera_ready/experiments/01_external_ranking/RESULTS_v1.md",
+      "sha256": "914a9eb50d524f23094dc7d9a1b62a16ebd0a077bf39855333fb53b9c56088c2"
+    },
+    "wisa_tree_modified": false
+  },
+  "schema_version": 1,
+  "started_utc": "2026-07-28T15:49:58.537444Z",
+  "validation_gates": {
+    "all_settings_and_seeds_reported": true,
+    "analysis_plan_present_in_frozen_commit": true,
+    "binary_label_check": "passed",
+    "bootstrap_rejected_draws": 0,
+    "expected_models": 18,
+    "expected_pooled_rows": 54,
+    "expected_raw_group_rows": 3978,
+    "finite_score_check": "passed for every batch and pooled row",
+    "fixed_fpr_ceiling_and_monotonicity_check": "passed",
+    "frozen_inference_equivalence": {
+      "checkpoint": "wisa/models/baseline/cnn1d_real_only_seed7.pt",
+      "prediction_exact": true,
+      "score_exact": true,
+      "status": "passed",
+      "windows": 17
+    },
+    "input_hashes_match_frozen_plan": true,
+    "label_alignment_check": "passed for every batch, group, and dataset",
+    "metric_self_tests": {
+      "status": "passed",
+      "tests": [
+        "exact tie-aware ceiling with zero-FP boundary",
+        "indivisible normal/attack boundary tie accounting",
+        "ceiling monotonicity",
+        "source-policy confusion accounting",
+        "ROC/AP range and curve monotonicity"
+      ]
+    },
+    "models_loaded": 18,
+    "pooled_rows": 54,
+    "raw_group_rows": 3978,
+    "roc_pr_curve_monotonicity_check": "passed where both classes exist",
+    "source_tree_clean_before_inference": true
+  },
+  "warnings": [
+    "OTIDS source-file groups are class-separated; no scenario-local ranking metric or group bootstrap interval is identifiable.",
+    "Pipeline-seed mean/std are descriptive paired-fit variability, not capture-, vehicle-, construction-, or population-level uncertainty.",
+    "Target-dataset fixed-FPR thresholds are diagnostic attainable points and are not deployment calibration or model selection."
+  ]
+}

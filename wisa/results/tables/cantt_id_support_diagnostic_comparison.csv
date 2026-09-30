@@ -1,0 +1,10 @@
+diagnostic_family,method,variant,dataset,setting,normal_recall_mean,fpr_mean,attack_recall_mean,fpr_delta_vs_original,interpretation_anchor
+A_can_id_whitelist_baseline,CAN ID whitelist rule,whitelist_outside_id_attack,car_hacking_real_test,rule_based_no_training,1.0,0.0,0.3377816725087631,,does a CAN-ID-support-only rule collapse on external normal?
+A_can_id_whitelist_baseline,CAN ID whitelist rule,whitelist_outside_id_attack,otids_cross_binary,rule_based_no_training,0.0,1.0,1.0,,does a CAN-ID-support-only rule collapse on external normal?
+A_can_id_whitelist_baseline,CAN ID whitelist rule,whitelist_outside_id_attack,can_train_and_test_external,rule_based_no_training,0.0,1.0,1.0,,does a CAN-ID-support-only rule collapse on external normal?
+B_cnn_input_channel_ablation,CNN Real only,original_existing_result,can_train_and_test_external,real_only,5.458579318544255e-05,0.9999454142068146,1.0,,does masking CAN ID reduce external FPR?
+B_cnn_input_channel_ablation,CNN Rule +30%,original_existing_result,can_train_and_test_external,rule_0p30,3.3517592306850683e-06,0.9999966482407692,0.9998503113206046,,does masking CAN ID reduce external FPR?
+B_cnn_input_channel_ablation,CNN Real only,can_id_masked,can_train_and_test_external,real_only,0.0002777969971908,0.9997222030028092,0.9988714959844156,-0.0002232112040054,does masking CAN ID reduce external FPR?
+B_cnn_input_channel_ablation,CNN Rule +30%,can_id_masked,can_train_and_test_external,rule_0p30,0.0001363846791723,0.9998636153208276,0.9999617816137714,-0.0001330329199416,does masking CAN ID reduce external FPR?
+B_cnn_input_channel_ablation,CNN Real only,id_only_non_id_masked,can_train_and_test_external,real_only,0.0,1.0,1.0,5.458579318540213e-05,does masking CAN ID reduce external FPR?
+B_cnn_input_channel_ablation,CNN Rule +30%,id_only_non_id_masked,can_train_and_test_external,rule_0p30,0.0870274707792433,0.9129725292207566,0.9815670599975582,-0.0870241190200126,does masking CAN ID reduce external FPR?

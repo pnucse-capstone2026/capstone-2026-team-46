@@ -1,0 +1,2 @@
+source_file,set_id,subset_id,vehicle_axis,source_stem,feature,scaled_mean,scaled_p95,scaled_p99
+can-train-and-test/set_04/train_01/accessory-3.csv,set_04,train_01,train,accessory,delta_t,4.5733513832092285,13.569019317626953,15.42007827758789

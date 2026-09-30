@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "utc": "2026-09-07T14:53:39.142479+00:00",
+  "verified_models": 1000,
+  "verified_jobs": 600,
+  "training_completion_sha256": "0ccc47a43fddf72323cf5ac7f2eb11d4057913359924d08a3e3e71573b329c36",
+  "evaluation_freeze_sha256": "6e660fd667dbe100b008b66ca28af5a69cb2148fe0b2d00343ee475f17296bc9",
+  "new_model_inference": false
+}

@@ -1,0 +1,498 @@
+{
+  "construction_axis": {
+    "anchor": 314159,
+    "controls_only_construction_rng": true,
+    "name": "construction_seed",
+    "new_primary": [
+      271828,
+      161803,
+      141421,
+      173205
+    ],
+    "ordered_values": [
+      314159,
+      271828,
+      161803,
+      141421,
+      173205
+    ]
+  },
+  "created_utc": "2026-07-25T08:23:37.558004Z",
+  "environment": {
+    "byteorder": "little",
+    "default_rng_bit_generator": "numpy.random._pcg64.PCG64",
+    "expected_stable_projection_sha256": "0fa13120b151b1c8bcb5a0c68ea7a0846f3b4c19a8bcc7d895393e030d9c0cf9",
+    "full": {
+      "cpu_and_threads": {
+        "environment": {
+          "CUBLAS_WORKSPACE_CONFIG": null,
+          "CUDA_VISIBLE_DEVICES": null,
+          "MKL_NUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null,
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "PYTHONHASHSEED": null,
+          "VECLIB_MAXIMUM_THREADS": null
+        },
+        "os_cpu_count": 20,
+        "process_cpu_affinity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "torch_interop_threads": 20,
+        "torch_intraop_threads": 20,
+        "trainer_dataloader_workers": 2,
+        "trainer_train_batch_size": 512,
+        "trainer_validation_batch_size": 1024
+      },
+      "device": {
+        "cuda_available": true,
+        "cuda_current_device": 0,
+        "cuda_device_count": 1,
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "cudnn_available": true,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": false,
+        "cudnn_enabled": true,
+        "cudnn_version": 92000,
+        "devices": [
+          {
+            "capability": [
+              12,
+              1
+            ],
+            "index": 0,
+            "multi_processor_count": 48,
+            "name": "NVIDIA GB10",
+            "total_memory_bytes": 130669199360
+          }
+        ],
+        "driver": {
+          "nvidia_smi_executable": "/usr/bin/nvidia-smi",
+          "query_argv": [
+            "/usr/bin/nvidia-smi",
+            "--query-gpu=index,uuid,name,driver_version,memory.total",
+            "--format=csv,noheader,nounits"
+          ],
+          "query_lines": [
+            "0, GPU-8844975a-1dad-7054-42b5-fc82238da051, NVIDIA GB10, 580.82.09, [N/A]"
+          ],
+          "query_returncode": 0,
+          "query_stderr": ""
+        },
+        "pin_memory": true,
+        "selected_type": "cuda",
+        "trainer_selector": "cuda if torch.cuda.is_available() else cpu"
+      },
+      "identity_sha256": "6ab8a2cf6d33ac008a254a59d0c67aca81d4ea97dbff968e27abbc9a386a8157",
+      "packages": {
+        "numpy": "2.4.6",
+        "numpy_distribution": "2.4.6",
+        "scikit_learn": "1.9.0",
+        "scikit_learn_distribution": "1.9.0",
+        "torch": "2.12.0+cu130",
+        "torch_distribution": "2.12.0+cu130"
+      },
+      "platform": {
+        "machine": "aarch64",
+        "node": "spark-cfaf",
+        "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+        "processor": "aarch64",
+        "release": "6.11.0-1014-nvidia",
+        "system": "Linux"
+      },
+      "process": {
+        "gid": 1000,
+        "parent_pid": 3499269,
+        "pid": 619261,
+        "uid": 1000
+      },
+      "python": {
+        "base_prefix": "/usr",
+        "executable": "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python",
+        "executable_realpath": "/usr/bin/python3.12",
+        "expected_venv_prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "implementation": "CPython",
+        "prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "uses_expected_venv": true,
+        "version": "3.12.3",
+        "version_full": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]"
+      },
+      "torch_build": {
+        "configuration": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 202002\n  - Intel(R) MKL-DNN v3.11.2 (Git Hash 03c022d3ffdcee958cfacbe720048e725fdf644c)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: DEFAULT\n  - CUDA Runtime 13.0\n  - NVCC architecture flags: -gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_100,code=sm_100;-gencode;arch=compute_110,code=sm_110;-gencode;arch=compute_120,code=sm_120\n  - CuDNN 92.0  (built against CUDA 13.2)\n  - Build settings: BLAS_INFO=nvpl, BUILD_TYPE=Release, COMMIT_SHA=7661cd9c6b841b62b7f411aa52ec51f05457263b, CUDA_FLAGS= -DLIBCUDACXX_ENABLE_SIMPLIFIED_COMPLEX_OPERATIONS -Xfatbin -compress-all -DONNX_NAMESPACE=onnx_torch -gencode arch=compute_80,code=sm_80 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_100,code=sm_100 -gencode arch=compute_110,code=sm_110 -gencode arch=compute_120,code=sm_120 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -Xfatbin -compress-all --threads 2 -compress-mode=size -Wno-deprecated-gpu-targets --expt-extended-lambda -DCUB_WRAPPED_NAMESPACE=at_cuda_detail -DDISABLE_CUSPARSE_DEPRECATED -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -DC10_NODEPRECATED, CUDA_VERSION=13.0, CUDNN_VERSION=9.20.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -ffunction-sections -fdata-sections -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_MSLK -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-omit-frame-pointer -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=nvpl, TORCH_VERSION=2.12.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKLDNN=1, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+        "cuda_build_version": "13.0",
+        "debug": false,
+        "git_version": "7661cd9c6b841b62b7f411aa52ec51f05457263b",
+        "hip_build_version": null
+      }
+    },
+    "matches_frozen_environment": true,
+    "numpy_version": "2.4.6",
+    "stable_projection": {
+      "cpu_and_threads": {
+        "environment": {
+          "CUBLAS_WORKSPACE_CONFIG": null,
+          "CUDA_VISIBLE_DEVICES": null,
+          "MKL_NUM_THREADS": null,
+          "NUMEXPR_NUM_THREADS": null,
+          "OMP_NUM_THREADS": null,
+          "OPENBLAS_NUM_THREADS": null,
+          "PYTHONHASHSEED": null,
+          "VECLIB_MAXIMUM_THREADS": null
+        },
+        "os_cpu_count": 20,
+        "process_cpu_affinity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "torch_interop_threads": 20,
+        "torch_intraop_threads": 20,
+        "trainer_dataloader_workers": 2,
+        "trainer_train_batch_size": 512,
+        "trainer_validation_batch_size": 1024
+      },
+      "device": {
+        "cuda_available": true,
+        "cuda_current_device": 0,
+        "cuda_device_count": 1,
+        "cuda_matmul_allow_tf32": false,
+        "cudnn_allow_tf32": true,
+        "cudnn_available": true,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": false,
+        "cudnn_enabled": true,
+        "cudnn_version": 92000,
+        "devices": [
+          {
+            "capability": [
+              12,
+              1
+            ],
+            "index": 0,
+            "multi_processor_count": 48,
+            "name": "NVIDIA GB10",
+            "total_memory_bytes": 130669199360
+          }
+        ],
+        "driver": {
+          "nvidia_smi_executable": "/usr/bin/nvidia-smi",
+          "query_argv": [
+            "/usr/bin/nvidia-smi",
+            "--query-gpu=index,uuid,name,driver_version,memory.total",
+            "--format=csv,noheader,nounits"
+          ],
+          "query_lines": [
+            "0, GPU-8844975a-1dad-7054-42b5-fc82238da051, NVIDIA GB10, 580.82.09, [N/A]"
+          ],
+          "query_returncode": 0,
+          "query_stderr": ""
+        },
+        "pin_memory": true,
+        "selected_type": "cuda",
+        "trainer_selector": "cuda if torch.cuda.is_available() else cpu"
+      },
+      "packages": {
+        "numpy": "2.4.6",
+        "numpy_distribution": "2.4.6",
+        "scikit_learn": "1.9.0",
+        "scikit_learn_distribution": "1.9.0",
+        "torch": "2.12.0+cu130",
+        "torch_distribution": "2.12.0+cu130"
+      },
+      "platform": {
+        "machine": "aarch64",
+        "node": "spark-cfaf",
+        "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+        "processor": "aarch64",
+        "release": "6.11.0-1014-nvidia",
+        "system": "Linux"
+      },
+      "python": {
+        "base_prefix": "/usr",
+        "executable": "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python",
+        "executable_realpath": "/usr/bin/python3.12",
+        "expected_venv_prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "implementation": "CPython",
+        "prefix": "/home/hyunjin/workspace/wisa_can_ids/.venv",
+        "uses_expected_venv": true,
+        "version": "3.12.3",
+        "version_full": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]"
+      },
+      "torch_build": {
+        "configuration": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 202002\n  - Intel(R) MKL-DNN v3.11.2 (Git Hash 03c022d3ffdcee958cfacbe720048e725fdf644c)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: DEFAULT\n  - CUDA Runtime 13.0\n  - NVCC architecture flags: -gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_90,code=sm_90;-gencode;arch=compute_100,code=sm_100;-gencode;arch=compute_110,code=sm_110;-gencode;arch=compute_120,code=sm_120\n  - CuDNN 92.0  (built against CUDA 13.2)\n  - Build settings: BLAS_INFO=nvpl, BUILD_TYPE=Release, COMMIT_SHA=7661cd9c6b841b62b7f411aa52ec51f05457263b, CUDA_FLAGS= -DLIBCUDACXX_ENABLE_SIMPLIFIED_COMPLEX_OPERATIONS -Xfatbin -compress-all -DONNX_NAMESPACE=onnx_torch -gencode arch=compute_80,code=sm_80 -gencode arch=compute_90,code=sm_90 -gencode arch=compute_100,code=sm_100 -gencode arch=compute_110,code=sm_110 -gencode arch=compute_120,code=sm_120 -Xcudafe --diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl --expt-relaxed-constexpr --expt-extended-lambda -Xfatbin -compress-all --threads 2 -compress-mode=size -Wno-deprecated-gpu-targets --expt-extended-lambda -DCUB_WRAPPED_NAMESPACE=at_cuda_detail -DDISABLE_CUSPARSE_DEPRECATED -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -DC10_NODEPRECATED, CUDA_VERSION=13.0, CUDNN_VERSION=9.20.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -ffunction-sections -fdata-sections -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_MSLK -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-omit-frame-pointer -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=nvpl, TORCH_VERSION=2.12.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKLDNN=1, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+        "cuda_build_version": "13.0",
+        "debug": false,
+        "git_version": "7661cd9c6b841b62b7f411aa52ec51f05457263b",
+        "hip_build_version": null
+      }
+    },
+    "stable_projection_bytes": 5059,
+    "stable_projection_sha256": "0fa13120b151b1c8bcb5a0c68ea7a0846f3b4c19a8bcc7d895393e030d9c0cf9"
+  },
+  "fixed_construction": {
+    "class_order": [
+      "DoS",
+      "Fuzzy",
+      "Gear",
+      "RPM"
+    ],
+    "final_pool_permutation": "one_after_all_classes",
+    "per_attack": 65000,
+    "pool_schema_version": "e15_rule_construction_pool_v1",
+    "sampling_policy_for_downstream_consumer": "e15_strict_without_replacement_0p30_v1",
+    "source_normal_selection": "with_replacement",
+    "source_normal_windows": 138976,
+    "source_train_shape": [
+      262149,
+      128,
+      11
+    ],
+    "total_windows_per_pool": 260000
+  },
+  "frozen_inputs": {
+    "journal/datasets/synthetic/rule_based_windows.npz": {
+      "bytes": 282039519,
+      "expected_sha256": "4078ab00b8531f760b296b5fd293e3df914bef996d317c958ead4762137bafd5",
+      "matches": true,
+      "path": "journal/datasets/synthetic/rule_based_windows.npz",
+      "sha256": "4078ab00b8531f760b296b5fd293e3df914bef996d317c958ead4762137bafd5"
+    },
+    "journal/datasets/windows/train_windows.npz": {
+      "bytes": 70962600,
+      "expected_sha256": "44b3bedeebe113e4850ebb2e38314b413f140f350712e0e9eda81a34faec7cb4",
+      "matches": true,
+      "path": "journal/datasets/windows/train_windows.npz",
+      "sha256": "44b3bedeebe113e4850ebb2e38314b413f140f350712e0e9eda81a34faec7cb4"
+    },
+    "journal/experiments/e15_rule_construction_crossing/IMPLEMENTATION_AMENDMENT_2026-07-25_V2_PATH_IDENTITY.md": {
+      "bytes": 4737,
+      "expected_sha256": "e747c5c8877a5dfd4e4d6b5b23c54b0ec23f122cd40f145011fa33cb622afd12",
+      "matches": true,
+      "path": "journal/experiments/e15_rule_construction_crossing/IMPLEMENTATION_AMENDMENT_2026-07-25_V2_PATH_IDENTITY.md",
+      "sha256": "e747c5c8877a5dfd4e4d6b5b23c54b0ec23f122cd40f145011fa33cb622afd12"
+    },
+    "journal/experiments/e15_rule_construction_crossing/PREREG.md": {
+      "bytes": 51589,
+      "expected_sha256": "5fedd45f2b81608e6358281e97843a0600f1d5676aacd4b1e909c64e08bc1905",
+      "matches": true,
+      "path": "journal/experiments/e15_rule_construction_crossing/PREREG.md",
+      "sha256": "5fedd45f2b81608e6358281e97843a0600f1d5676aacd4b1e909c64e08bc1905"
+    },
+    "journal/experiments/e15_rule_construction_crossing/training_failure_v1.json": {
+      "bytes": 4016,
+      "expected_sha256": "b5e4cde58d0e6ba207bf5ba91bf39a150c0485be66a27171810a83e3daadb828",
+      "matches": true,
+      "path": "journal/experiments/e15_rule_construction_crossing/training_failure_v1.json",
+      "sha256": "b5e4cde58d0e6ba207bf5ba91bf39a150c0485be66a27171810a83e3daadb828"
+    },
+    "journal/scripts/generate_rule_based_synthetic_v2.py": {
+      "bytes": 33400,
+      "expected_sha256": "34ff0374af1856fd842da8226580d5ff0d47cbd16b36fb4273de3e06bcac2570",
+      "matches": true,
+      "path": "journal/scripts/generate_rule_based_synthetic_v2.py",
+      "sha256": "34ff0374af1856fd842da8226580d5ff0d47cbd16b36fb4273de3e06bcac2570"
+    },
+    "journal/scripts/generator_protocol.py": {
+      "bytes": 13891,
+      "expected_sha256": "f23c52ad9f08673c365a0db158d8c6e2db8213b5d30c2584ac777e066a4f85c0",
+      "matches": true,
+      "path": "journal/scripts/generator_protocol.py",
+      "sha256": "f23c52ad9f08673c365a0db158d8c6e2db8213b5d30c2584ac777e066a4f85c0"
+    },
+    "journal/scripts/lib_common.py": {
+      "bytes": 81471,
+      "expected_sha256": "5848ff4b0063d4394cd1d6627faf49e072cb363d7796cc64fce3acc48b05639a",
+      "matches": true,
+      "path": "journal/scripts/lib_common.py",
+      "sha256": "5848ff4b0063d4394cd1d6627faf49e072cb363d7796cc64fce3acc48b05639a"
+    },
+    "wisa/scripts/generate_rule_based_synthetic.py": {
+      "bytes": 7222,
+      "expected_sha256": "df7fa574efa2b2bd94daa846970fbcd7beb7c6b6ecf13ecd2c6a5b2855cc5f69",
+      "matches": true,
+      "path": "wisa/scripts/generate_rule_based_synthetic.py",
+      "sha256": "df7fa574efa2b2bd94daa846970fbcd7beb7c6b6ecf13ecd2c6a5b2855cc5f69"
+    }
+  },
+  "invocation": {
+    "argv": [
+      "journal/scripts/generate_rule_construction_sensitivity.py",
+      "--execute"
+    ],
+    "cwd": "/home/hyunjin/workspace/wisa_can_ids",
+    "wrapper_path": "journal/scripts/generate_rule_construction_sensitivity.py"
+  },
+  "mode": "execute",
+  "model_inference_performed": false,
+  "one_shot_policy": "publication of this execute-mode preflight starts a one-shot stage; failure is preserved and never resumed under v2",
+  "pipeline_axis": {
+    "combined_with_construction_seed": false,
+    "name": "pipeline_seed",
+    "ordered_values": [
+      7,
+      42,
+      123,
+      2026,
+      3407
+    ],
+    "used_during_pool_generation": false
+  },
+  "pre_result": true,
+  "record_type": "e15_rule_pool_generation_preflight",
+  "schema_version": "e15.pool_generation_preflight.v1",
+  "source_provenance": {
+    "head_commit": "052c890d8096bb4d1eecd937d200a33dd7ea2b51",
+    "implementation": {
+      "journal/experiments/e15_rule_construction_crossing/IMPLEMENTATION_AMENDMENT_2026-07-25_V2_PATH_IDENTITY.md": {
+        "bytes": 4737,
+        "git_blob_oid": "fd43036a50521d49a35e223c9e58f4dfc82f77d4",
+        "matches_head": true,
+        "path": "journal/experiments/e15_rule_construction_crossing/IMPLEMENTATION_AMENDMENT_2026-07-25_V2_PATH_IDENTITY.md",
+        "sha256": "e747c5c8877a5dfd4e4d6b5b23c54b0ec23f122cd40f145011fa33cb622afd12"
+      },
+      "journal/scripts/analyze_rule_construction_seed_crossing.py": {
+        "bytes": 104528,
+        "git_blob_oid": "ce8edccf9c17161fed81461244d5821bb5dd0141",
+        "matches_head": true,
+        "path": "journal/scripts/analyze_rule_construction_seed_crossing.py",
+        "sha256": "38861734f0c3c41a6676146865f4a0a914d1496e95cb5ab3e0d11169db6e94c5"
+      },
+      "journal/scripts/evaluate_rule_construction_seed_crossing.py": {
+        "bytes": 121525,
+        "git_blob_oid": "9747f6a8f8b0aada6618b0df5dfb10ed4468f936",
+        "matches_head": true,
+        "path": "journal/scripts/evaluate_rule_construction_seed_crossing.py",
+        "sha256": "f47e9a57d47ba3c914971a443a4fac3eff4fa4c8d9d7e164c29f361f93945505"
+      },
+      "journal/scripts/generate_rule_construction_sensitivity.py": {
+        "bytes": 69451,
+        "git_blob_oid": "544b9d78206faaf80be2821b6094f445e32b07f7",
+        "matches_head": true,
+        "path": "journal/scripts/generate_rule_construction_sensitivity.py",
+        "sha256": "4d5e2a46dc805b907615a41bc8013a28dba5e87c95483def3776f0665625bdde"
+      },
+      "journal/scripts/train_rule_construction_seed_crossing.py": {
+        "bytes": 92695,
+        "git_blob_oid": "b2cb0b447271d648dbd6b348d12825dc405cc40c",
+        "matches_head": true,
+        "path": "journal/scripts/train_rule_construction_seed_crossing.py",
+        "sha256": "2f2aabefe908aef01903530dc3130872355c74d8c112c6bf4358903250991f83"
+      },
+      "journal/tests/test_rule_construction_seed_crossing.py": {
+        "bytes": 69975,
+        "git_blob_oid": "8079a8a207b205698f897e845ec240aa3c96dbff",
+        "matches_head": true,
+        "path": "journal/tests/test_rule_construction_seed_crossing.py",
+        "sha256": "fadfcf42026e2c7ebccd83211afb2c2edb31c24158c45032de30e5d14046881f"
+      }
+    },
+    "preregistration_commit": "f30dd62f92a1d6928e485ef8f0a2850993a6557d",
+    "preregistration_commit_is_ancestor": true,
+    "source_status": {
+      "allowed_untracked_paths": [],
+      "observed_allowed_untracked_records": [],
+      "rejected_status_records": [],
+      "stage": "T-STOP-POOL",
+      "status_records": [],
+      "tracked_index_head_clean": true
+    },
+    "wisa_clean": true,
+    "worktree_clean": true
+  },
+  "status": "validated_preflight",
+  "target_absence": {
+    "all_absent": true,
+    "expected_count": 18,
+    "paths": [
+      "journal/datasets/synthetic/rule_cseed314159_windows_v2.npz",
+      "journal/results/tables/e15_rule_cseed314159_statistics_v2.csv",
+      "journal/results/logs/e15_generate_rule_cseed314159_v2.json",
+      "journal/datasets/synthetic/rule_cseed271828_windows_v2.npz",
+      "journal/results/tables/e15_rule_cseed271828_statistics_v2.csv",
+      "journal/results/logs/e15_generate_rule_cseed271828_v2.json",
+      "journal/datasets/synthetic/rule_cseed161803_windows_v2.npz",
+      "journal/results/tables/e15_rule_cseed161803_statistics_v2.csv",
+      "journal/results/logs/e15_generate_rule_cseed161803_v2.json",
+      "journal/datasets/synthetic/rule_cseed141421_windows_v2.npz",
+      "journal/results/tables/e15_rule_cseed141421_statistics_v2.csv",
+      "journal/results/logs/e15_generate_rule_cseed141421_v2.json",
+      "journal/datasets/synthetic/rule_cseed173205_windows_v2.npz",
+      "journal/results/tables/e15_rule_cseed173205_statistics_v2.csv",
+      "journal/results/logs/e15_generate_rule_cseed173205_v2.json",
+      "journal/experiments/e15_rule_construction_crossing/pool_generation_preflight_v2.json",
+      "journal/experiments/e15_rule_construction_crossing/pool_generation_run_v2.json",
+      "journal/results/tables/e15_rule_construction_pool_audit_v2.csv"
+    ],
+    "verified_absent_count": 18
+  },
+  "targets": {
+    "141421": {
+      "generation_log_path": "journal/results/logs/e15_generate_rule_cseed141421_v2.json",
+      "pool_identifier": "e15_rule_cseed141421_v2",
+      "pool_path": "journal/datasets/synthetic/rule_cseed141421_windows_v2.npz",
+      "statistics_path": "journal/results/tables/e15_rule_cseed141421_statistics_v2.csv"
+    },
+    "161803": {
+      "generation_log_path": "journal/results/logs/e15_generate_rule_cseed161803_v2.json",
+      "pool_identifier": "e15_rule_cseed161803_v2",
+      "pool_path": "journal/datasets/synthetic/rule_cseed161803_windows_v2.npz",
+      "statistics_path": "journal/results/tables/e15_rule_cseed161803_statistics_v2.csv"
+    },
+    "173205": {
+      "generation_log_path": "journal/results/logs/e15_generate_rule_cseed173205_v2.json",
+      "pool_identifier": "e15_rule_cseed173205_v2",
+      "pool_path": "journal/datasets/synthetic/rule_cseed173205_windows_v2.npz",
+      "statistics_path": "journal/results/tables/e15_rule_cseed173205_statistics_v2.csv"
+    },
+    "271828": {
+      "generation_log_path": "journal/results/logs/e15_generate_rule_cseed271828_v2.json",
+      "pool_identifier": "e15_rule_cseed271828_v2",
+      "pool_path": "journal/datasets/synthetic/rule_cseed271828_windows_v2.npz",
+      "statistics_path": "journal/results/tables/e15_rule_cseed271828_statistics_v2.csv"
+    },
+    "314159": {
+      "generation_log_path": "journal/results/logs/e15_generate_rule_cseed314159_v2.json",
+      "pool_identifier": "e15_rule_cseed314159_v2",
+      "pool_path": "journal/datasets/synthetic/rule_cseed314159_windows_v2.npz",
+      "statistics_path": "journal/results/tables/e15_rule_cseed314159_statistics_v2.csv"
+    }
+  },
+  "technical_status": "T-PASS"
+}

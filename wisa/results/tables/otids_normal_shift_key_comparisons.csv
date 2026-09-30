@@ -1,0 +1,5 @@
+diagnostic,car_hacking_test_normal,otids_normal,shift_value,interpretation
+CAN ID support,27 IDs; top-20 coverage 0.9701,45 IDs; Car-Hacking top-20 coverage 0.5683,JS=0.3424; top-50 Jaccard=0.4400,External normal traffic uses a different CAN-ID support and frequency profile.
+DLC distribution,DLC=8 share 0.9873; entropy 0.1059,DLC=8 share 0.8975; entropy 0.6490,JS=0.0492,Frame-length mix changes between the in-dataset and external normal windows.
+Inter-arrival time,median 0.000241995; p99 0.00424123,median 0.00024; p99 0.002994,log-delta_t JS=0.0400,"Timing support differs, so a validation-calibrated normal boundary need not transfer."
+Payload byte distribution,entropy 4.5274 bits,entropy 4.6215 bits,JS=0.1169,Normal payload-byte statistics are not drawn from the same support.

@@ -1,0 +1,27 @@
+{
+  "batch_size": 4096,
+  "completed_utc": "2026-08-08T19:35:03Z",
+  "completeness": {
+    "by_cell_rows": 11760,
+    "expected_scenario_rows": 23520,
+    "normal_rows": 735,
+    "scenario_rows": 23520
+  },
+  "device": "cuda",
+  "elapsed_seconds": 2420.363,
+  "exact_and_binary_endpoints_separate": true,
+  "identities": 245,
+  "normal_control_reported_before_attack_results": true,
+  "numpy": "2.4.6",
+  "schema_version": "e19.evaluation_run.v1",
+  "stage": "e19_evaluation",
+  "standardizer": {
+    "mean": "1e53f10b4dfb1de8522513ca20c7d0c2b5a19a8de8f76067e4273a93467da8a2",
+    "mean_then_std": "9019b1a91c983859e8dd998717eb5c7b612ed03dc2a65ec63402fd54ab42ef4e",
+    "std": "092f42e9a1019fe709233a91c6e876e976f8b3b8616807b42eb6e6da7b7dbb7c"
+  },
+  "started_utc": "2026-08-08T18:54:42Z",
+  "status": "T-PASS",
+  "technical_status": "T-PASS",
+  "torch": "2.12.0+cu130"
+}

@@ -1,0 +1,5 @@
+generator,synthetic_type,windows,binary_label,attack_type_id,injection_count_mean,injection_count_min,injection_count_max,can_id_min,can_id_max,dlc_min,dlc_max,payload_min,payload_max,delta_t_min,delta_t_max,invalid_can_id,invalid_dlc,invalid_payload,invalid_delta_t
+rule_based,DoS,65000,Attack,1,45.87672307692308,16,90,0.0,2047.0,2.0,8.0,0.0,255.0,0.0,0.10837984085083008,0,0,0,0
+rule_based,Fuzzy,65000,Attack,2,29.245738461538462,6,88,0.0,2047.0,2.0,8.0,0.0,255.0,0.0,0.10837984085083008,0,0,0,0
+rule_based,Gear,65000,Attack,3,37.483415384615384,11,90,0.0,2047.0,2.0,8.0,0.0,255.0,0.0,0.10837984085083008,0,0,0,0
+rule_based,RPM,65000,Attack,4,37.44732307692308,11,90,0.0,2047.0,2.0,8.0,0.0,255.0,0.0,0.10837984085083008,0,0,0,0

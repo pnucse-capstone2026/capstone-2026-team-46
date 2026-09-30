@@ -1,0 +1,151 @@
+setting,label,family,ratio,seed,scenario_id,attack_type,id_condition,windows,attack_detection_recall,exact_class_recall,normal_recall,mean_attack_score
+real_only,Real only,real_only,0.0,7,Gear_payload_shift_canonical,Gear,canonical,4000,0.62325,0.0,,0.6244518756866455
+real_only,Real only,real_only,0.0,7,Gear_payload_shifted_0x440,Gear,shifted,4000,0.6295,0.0,,0.6281478404998779
+real_only,Real only,real_only,0.0,7,Normal_normal,Normal,normal,8000,,,1.0,0.005202596541494131
+real_only,Real only,real_only,0.0,7,RPM_payload_shift_canonical,RPM,canonical,4000,0.978,0.04825,,0.9675605297088623
+real_only,Real only,real_only,0.0,7,RPM_payload_shifted_0x329,RPM,shifted,4000,0.978,0.052,,0.9665120840072632
+real_only,Real only,real_only,0.0,42,Gear_payload_shift_canonical,Gear,canonical,4000,0.31525,0.0,,0.3352506160736084
+real_only,Real only,real_only,0.0,42,Gear_payload_shifted_0x440,Gear,shifted,4000,0.3235,0.0,,0.33814799785614014
+real_only,Real only,real_only,0.0,42,Normal_normal,Normal,normal,8000,,,1.0,0.0012223294470459223
+real_only,Real only,real_only,0.0,42,RPM_payload_shift_canonical,RPM,canonical,4000,0.96,0.084,,0.9527536630630493
+real_only,Real only,real_only,0.0,42,RPM_payload_shifted_0x329,RPM,shifted,4000,0.9585,0.0815,,0.9505487680435181
+real_only,Real only,real_only,0.0,123,Gear_payload_shift_canonical,Gear,canonical,4000,0.76625,0.0,,0.7320358753204346
+real_only,Real only,real_only,0.0,123,Gear_payload_shifted_0x440,Gear,shifted,4000,0.7475,0.0,,0.7227576971054077
+real_only,Real only,real_only,0.0,123,Normal_normal,Normal,normal,8000,,,0.99975,0.009369311854243279
+real_only,Real only,real_only,0.0,123,RPM_payload_shift_canonical,RPM,canonical,4000,0.9925,0.01575,,0.9842666387557983
+real_only,Real only,real_only,0.0,123,RPM_payload_shifted_0x329,RPM,shifted,4000,0.99325,0.01375,,0.9845189452171326
+real_only,Real only,real_only,0.0,2026,Gear_payload_shift_canonical,Gear,canonical,4000,0.2235,0.0,,0.2542167603969574
+real_only,Real only,real_only,0.0,2026,Gear_payload_shifted_0x440,Gear,shifted,4000,0.22425,0.0,,0.2566334307193756
+real_only,Real only,real_only,0.0,2026,Normal_normal,Normal,normal,8000,,,1.0,0.0012140960898250341
+real_only,Real only,real_only,0.0,2026,RPM_payload_shift_canonical,RPM,canonical,4000,0.58575,0.0,,0.5767144560813904
+real_only,Real only,real_only,0.0,2026,RPM_payload_shifted_0x329,RPM,shifted,4000,0.59875,0.0,,0.5862084031105042
+real_only,Real only,real_only,0.0,3407,Gear_payload_shift_canonical,Gear,canonical,4000,0.94225,0.0,,0.922035813331604
+real_only,Real only,real_only,0.0,3407,Gear_payload_shifted_0x440,Gear,shifted,4000,0.93325,0.0,,0.9182707667350769
+real_only,Real only,real_only,0.0,3407,Normal_normal,Normal,normal,8000,,,1.0,0.0012564255157485604
+real_only,Real only,real_only,0.0,3407,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.002,,0.9993520379066467
+real_only,Real only,real_only,0.0,3407,RPM_payload_shifted_0x329,RPM,shifted,4000,0.99975,0.00125,,0.9992420673370361
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,7,Gear_payload_shift_canonical,Gear,canonical,4000,0.22525,0.0,,0.25624018907546997
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,7,Gear_payload_shifted_0x440,Gear,shifted,4000,0.22275,0.0,,0.2582859396934509
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,7,Normal_normal,Normal,normal,8000,,,1.0,0.0009038710850290954
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,7,RPM_payload_shift_canonical,RPM,canonical,4000,0.8935,0.06625,,0.8842679262161255
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,7,RPM_payload_shifted_0x329,RPM,shifted,4000,0.897,0.06375,,0.8891849517822266
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,42,Gear_payload_shift_canonical,Gear,canonical,4000,0.99775,0.0,,0.9949925541877747
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,42,Gear_payload_shifted_0x440,Gear,shifted,4000,0.9945,0.0,,0.9930700659751892
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,42,Normal_normal,Normal,normal,8000,,,1.0,0.009735224768519402
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,42,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.005,,0.9999251365661621
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,42,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.00475,,0.9999368786811829
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,123,Gear_payload_shift_canonical,Gear,canonical,4000,0.22,0.0,,0.23554669320583344
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,123,Gear_payload_shifted_0x440,Gear,shifted,4000,0.21,0.0,,0.2260301262140274
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,123,Normal_normal,Normal,normal,8000,,,1.0,5.6738681450951844e-05
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,123,RPM_payload_shift_canonical,RPM,canonical,4000,0.68775,0.03725,,0.6879450082778931
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,123,RPM_payload_shifted_0x329,RPM,shifted,4000,0.69375,0.03475,,0.6917526125907898
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,2026,Gear_payload_shift_canonical,Gear,canonical,4000,0.74975,0.0,,0.7331861257553101
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,2026,Gear_payload_shifted_0x440,Gear,shifted,4000,0.74,0.0,,0.7259138226509094
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,2026,Normal_normal,Normal,normal,8000,,,1.0,0.0015809478936716914
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,2026,RPM_payload_shift_canonical,RPM,canonical,4000,0.99575,0.00025,,0.9922036528587341
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,2026,RPM_payload_shifted_0x329,RPM,shifted,4000,0.99625,0.0,,0.9928197860717773
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,3407,Gear_payload_shift_canonical,Gear,canonical,4000,0.99825,0.0,,0.9979995489120483
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,3407,Gear_payload_shifted_0x440,Gear,shifted,4000,0.999,0.0,,0.998332142829895
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,3407,Normal_normal,Normal,normal,8000,,,1.0,0.0009247643756680191
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,3407,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.0,,0.9999997615814209
+real_oversampling_0p50,Real oversampling +50%,oversampling,0.5,3407,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.0,,0.9999964833259583
+rule_0p10,Rule +10%,rule,0.1,7,Gear_payload_shift_canonical,Gear,canonical,4000,0.99975,0.65675,,0.999742329120636
+rule_0p10,Rule +10%,rule,0.1,7,Gear_payload_shifted_0x440,Gear,shifted,4000,0.99975,0.67475,,0.9997798800468445
+rule_0p10,Rule +10%,rule,0.1,7,Normal_normal,Normal,normal,8000,,,1.0,0.0024686118122190237
+rule_0p10,Rule +10%,rule,0.1,7,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.01275,,0.999864399433136
+rule_0p10,Rule +10%,rule,0.1,7,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.012,,0.999853253364563
+rule_0p10,Rule +10%,rule,0.1,42,Gear_payload_shift_canonical,Gear,canonical,4000,0.9995,0.006,,0.9985137581825256
+rule_0p10,Rule +10%,rule,0.1,42,Gear_payload_shifted_0x440,Gear,shifted,4000,0.99975,0.0115,,0.9990718364715576
+rule_0p10,Rule +10%,rule,0.1,42,Normal_normal,Normal,normal,8000,,,1.0,0.0017718590097501874
+rule_0p10,Rule +10%,rule,0.1,42,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.00025,,0.9999744296073914
+rule_0p10,Rule +10%,rule,0.1,42,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.00025,,0.9999728798866272
+rule_0p10,Rule +10%,rule,0.1,123,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.00225,,0.9999504685401917
+rule_0p10,Rule +10%,rule,0.1,123,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.00275,,0.9998770356178284
+rule_0p10,Rule +10%,rule,0.1,123,Normal_normal,Normal,normal,8000,,,1.0,0.00180445599835366
+rule_0p10,Rule +10%,rule,0.1,123,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.00225,,0.9998943209648132
+rule_0p10,Rule +10%,rule,0.1,123,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.0035,,0.9998644590377808
+rule_0p10,Rule +10%,rule,0.1,2026,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.00425,,0.9999728798866272
+rule_0p10,Rule +10%,rule,0.1,2026,Gear_payload_shifted_0x440,Gear,shifted,4000,0.99975,0.00675,,0.9997565150260925
+rule_0p10,Rule +10%,rule,0.1,2026,Normal_normal,Normal,normal,8000,,,1.0,0.0004576902138069272
+rule_0p10,Rule +10%,rule,0.1,2026,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.015,,0.9999985098838806
+rule_0p10,Rule +10%,rule,0.1,2026,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.00775,,0.9999979138374329
+rule_0p10,Rule +10%,rule,0.1,3407,Gear_payload_shift_canonical,Gear,canonical,4000,0.99975,0.8905,,0.999337911605835
+rule_0p10,Rule +10%,rule,0.1,3407,Gear_payload_shifted_0x440,Gear,shifted,4000,0.99925,0.9035,,0.9992159605026245
+rule_0p10,Rule +10%,rule,0.1,3407,Normal_normal,Normal,normal,8000,,,1.0,0.0004306162300053984
+rule_0p10,Rule +10%,rule,0.1,3407,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.008,,0.9998839497566223
+rule_0p10,Rule +10%,rule,0.1,3407,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.006,,0.9998070597648621
+rule_0p30,Rule +30%,rule,0.3,7,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.28075,,0.9999309182167053
+rule_0p30,Rule +30%,rule,0.3,7,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.31075,,0.9999824166297913
+rule_0p30,Rule +30%,rule,0.3,7,Normal_normal,Normal,normal,8000,,,1.0,0.00034008483635261655
+rule_0p30,Rule +30%,rule,0.3,7,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.05625,,1.0
+rule_0p30,Rule +30%,rule,0.3,7,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.06325,,1.0
+rule_0p30,Rule +30%,rule,0.3,42,Gear_payload_shift_canonical,Gear,canonical,4000,0.99975,0.00325,,0.9998278021812439
+rule_0p30,Rule +30%,rule,0.3,42,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.00475,,0.9999995231628418
+rule_0p30,Rule +30%,rule,0.3,42,Normal_normal,Normal,normal,8000,,,1.0,0.00025675861979834735
+rule_0p30,Rule +30%,rule,0.3,42,RPM_payload_shift_canonical,RPM,canonical,4000,0.99975,0.008,,0.9997431635856628
+rule_0p30,Rule +30%,rule,0.3,42,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.009,,0.9999924302101135
+rule_0p30,Rule +30%,rule,0.3,123,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.01,,0.9999997615814209
+rule_0p30,Rule +30%,rule,0.3,123,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.01175,,0.9999998807907104
+rule_0p30,Rule +30%,rule,0.3,123,Normal_normal,Normal,normal,8000,,,1.0,0.0003692220780067146
+rule_0p30,Rule +30%,rule,0.3,123,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.00025,,1.0
+rule_0p30,Rule +30%,rule,0.3,123,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.00025,,0.9999999403953552
+rule_0p30,Rule +30%,rule,0.3,2026,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.06275,,0.9999821782112122
+rule_0p30,Rule +30%,rule,0.3,2026,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.07525,,0.9998462796211243
+rule_0p30,Rule +30%,rule,0.3,2026,Normal_normal,Normal,normal,8000,,,1.0,0.00021304332767613232
+rule_0p30,Rule +30%,rule,0.3,2026,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.001,,0.9999998807907104
+rule_0p30,Rule +30%,rule,0.3,2026,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.0005,,0.9999763369560242
+rule_0p30,Rule +30%,rule,0.3,3407,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.3815,,0.9999962449073792
+rule_0p30,Rule +30%,rule,0.3,3407,Gear_payload_shifted_0x440,Gear,shifted,4000,0.99975,0.4035,,0.99980628490448
+rule_0p30,Rule +30%,rule,0.3,3407,Normal_normal,Normal,normal,8000,,,1.0,0.0001315488771069795
+rule_0p30,Rule +30%,rule,0.3,3407,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.03125,,1.0
+rule_0p30,Rule +30%,rule,0.3,3407,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.0235,,0.9999998807907104
+rule_0p50,Rule +50%,rule,0.5,7,Gear_payload_shift_canonical,Gear,canonical,4000,0.9955,0.05925,,0.9913303256034851
+rule_0p50,Rule +50%,rule,0.5,7,Gear_payload_shifted_0x440,Gear,shifted,4000,0.99275,0.067,,0.9888622760772705
+rule_0p50,Rule +50%,rule,0.5,7,Normal_normal,Normal,normal,8000,,,1.0,0.0008815178298391402
+rule_0p50,Rule +50%,rule,0.5,7,RPM_payload_shift_canonical,RPM,canonical,4000,0.9995,0.0065,,0.9982163310050964
+rule_0p50,Rule +50%,rule,0.5,7,RPM_payload_shifted_0x329,RPM,shifted,4000,0.99925,0.00475,,0.9979684948921204
+rule_0p50,Rule +50%,rule,0.5,42,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.0285,,0.9999729990959167
+rule_0p50,Rule +50%,rule,0.5,42,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.0335,,0.9999970197677612
+rule_0p50,Rule +50%,rule,0.5,42,Normal_normal,Normal,normal,8000,,,1.0,0.002576973522081971
+rule_0p50,Rule +50%,rule,0.5,42,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.0025,,0.9999749660491943
+rule_0p50,Rule +50%,rule,0.5,42,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.00175,,0.999969482421875
+rule_0p50,Rule +50%,rule,0.5,123,Gear_payload_shift_canonical,Gear,canonical,4000,0.9985,0.366,,0.9981350302696228
+rule_0p50,Rule +50%,rule,0.5,123,Gear_payload_shifted_0x440,Gear,shifted,4000,0.99925,0.38725,,0.9986468553543091
+rule_0p50,Rule +50%,rule,0.5,123,Normal_normal,Normal,normal,8000,,,1.0,0.001140966429375112
+rule_0p50,Rule +50%,rule,0.5,123,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.02275,,0.9998605251312256
+rule_0p50,Rule +50%,rule,0.5,123,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.023,,0.9999029636383057
+rule_0p50,Rule +50%,rule,0.5,2026,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.02,,0.9997913837432861
+rule_0p50,Rule +50%,rule,0.5,2026,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.026,,0.9998800158500671
+rule_0p50,Rule +50%,rule,0.5,2026,Normal_normal,Normal,normal,8000,,,1.0,0.002778217662125826
+rule_0p50,Rule +50%,rule,0.5,2026,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.00675,,0.9999563097953796
+rule_0p50,Rule +50%,rule,0.5,2026,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.00575,,0.999969482421875
+rule_0p50,Rule +50%,rule,0.5,3407,Gear_payload_shift_canonical,Gear,canonical,4000,0.9935,0.21175,,0.9916555285453796
+rule_0p50,Rule +50%,rule,0.5,3407,Gear_payload_shifted_0x440,Gear,shifted,4000,0.9925,0.22675,,0.9916685819625854
+rule_0p50,Rule +50%,rule,0.5,3407,Normal_normal,Normal,normal,8000,,,1.0,0.0014085073489695787
+rule_0p50,Rule +50%,rule,0.5,3407,RPM_payload_shift_canonical,RPM,canonical,4000,0.99975,0.081,,0.9964072704315186
+rule_0p50,Rule +50%,rule,0.5,3407,RPM_payload_shifted_0x329,RPM,shifted,4000,0.99925,0.09075,,0.9957141280174255
+rule_1p00,Rule +100%,rule,1.0,7,Gear_payload_shift_canonical,Gear,canonical,4000,0.99975,0.0695,,0.9996870756149292
+rule_1p00,Rule +100%,rule,1.0,7,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.0765,,0.9998108148574829
+rule_1p00,Rule +100%,rule,1.0,7,Normal_normal,Normal,normal,8000,,,1.0,0.00016725534806028008
+rule_1p00,Rule +100%,rule,1.0,7,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.0065,,1.0
+rule_1p00,Rule +100%,rule,1.0,7,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.00675,,1.0
+rule_1p00,Rule +100%,rule,1.0,42,Gear_payload_shift_canonical,Gear,canonical,4000,0.99975,0.00075,,0.9994605779647827
+rule_1p00,Rule +100%,rule,1.0,42,Gear_payload_shifted_0x440,Gear,shifted,4000,0.99925,0.0035,,0.9993587136268616
+rule_1p00,Rule +100%,rule,1.0,42,Normal_normal,Normal,normal,8000,,,1.0,0.0006590984994545579
+rule_1p00,Rule +100%,rule,1.0,42,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.0,,1.0
+rule_1p00,Rule +100%,rule,1.0,42,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.0,,0.9999841451644897
+rule_1p00,Rule +100%,rule,1.0,123,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.65,,0.9999998807907104
+rule_1p00,Rule +100%,rule,1.0,123,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.6755,,0.9999998807907104
+rule_1p00,Rule +100%,rule,1.0,123,Normal_normal,Normal,normal,8000,,,1.0,0.00043879204895347357
+rule_1p00,Rule +100%,rule,1.0,123,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.031,,0.9999998807907104
+rule_1p00,Rule +100%,rule,1.0,123,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.034,,0.999999463558197
+rule_1p00,Rule +100%,rule,1.0,2026,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.00675,,1.0
+rule_1p00,Rule +100%,rule,1.0,2026,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.0095,,1.0
+rule_1p00,Rule +100%,rule,1.0,2026,Normal_normal,Normal,normal,8000,,,0.999875,0.0008637213031761348
+rule_1p00,Rule +100%,rule,1.0,2026,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.00175,,1.0
+rule_1p00,Rule +100%,rule,1.0,2026,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.00275,,1.0
+rule_1p00,Rule +100%,rule,1.0,3407,Gear_payload_shift_canonical,Gear,canonical,4000,1.0,0.011,,0.999954342842102
+rule_1p00,Rule +100%,rule,1.0,3407,Gear_payload_shifted_0x440,Gear,shifted,4000,1.0,0.0155,,0.9999967217445374
+rule_1p00,Rule +100%,rule,1.0,3407,Normal_normal,Normal,normal,8000,,,1.0,0.0007173550548031926
+rule_1p00,Rule +100%,rule,1.0,3407,RPM_payload_shift_canonical,RPM,canonical,4000,1.0,0.0685,,0.9999998807907104
+rule_1p00,Rule +100%,rule,1.0,3407,RPM_payload_shifted_0x329,RPM,shifted,4000,1.0,0.07525,,0.9999990463256836

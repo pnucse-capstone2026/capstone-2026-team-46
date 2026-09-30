@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "stage": "confirmation",
+  "verified_utc": "2026-09-06T10:26:11.547100+00:00",
+  "freeze_unchanged": true,
+  "checkpoint_hashes_checked": 400,
+  "prediction_metric_checks": 800,
+  "replayed_fits": [
+    "g00_cnn_placebo_p3407",
+    "g00_cnn_placebo_p7",
+    "g00_cnn_rule_p3407",
+    "g00_cnn_rule_p7",
+    "g00_rf83_placebo_p3407",
+    "g00_rf83_placebo_p7",
+    "g00_rf83_rule_p3407",
+    "g00_rf83_rule_p7",
+    "g19_cnn_placebo_p3407",
+    "g19_cnn_placebo_p7",
+    "g19_cnn_rule_p3407",
+    "g19_cnn_rule_p7",
+    "g19_rf83_placebo_p3407",
+    "g19_rf83_placebo_p7",
+    "g19_rf83_rule_p3407",
+    "g19_rf83_rule_p7"
+  ],
+  "replay_device": "cuda",
+  "summary_recomputed": [
+    {
+      "family": "cnn",
+      "U_mean": 0.358994140625,
+      "U_ci95": [
+        0.3507022342600566,
+        0.36728604698994344
+      ]
+    },
+    {
+      "family": "rf83",
+      "U_mean": 0.356962890625,
+      "U_ci95": [
+        0.3501038904515531,
+        0.36382189079844685
+      ]
+    }
+  ],
+  "verifier_sha256": "29e8582ee1175e98082dfd7cc9e7dfdae17bd4b313c3c0b2ec828fba74f154a6",
+  "scope": "all saved metrics/hashes; fixed subset serialized-model replay; not independent retraining"
+}

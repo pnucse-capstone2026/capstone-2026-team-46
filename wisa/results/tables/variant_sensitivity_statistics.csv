@@ -1,0 +1,14 @@
+scenario_id,attack_type,severity,windows,burst_len,step,amplitude,injection_count_mean,injection_count_min,injection_count_max
+Normal_normal,Normal,normal,12000,0,0,0.0,0.0,0,0
+DoS_low,DoS,low,1500,24,3,0.25,8.0,8,8
+DoS_medium,DoS,medium,1500,48,2,0.5,24.0,24,24
+DoS_high,DoS,high,1500,96,1,1.0,96.0,96,96
+Fuzzy_low,Fuzzy,low,1500,24,4,0.25,6.0,6,6
+Fuzzy_medium,Fuzzy,medium,1500,48,3,0.5,16.0,16,16
+Fuzzy_high,Fuzzy,high,1500,96,1,1.0,96.0,96,96
+Gear_low,Gear,low,1500,24,4,0.25,6.0,6,6
+Gear_medium,Gear,medium,1500,48,2,0.5,24.0,24,24
+Gear_high,Gear,high,1500,96,1,1.0,96.0,96,96
+RPM_low,RPM,low,1500,24,4,0.25,6.0,6,6
+RPM_medium,RPM,medium,1500,48,2,0.5,24.0,24,24
+RPM_high,RPM,high,1500,96,1,1.0,96.0,96,96

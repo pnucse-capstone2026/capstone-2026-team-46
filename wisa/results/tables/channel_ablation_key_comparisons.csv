@@ -1,0 +1,3 @@
+setting,label,dataset,fpr_original_full_input,fpr_input_masking_can_id,fpr_retrained_non_id_only,fpr_retrained_id_only
+real_only,Real only,cantt_external,0.9999454142068146,0.9997222030028092,0.998850538112974,0.2767210984385351
+rule_0p30,Rule +30%,cantt_external,0.9999966482407692,0.9998636153208276,0.9999936795397364,0.4650890095575414

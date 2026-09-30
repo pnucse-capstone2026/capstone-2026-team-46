@@ -1,0 +1,130 @@
+{
+  "generated": "2026-06-13T10:07:22.506701+00:00",
+  "status": "refreshed_for_current_shift_ladder_submission",
+  "retention_boundary": {
+    "included": [
+      "scripts",
+      "config.yaml",
+      "requirements.txt",
+      "requirements.lock.txt",
+      "datasets/DOWNLOAD.md",
+      "results/tables",
+      "results/paper/figures/figure_37_evaluation_ladder.pdf",
+      "results/paper/generator_rule_spec.md",
+      "results/paper/reproducibility_card.md"
+    ],
+    "excluded": [
+      "raw datasets",
+      "generated window arrays",
+      "trained weights",
+      "per-run experiment logs",
+      "obsolete paper-ready figures",
+      "copied table_XX CSVs with stale internal numbering"
+    ]
+  },
+  "manuscript_mapping": [
+    {
+      "item": "Table 1",
+      "description": "synthetic rules",
+      "sources": [
+        "results/paper/generator_rule_spec.md",
+        "scripts/generate_rule_based_synthetic.py",
+        "scripts/generate_variant_test.py",
+        "scripts/generate_variant_sensitivity.py"
+      ]
+    },
+    {
+      "item": "Table 2",
+      "description": "Shift Ladder claim semantics",
+      "sources": [
+        "submitted manuscript body",
+        "datasets/DOWNLOAD.md",
+        "config.yaml"
+      ]
+    },
+    {
+      "item": "Fig. 1",
+      "description": "evaluation ladder",
+      "sources": [
+        "results/paper/figures/figure_37_evaluation_ladder.pdf",
+        "scripts/make_evaluation_ladder_figure.py"
+      ]
+    },
+    {
+      "item": "Table 3",
+      "description": "variant parameter sensitivity",
+      "sources": [
+        "results/tables/main_seed_extension_variant_sensitivity_summary.csv",
+        "results/tables/main_seed_extension_variant_sensitivity_scenario_summary.csv",
+        "results/tables/main_seed_extension_headline.csv",
+        "results/tables/low_intensity_sensitivity_summary.csv",
+        "scripts/run_seed_extension_stress.py"
+      ]
+    },
+    {
+      "item": "Table 4",
+      "description": "Shift Ladder evidence matrix",
+      "sources": [
+        "submitted manuscript body",
+        "results/tables/main_results_mean_std.csv",
+        "results/tables/main_seed_extension_headline.csv",
+        "results/tables/cantt_external_eval_summary_mean_std.csv",
+        "results/tables/road_external_summary.csv",
+        "results/tables/target_normal_reinstantiation_compact_key.csv",
+        "results/tables/support_shift_summary.csv"
+      ]
+    },
+    {
+      "item": "Table 5",
+      "description": "target-ID and out-of-generator stress",
+      "sources": [
+        "results/tables/main_seed_extension_target_id_shift_key_comparisons.csv",
+        "results/tables/main_seed_extension_out_of_generator_key_comparisons.csv",
+        "results/tables/main_seed_extension_target_id_shift_summary.csv",
+        "results/tables/main_seed_extension_out_of_generator_summary.csv",
+        "scripts/run_seed_extension_stress.py"
+      ]
+    },
+    {
+      "item": "Table 6",
+      "description": "RF native/transfer diagnostic",
+      "sources": [
+        "results/tables/cantt_rf_native_transfer_matrix.csv",
+        "results/tables/cantt_rf_native_transfer_by_seed.csv",
+        "results/tables/cantt_rf_native_transfer_summary.csv",
+        "scripts/run_cantt_rf_native_transfer.py"
+      ]
+    },
+    {
+      "item": "Table 7",
+      "description": "support-shift summary",
+      "sources": [
+        "results/tables/support_shift_summary.csv",
+        "scripts/make_support_shift_summary.py",
+        "results/tables/main_results_mean_std.csv",
+        "results/tables/otids_normal_shift_key_comparisons.csv",
+        "results/tables/otids_normal_attack_score_key_comparisons.csv",
+        "results/tables/cantt_can_id_overlap.csv",
+        "results/tables/cantt_vs_carhacking_scaled_feature_shift.csv",
+        "results/tables/cantt_external_score_quantiles.csv",
+        "results/tables/cantt_external_eval_summary_mean_std.csv",
+        "results/tables/road_zscore_diagnostic.csv",
+        "results/tables/road_external_summary.csv",
+        "results/tables/road_calibration_probe_logit_summary.csv"
+      ]
+    },
+    {
+      "item": "Table 8",
+      "description": "failure attribution and repair probes",
+      "sources": [
+        "results/tables/cantt_id_ablation_summary.csv",
+        "results/tables/channel_ablation_external_summary.csv",
+        "results/tables/cantt_lightweight_baseline_summary.csv",
+        "results/tables/road_whitelist_baseline.csv",
+        "results/tables/road_calibration_probe_logit_summary.csv",
+        "results/tables/target_normal_reinstantiation_compact_key.csv",
+        "results/tables/support_factor_decomposition_key_comparisons.csv"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "vehcom.attribution.local_replication.config.v1",
+  "seed_namespace": "vehcom-attribution-B-v1",
+  "confirmation_realizations": 100,
+  "pipelines": [7, 42, 123, 2026, 3407],
+  "per_attack": 65000,
+  "synthetic_total": 78645,
+  "sampling_seed_offset": 300,
+  "steps": 6156,
+  "validation_cadence": 513,
+  "batch_size": 512,
+  "validation_batch_size": 1024,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "torch_threads": 4,
+  "loader_workers": 2,
+  "primary_k": 8,
+  "secondary_k": [2, 4, 16, 32],
+  "primary_interval_confidence": 0.975,
+  "evaluation_role": "checkpoint_selection_attack_historical"
+}

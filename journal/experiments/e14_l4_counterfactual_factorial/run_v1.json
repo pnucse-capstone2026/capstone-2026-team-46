@@ -1,0 +1,5311 @@
+{
+  "analysis_role": "evaluation-only construction factorial; no training, threshold selection, external data, or scientific verdict",
+  "artifact_manifest_published": false,
+  "checkpoint_validation": [
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "real_ms",
+      "path": "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed7.pt",
+      "seed": 7,
+      "sha256": "2eccea8cfc2d734602b8d70f0cd728b7b9c311e262dc51bdec4e7c9957f9fc32",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "real_ms",
+      "path": "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed42.pt",
+      "seed": 42,
+      "sha256": "96df37d40ea9afd7694d6e15f6c38de4c18283e7e2ca2fa8b60207fcb9d4e32d",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "real_ms",
+      "path": "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed123.pt",
+      "seed": 123,
+      "sha256": "b32a663c646ccfd50538af024ec2107cf167462d814487287359301ff2ee0ebb",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "real_ms",
+      "path": "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed2026.pt",
+      "seed": 2026,
+      "sha256": "1020d15f99c0de5335633ce9de97f53485faf281fc3e5cafa1182a993e6d7a94",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "real_ms",
+      "path": "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed3407.pt",
+      "seed": 3407,
+      "sha256": "d0005ebfbef6562450a70e0c8e4d9ef5769e792f66d6725340fa551a9a673a88",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "rule_ms",
+      "path": "journal/models/generator_extension/cnn_rule_0p30_matchedsteps_seed7.pt",
+      "seed": 7,
+      "sha256": "27c37e443ea6880761163bc2ea10ed5a86ab3ab1a6a6969770a284e2fd0d1182",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "rule_ms",
+      "path": "journal/models/generator_extension/cnn_rule_0p30_matchedsteps_seed42.pt",
+      "seed": 42,
+      "sha256": "36616d6c1450337e51a172ab97a63e702c4147ab0da1411b0ced9e359a326364",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "rule_ms",
+      "path": "journal/models/generator_extension/cnn_rule_0p30_matchedsteps_seed123.pt",
+      "seed": 123,
+      "sha256": "d68719b70933d1b91d9cec34ddc8300e55c6710df622627c9702db9b6e2932e0",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "rule_ms",
+      "path": "journal/models/generator_extension/cnn_rule_0p30_matchedsteps_seed2026.pt",
+      "seed": 2026,
+      "sha256": "3623d62c3bc7d4f56771a000f02c08eec36ea91f2dccecd8588599b2490118f9",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "rule_ms",
+      "path": "journal/models/generator_extension/cnn_rule_0p30_matchedsteps_seed3407.pt",
+      "seed": 3407,
+      "sha256": "2248b276a2ac4c380faf890ed8fc6ff2cc8e27bdd90d3d41b60dcf3beee4a5cf",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "placebo_ms",
+      "path": "journal/models/generator_extension/cnn_placebo_0p30_matchedsteps_seed7.pt",
+      "seed": 7,
+      "sha256": "60bcf0a0d36a9b7725d64239a7e9cabe639ebc13248b62a436f05b7fa770869f",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "placebo_ms",
+      "path": "journal/models/generator_extension/cnn_placebo_0p30_matchedsteps_seed42.pt",
+      "seed": 42,
+      "sha256": "c0baf3e93be225dc1d08bbb1efbcd82be242f63d6b4719b619f269169eb6ea3f",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "placebo_ms",
+      "path": "journal/models/generator_extension/cnn_placebo_0p30_matchedsteps_seed123.pt",
+      "seed": 123,
+      "sha256": "6eae99dfd6ac4899e2f5a6c56207389fec653962b303a96aadc6bceab50337df",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "placebo_ms",
+      "path": "journal/models/generator_extension/cnn_placebo_0p30_matchedsteps_seed2026.pt",
+      "seed": 2026,
+      "sha256": "7bf9a3ce69e98915c7c989e26cb3a0decd6fba12901ab348a45e09ea029ea8ec",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "placebo_ms",
+      "path": "journal/models/generator_extension/cnn_placebo_0p30_matchedsteps_seed3407.pt",
+      "seed": 3407,
+      "sha256": "cfe3a9def49cb35af4c18e8c5a03ab807c4694f8a48021dd7e6a2b5ff368a7a8",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "real_std",
+      "path": "journal/models/generator_extension/cnn_real_only_seed7.pt",
+      "seed": 7,
+      "sha256": "a16f97511c74629db2e76075eab94d82f0d1a3f169737a09369967261c36dac3",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "real_std",
+      "path": "journal/models/generator_extension/cnn_real_only_seed42.pt",
+      "seed": 42,
+      "sha256": "a6a06376f0348fcbbb058047eaf8e64b488c5695054265e8f5ef28b6a4388d0e",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "real_std",
+      "path": "journal/models/generator_extension/cnn_real_only_seed123.pt",
+      "seed": 123,
+      "sha256": "b395d863bb67c382b66f002cdc17bfe96e30e4dadebe90005266f113ac139149",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "real_std",
+      "path": "journal/models/generator_extension/cnn_real_only_seed2026.pt",
+      "seed": 2026,
+      "sha256": "5bc1f150bea0e2f76e407ea7f4df80423a54db871255e23dd268fc690d1ff792",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "real_std",
+      "path": "journal/models/generator_extension/cnn_real_only_seed3407.pt",
+      "seed": 3407,
+      "sha256": "d57c5cde43323fff38bb594bb7716b965bc171a3c598b4bddfb94d1f4c2307d9",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "rule_std",
+      "path": "journal/models/generator_extension/cnn_rule_0p30_seed7.pt",
+      "seed": 7,
+      "sha256": "77e90846fb1ab3282ef8b48a3000c2f13dbb5d37dbb3ad68208ea892f5bd6947",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "rule_std",
+      "path": "journal/models/generator_extension/cnn_rule_0p30_seed42.pt",
+      "seed": 42,
+      "sha256": "3ad60e856c38cd2c94ea6fcbdb5156b3ab82222648e48ce84aebdc100775511d",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "rule_std",
+      "path": "journal/models/generator_extension/cnn_rule_0p30_seed123.pt",
+      "seed": 123,
+      "sha256": "2f2bf9b2f9bfa75ec903656864eaee2eb42b454c966dbe6872c1533d0d2f6193",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "rule_std",
+      "path": "journal/models/generator_extension/cnn_rule_0p30_seed2026.pt",
+      "seed": 2026,
+      "sha256": "fed3aa9ff056f2f82dfe24ba67b37c25b4d8fb4f3a2ac2eda093d7e0af0c023f",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "rule_std",
+      "path": "journal/models/generator_extension/cnn_rule_0p30_seed3407.pt",
+      "seed": 3407,
+      "sha256": "e23120af83183f5d967d4761ab92f5f31b98833fed19289569d77122d95efabb",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "placebo_std",
+      "path": "journal/models/generator_extension/cnn_placebo_0p30_seed7.pt",
+      "seed": 7,
+      "sha256": "ac7fe4a64dcb9205425db8865b1bcd8d6f4faade46e42496b729a879bdbb2919",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "placebo_std",
+      "path": "journal/models/generator_extension/cnn_placebo_0p30_seed42.pt",
+      "seed": 42,
+      "sha256": "640970486f0581fd24b4a4ff9f2b5c73ae8893a665129357b0f62db35bce7d02",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "placebo_std",
+      "path": "journal/models/generator_extension/cnn_placebo_0p30_seed123.pt",
+      "seed": 123,
+      "sha256": "938fca913ce50778e8f7df0f31c90671aac0437ce007034b923ec9a99870074e",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "placebo_std",
+      "path": "journal/models/generator_extension/cnn_placebo_0p30_seed2026.pt",
+      "seed": 2026,
+      "sha256": "5673e6137a82e39294f05b073c1fb2e3f474382d6b741f29581fb4ee1b1079cb",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    },
+    {
+      "all_tensors_finite": true,
+      "architecture_compatible": true,
+      "arm": "placebo_std",
+      "path": "journal/models/generator_extension/cnn_placebo_0p30_seed3407.pt",
+      "seed": 3407,
+      "sha256": "3b36a329f78d1098defa6ceda13ab58952364a505b5375405281392760fa41bf",
+      "state_dict_keys": 23,
+      "tensors": {
+        "head.2.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5
+          ]
+        },
+        "head.2.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            5,
+            128
+          ]
+        },
+        "net.0.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.0.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64,
+            11,
+            5
+          ]
+        },
+        "net.1.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.1.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.1.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            64
+          ]
+        },
+        "net.4.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.4.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            64,
+            5
+          ]
+        },
+        "net.5.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.5.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.5.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.8.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128,
+            128,
+            3
+          ]
+        },
+        "net.9.bias": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.num_batches_tracked": {
+          "dtype": "torch.int64",
+          "finite": true,
+          "shape": []
+        },
+        "net.9.running_mean": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.running_var": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        },
+        "net.9.weight": {
+          "dtype": "torch.float32",
+          "finite": true,
+          "shape": [
+            128
+          ]
+        }
+      },
+      "weights_only_load": true
+    }
+  ],
+  "completed_utc": "2026-07-24T17:54:29.187988Z",
+  "completeness": {
+    "augmentation_delta_rows": 2880,
+    "by_cell_rows": 1440,
+    "canonical_primary_scenario_rows": 720,
+    "checkpoint_evaluations": 30,
+    "clean_forward_evaluations": 180000,
+    "normal_rows": 90,
+    "primary_scenario_rows": 1440,
+    "scenario_rows": 2880,
+    "transformed_forward_evaluations": 5760000
+  },
+  "construction": {
+    "matches_prepare": true,
+    "scenario_key_sha256": "be55a8259ea045cd9a8107de72d248d220c3d06e6b83f70f2202fabb8c0e1be5",
+    "serialization_version": "e14-transform-instance-le-f4-v1",
+    "transformation_instances": 192000,
+    "transformation_sha256": "52b0ad4fe9365d6f0793d6d14e847bfe3e07f974aa737d861e75b4ea9228d56c"
+  },
+  "effects_table_published": false,
+  "environment": {
+    "batch_size": 4096,
+    "device": "cpu",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "python_executable": "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python",
+    "torch": "2.12.0+cu130",
+    "torch_interop_threads": 1,
+    "torch_threads": 8
+  },
+  "evaluator": {
+    "path": "journal/scripts/evaluate_l4_counterfactual_factorial.py",
+    "sha256": "a1aad9c689a13c8b040a4e8dd7cbddc2cba816d6434e8cf8c6a2f20add15a354"
+  },
+  "next_required_stage": "registered analyzer publishes effects and final artifact manifest",
+  "outputs": {
+    "augmentation_delta": {
+      "bytes": 514826,
+      "path": "journal/results/tables/e14_l4_factorial_augmentation_delta_v1.csv",
+      "sha256": "791648aec54c059402bc9c0be71d9d10b0c23bd254cfd2c0c889f15c29285066"
+    },
+    "by_cell": {
+      "bytes": 173746,
+      "path": "journal/results/tables/e14_l4_factorial_by_cell_v1.csv",
+      "sha256": "75d8076d1ba69fc20ea1c8fa365660cf0d4b7aaa8b3a168de151832f67fcc955"
+    },
+    "by_scenario": {
+      "bytes": 544978,
+      "path": "journal/results/tables/e14_l4_factorial_by_scenario_v1.csv",
+      "sha256": "833ee70d7dd74e75d402783ec0956abbe065a083b62ec44b09c3163361392843"
+    },
+    "log": {
+      "bytes": 875,
+      "path": "journal/results/logs/e14_l4_factorial_v1.log",
+      "sha256": "46eba795a53ecefad9d4ae2f26053a00e6659bd4c441ee57460dcf77c2f43e32"
+    },
+    "normal_by_seed": {
+      "bytes": 13272,
+      "path": "journal/results/tables/e14_l4_factorial_normal_by_seed_v1.csv",
+      "sha256": "84f6ef7f6722a7fda7d069bb38aa05744144afef75d6537bba4581a42e257849"
+    }
+  },
+  "prepare_record": {
+    "path": "journal/experiments/e14_l4_counterfactual_factorial/prepare_v1.json",
+    "sha256": "5945790bee2e0bf11739901e0fdd9237d499353d9d8ead6b34de06fe0311a16e"
+  },
+  "prospective_record": {
+    "path": "journal/experiments/e14_l4_counterfactual_factorial/PREREG.md",
+    "sha256": "f0465fea952b9f7d5fd1b20a7864a96192099b9d3346f6c81e4274ce0fe0424a"
+  },
+  "schema_version": "e14.l4_factorial_run.v1",
+  "source_provenance": {
+    "source_commit": "540b81d2af8d7f48d98d1ff58142a09995df244a",
+    "source_worktree_clean": true,
+    "wisa_clean": true
+  },
+  "standardizer_hashes": {
+    "mean": "1e53f10b4dfb1de8522513ca20c7d0c2b5a19a8de8f76067e4273a93467da8a2",
+    "mean_then_std": "9019b1a91c983859e8dd998717eb5c7b612ed03dc2a65ec63402fd54ab42ef4e",
+    "std": "092f42e9a1019fe709233a91c6e876e976f8b3b8616807b42eb6e6da7b7dbb7c"
+  },
+  "started_utc": "2026-07-24T17:51:57.228300Z",
+  "status": "T-PASS"
+}

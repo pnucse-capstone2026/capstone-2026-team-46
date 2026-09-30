@@ -1,0 +1,387 @@
+{
+  "accepted_source_commit": "57880aa350ddf0f916b7e1bd2e940529d0fc6ea6",
+  "analysis_plan": {
+    "commit": "819686733ea87bf5a6cbdfb5f1c8402ddf46cf35",
+    "frozen_before_new_matched_update_outcomes": true,
+    "path": "wisa_camera_ready/experiments/02_matched_update/PLAN.md",
+    "sha256": "5cbec7d60848e4ae17f8fc76edb14fc1d8993e9e45c35380ec3a5ccbb0dedd73"
+  },
+  "analysis_type": "post-review matched optimizer-update training-policy sensitivity",
+  "completed_utc": "2026-07-28T16:55:36.304740Z",
+  "contract": {
+    "accepted_source_commit": "57880aa350ddf0f916b7e1bd2e940529d0fc6ea6",
+    "added_windows": 78645,
+    "arms": [
+      "real_only",
+      "rule_0p30",
+      "real_oversampling_0p30"
+    ],
+    "batch_size": 512,
+    "checkpoint_metric": "source validation five-class Macro-F1",
+    "checkpoint_tie_rule": "strict improvement; earlier update wins exact tie",
+    "class_weight_policy": "balanced, recomputed from each arm training multiset",
+    "drop_last": false,
+    "dropout": 0.2,
+    "evaluation_data_roles": [
+      "Car-Hacking source test",
+      "fixed generated variant",
+      "full generated sensitivity construction"
+    ],
+    "excluded_from_experiment": [
+      "OTIDS",
+      "can-train-and-test",
+      "ROAD",
+      "target-ID stress",
+      "out-of-rule stress"
+    ],
+    "learning_rate": 0.001,
+    "max_optimizer_updates": 7992,
+    "optimizer": "AdamW",
+    "paired_pipeline_seeds": [
+      7,
+      42,
+      123,
+      2026,
+      3407
+    ],
+    "plan_commit": "819686733ea87bf5a6cbdfb5f1c8402ddf46cf35",
+    "sampler": "deterministic cyclic torch.randperm; reshuffle at exhaustion",
+    "sampler_seed_offset": 1000003,
+    "source_policy": "attack iff five-class argmax != class 0",
+    "standardizer_fit": "real Car-Hacking train only",
+    "training_data_roles": [
+      "Car-Hacking train",
+      "Car-Hacking validation",
+      "legacy Rule pool fitted from Car-Hacking train"
+    ],
+    "validate_every_updates": 666,
+    "validation_updates": [
+      666,
+      1332,
+      1998,
+      2664,
+      3330,
+      3996,
+      4662,
+      5328,
+      5994,
+      6660,
+      7326,
+      7992
+    ],
+    "version": "matched_update_v1",
+    "weight_decay": 0.0001,
+    "worker_seed_offset": 2000003
+  },
+  "contract_id": "ced08773aee05aa8b59390b16fb90dd5339fec6d85877a9bbce9175e34d9c42b",
+  "environment": {
+    "cuda_available": true,
+    "cuda_runtime": "13.0",
+    "cudnn_version": 92000,
+    "device": "cuda",
+    "device_name": "NVIDIA GB10",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+    "python": "3.12.3",
+    "scikit_learn": "1.9.0",
+    "torch": "2.12.0+cu130"
+  },
+  "evaluation_counts": {
+    "fixed_variant": {
+      "0": 32000,
+      "1": 8000,
+      "2": 8000,
+      "3": 8000,
+      "4": 8000
+    },
+    "sensitivity": {
+      "0": 12000,
+      "1": 4500,
+      "2": 4500,
+      "3": 4500,
+      "4": 4500
+    },
+    "source_test": {
+      "0": 161666,
+      "1": 7196,
+      "2": 6297,
+      "3": 12427,
+      "4": 14020
+    }
+  },
+  "evaluation_runtime_seconds": 43.07412078930065,
+  "experiment": "matched_update_v1",
+  "implementation": {
+    "commands": [
+      "source .venv/bin/activate && python wisa_camera_ready/scripts/run_matched_update_v1.py train",
+      "source .venv/bin/activate && python wisa_camera_ready/scripts/run_matched_update_v1.py evaluate"
+    ],
+    "commit": "cab014f30b89a22fbaaaabb42b11ff0e558178f9",
+    "path": "wisa_camera_ready/scripts/run_matched_update_v1.py",
+    "sha256": "afacf325e8fca206d5ae15ac928fcc98a1fd8d70d77433962fbbac25deee6f71"
+  },
+  "inputs": [
+    {
+      "bytes": 70962600,
+      "path": "datasets/windows/train_windows.npz",
+      "sha256": "44b3bedeebe113e4850ebb2e38314b413f140f350712e0e9eda81a34faec7cb4"
+    },
+    {
+      "bytes": 22221900,
+      "path": "datasets/windows/val_windows.npz",
+      "sha256": "b4920e7f60fbf38b38e12976129f120ebff160a21a4c77093f3746f3c1aa218e"
+    },
+    {
+      "bytes": 50992356,
+      "path": "datasets/windows/test_windows.npz",
+      "sha256": "4ac72a497f5bfc7e59ce8baf08b78c5aebbf5e060fb4f2d73629a591c56b54b7"
+    },
+    {
+      "bytes": 60445693,
+      "path": "datasets/windows/variant_test_windows.npz",
+      "sha256": "91bd4d5dca2bd73907fad11bb94ea6dec075f60bb3b24e3c517617bf2d50b2ba"
+    },
+    {
+      "bytes": 29966923,
+      "path": "datasets/windows/variant_sensitivity_windows.npz",
+      "sha256": "4266fb3bbb3e248ef1ab53aaca19cb4534a3815a18c9134dc3db446cdfcf5674"
+    },
+    {
+      "bytes": 282039519,
+      "path": "datasets/synthetic/rule_based_windows.npz",
+      "sha256": "4078ab00b8531f760b296b5fd293e3df914bef996d317c958ead4762137bafd5"
+    },
+    {
+      "bytes": 14599,
+      "path": "wisa/scripts/train_real_only_baselines.py",
+      "sha256": "5f4d423a07c573d69210034e752b2a847eb4b87486907cd8ea81aee06d9aef31"
+    },
+    {
+      "bytes": 10816,
+      "path": "wisa/scripts/train_rule_synthetic_ratio_sweep.py",
+      "sha256": "846069660c8daf303587c11f05619c57c45d377153dbf8621aa076ed661e19dd"
+    },
+    {
+      "bytes": 9975,
+      "path": "wisa/scripts/train_oversampling_baseline.py",
+      "sha256": "3f8f25448ab5d0b0646652a9bc86a7e0bb989a1a40d1dfea540d10d75c468d38"
+    },
+    {
+      "bytes": 27938,
+      "path": "wisa/scripts/run_seed_extension_stress.py",
+      "sha256": "0c1fc8b40c4cb10d1fbabd1e2d0a47135e1a1479aa869795bdb84e35d117f3c2"
+    },
+    {
+      "bytes": 762,
+      "path": "wisa/experiments/03_synthetic/rule_based_config.yaml",
+      "sha256": "edfa574a1b9a325697563e627e3906976648f1806eee5047cc6a4dd8f8e49b15"
+    },
+    {
+      "bytes": 614,
+      "path": "wisa/experiments/01_split/variant_generation_config.yaml",
+      "sha256": "f4912d94083d5e7e5be7ad68c3175e6281ea1896594afec6497da689556b8add"
+    },
+    {
+      "bytes": 1292,
+      "path": "wisa/experiments/01_split/variant_sensitivity_config.yaml",
+      "sha256": "f8d020c96afa8b3715823cf080a92b5276dda06d7eac943ddafb1001c42e1f57"
+    },
+    {
+      "bytes": 588,
+      "path": "wisa/models/baseline/cnn_standardizer.npz",
+      "sha256": "7ffaff380c0e4af079ca68f94bd9c1ec35e597be99266e3631d7284d8a05e389"
+    }
+  ],
+  "outputs": [
+    {
+      "bytes": 14648,
+      "path": "wisa_camera_ready/results/tables/matched_update_checkpoint_selection_v1.csv",
+      "sha256": "d76431f47609052eaf8cc972ed81ec7f5f5b861ff89a92a28d36d1d0e260357e"
+    },
+    {
+      "bytes": 14743,
+      "path": "wisa_camera_ready/results/tables/matched_update_by_seed_v1.csv",
+      "sha256": "52ea009230daffadaa1424d0221834a393409af01dde81a93f7bdea1936f3a0f"
+    },
+    {
+      "bytes": 42428,
+      "path": "wisa_camera_ready/results/tables/matched_update_summary_v1.csv",
+      "sha256": "e02c556b4654fa18abd43e1618121626e3564e9e50145a0383a9182fa1c11d27"
+    },
+    {
+      "bytes": 99713,
+      "path": "wisa_camera_ready/results/tables/matched_update_sensitivity_by_scenario_v1.csv",
+      "sha256": "9be499d1afef0e169531c0173b0f921482cf5eb020f685255c8642dda64a7d2b"
+    },
+    {
+      "bytes": 69581,
+      "path": "wisa_camera_ready/results/logs/matched_update_v1.log",
+      "sha256": "033f5689b4ddab44da0199c25282eaea0a6656fcd15953f745530ea6e8128f50"
+    },
+    {
+      "bytes": 7307,
+      "path": "wisa_camera_ready/experiments/02_matched_update/RESULTS_v1.md",
+      "sha256": "6a71d50d4c65d0361c6f4fcc41559caf32ebffc1508db5ae68bcd0b74faa04c3"
+    }
+  ],
+  "post_run_interpretation": {
+    "outcome_branch": "Rule gain survives",
+    "path": "wisa_camera_ready/experiments/02_matched_update/RESULTS_v1.md",
+    "sha256": "6a71d50d4c65d0361c6f4fcc41559caf32ebffc1508db5ae68bcd0b74faa04c3",
+    "statement": "The controlled generator-adjacent gain is not explained by optimizer-update count under this matched budget; low-severity and exact-family failures remain."
+  },
+  "selected_checkpoint_revalidation": [
+    {
+      "arm": "real_only",
+      "pipeline_seed": 7,
+      "recomputed_val_macro_f1_multiclass": 0.9990650233949727,
+      "recorded_val_macro_f1_multiclass": 0.9990650233949727,
+      "selected_update": 7992
+    },
+    {
+      "arm": "rule_0p30",
+      "pipeline_seed": 7,
+      "recomputed_val_macro_f1_multiclass": 0.9993961489691856,
+      "recorded_val_macro_f1_multiclass": 0.9993961489691856,
+      "selected_update": 6660
+    },
+    {
+      "arm": "real_oversampling_0p30",
+      "pipeline_seed": 7,
+      "recomputed_val_macro_f1_multiclass": 0.9992728544701567,
+      "recorded_val_macro_f1_multiclass": 0.9992728544701567,
+      "selected_update": 6660
+    },
+    {
+      "arm": "real_only",
+      "pipeline_seed": 42,
+      "recomputed_val_macro_f1_multiclass": 0.9991652292214546,
+      "recorded_val_macro_f1_multiclass": 0.9991652292214546,
+      "selected_update": 7992
+    },
+    {
+      "arm": "rule_0p30",
+      "pipeline_seed": 42,
+      "recomputed_val_macro_f1_multiclass": 0.9993065147806611,
+      "recorded_val_macro_f1_multiclass": 0.9993065147806611,
+      "selected_update": 7992
+    },
+    {
+      "arm": "real_oversampling_0p30",
+      "pipeline_seed": 42,
+      "recomputed_val_macro_f1_multiclass": 0.9992738741957752,
+      "recorded_val_macro_f1_multiclass": 0.9992738741957752,
+      "selected_update": 7992
+    },
+    {
+      "arm": "real_only",
+      "pipeline_seed": 123,
+      "recomputed_val_macro_f1_multiclass": 0.9990999538865338,
+      "recorded_val_macro_f1_multiclass": 0.9990999538865338,
+      "selected_update": 5328
+    },
+    {
+      "arm": "rule_0p30",
+      "pipeline_seed": 123,
+      "recomputed_val_macro_f1_multiclass": 0.9992411263969714,
+      "recorded_val_macro_f1_multiclass": 0.9992411263969714,
+      "selected_update": 5994
+    },
+    {
+      "arm": "real_oversampling_0p30",
+      "pipeline_seed": 123,
+      "recomputed_val_macro_f1_multiclass": 0.9993490686160499,
+      "recorded_val_macro_f1_multiclass": 0.9993490686160499,
+      "selected_update": 5994
+    },
+    {
+      "arm": "real_only",
+      "pipeline_seed": 2026,
+      "recomputed_val_macro_f1_multiclass": 0.9990835572159987,
+      "recorded_val_macro_f1_multiclass": 0.9990835572159987,
+      "selected_update": 4662
+    },
+    {
+      "arm": "rule_0p30",
+      "pipeline_seed": 2026,
+      "recomputed_val_macro_f1_multiclass": 0.9993301745433406,
+      "recorded_val_macro_f1_multiclass": 0.9993301745433406,
+      "selected_update": 4662
+    },
+    {
+      "arm": "real_oversampling_0p30",
+      "pipeline_seed": 2026,
+      "recomputed_val_macro_f1_multiclass": 0.9992938541774411,
+      "recorded_val_macro_f1_multiclass": 0.9992938541774411,
+      "selected_update": 6660
+    },
+    {
+      "arm": "real_only",
+      "pipeline_seed": 3407,
+      "recomputed_val_macro_f1_multiclass": 0.9985148559191476,
+      "recorded_val_macro_f1_multiclass": 0.9985148559191476,
+      "selected_update": 7992
+    },
+    {
+      "arm": "rule_0p30",
+      "pipeline_seed": 3407,
+      "recomputed_val_macro_f1_multiclass": 0.9992915679308855,
+      "recorded_val_macro_f1_multiclass": 0.9992915679308855,
+      "selected_update": 7326
+    },
+    {
+      "arm": "real_oversampling_0p30",
+      "pipeline_seed": 3407,
+      "recomputed_val_macro_f1_multiclass": 0.999229097684052,
+      "recorded_val_macro_f1_multiclass": 0.999229097684052,
+      "selected_update": 7326
+    }
+  ],
+  "sensitivity_scenario_counts": {
+    "DoS_high": 1500,
+    "DoS_low": 1500,
+    "DoS_medium": 1500,
+    "Fuzzy_high": 1500,
+    "Fuzzy_low": 1500,
+    "Fuzzy_medium": 1500,
+    "Gear_high": 1500,
+    "Gear_low": 1500,
+    "Gear_medium": 1500,
+    "Normal_normal": 12000,
+    "RPM_high": 1500,
+    "RPM_low": 1500,
+    "RPM_medium": 1500
+  },
+  "started_utc": "2026-07-28T16:54:53.229651Z",
+  "training_manifest": {
+    "bytes": 52313,
+    "path": "wisa_camera_ready/experiments/02_matched_update/training_manifest_v1.json",
+    "sha256": "c03419848737d29714381c84f84e8587756ec4b2685a26e9cb2be46b0a9fb228"
+  },
+  "training_runtime_seconds": 1084.2174804508686,
+  "validation_gates": {
+    "all_fits_ran_7992_updates": true,
+    "all_primary_metrics_finite_and_bounded": true,
+    "all_required_arm_seed_split_cells_present": true,
+    "all_selected_checkpoints_revalidated": true,
+    "by_seed_rows": 45,
+    "checkpoint_selection_rows": 180,
+    "evaluation_threshold_selected": false,
+    "external_data_loaded": false,
+    "fits_expected": 15,
+    "fits_verified_before_evaluation": 15,
+    "sensitivity_rows": 800,
+    "sensitivity_seed_rows": 600,
+    "summary_rows": 225,
+    "wisa_tree_clean": true
+  },
+  "version": "matched_update_v1",
+  "warnings": [
+    "The five repeats are paired pipeline seeds, not independent captures, vehicles, generator constructions, or population draws.",
+    "Sensitivity low/medium/high rows are coupled parameter settings.",
+    "Arm-specific balanced class weights are part of the retained accepted-paper policy.",
+    "Real oversampling seed 3407 fell to validation Macro-F1 0.741266 at the final update; the prespecified best-on-grid checkpoint at update 7326 revalidated exactly at 0.999229.",
+    "No external dataset is evaluated in this experiment."
+  ]
+}

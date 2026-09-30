@@ -1,0 +1,2037 @@
+{
+  "checkpoint_bundles": [
+    {
+      "arm": "real_ms",
+      "checkpoint": {
+        "bytes": 390942,
+        "path": "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed7.pt",
+        "sha256": "2eccea8cfc2d734602b8d70f0cd728b7b9c311e262dc51bdec4e7c9957f9fc32"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 7,
+      "selected_optimizer_step": 6156,
+      "tensor_validation_source": "matched_real_training_run_v1",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2318,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9990016094881451,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 12,
+          "selected_optimizer_step": 6156,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 262149
+        },
+        "path": "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed7.log",
+        "selected_optimizer_step": 6156,
+        "selected_validation_score": 0.9990016094881451,
+        "sha256": "91a8c9b5338daf5f56274c595b1951677344d758c450d3e7e2dc69f00462fe8c",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "real_ms",
+      "checkpoint": {
+        "bytes": 390942,
+        "path": "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed42.pt",
+        "sha256": "96df37d40ea9afd7694d6e15f6c38de4c18283e7e2ca2fa8b60207fcb9d4e32d"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 42,
+      "selected_optimizer_step": 6156,
+      "tensor_validation_source": "matched_real_training_run_v1",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2319,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9989079061334888,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 12,
+          "selected_optimizer_step": 6156,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 262149
+        },
+        "path": "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed42.log",
+        "selected_optimizer_step": 6156,
+        "selected_validation_score": 0.9989079061334888,
+        "sha256": "918ded24729fccdb65e8925e0f982e33e2d47a34d3623e1097d236c20ff115e5",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "real_ms",
+      "checkpoint": {
+        "bytes": 390942,
+        "path": "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed123.pt",
+        "sha256": "b32a663c646ccfd50538af024ec2107cf167462d814487287359301ff2ee0ebb"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 123,
+      "selected_optimizer_step": 3591,
+      "tensor_validation_source": "matched_real_training_run_v1",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2314,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9987329779348411,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 7,
+          "selected_optimizer_step": 3591,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 262149
+        },
+        "path": "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed123.log",
+        "selected_optimizer_step": 3591,
+        "selected_validation_score": 0.9987329779348411,
+        "sha256": "6b2caa3e895f4e362bf006ce552c8f55db452293e62acffc23334d4f7691c8b2",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "real_ms",
+      "checkpoint": {
+        "bytes": 390942,
+        "path": "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed2026.pt",
+        "sha256": "1020d15f99c0de5335633ce9de97f53485faf281fc3e5cafa1182a993e6d7a94"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 2026,
+      "selected_optimizer_step": 5130,
+      "tensor_validation_source": "matched_real_training_run_v1",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2314,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9989058628465365,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 10,
+          "selected_optimizer_step": 5130,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 262149
+        },
+        "path": "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed2026.log",
+        "selected_optimizer_step": 5130,
+        "selected_validation_score": 0.9989058628465365,
+        "sha256": "5e32902651194ae8fcd729fb969a2f22680e0f8be4ec9f834280009b091581ed",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "real_ms",
+      "checkpoint": {
+        "bytes": 390942,
+        "path": "journal/models/generator_extension/cnn_real_only_matchedsteps_e14_v1_seed3407.pt",
+        "sha256": "d0005ebfbef6562450a70e0c8e4d9ef5769e792f66d6725340fa551a9a673a88"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 3407,
+      "selected_optimizer_step": 3591,
+      "tensor_validation_source": "matched_real_training_run_v1",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2315,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9988294833240449,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 7,
+          "selected_optimizer_step": 3591,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 262149
+        },
+        "path": "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed3407.log",
+        "selected_optimizer_step": 3591,
+        "selected_validation_score": 0.9988294833240449,
+        "sha256": "ac75d7e8f81fba7e1b0a792f654387afe77561f24c74eb590a1c22e111024b37",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "rule_ms",
+      "checkpoint": {
+        "bytes": 392307,
+        "path": "journal/models/generator_extension/cnn_rule_0p30_matchedsteps_seed7.pt",
+        "sha256": "27c37e443ea6880761163bc2ea10ed5a86ab3ab1a6a6969770a284e2fd0d1182"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 7,
+      "selected_optimizer_step": 5643,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2255,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9993077259107459,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 11,
+          "selected_optimizer_step": 5643,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_rule_0p30_matchedsteps_seed7.log",
+        "selected_optimizer_step": 5643,
+        "selected_validation_score": 0.9993077259107459,
+        "sha256": "2cf2770fd0ae88563bce85ab91f928288303f13968d08a2f0d2e9b761c8a9e34",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "rule_ms",
+      "checkpoint": {
+        "bytes": 392336,
+        "path": "journal/models/generator_extension/cnn_rule_0p30_matchedsteps_seed42.pt",
+        "sha256": "36616d6c1450337e51a172ab97a63e702c4147ab0da1411b0ced9e359a326364"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 42,
+      "selected_optimizer_step": 6156,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2254,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9992280429333398,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 12,
+          "selected_optimizer_step": 6156,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_rule_0p30_matchedsteps_seed42.log",
+        "selected_optimizer_step": 6156,
+        "selected_validation_score": 0.9992280429333398,
+        "sha256": "c84ec7d42543b67f8ca8aa3bf9dfb078c601e47646b0612ed304902658cfb70b",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "rule_ms",
+      "checkpoint": {
+        "bytes": 392365,
+        "path": "journal/models/generator_extension/cnn_rule_0p30_matchedsteps_seed123.pt",
+        "sha256": "d68719b70933d1b91d9cec34ddc8300e55c6710df622627c9702db9b6e2932e0"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 123,
+      "selected_optimizer_step": 5130,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2259,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9993599208261024,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 10,
+          "selected_optimizer_step": 5130,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_rule_0p30_matchedsteps_seed123.log",
+        "selected_optimizer_step": 5130,
+        "selected_validation_score": 0.9993599208261024,
+        "sha256": "b9c65fb17ca3a5f459bbf3795bdfaa8edd0b5c5d2ecce3b73aa62d58d24aa1e7",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "rule_ms",
+      "checkpoint": {
+        "bytes": 392394,
+        "path": "journal/models/generator_extension/cnn_rule_0p30_matchedsteps_seed2026.pt",
+        "sha256": "3623d62c3bc7d4f56771a000f02c08eec36ea91f2dccecd8588599b2490118f9"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 2026,
+      "selected_optimizer_step": 6156,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2253,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9991833295939841,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 12,
+          "selected_optimizer_step": 6156,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_rule_0p30_matchedsteps_seed2026.log",
+        "selected_optimizer_step": 6156,
+        "selected_validation_score": 0.9991833295939841,
+        "sha256": "ec437e28cbdb3e24b8ca7619581b99d41a771f3e70ff98caab0b4c879e00d362",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "rule_ms",
+      "checkpoint": {
+        "bytes": 392394,
+        "path": "journal/models/generator_extension/cnn_rule_0p30_matchedsteps_seed3407.pt",
+        "sha256": "2248b276a2ac4c380faf890ed8fc6ff2cc8e27bdd90d3d41b60dcf3beee4a5cf"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 3407,
+      "selected_optimizer_step": 6156,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2254,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9992574771379413,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 12,
+          "selected_optimizer_step": 6156,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_rule_0p30_matchedsteps_seed3407.log",
+        "selected_optimizer_step": 6156,
+        "selected_validation_score": 0.9992574771379413,
+        "sha256": "f488637d0a5e294191a0df2d4e3354495cfd65c1c1b1c7f77c3d80fc3467e999",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "placebo_ms",
+      "checkpoint": {
+        "bytes": 392394,
+        "path": "journal/models/generator_extension/cnn_placebo_0p30_matchedsteps_seed7.pt",
+        "sha256": "60bcf0a0d36a9b7725d64239a7e9cabe639ebc13248b62a436f05b7fa770869f"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 7,
+      "selected_optimizer_step": 5643,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2259,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9993242913611121,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 11,
+          "selected_optimizer_step": 5643,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_placebo_0p30_matchedsteps_seed7.log",
+        "selected_optimizer_step": 5643,
+        "selected_validation_score": 0.9993242913611121,
+        "sha256": "b732dab03b7721abacd759234ad202ef87f774256216d39ad6170e4b0ceb13d1",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "placebo_ms",
+      "checkpoint": {
+        "bytes": 392423,
+        "path": "journal/models/generator_extension/cnn_placebo_0p30_matchedsteps_seed42.pt",
+        "sha256": "c0baf3e93be225dc1d08bbb1efbcd82be242f63d6b4719b619f269169eb6ea3f"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 42,
+      "selected_optimizer_step": 5130,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2256,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9993309546296814,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 10,
+          "selected_optimizer_step": 5130,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_placebo_0p30_matchedsteps_seed42.log",
+        "selected_optimizer_step": 5130,
+        "selected_validation_score": 0.9993309546296814,
+        "sha256": "ea72f0253a84c8b8472e058b4210ec4c2bedcb27f4b28810f4016b4283cf8d22",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "placebo_ms",
+      "checkpoint": {
+        "bytes": 392452,
+        "path": "journal/models/generator_extension/cnn_placebo_0p30_matchedsteps_seed123.pt",
+        "sha256": "6eae99dfd6ac4899e2f5a6c56207389fec653962b303a96aadc6bceab50337df"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 123,
+      "selected_optimizer_step": 6156,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2256,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.999153128410762,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 12,
+          "selected_optimizer_step": 6156,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_placebo_0p30_matchedsteps_seed123.log",
+        "selected_optimizer_step": 6156,
+        "selected_validation_score": 0.999153128410762,
+        "sha256": "84ec9f6ca9a0fd0f2c503d54d8b0d3ce09967832d9b5bd40e88bc1652b223bb5",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "placebo_ms",
+      "checkpoint": {
+        "bytes": 392481,
+        "path": "journal/models/generator_extension/cnn_placebo_0p30_matchedsteps_seed2026.pt",
+        "sha256": "7bf9a3ce69e98915c7c989e26cb3a0decd6fba12901ab348a45e09ea029ea8ec"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 2026,
+      "selected_optimizer_step": 4617,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2259,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9993063815028436,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 9,
+          "selected_optimizer_step": 4617,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_placebo_0p30_matchedsteps_seed2026.log",
+        "selected_optimizer_step": 4617,
+        "selected_validation_score": 0.9993063815028436,
+        "sha256": "cd1bce5e8ce95ab4a709fa4c731f3b9460e80aed1ee3017f7a97f00016a2bf60",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "placebo_ms",
+      "checkpoint": {
+        "bytes": 392481,
+        "path": "journal/models/generator_extension/cnn_placebo_0p30_matchedsteps_seed3407.pt",
+        "sha256": "cfe3a9def49cb35af4c18e8c5a03ab807c4694f8a48021dd7e6a2b5ff368a7a8"
+      },
+      "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 3407,
+      "selected_optimizer_step": 6156,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6156,
+      "training_log": {
+        "bytes": 2261,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9992472215278569,
+          "budget_mode": "matched_steps",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "matched_budget_mode_and_model_tag": true,
+            "matched_final_history_step_equals_total": true,
+            "matched_history_steps_recorded": true,
+            "matched_validation_cadence_513": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            513,
+            1026,
+            1539,
+            2052,
+            2565,
+            3078,
+            3591,
+            4104,
+            4617,
+            5130,
+            5643,
+            6156
+          ],
+          "optimizer_step_derivation": "matched_steps: total from optimizer_steps; selected from the recorded optimizer_step at selected validation checkpoint",
+          "selected_epoch": 12,
+          "selected_optimizer_step": 6156,
+          "selected_optimizer_step_source": "recorded_selected_history_optimizer_step",
+          "steps_per_epoch": null,
+          "total_optimizer_steps": 6156,
+          "total_optimizer_steps_source": "recorded_optimizer_steps",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_placebo_0p30_matchedsteps_seed3407.log",
+        "selected_optimizer_step": 6156,
+        "selected_validation_score": 0.9992472215278569,
+        "sha256": "586cc47f61b9f0d65fd1bb6915fa327a834cc92a13a1ac957de70f61a2a09586",
+        "total_optimizer_steps": 6156
+      }
+    },
+    {
+      "arm": "real_std",
+      "checkpoint": {
+        "bytes": 391866,
+        "path": "journal/models/generator_extension/cnn_real_only_seed7.pt",
+        "sha256": "a16f97511c74629db2e76075eab94d82f0d1a3f169737a09369967261c36dac3"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 7,
+      "selected_optimizer_step": 9747,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 10260,
+      "training_log": {
+        "bytes": 2533,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9993309901440792,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 20,
+          "history_optimizer_steps": [],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 19,
+          "selected_optimizer_step": 9747,
+          "selected_optimizer_step_source": "derived_legacy_selected_epoch",
+          "steps_per_epoch": 513,
+          "total_optimizer_steps": 10260,
+          "total_optimizer_steps_source": "derived_legacy_epochs",
+          "train_windows": 262149
+        },
+        "path": "journal/results/logs/train_cnn_real_only_seed7.log",
+        "selected_optimizer_step": 9747,
+        "selected_validation_score": 0.9993309901440792,
+        "sha256": "e6361a23f6a93a7c8ace63419740353b2d82ce502de164a9f3196208ec5d8593",
+        "total_optimizer_steps": 10260
+      }
+    },
+    {
+      "arm": "real_std",
+      "checkpoint": {
+        "bytes": 391895,
+        "path": "journal/models/generator_extension/cnn_real_only_seed42.pt",
+        "sha256": "a6a06376f0348fcbbb058047eaf8e64b488c5695054265e8f5ef28b6a4388d0e"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 42,
+      "selected_optimizer_step": 5643,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7695,
+      "training_log": {
+        "bytes": 1955,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9989227804503354,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 15,
+          "history_optimizer_steps": [],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 11,
+          "selected_optimizer_step": 5643,
+          "selected_optimizer_step_source": "derived_legacy_selected_epoch",
+          "steps_per_epoch": 513,
+          "total_optimizer_steps": 7695,
+          "total_optimizer_steps_source": "derived_legacy_epochs",
+          "train_windows": 262149
+        },
+        "path": "journal/results/logs/train_cnn_real_only_seed42.log",
+        "selected_optimizer_step": 5643,
+        "selected_validation_score": 0.9989227804503354,
+        "sha256": "bd8cac10b3682a1fcf3cf42af7a264e2890214bff575e4020312717e85e0e21b",
+        "total_optimizer_steps": 7695
+      }
+    },
+    {
+      "arm": "real_std",
+      "checkpoint": {
+        "bytes": 391924,
+        "path": "journal/models/generator_extension/cnn_real_only_seed123.pt",
+        "sha256": "b395d863bb67c382b66f002cdc17bfe96e30e4dadebe90005266f113ac139149"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 123,
+      "selected_optimizer_step": 3591,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 5643,
+      "training_log": {
+        "bytes": 1490,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9987000902888162,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 11,
+          "history_optimizer_steps": [],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 7,
+          "selected_optimizer_step": 3591,
+          "selected_optimizer_step_source": "derived_legacy_selected_epoch",
+          "steps_per_epoch": 513,
+          "total_optimizer_steps": 5643,
+          "total_optimizer_steps_source": "derived_legacy_epochs",
+          "train_windows": 262149
+        },
+        "path": "journal/results/logs/train_cnn_real_only_seed123.log",
+        "selected_optimizer_step": 3591,
+        "selected_validation_score": 0.9987000902888162,
+        "sha256": "1095f7094f8c5fcd4df180176cacfb1345a39d8e030f40e8934205c648a565b0",
+        "total_optimizer_steps": 5643
+      }
+    },
+    {
+      "arm": "real_std",
+      "checkpoint": {
+        "bytes": 392017,
+        "path": "journal/models/generator_extension/cnn_real_only_seed2026.pt",
+        "sha256": "5bc1f150bea0e2f76e407ea7f4df80423a54db871255e23dd268fc690d1ff792"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 2026,
+      "selected_optimizer_step": 8208,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 10260,
+      "training_log": {
+        "bytes": 2531,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9990258809592465,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 20,
+          "history_optimizer_steps": [],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 16,
+          "selected_optimizer_step": 8208,
+          "selected_optimizer_step_source": "derived_legacy_selected_epoch",
+          "steps_per_epoch": 513,
+          "total_optimizer_steps": 10260,
+          "total_optimizer_steps_source": "derived_legacy_epochs",
+          "train_windows": 262149
+        },
+        "path": "journal/results/logs/train_cnn_real_only_seed2026.log",
+        "selected_optimizer_step": 8208,
+        "selected_validation_score": 0.9990258809592465,
+        "sha256": "9db86d3909d10767053294f44caed7068dbfe09bbc97c770dec5eff1f89d55d1",
+        "total_optimizer_steps": 10260
+      }
+    },
+    {
+      "arm": "real_std",
+      "checkpoint": {
+        "bytes": 392017,
+        "path": "journal/models/generator_extension/cnn_real_only_seed3407.pt",
+        "sha256": "d57c5cde43323fff38bb594bb7716b965bc171a3c598b4bddfb94d1f4c2307d9"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 3407,
+      "selected_optimizer_step": 4617,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 6669,
+      "training_log": {
+        "bytes": 1722,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.998970634909958,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 13,
+          "history_optimizer_steps": [],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 9,
+          "selected_optimizer_step": 4617,
+          "selected_optimizer_step_source": "derived_legacy_selected_epoch",
+          "steps_per_epoch": 513,
+          "total_optimizer_steps": 6669,
+          "total_optimizer_steps_source": "derived_legacy_epochs",
+          "train_windows": 262149
+        },
+        "path": "journal/results/logs/train_cnn_real_only_seed3407.log",
+        "selected_optimizer_step": 4617,
+        "selected_validation_score": 0.998970634909958,
+        "sha256": "dfdc7a9a6f23fa886cc32c5cf25780e855c35d2c35753e635eebbd59cacc8ce4",
+        "total_optimizer_steps": 6669
+      }
+    },
+    {
+      "arm": "rule_std",
+      "checkpoint": {
+        "bytes": 391866,
+        "path": "journal/models/generator_extension/cnn_rule_0p30_seed7.pt",
+        "sha256": "77e90846fb1ab3282ef8b48a3000c2f13dbb5d37dbb3ad68208ea892f5bd6947"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 7,
+      "selected_optimizer_step": 7992,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7992,
+      "training_log": {
+        "bytes": 1605,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9993582158410781,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 12,
+          "selected_optimizer_step": 7992,
+          "selected_optimizer_step_source": "derived_legacy_selected_epoch",
+          "steps_per_epoch": 666,
+          "total_optimizer_steps": 7992,
+          "total_optimizer_steps_source": "derived_legacy_epochs",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_rule_0p30_seed7.log",
+        "selected_optimizer_step": 7992,
+        "selected_validation_score": 0.9993582158410781,
+        "sha256": "9eea0de5138f8599d11d2ffaacc9968967823d00d14a957e639b44df4faa8a3f",
+        "total_optimizer_steps": 7992
+      }
+    },
+    {
+      "arm": "rule_std",
+      "checkpoint": {
+        "bytes": 391895,
+        "path": "journal/models/generator_extension/cnn_rule_0p30_seed42.pt",
+        "sha256": "3ad60e856c38cd2c94ea6fcbdb5156b3ab82222648e48ce84aebdc100775511d"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 42,
+      "selected_optimizer_step": 6660,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7992,
+      "training_log": {
+        "bytes": 1608,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9992939494486246,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 10,
+          "selected_optimizer_step": 6660,
+          "selected_optimizer_step_source": "derived_legacy_selected_epoch",
+          "steps_per_epoch": 666,
+          "total_optimizer_steps": 7992,
+          "total_optimizer_steps_source": "derived_legacy_epochs",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_rule_0p30_seed42.log",
+        "selected_optimizer_step": 6660,
+        "selected_validation_score": 0.9992939494486246,
+        "sha256": "a8b1e0cefe0cf5be5801865daf6479ca9765cdd03fec4e4206823991706ec611",
+        "total_optimizer_steps": 7992
+      }
+    },
+    {
+      "arm": "rule_std",
+      "checkpoint": {
+        "bytes": 391924,
+        "path": "journal/models/generator_extension/cnn_rule_0p30_seed123.pt",
+        "sha256": "2f2bf9b2f9bfa75ec903656864eaee2eb42b454c966dbe6872c1533d0d2f6193"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 123,
+      "selected_optimizer_step": 7326,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7992,
+      "training_log": {
+        "bytes": 1613,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9994207391793715,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 11,
+          "selected_optimizer_step": 7326,
+          "selected_optimizer_step_source": "derived_legacy_selected_epoch",
+          "steps_per_epoch": 666,
+          "total_optimizer_steps": 7992,
+          "total_optimizer_steps_source": "derived_legacy_epochs",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_rule_0p30_seed123.log",
+        "selected_optimizer_step": 7326,
+        "selected_validation_score": 0.9994207391793715,
+        "sha256": "7efdac7a0f9291b15be37ba8e7547cdd12c401efd843869e901e30754b9a0f03",
+        "total_optimizer_steps": 7992
+      }
+    },
+    {
+      "arm": "rule_std",
+      "checkpoint": {
+        "bytes": 392017,
+        "path": "journal/models/generator_extension/cnn_rule_0p30_seed2026.pt",
+        "sha256": "fed3aa9ff056f2f82dfe24ba67b37c25b4d8fb4f3a2ac2eda093d7e0af0c023f"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 2026,
+      "selected_optimizer_step": 5328,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7326,
+      "training_log": {
+        "bytes": 1495,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9990961068631927,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 11,
+          "history_optimizer_steps": [],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 8,
+          "selected_optimizer_step": 5328,
+          "selected_optimizer_step_source": "derived_legacy_selected_epoch",
+          "steps_per_epoch": 666,
+          "total_optimizer_steps": 7326,
+          "total_optimizer_steps_source": "derived_legacy_epochs",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_rule_0p30_seed2026.log",
+        "selected_optimizer_step": 5328,
+        "selected_validation_score": 0.9990961068631927,
+        "sha256": "0306dc49c7bdaa229ca882edc38171156b8cfa848aee0a91ba60d7e44acdf2eb",
+        "total_optimizer_steps": 7326
+      }
+    },
+    {
+      "arm": "rule_std",
+      "checkpoint": {
+        "bytes": 392017,
+        "path": "journal/models/generator_extension/cnn_rule_0p30_seed3407.pt",
+        "sha256": "e23120af83183f5d967d4761ab92f5f31b98833fed19289569d77122d95efabb"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 3407,
+      "selected_optimizer_step": 7992,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7992,
+      "training_log": {
+        "bytes": 1611,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9992262307033478,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 12,
+          "selected_optimizer_step": 7992,
+          "selected_optimizer_step_source": "derived_legacy_selected_epoch",
+          "steps_per_epoch": 666,
+          "total_optimizer_steps": 7992,
+          "total_optimizer_steps_source": "derived_legacy_epochs",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_rule_0p30_seed3407.log",
+        "selected_optimizer_step": 7992,
+        "selected_validation_score": 0.9992262307033478,
+        "sha256": "83b0212a68563648485c5edb45c1828de6cab2a97e80bfb4da8311ff44515f5c",
+        "total_optimizer_steps": 7992
+      }
+    },
+    {
+      "arm": "placebo_std",
+      "checkpoint": {
+        "bytes": 392017,
+        "path": "journal/models/generator_extension/cnn_placebo_0p30_seed7.pt",
+        "sha256": "ac7fe4a64dcb9205425db8865b1bcd8d6f4faade46e42496b729a879bdbb2919"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 7,
+      "selected_optimizer_step": 5994,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7992,
+      "training_log": {
+        "bytes": 2202,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.999270998048579,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            666,
+            1332,
+            1998,
+            2664,
+            3330,
+            3996,
+            4662,
+            5328,
+            5994,
+            6660,
+            7326,
+            7992
+          ],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 9,
+          "selected_optimizer_step": 5994,
+          "selected_optimizer_step_source": "recorded_selected_history_step_verified_by_legacy_derivation",
+          "steps_per_epoch": 666,
+          "total_optimizer_steps": 7992,
+          "total_optimizer_steps_source": "recorded_optimizer_steps_verified_by_legacy_derivation",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_placebo_0p30_seed7.log",
+        "selected_optimizer_step": 5994,
+        "selected_validation_score": 0.999270998048579,
+        "sha256": "3b8d8ac9971628bad5e189bfd6e35d0dcb921542732c34ebc9e1c5dc6786c596",
+        "total_optimizer_steps": 7992
+      }
+    },
+    {
+      "arm": "placebo_std",
+      "checkpoint": {
+        "bytes": 392046,
+        "path": "journal/models/generator_extension/cnn_placebo_0p30_seed42.pt",
+        "sha256": "640970486f0581fd24b4a4ff9f2b5c73ae8893a665129357b0f62db35bce7d02"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 42,
+      "selected_optimizer_step": 6660,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7992,
+      "training_log": {
+        "bytes": 2205,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9993549486805383,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            666,
+            1332,
+            1998,
+            2664,
+            3330,
+            3996,
+            4662,
+            5328,
+            5994,
+            6660,
+            7326,
+            7992
+          ],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 10,
+          "selected_optimizer_step": 6660,
+          "selected_optimizer_step_source": "recorded_selected_history_step_verified_by_legacy_derivation",
+          "steps_per_epoch": 666,
+          "total_optimizer_steps": 7992,
+          "total_optimizer_steps_source": "recorded_optimizer_steps_verified_by_legacy_derivation",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_placebo_0p30_seed42.log",
+        "selected_optimizer_step": 6660,
+        "selected_validation_score": 0.9993549486805383,
+        "sha256": "fc1b0d3a36887c6f83d9266d68fb863bc972287be9b9162b3a8eba7a1e24a9be",
+        "total_optimizer_steps": 7992
+      }
+    },
+    {
+      "arm": "placebo_std",
+      "checkpoint": {
+        "bytes": 392075,
+        "path": "journal/models/generator_extension/cnn_placebo_0p30_seed123.pt",
+        "sha256": "938fca913ce50778e8f7df0f31c90671aac0437ce007034b923ec9a99870074e"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 123,
+      "selected_optimizer_step": 7326,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7992,
+      "training_log": {
+        "bytes": 2205,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9992684436952523,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            666,
+            1332,
+            1998,
+            2664,
+            3330,
+            3996,
+            4662,
+            5328,
+            5994,
+            6660,
+            7326,
+            7992
+          ],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 11,
+          "selected_optimizer_step": 7326,
+          "selected_optimizer_step_source": "recorded_selected_history_step_verified_by_legacy_derivation",
+          "steps_per_epoch": 666,
+          "total_optimizer_steps": 7992,
+          "total_optimizer_steps_source": "recorded_optimizer_steps_verified_by_legacy_derivation",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_placebo_0p30_seed123.log",
+        "selected_optimizer_step": 7326,
+        "selected_validation_score": 0.9992684436952523,
+        "sha256": "57745da7f710b15740158059a684bdab9c419f9b41fc66bda2ba1a203c13ca43",
+        "total_optimizer_steps": 7992
+      }
+    },
+    {
+      "arm": "placebo_std",
+      "checkpoint": {
+        "bytes": 392104,
+        "path": "journal/models/generator_extension/cnn_placebo_0p30_seed2026.pt",
+        "sha256": "5673e6137a82e39294f05b073c1fb2e3f474382d6b741f29581fb4ee1b1079cb"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 2026,
+      "selected_optimizer_step": 7992,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7992,
+      "training_log": {
+        "bytes": 2207,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9992319740388151,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            666,
+            1332,
+            1998,
+            2664,
+            3330,
+            3996,
+            4662,
+            5328,
+            5994,
+            6660,
+            7326,
+            7992
+          ],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 12,
+          "selected_optimizer_step": 7992,
+          "selected_optimizer_step_source": "recorded_selected_history_step_verified_by_legacy_derivation",
+          "steps_per_epoch": 666,
+          "total_optimizer_steps": 7992,
+          "total_optimizer_steps_source": "recorded_optimizer_steps_verified_by_legacy_derivation",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_placebo_0p30_seed2026.log",
+        "selected_optimizer_step": 7992,
+        "selected_validation_score": 0.9992319740388151,
+        "sha256": "d1e97560c3553fe1b5353c3ef2219d2622ff78c2e5a720909094735cd9eab49c",
+        "total_optimizer_steps": 7992
+      }
+    },
+    {
+      "arm": "placebo_std",
+      "checkpoint": {
+        "bytes": 392104,
+        "path": "journal/models/generator_extension/cnn_placebo_0p30_seed3407.pt",
+        "sha256": "3b36a329f78d1098defa6ceda13ab58952364a505b5375405281392760fa41bf"
+      },
+      "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+      "prepare_checkpoint_validation": "byte hash and cross-linked tensor attestation only; checkpoint not deserialized by prepare-only",
+      "seed": 3407,
+      "selected_optimizer_step": 6660,
+      "tensor_validation_source": "frozen_prereg_hash_and_prior_training_bundle",
+      "total_optimizer_steps": 7992,
+      "training_log": {
+        "bytes": 2207,
+        "optimizer_step_validation": {
+          "best_val_macro_f1": 0.9992475473572633,
+          "budget_mode": "legacy",
+          "consistency_gates": {
+            "best_score_matches_selected_history_row": true,
+            "history_epochs_are_sequential": true,
+            "history_rows_equal_epochs_run": true,
+            "identity_matches_arm_seed": true,
+            "legacy_history_step_recording_is_all_or_none": true,
+            "legacy_selected_matches_epoch_derivation": true,
+            "legacy_steps_per_epoch_positive": true,
+            "legacy_total_matches_epoch_derivation": true,
+            "selected_epoch_is_first_maximum": true
+          },
+          "epochs_run": 12,
+          "history_optimizer_steps": [
+            666,
+            1332,
+            1998,
+            2664,
+            3330,
+            3996,
+            4662,
+            5328,
+            5994,
+            6660,
+            7326,
+            7992
+          ],
+          "optimizer_step_derivation": "legacy: steps_per_epoch=ceil(train_windows/512); total=steps_per_epoch*epochs_run; selected=steps_per_epoch*selected_epoch",
+          "selected_epoch": 10,
+          "selected_optimizer_step": 6660,
+          "selected_optimizer_step_source": "recorded_selected_history_step_verified_by_legacy_derivation",
+          "steps_per_epoch": 666,
+          "total_optimizer_steps": 7992,
+          "total_optimizer_steps_source": "recorded_optimizer_steps_verified_by_legacy_derivation",
+          "train_windows": 340794
+        },
+        "path": "journal/results/logs/train_cnn_placebo_0p30_seed3407.log",
+        "selected_optimizer_step": 6660,
+        "selected_validation_score": 0.9992475473572633,
+        "sha256": "b8063d757eb0ba89d737b771b583ea2dc1bd58688a38218c3ea668f8ea7e7a08",
+        "total_optimizer_steps": 7992
+      }
+    }
+  ],
+  "checkpoint_deserialization_performed": false,
+  "construction": {
+    "attacks": {
+      "3": {
+        "attack": "Gear",
+        "canonical_id": 1087,
+        "p0_columns": [
+          2,
+          3
+        ],
+        "p1_columns": [
+          8,
+          9
+        ],
+        "shifted_id": 1088
+      },
+      "4": {
+        "attack": "RPM",
+        "canonical_id": 790,
+        "p0_columns": [
+          2,
+          3,
+          4
+        ],
+        "p1_columns": [
+          6,
+          8,
+          9
+        ],
+        "shifted_id": 809
+      }
+    },
+    "cells": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ],
+    "master_seed": 2026071400,
+    "stream_codes": {
+      "l4": 1,
+      "rule": 2
+    }
+  },
+  "created_utc": "2026-07-24T17:38:55.475218Z",
+  "environment": {
+    "canonical_batch_size": 4096,
+    "canonical_scoring_device": "cpu",
+    "canonical_torch_threads": 8,
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "platform": "Linux-6.11.0-1014-nvidia-aarch64-with-glibc2.39",
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "python_executable": "/home/hyunjin/workspace/wisa_can_ids/.venv/bin/python",
+    "scikit_learn_distribution": "1.9.0",
+    "torch_distribution": "2.12.0+cu130",
+    "torch_imported_by_prepare_only": false
+  },
+  "evaluator": {
+    "bytes": 134811,
+    "head_blob_matches": true,
+    "path": "journal/scripts/evaluate_l4_counterfactual_factorial.py",
+    "sha256": "a1aad9c689a13c8b040a4e8dd7cbddc2cba816d6434e8cf8c6a2f20add15a354",
+    "tracked": true
+  },
+  "frozen_inputs": {
+    "journal/datasets/synthetic/rule_based_windows.npz": {
+      "bytes": 282039519,
+      "path": "journal/datasets/synthetic/rule_based_windows.npz",
+      "sha256": "4078ab00b8531f760b296b5fd293e3df914bef996d317c958ead4762137bafd5"
+    },
+    "journal/datasets/synthetic/rule_placebo_windows.npz": {
+      "bytes": 284067997,
+      "path": "journal/datasets/synthetic/rule_placebo_windows.npz",
+      "sha256": "2b336ed46bb8f3248d10831c80fdfa6db25c3e6eb44f4fd680f78546a63ec4fa"
+    },
+    "journal/datasets/windows/test_windows.npz": {
+      "bytes": 50992356,
+      "path": "journal/datasets/windows/test_windows.npz",
+      "sha256": "4ac72a497f5bfc7e59ce8baf08b78c5aebbf5e060fb4f2d73629a591c56b54b7"
+    },
+    "journal/datasets/windows/train_windows.npz": {
+      "bytes": 70962600,
+      "path": "journal/datasets/windows/train_windows.npz",
+      "sha256": "44b3bedeebe113e4850ebb2e38314b413f140f350712e0e9eda81a34faec7cb4"
+    },
+    "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24.md": {
+      "bytes": 4152,
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24.md",
+      "sha256": "f6ecf1c56a08ef9d6fc02f3a2f9f9277b6c4e7cf4c972dd4314bbcc4bb431b62"
+    },
+    "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24_STAGE_A_TRANSCRIPT.md": {
+      "bytes": 5853,
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24_STAGE_A_TRANSCRIPT.md",
+      "sha256": "bae44420c2d8745363b8baf8cb0d0d1652b6bea9fc980b9b32196be41b445b54"
+    },
+    "journal/experiments/e14_l4_counterfactual_factorial/PREREG.md": {
+      "bytes": 34789,
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/PREREG.md",
+      "sha256": "f0465fea952b9f7d5fd1b20a7864a96192099b9d3346f6c81e4274ce0fe0424a"
+    },
+    "journal/experiments/e8_evaluation_realization/run_e13_sampling_v2.json": {
+      "bytes": 37011,
+      "path": "journal/experiments/e8_evaluation_realization/run_e13_sampling_v2.json",
+      "sha256": "fae2ca82bb26ab24a5699fce9f331951be23746093fef9e28d0b240fd2c3b2db"
+    },
+    "journal/results/logs/generate_rule_placebo_twin.log": {
+      "bytes": 2728,
+      "path": "journal/results/logs/generate_rule_placebo_twin.log",
+      "sha256": "5ca8287c5f7cef322808f73759fa1ad69e5b6d1c80182ab4b795809d0bfaddc6"
+    },
+    "journal/results/tables/evaluation_realization_blocks_e13_sampling_v2.csv": {
+      "bytes": 2294686,
+      "path": "journal/results/tables/evaluation_realization_blocks_e13_sampling_v2.csv",
+      "sha256": "9e18b3844e20f259938c732a10bc0251767f0d2eaae9c731ba8da7ef087f5efb"
+    },
+    "journal/scripts/e10a_crossover.py": {
+      "bytes": 22306,
+      "path": "journal/scripts/e10a_crossover.py",
+      "sha256": "a1156ce1228b1975906fcfe8aad1c888e307944e7e88b6242aa32e5c3713432f"
+    },
+    "journal/scripts/evaluate_evaluation_realization.py": {
+      "bytes": 51822,
+      "path": "journal/scripts/evaluate_evaluation_realization.py",
+      "sha256": "eadf93df237946b7f670a74e316f0b80fc1d1920d4cc7072c7434c699a2ff2bb"
+    },
+    "journal/scripts/generate_rule_based_synthetic_v2.py": {
+      "bytes": 33400,
+      "path": "journal/scripts/generate_rule_based_synthetic_v2.py",
+      "sha256": "34ff0374af1856fd842da8226580d5ff0d47cbd16b36fb4273de3e06bcac2570"
+    },
+    "journal/scripts/lib_common.py": {
+      "bytes": 81471,
+      "path": "journal/scripts/lib_common.py",
+      "sha256": "5848ff4b0063d4394cd1d6627faf49e072cb363d7796cc64fce3acc48b05639a"
+    },
+    "journal/scripts/train_generator_extension_cnn.py": {
+      "bytes": 18881,
+      "path": "journal/scripts/train_generator_extension_cnn.py",
+      "sha256": "a5d88bcb579da77e234e991a9b050c040df21d2f75e971c0c952c6226749db61"
+    }
+  },
+  "implementation_sources": {
+    "amendment": {
+      "bytes": 4152,
+      "head_blob_matches": true,
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24.md",
+      "sha256": "f6ecf1c56a08ef9d6fc02f3a2f9f9277b6c4e7cf4c972dd4314bbcc4bb431b62",
+      "tracked": true
+    },
+    "analyzer": {
+      "bytes": 109678,
+      "head_blob_matches": true,
+      "path": "journal/scripts/analyze_l4_counterfactual_factorial.py",
+      "sha256": "ec5df13b1a5f9e755154f41f9bd92e2154998b6a0b2a483d1120447d00bb3032",
+      "tracked": true
+    },
+    "evaluator": {
+      "bytes": 134811,
+      "head_blob_matches": true,
+      "path": "journal/scripts/evaluate_l4_counterfactual_factorial.py",
+      "sha256": "a1aad9c689a13c8b040a4e8dd7cbddc2cba816d6434e8cf8c6a2f20add15a354",
+      "tracked": true
+    },
+    "tests": {
+      "bytes": 39730,
+      "head_blob_matches": true,
+      "path": "journal/tests/test_l4_counterfactual_factorial.py",
+      "sha256": "66cfe8b85bd1e41a864af5499233e7d4ac6840add7eb0f1197cefb34c886b968",
+      "tracked": true
+    },
+    "training_wrapper": {
+      "bytes": 54853,
+      "head_blob_matches": true,
+      "path": "journal/scripts/run_e14_matched_real_training.py",
+      "sha256": "b430428e33ca9956cdca69bf8e510657b50a1eb4dacf6c2d99198c3f66149e2d",
+      "tracked": true
+    },
+    "transcript_amendment": {
+      "bytes": 5853,
+      "head_blob_matches": true,
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24_STAGE_A_TRANSCRIPT.md",
+      "sha256": "bae44420c2d8745363b8baf8cb0d0d1652b6bea9fc980b9b32196be41b445b54",
+      "tracked": true
+    }
+  },
+  "manipulation_gates": {
+    "all_manipulation_gates_pass": true,
+    "attack_labels": [
+      3,
+      4
+    ],
+    "base_rows": 6000,
+    "conditional_rule_anchor_000_oracle_pass": true,
+    "factor_cells": [
+      "000",
+      "001",
+      "010",
+      "011",
+      "100",
+      "101",
+      "110",
+      "111"
+    ],
+    "groups": 96,
+    "id_strata": [
+      "canonical",
+      "shifted"
+    ],
+    "injected_frames_per_transform": 32,
+    "instances_per_group": 2000,
+    "latent_rows": 12000,
+    "latent_semantic_sha256": "97da72eaaf30b55fb8c262a5d4f08da631c7418f7c569cff434b4cf320d31b41",
+    "repeated_latent_regeneration_match": true,
+    "repeated_regeneration_match": true,
+    "scenario_instances": 192000,
+    "scenario_key_sha256": "be55a8259ea045cd9a8107de72d248d220c3d06e6b83f70f2202fabb8c0e1be5",
+    "transform_serialization_version": "e14-transform-instance-le-f4-v1",
+    "transformation_sha256": "52b0ad4fe9365d6f0793d6d14e847bfe3e07f974aa737d861e75b4ea9228d56c",
+    "unique_scenario_keys": 192000
+  },
+  "matched_real_training_records": {
+    "child_transcript": {
+      "bytes": 4977,
+      "existing_target_skip_lines": [],
+      "format": "e14.matched_real_training_child_output.v1",
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/matched_real_training_child_output_v1.log",
+      "returncode": 0,
+      "sha256": "e362b71ca4cdff7755e27b16ca614ca2f1e574c12c8fc95777aeb095a631e0e5",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_bytes": 4853,
+      "stdout_sha256": "83f49ca2ef22a37ebdf9984311152ff648da8179553f5d52594f8493a96a0376",
+      "streams_preserved_separately": true
+    },
+    "preflight": {
+      "bytes": 21223,
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/matched_real_training_preflight_v1.json",
+      "sha256": "3b895fe3c84e5188968fedf0ef0450f2ace03c98e3fe1e3ea11aa3a8f98e1e14"
+    },
+    "run": {
+      "bytes": 37000,
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/matched_real_training_run_v1.json",
+      "sha256": "53865949ecf4383fa6f9a21c224b76c289baeb9c88daa7fbf80eddfacfe0de28"
+    }
+  },
+  "model_inference_performed": false,
+  "outputs": {
+    "base_manifest": {
+      "bytes": 833785,
+      "path": "journal/results/tables/e14_l4_factorial_base_manifest_v1.csv",
+      "rows": 6000,
+      "sha256": "0852d9d4281c309fc1f5926935ebe97b00aff312396c0163e32ab4a93f2d418d"
+    },
+    "latent_manifest": {
+      "bytes": 27638250,
+      "path": "journal/results/tables/e14_l4_factorial_latent_manifest_v1.csv",
+      "rows": 12000,
+      "semantic_sha256": "97da72eaaf30b55fb8c262a5d4f08da631c7418f7c569cff434b4cf320d31b41",
+      "sha256": "07e300706a4dc91f3e08e621967e0bb45d875b0ef97a1ec271145beaf1a25281"
+    },
+    "manipulation_checks": {
+      "bytes": 10437,
+      "path": "journal/results/tables/e14_l4_factorial_manipulation_checks_v1.csv",
+      "rows": 96,
+      "sha256": "462e228f64303a7d01703c5c206cabca23c956a44ca45db9878e1104bae61ddc"
+    }
+  },
+  "prospective_record": {
+    "path": "journal/experiments/e14_l4_counterfactual_factorial/PREREG.md",
+    "sha256": "f0465fea952b9f7d5fd1b20a7864a96192099b9d3346f6c81e4274ce0fe0424a"
+  },
+  "schema_version": "e14.l4_factorial_prepare.v1",
+  "source_provenance": {
+    "allowed_untracked_training_artifacts": [
+      "journal/experiments/e14_l4_counterfactual_factorial/matched_real_training_child_output_v1.log",
+      "journal/experiments/e14_l4_counterfactual_factorial/matched_real_training_preflight_v1.json",
+      "journal/experiments/e14_l4_counterfactual_factorial/matched_real_training_run_v1.json",
+      "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed123.log",
+      "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed2026.log",
+      "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed3407.log",
+      "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed42.log",
+      "journal/results/logs/train_cnn_real_only_matchedsteps_e14_v1_seed7.log"
+    ],
+    "canonical_stage_a_stage_b_outputs_absent": true,
+    "implementation_transition": {
+      "amendment_source_commit": "ee21d150277fe83b0bcbc188829920de164b2b01",
+      "amendment_to_prepare": {
+        "changes": [
+          {
+            "path": "journal/scripts/analyze_l4_counterfactual_factorial.py",
+            "status": "M"
+          },
+          {
+            "path": "journal/scripts/evaluate_l4_counterfactual_factorial.py",
+            "status": "M"
+          },
+          {
+            "path": "journal/tests/test_l4_counterfactual_factorial.py",
+            "status": "M"
+          }
+        ],
+        "commit_count": 1,
+        "exactly_one_commit": true,
+        "expected_changes_match": true,
+        "from_commit": "ee21d150277fe83b0bcbc188829920de164b2b01",
+        "to_commit": "d66ed7ff61371ab38c0efe3b29356c32499e1b40"
+      },
+      "ancestry": {
+        "amendment_to_prepare": true,
+        "training_to_amendment": true
+      },
+      "prepare_source_commit": "d66ed7ff61371ab38c0efe3b29356c32499e1b40",
+      "schema_version": "e14.implementation_transition.v1",
+      "training_source_commit": "ef7afd2da361718c3a6fe4ad75cd82068430c61c",
+      "training_to_amendment": {
+        "changes": [
+          {
+            "path": "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24_STAGE_A_TRANSCRIPT.md",
+            "status": "A"
+          }
+        ],
+        "commit_count": 1,
+        "exactly_one_commit": true,
+        "expected_changes_match": true,
+        "from_commit": "ef7afd2da361718c3a6fe4ad75cd82068430c61c",
+        "to_commit": "ee21d150277fe83b0bcbc188829920de164b2b01"
+      }
+    },
+    "policy": "clean tracked source; only preregistered no-clobber matched-real training artifacts may be untracked",
+    "source_commit": "d66ed7ff61371ab38c0efe3b29356c32499e1b40",
+    "source_tracked_state_clean": true
+  },
+  "standardizer": {
+    "derivation": "mean/std over complete real train x axes (window,time); std<1e-6 replaced by 1.0; float32",
+    "hashes": {
+      "mean": "1e53f10b4dfb1de8522513ca20c7d0c2b5a19a8de8f76067e4273a93467da8a2",
+      "mean_then_std": "9019b1a91c983859e8dd998717eb5c7b612ed03dc2a65ec63402fd54ab42ef4e",
+      "std": "092f42e9a1019fe709233a91c6e876e976f8b3b8616807b42eb6e6da7b7dbb7c"
+    },
+    "source": "journal/datasets/windows/train_windows.npz"
+  },
+  "status": "T-PASS-MANIPULATION",
+  "technical_amendments": {
+    "implementation": {
+      "bytes": 4152,
+      "head_blob_matches": true,
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24.md",
+      "sha256": "f6ecf1c56a08ef9d6fc02f3a2f9f9277b6c4e7cf4c972dd4314bbcc4bb431b62",
+      "tracked": true
+    },
+    "stage_a_transcript": {
+      "bytes": 5853,
+      "head_blob_matches": true,
+      "path": "journal/experiments/e14_l4_counterfactual_factorial/IMPLEMENTATION_AMENDMENT_2026-07-24_STAGE_A_TRANSCRIPT.md",
+      "sha256": "bae44420c2d8745363b8baf8cb0d0d1652b6bea9fc980b9b32196be41b445b54",
+      "tracked": true
+    }
+  }
+}
