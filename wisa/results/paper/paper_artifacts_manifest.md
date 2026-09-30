@@ -1,8 +1,8 @@
 # Paper Artifact Manifest
 
-Generated: 2026-06-13T10:07:22.506701+00:00; refreshed for the current anonymous Shift Ladder submission package.
+Generated: 2026-06-13T10:07:22.506701+00:00; refreshed for the public Shift Ladder artifact package.
 
-This manifest maps the current manuscript tables and figures to the source artifacts retained in this repository. Historical copied `table_XX_*.csv` and unused paper-ready figures are intentionally omitted to avoid stale numbering and reviewer confusion. The authoritative numeric sources are the named CSV files in `results/tables/`.
+This manifest maps the current manuscript tables and figures to the source artifacts retained in this repository. Historical copied `table_XX_*.csv` and unused paper-ready figures are intentionally omitted to avoid stale numbering. The authoritative numeric sources are the named CSV files in `results/tables/`.
 
 ## Current Manuscript Mapping
 

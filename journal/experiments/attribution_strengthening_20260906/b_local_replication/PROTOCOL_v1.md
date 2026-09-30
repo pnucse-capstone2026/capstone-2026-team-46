@@ -2,8 +2,7 @@
 
 ## Scope and observed design inputs
 
-The user approved the A/B/C program on 2026-09-06 and prioritized competitiveness
-over a tight deadline. This experiment is new; it does not increase E16's
+This experiment is new; it does not increase E16's
 registered sample or promote exploratory E20 into a confirmatory result.
 
 The historical E20 k=8 means were U=-0.0105908 and L=+0.0267767. The k=8 focus

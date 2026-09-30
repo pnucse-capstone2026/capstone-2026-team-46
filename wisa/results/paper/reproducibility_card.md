@@ -1,6 +1,6 @@
 # Reproducibility Card
 
-This card summarizes the public artifact boundary for the current anonymous submission package.
+This card summarizes the public artifact boundary for this public artifact package.
 
 ## Included
 

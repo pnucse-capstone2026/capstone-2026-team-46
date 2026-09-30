@@ -1,6 +1,6 @@
 # B technical continuation v1 — 2026-09-06
 
-The user approved restarting the interrupted B grid while preserving the
+The interrupted B grid was restarted while preserving the
 24 completed models. This is technical recovery, not a new scientific
 registration. The original seeds, pools, training code/configuration, budget,
 validation selector, evaluation roles and estimands remain unchanged.
@@ -34,22 +34,17 @@ stops the service and retains its partial outputs; no automatic retries.
 
 ## Process lifetime and resources
 
-Run under user systemd unit `vehcom-b-resume-20260906.service`, outside the
-Codex tool session, with `Restart=no`, `KillMode=control-group`, `OOMPolicy=stop`
-and CPU Nice=10. The foreground manager runs one original child at a time.
-Standard output goes to the user journal; per-job logs/progress/receipts are
-persisted in `confirmation_resume_v1/`. No other GPU service is stopped or
-reconfigured. Observed before launch: 53 GiB host memory available and
-20.17 GiB CUDA-reported free memory; another vLLM workload uses the GPU.
+Run as a background service with `Restart=no`, `KillMode=control-group`,
+`OOMPolicy=stop` and CPU Nice=10. The foreground manager runs one original
+child at a time. Per-job logs/progress/receipts are persisted in
+`confirmation_resume_v1/`. No other GPU workload is stopped or reconfigured.
+Observed before launch: 53 GiB host memory available and 20.17 GiB
+CUDA-reported free memory; the GPU is shared with another workload.
 These are dated observations, not reservations or peak-usage guarantees.
 GPU sharing can increase duration; no pilot-derived completion guarantee.
+The service does not recover automatically after a reboot.
 
-The service survives closure of the originating tool/terminal. This is not
-automatic recovery after a reboot or termination of the user's systemd
-manager. User lingering is currently disabled and is not changed by this
-task; logout/session-manager termination may therefore stop the service.
-
-## Completion and evaluation handoff
+## Completion and evaluation
 
 Only after all original 600 jobs / 1,000 fits are verified, write a composite
 `confirmation_resume_v1/full_grid_manifest.json` and `run.json` documenting

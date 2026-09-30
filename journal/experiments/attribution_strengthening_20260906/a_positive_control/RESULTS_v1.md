@@ -51,8 +51,4 @@ Does not support: useful physical CAN attack semantics, real-plus-synthetic
 augmentation benefit, second-source generalization, removal of all relational
 structure, or resolution of the original local U/L uncertainty. A uses a
 two-class head and entirely synthetic training, not the exact five-class E16
-training regime. A is now incorporated in main Sec. 5.7/Table 4 and
-Supplement S25/Table S58 of
-`journal/manuscript/main.pdf` and `journal/manuscript/supplement_vehcom.pdf`.
-These are the current consolidated manuscript paths; earlier revision
-copies are recoverable from desktop Trash after the user's folder cleanup.
+training regime.

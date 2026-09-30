@@ -2,7 +2,7 @@
 
 # Artifact: The Shift Ladder for Synthetic CAN Attack Augmentation
 
-Reproduction package for the paper *"The Shift Ladder: Locating the Gains and Failures of Rule-Based Synthetic CAN Attack Augmentation"* (WISA submission).
+Reproduction package for the paper *"The Shift Ladder: Locating the Gains and Failures of Rule-Based Synthetic CAN Attack Augmentation"* (WISA 2026).
 
 The paper evaluates rule-based synthetic CAN attack augmentation with a layered, leakage-controlled Shift Ladder: an episode-split in-dataset test, generated variant/stress tests (fixed variant, sensitivity sweep, target-ID shift, out-of-generator payload position), three evaluation-only external datasets (OTIDS, can-train-and-test, ROAD), a can-train native/transfer RF sanity check, and an attribution chain (ID-whitelist baseline, ID-channel masking, channel-ablation retraining, label-free calibration/OOD probes, target-normal reinstantiation, and support-factor decomposition).
 
@@ -14,7 +14,7 @@ The paper evaluates rule-based synthetic CAN attack augmentation with a layered,
 | `config.yaml` | Main experiment configuration (paths, split policy, windowing 128/32) |
 | `requirements.txt` / `requirements.lock.txt` | Python dependencies (top-level / exact installed versions) |
 | `results/tables/` | Source CSVs for every number in the paper |
-| `results/paper/` | Current submission manifest, Fig. 1 PDF, `generator_rule_spec.md`, and `reproducibility_card.md`; copied historical table/figure artifacts are intentionally omitted |
+| `results/paper/` | Paper artifact manifest, Fig. 1 PDF, `generator_rule_spec.md`, and `reproducibility_card.md`; copied historical table/figure artifacts are intentionally omitted |
 | `datasets/DOWNLOAD.md` | Where to obtain the four public datasets and where to place them |
 
 Trained weights, generated window arrays, raw datasets, per-run experiment logs, obsolete paper-ready figures, and copied `table_XX` CSVs are intentionally not redistributed. The package keeps the source CSV/figure artifacts needed to audit the reported numbers, and the scripts regenerate `models/`, `experiments/`, and derived dataset folders locally after the public datasets are downloaded.
@@ -74,7 +74,7 @@ All scripts read `config.yaml` and write into `results/` and generated local out
    python scripts/train_support_factor_decomposition.py
    python scripts/train_rf_target_normal_reinstantiation.py
    ```
-   This step regenerates `models/` locally; trained weights are not shipped in the anonymous package.
+   This step regenerates `models/` locally; trained weights are not shipped in this package.
 4. **Evaluate the ladder**
    ```bash
    python scripts/evaluate_variant_baselines.py        # rung 1-2 (+ OTIDS)

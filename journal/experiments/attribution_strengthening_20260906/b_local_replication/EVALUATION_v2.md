@@ -1,7 +1,7 @@
 # B-v2 evaluation: recovered-grid completion adapter — 2026-09-07
 
-The user approved complete B scoring and analysis after the 1,000-fit grid
-finished. This revision changes the technical completion gate, not the
+Complete B scoring and analysis follow the finished 1,000-fit grid.
+This revision changes the technical completion gate, not the
 scientific contract in `EVALUATION_v1.md`. No new B checkpoint has been scored
 when this revision is written. The original evaluator and freeze stay intact.
 
@@ -44,14 +44,12 @@ all per-model predictions and counts; `analysis/` retains the complete
 fixed-contract analysis. The `run` action performs scoring and then summary
 only after complete scoring. Failures are retained; no silent retry or resume.
 
-Run under a separate user systemd service with `Restart=no`, Nice=10 and
-control-group cleanup, independent of the originating tool session. Preserve
-the training service and other workloads. Service journal output records
-completed model identities, timestamps and elapsed time, not interim effects.
-Closing the tool session does not stop the service, but reboot or termination
-of the user's systemd manager can; no lingering settings are changed.
+Run as a separate background service with `Restart=no`, Nice=10 and
+control-group cleanup, without stopping the training service or other
+workloads. Service output records completed model identities, timestamps and
+elapsed time, not interim effects.
 
 Completion means B evaluation/analysis, not completion of C or proof of new
-vehicle/source generalization. Manuscript synthesis follows the complete
-result, regardless of its direction. Old NO_GO branches and sealed evaluation
+vehicle/source generalization. Reporting follows the complete result,
+regardless of its direction. Old NO_GO branches and sealed evaluation
 data remain unopened.
